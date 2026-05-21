@@ -161,7 +161,7 @@ export const FESTIVALS = [
   {
     name: "Kala Festival", start: "2026-06-03", end: "2026-06-10", location: "Dhërmi", country: "Albania", month: "June", tags: ["Electronic", "Techno"], tickets: false,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://imgproxy.ra.co/_/quality:66/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL25ld3MvMjAyNi9rYWxhZmVzdGl2YWwuanBlZw==",
     website: "https://kala.al/", instagram: "https://www.instagram.com/kalafestival/",
     youtube: null,
     spotify: "4ZxXCMPFNMb1D8uHNSshn3",
@@ -194,8 +194,8 @@ export const FESTIVALS = [
   },
   {
     name: "PÁVOIA Festival", start: "2026-06-05", end: "2026-06-08", location: "Debrznica", country: "Poland", month: "June", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
-    curated: true,
-    url: null, img: null,
+    curated: null,
+    url: null, img: "https://i0.wp.com/www.fazemag.de/wp-content/uploads/2022/02/JPbeutin_PAVOIA-289.jpeg?fit=640%2C395&ssl=1",
     website: "https://pavoia.com/", instagram: "https://www.instagram.com/wearepavoia/",
     youtube: "sYcapLuafvE?si=WT7d4tCqkWGQ1TDT",
     spotify: null,
@@ -540,7 +540,7 @@ export const FESTIVALS = [
   {
     name: "Stone Techno Festival", start: "2026-07-10", end: "2026-07-12", location: "Essen", country: "Germany", month: "July", tags: ["Electronic", "Techno"], tickets: false,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://media.essen.de/media/emg_1/essen_tourismus/bilder_neu_1/veranstaltungen_9/stone_techno/StoneTechno-V3-Martijn-49.jpg",
     website: "https://www.stone-techno.com/", instagram: "https://www.instagram.com/the_third_room_t3r/",
     youtube: "y9RBgjjRpj4?si=eA_6Oe1ozJgT4JRw",
     spotify: "6Zbeg99EVbfflNwv3tIji2",
@@ -552,7 +552,7 @@ export const FESTIVALS = [
   {
     name: "Butik Festival", start: "2026-07-14", end: "2026-07-18", location: "Tolmin", country: "Slovenia", month: "July", tags: ["Electronic", "Techno", "Offgrid"], tickets: false,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://images.xceed.me/blog/wp-content/uploads/2025/07/08140915/Butik-Festivail-Slovenia-2025-guide-XCEED.jpg",
     website: "https://butikfestival.com/", instagram: "https://www.instagram.com/butik_emf/",
     youtube: "9UXf8Ky8xIM?si=PZ5xOqTWzeappJZW",
     spotify: null,
@@ -616,7 +616,7 @@ export const FESTIVALS = [
   {
     name: "WHOLE", start: "2026-07-17", end: "2026-07-20", location: "Berlin", country: "Germany", month: "July", tags: ["Electronic", "Techno"], tickets: true,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://www.ferropolis.de/images/slider/event.webp",
     website: "https://www.wholefestival.com/", instagram: "https://www.instagram.com/whole.festival/",
     youtube: "rHzTILLakcI?si=hwolHCHZH9hMYJiJ",
     spotify: null,
@@ -636,22 +636,12 @@ export const FESTIVALS = [
     html_content: "<p><em>Borderland</em> is a festival gathering sustained by co-creators rather than spectators. A place to be and basic amenities are provided, but otherwise, hugs are the only currency.</p>\n<p>It's very hard to get a place, however, and a lottery is held usually in February to see who gets to buy a ticket...</p>\n<p>It's on every co-creator to arrive with all that they need for sleeping and eating, with an eager readiness on hand to be a part of our entertainment of inner growth and generous giving of hugs.</p>\n<p><em>Borderland</em> encourages people to create as their whimsy dictates, so long as one's whimsy is not about trashing the place. There are no tickets. You just register for a membership, pay a small fee, and that's it. The festival runs strictly on a volunteer basis with no sponsorship. Capitalism has no place at Borderland. Indeed, the buying or selling of goods on the premises is strictly verboten. Rather the entire week is for focusing on a world inside ourselves, sustaining our chi on hugs, community, and the giving of gifts over all else.</p>",
     quote: "The Borderland is an event and community of people who create together. It's the liminal space between dreams and realities, it's borders delimited only by your fancy and fantasies. It's a growing community of people of different backgrounds, interests, outlooks and skills.\n\nBorderland is made by its participants and everyone's involved. That's why we have memberships instead of tickets. No preconditions exists for being a member since capacity at the event is limited they're sold by lottery.",
   },
-  {
-    name: "Polifonic Festival", start: "2026-07-22", end: "2026-07-26", location: "Tropea, Calabria", country: "Italy", month: "July", tags: ["Electronic"], tickets: true,
-    url: "https://festivalsandretreats.com/2022/01/29/polifonic/", img: "img/2022_01_Polifonic-Italy.jpg",
-    website: "https://www.polifonic.it/#bio", instagram: null,
-    youtube: null,
-    spotify: null,
-    soundcloud: null,
-    description: "Electronic music festival in Tropea, Calabria promoting diversity and community. Disco, house, techno and beyond with a Mediterranean twist.",
-    html_content: "<p>Polifonic offers the best in electronic music whilst promoting diversity, internationality and positive communities in Italy.</p>",
-    quote: "Polifonic is the place where sounds come to life blending in harmony with the territory and giving shape to multiple sensory textures. We promote diversity, internationality and positive communities. It is a Made in Italy brand with a Mediterranean twist, an international spirit and a particular bond with the territory.\n\nWe explore the Italian culture and traditions to discover how art, food and music can give life to a festival with a contemporary rhythm. Polifonic brings the best of electronic music spreading its unique mix of disco, house, techno and beyond.",
-  },
+
   {
     name: "Polifonic Festival", start: "2026-07-22", end: "2026-07-26", location: "Puglia", country: "Italy", month: "July", tags: ["Electronic", "Techno", "Arts"], tickets: true,
     curated: true,
-    url: null, img: null,
-    website: "https://linktr.ee/polifonic_", instagram: "https://www.instagram.com/polifonic_/",
+    url: null, img: "https://festivalsandretreats.com/wp-content/uploads/2022/01/Polifonic-Italy-page.jpg",
+    website: "https://www.polifonic.it/", instagram: "https://www.instagram.com/polifonic_/",
     youtube: "o7Gz26K4orw?si=LbV5nO19uLe9d7wD",
     spotify: null,
     soundcloud: "https://soundcloud.com/polifonicfestival/sets/polifonic-podcast-series?si=3d4a3cfacaff45b9b419667782a762fb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
@@ -777,7 +767,7 @@ export const FESTIVALS = [
   {
     name: "Dekmantel Festival", start: "2026-07-29", end: "2026-08-02", location: "Amsterdam", country: "Netherlands", month: "July", tags: ["Electronic", "Techno"], tickets: true,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://cdn.mos.cms.futurecdn.net/SSFvwqh73Jd3iV2cRJXPwa.jpg",
     website: "https://dekmantelfestival.com/", instagram: "https://www.instagram.com/dkmntl/",
     youtube: "W6xggzHJdhU?si=9ttTJ1NgsivxjYVL",
     spotify: "3Tta3pW3iku21TBdHN3kXD",
@@ -810,9 +800,9 @@ export const FESTIVALS = [
     quote: null,
   },
   {
-    name: "Traumburg Festival", start: "2026-07-30", end: "2026-08-02", location: "Schloss Dornburg", country: "Germany", month: "July", tags: ["Electronic", "Techno", "Arts"], tickets: true,
+    name: "Traumburg Festival", start: "2026-07-30", end: "2026-08-02", location: "Schloss Dornburg", country: "Germany", month: "July", tags: ["Electronic", "World Music", "Arts"], tickets: true,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://groove.de/wp-content/uploads/2022/09/Traumburg-Festival_2022_Header_-by-Leon-Schuck.jpeg",
     website: "https://www.traumburg.net/", instagram: "https://www.instagram.com/traumburg/",
     youtube: "6UHPzfDwm9k?si=qojAbeKUEVsOtUnu",
     spotify: null,
@@ -882,7 +872,7 @@ export const FESTIVALS = [
   {
     name: "Mahagoni Festival", start: "2026-08-06", end: "2026-08-09", location: "Rittergut Etzdorf", country: "Germany", month: "August", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://bmg-images.forward-publishing.io/2025/07/24/66acb0c3-1df6-470e-bf2a-0574a3b5fde0.jpeg?rect=0%2C59%2C1247%2C652&w=1024&auto=format",
     website: "https://mahagoni-festival.de/", instagram: "https://www.instagram.com/mahagonifestival/",
     youtube: "XKO7Wqg33Bc?si=iK6BRTXuFFwfdS9d",
     spotify: null,
@@ -1050,7 +1040,7 @@ export const FESTIVALS = [
   {
     name: "ZMAR Festival", start: "2026-08-07", end: "2026-08-09", location: "Zmar", country: "Portugal", month: "August", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-6/702962049_976668318444376_6866225458322428624_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1dyi3AD7ayEQ7kNvwHOC_GY&_nc_oc=AdpJ5JIiNrpbp6E9EsRlQenDNNqhfPSrIyrHE74RlNnAwvNwI5prt5-45QAv_SOUKpc&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&_nc_gid=XdBURtiT37ho45itZ0Pefg&_nc_ss=7b2a8&oh=00_Af7qRXP3Tqcu3Zc84YkFXpjZbX9EaJsN0hX9db0Fig_Nkw&oe=6A15528A",
     website: "https://linktr.ee/zmarfestival", instagram: "https://www.instagram.com/zmarfestival/",
     youtube: null,
     spotify: null,
@@ -1210,7 +1200,7 @@ export const FESTIVALS = [
   {
     name: "Horst Arts & Music", start: "2027-05-06", end: "2027-05-08", location: "Brussels", country: "Belgium", month: "May", tags: ["Electronic", "Techno", "Arts"], tickets: true,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://cdn.prod.website-files.com/64edfd0797f6eba52008af10/6536d1ac5150e21dc0cbef67_2.%20Illias%20Teirlinck.webp",
     website: "https://www.horstartsandmusic.com/festival", instagram: "https://www.instagram.com/horstartsandmusic/",
     youtube: "MjvmDrVfh84?si=KkJRkQ517nMdfStK",
     spotify: null,
