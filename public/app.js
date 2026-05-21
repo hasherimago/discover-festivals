@@ -613,6 +613,13 @@ function renderCalendar(festivals) {
       const nameEl = document.createElement('div');
       nameEl.className = 'cal-mobile-row-name';
       nameEl.textContent = f.name;
+      if (f.curated) {
+        nameEl.appendChild(document.createTextNode(' '));
+        const ic = document.createElement('span');
+        ic.className = 'list-curated';
+        ic.innerHTML = SMILEY_SVG;
+        nameEl.appendChild(ic);
+      }
 
       const metaEl = document.createElement('div');
       metaEl.className = 'cal-mobile-row-meta';

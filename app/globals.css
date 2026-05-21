@@ -1784,6 +1784,9 @@
     font-weight: 600;
     color: white;
     margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
   }
 
   .cal-mobile-row-meta {
