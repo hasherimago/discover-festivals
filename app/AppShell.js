@@ -20,7 +20,7 @@ export default function AppShell() {
                 <path d="M8 14h8"/>
                 <path d="M10 14c0 1.5.5 3 2 3s2-1.5 2-3"/>
               </svg>
-              Handpicked by Arsen
+              Handpicked by <a href="https://www.instagram.com/arsenmalash/" target="_blank" rel="noopener noreferrer" style={{color:'inherit',textDecoration:'none',borderBottom:'1px solid currentColor',marginLeft:'3px'}}>Arsen</a>
             </div>
           </div>
           <div className="header-right">
