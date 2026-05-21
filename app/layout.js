@@ -6,7 +6,7 @@ export const metadata = {
       ? `https://${process.env.VERCEL_URL}`
       : 'http://localhost:3000'
   ),
-  title: 'Festival Guide 2026',
+  title: 'Curated Festivals 2026',
   description: 'Discover music festivals for 2026. Browse curated events by vibe, location, and date.',
   openGraph: {
     title: 'Curated Festivals 2026',
