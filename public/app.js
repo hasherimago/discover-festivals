@@ -506,7 +506,7 @@ function renderCalendar(festivals) {
   for (let d = 1; d <= daysInMonth; d++) {
     const lbl = document.createElement('div');
     lbl.className = 'cal-day-label';
-    lbl.textContent = d;
+    lbl.textContent = (d === 1 || d % 5 === 0) ? d : '';
     dayLabelsEl.appendChild(lbl);
   }
   timeline.appendChild(dayLabelsEl);
@@ -564,6 +564,70 @@ function renderCalendar(festivals) {
   }
 
   el.appendChild(timeline);
+
+  // Mobile list (week-grouped, shown via CSS on narrow screens)
+  const mobileList = document.createElement('div');
+  mobileList.className = 'cal-mobile-list';
+
+  const BORDER_COLORS = {
+    Electronic:    '#7c6af0',
+    Techno:        '#ff6b9d',
+    Psytrance:     '#c45af0',
+    Mindfulness:   '#3ecfb2',
+    Burner:        '#ff7043',
+    Offgrid:       '#45e88a',
+    'World Music': '#f07c6a',
+    Arts:          '#6ab4f0',
+  };
+  const weeks = [
+    { start: 1,  end: 7,  label: `${month} 1–7`   },
+    { start: 8,  end: 14, label: `${month} 8–14`  },
+    { start: 15, end: 21, label: `${month} 15–21` },
+    { start: 22, end: 28, label: `${month} 22–28` },
+    { start: 29, end: 31, label: `${month} 29–31` },
+  ];
+  weeks.forEach(({ start, end, label }) => {
+    const weekFests = monthFests.filter(f => {
+      const s = new Date(f.start + 'T00:00:00');
+      const e = new Date(f.end   + 'T00:00:00');
+      const sd = s.getMonth() + 1 === monthNum ? s.getDate() : 1;
+      const ed = e.getMonth() + 1 === monthNum ? e.getDate() : daysInMonth;
+      return sd <= end && ed >= start;
+    });
+    if (!weekFests.length) return;
+
+    const grp = document.createElement('div');
+    grp.className = 'cal-week-group';
+
+    const wlbl = document.createElement('div');
+    wlbl.className = 'cal-week-label';
+    wlbl.textContent = label;
+    grp.appendChild(wlbl);
+
+    weekFests.forEach(f => {
+      const row = document.createElement('div');
+      row.className = 'cal-mobile-row';
+      const colorTag = f.tags.find(t => BORDER_COLORS[t]);
+      row.style.borderLeftColor = colorTag ? BORDER_COLORS[colorTag] : 'rgba(255,255,255,0.2)';
+
+      const nameEl = document.createElement('div');
+      nameEl.className = 'cal-mobile-row-name';
+      nameEl.textContent = f.name;
+
+      const metaEl = document.createElement('div');
+      metaEl.className = 'cal-mobile-row-meta';
+      metaEl.textContent = `${formatDates(f)} · ${f.location}`;
+
+      row.appendChild(nameEl);
+      row.appendChild(metaEl);
+      row.onclick = () => openDetail(f);
+      grp.appendChild(row);
+    });
+
+    mobileList.appendChild(grp);
+  });
+
+  el.appendChild(mobileList);
 }
 
 // ── DETAIL PANEL ──
