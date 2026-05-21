@@ -45,7 +45,7 @@ export default function AppShell() {
         <div id="countdown-banner">
           <div className="next-up-card" id="nuc-0">
             <div className="nuc-left">
-              <div className="nuc-label">→ Next Up</div>
+              <div className="nuc-label">⮕ Next Up</div>
               <div className="nuc-name" id="nuc-name-0">—</div>
               <div className="nuc-meta" id="nuc-meta-0">—</div>
             </div>
@@ -56,7 +56,7 @@ export default function AppShell() {
           </div>
           <div className="next-up-card" id="nuc-1">
             <div className="nuc-left">
-              <div className="nuc-label">→ Coming Up</div>
+              <div className="nuc-label">⮕ Coming Up</div>
               <div className="nuc-name" id="nuc-name-1">—</div>
               <div className="nuc-meta" id="nuc-meta-1">—</div>
             </div>
@@ -67,7 +67,7 @@ export default function AppShell() {
           </div>
           <div className="next-up-card" id="nuc-2">
             <div className="nuc-left">
-              <div className="nuc-label">→ On Horizon</div>
+              <div className="nuc-label">⮕ On Horizon</div>
               <div className="nuc-name" id="nuc-name-2">—</div>
               <div className="nuc-meta" id="nuc-meta-2">—</div>
             </div>

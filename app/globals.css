@@ -1340,6 +1340,22 @@
     margin-bottom: 24px;
   }
 
+  /* ── WEB-ONLY: inline month+country with search bar ── */
+  @media (min-width: 769px) {
+    .controls {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      row-gap: 14px;
+      column-gap: 20px;
+    }
+
+    .filters-row:has(#tag-filters),
+    .saved-info-bar {
+      flex-basis: 100%;
+    }
+  }
+
   /* ── RESPONSIVE ── */
   @media (max-width: 900px) {
     #countdown-banner {
