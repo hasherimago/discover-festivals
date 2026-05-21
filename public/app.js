@@ -202,6 +202,20 @@ function matchesTags(f, active) {
   return true;
 }
 
+function sortFestivals(arr) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const upcoming = [];
+  const past = [];
+  arr.forEach(f => {
+    const endDate = new Date(f.end + 'T00:00:00');
+    (endDate >= today ? upcoming : past).push(f);
+  });
+  upcoming.sort((a, b) => new Date(a.start + 'T00:00:00') - new Date(b.start + 'T00:00:00'));
+  past.sort((a, b) => new Date(b.start + 'T00:00:00') - new Date(a.start + 'T00:00:00'));
+  return [...upcoming, ...past];
+}
+
 function applyFilters() {
   const q = document.getElementById('search').value.toLowerCase().trim();
   const country = activeCountry;
@@ -217,10 +231,11 @@ function applyFilters() {
     }
     return true;
   });
+  const sorted = sortFestivals(filtered);
   document.getElementById('festival-count').textContent = filtered.length;
-  renderGrid(filtered);
-  renderList(filtered);
-  renderCalendar(filtered);
+  renderGrid(sorted);
+  renderList(sorted);
+  renderCalendar(sorted);
 }
 
 // ── HELPERS ──
