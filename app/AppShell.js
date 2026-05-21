@@ -10,9 +10,9 @@ export default function AppShell() {
 
         <header>
           <div className="header-left">
-            <h1>Festival Guide <span>&apos;26</span></h1>
+            <h1>Curated Festivals  <span>&apos;26</span></h1>
             <div className="subtitle">
-              Europe<span className="dot"> · </span><span id="festival-count"></span>{' '}Events<span className="subtitle-dates"><span className="dot"> · </span>May — September</span><span className="dot"> · </span>
+              Europe<span className="dot"> · </span><span id="festival-count"></span>&nbsp;Events<span className="subtitle-dates"><span className="dot"> · </span>May—September</span><span className="dot"> · </span>
               <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" style={{flexShrink:0,marginRight:'3px'}}>
                 <circle cx="12" cy="12" r="10"/>
                 <line x1="9" y1="9" x2="9.01" y2="9" strokeWidth="2.5"/>
@@ -20,7 +20,7 @@ export default function AppShell() {
                 <path d="M8 14h8"/>
                 <path d="M10 14c0 1.5.5 3 2 3s2-1.5 2-3"/>
               </svg>
-              Curated by Arsen
+              Handpicked by Arsen
             </div>
           </div>
           <div className="header-right">

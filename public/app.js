@@ -514,6 +514,52 @@ function openDetail(f, replace) {
     noDataEl.style.display = 'block';
   }
 
+  // Media section
+  const existingMedia = document.getElementById('detail-media');
+  if (existingMedia) existingMedia.remove();
+
+  if (f.youtube || f.spotify) {
+    const mediaEl = document.createElement('div');
+    mediaEl.id = 'detail-media';
+    mediaEl.className = 'detail-media';
+
+    if (f.youtube) {
+      const block = document.createElement('div');
+      block.className = 'media-block';
+      const label = document.createElement('div');
+      label.className = 'media-label';
+      label.textContent = 'Aftermovie';
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube.com/embed/${f.youtube}`;
+      iframe.style.cssText = 'width:100%;aspect-ratio:16/9;border-radius:12px;border:0;display:block;';
+      iframe.loading = 'lazy';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true;
+      block.appendChild(label);
+      block.appendChild(iframe);
+      mediaEl.appendChild(block);
+    }
+
+    if (f.spotify) {
+      const block = document.createElement('div');
+      block.className = 'media-block';
+      const label = document.createElement('div');
+      label.className = 'media-label';
+      label.textContent = 'Lineup Playlist';
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://open.spotify.com/embed/playlist/${f.spotify}?utm_source=generator&theme=0`;
+      iframe.style.cssText = 'width:100%;height:152px;border-radius:12px;border:0;display:block;';
+      iframe.allow = 'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+      iframe.allowFullscreen = true;
+      block.appendChild(label);
+      block.appendChild(iframe);
+      mediaEl.appendChild(block);
+    }
+
+    const descEl = document.getElementById('detail-description');
+    descEl.parentNode.insertBefore(mediaEl, descEl.nextSibling);
+  }
+
   document.getElementById('view-detail').scrollTop = 0;
   document.getElementById('view-main').classList.add('slide-out');
   document.getElementById('view-detail').classList.add('open');

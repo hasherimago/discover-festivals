@@ -7,10 +7,10 @@ export const metadata = {
       : 'http://localhost:3000'
   ),
   title: 'Festival Guide 2026',
-  description: 'Discover music festivals for 2026. Browse curated events by genre, location, and date.',
+  description: 'Discover music festivals for 2026. Browse curated events by vibe, location, and date.',
   openGraph: {
-    title: 'Festival Guide 2026',
-    description: 'Discover music festivals for 2026. Browse curated events by genre, location, and date.',
+    title: 'Curated Festivals 2026',
+    description: 'Discover music festivals for 2026. Browse curated events by vibe, location, and date.',
     images: [{ url: 'https://discover-festivals.vercel.app/api/og', width: 1200, height: 630 }],
   },
 }

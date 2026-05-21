@@ -155,6 +155,8 @@ export const FESTIVALS = [
     description: "Not-for-profit participatory festival in Portugal promoting cultural and agricultural initiatives. Techno, experimental and electronic music in the sun.",
     html_content: "<p>Waking Life is a not-for-profit participatory community festival promoting cultural, counter-cultural and agricultural initiatives in Portugal. Discover techno, experimental and electronic music in the sun!</p>",
     quote: "Waking Life sprouted from a common dream of a group of friends to build a community, in a sunny spot on the globe, to plant ideas and harvest tangible, alternative ways of living, learning, loving. It is slowly blooming into a space for artistic experimentation, spirited self-expression and collective imagineering of the type of society we could cultivate if there was freedom to diverge from default reality.",
+    youtube: "SblhBXtzLd4?si=5oM3zpVQLaW_PKZP",
+    spotify: "1imLVsf9bhkDh1IjyuA3Bs?pi=kOFgpofRTFK1L",
   },
   {
     name: "Tantric Joy Festival", start: "2026-06-17", end: "2026-06-21", location: "Amsterdam", country: "Netherlands", month: "June", tags: ["Mindfulness"], tickets: true,
