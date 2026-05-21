@@ -1,6 +1,8 @@
 import FESTIVALS_META from '../lib/festivals-meta.js'
 import AppShell from './AppShell'
 
+export const dynamic = 'force-dynamic'
+
 export async function generateMetadata(props) {
   const searchParams = await props.searchParams
   const slug = searchParams?.f
