@@ -23,12 +23,31 @@ function setSaved(arr) {
   localStorage.setItem('festival_saved', JSON.stringify(arr));
 }
 function isSaved(name) { return getSaved().includes(name); }
+let _toastTimer = null;
+function showSaveToast(saving) {
+  let toast = document.getElementById('save-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'save-toast';
+    toast.className = 'save-toast';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = saving ? 'Saved! Find it under the Saved filter' : 'Removed from saved';
+  toast.classList.remove('visible');
+  void toast.offsetWidth;
+  toast.classList.add('visible');
+  clearTimeout(_toastTimer);
+  _toastTimer = setTimeout(() => toast.classList.remove('visible'), 2500);
+}
+
 function toggleSaved(name) {
   const saved = getSaved();
   const idx = saved.indexOf(name);
+  const saving = idx === -1;
   if (idx > -1) saved.splice(idx, 1);
   else saved.push(name);
   setSaved(saved);
+  showSaveToast(saving);
   refreshSaveButtons(name);
   if (showSavedOnly) applyFilters();
 }
@@ -469,16 +488,18 @@ function openDetail(f, replace) {
   const saveBtn = document.createElement('button');
   saveBtn.className = 'btn-save-detail' + (isSaved(f.name) ? ' saved' : '');
   saveBtn.setAttribute('data-save-name', f.name);
-  saveBtn.innerHTML = heartSVG(isSaved(f.name), 14) + " " + (isSaved(f.name) ? "Saved" : "Save");
+  saveBtn.innerHTML = heartSVG(isSaved(f.name), 14) + " " + (isSaved(f.name) ? "Saved" : "Save") + `<span class="save-info-icon">ⓘ<span class="save-tooltip">Saved festivals stay in this browser even after you close it. They won't appear on your other devices or browsers.</span></span>`;
 
   const mobileSaveBtn = document.getElementById('detail-save-mobile');
   mobileSaveBtn.className = 'detail-save-mobile' + (isSaved(f.name) ? ' saved' : '');
   mobileSaveBtn.innerHTML = heartSVG(isSaved(f.name), 14);
 
+  const infoIcon = `<span class="save-info-icon">ⓘ<span class="save-tooltip">Saved festivals stay in this browser even after you close it. They won't appear on your other devices or browsers.</span></span>`;
+
   const syncSave = () => {
     const saved = isSaved(f.name);
     saveBtn.classList.toggle('saved', saved);
-    saveBtn.innerHTML = heartSVG(saved, 14) + " " + (saved ? "Saved" : "Save");
+    saveBtn.innerHTML = heartSVG(saved, 14) + " " + (saved ? "Saved" : "Save") + infoIcon;
     mobileSaveBtn.classList.toggle('saved', saved);
     mobileSaveBtn.innerHTML = heartSVG(saved, 14);
   };
@@ -545,7 +566,7 @@ function openDetail(f, replace) {
       block.className = 'media-block';
       const label = document.createElement('div');
       label.className = 'media-label';
-      label.textContent = 'Lineup Playlist';
+      label.textContent = 'Playlist';
       const iframe = document.createElement('iframe');
       iframe.src = `https://open.spotify.com/embed/playlist/${f.spotify}?utm_source=generator&theme=0`;
       iframe.style.cssText = 'width:100%;height:152px;border-radius:12px;border:0;display:block;';
