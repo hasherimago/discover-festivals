@@ -11,6 +11,7 @@ export const metadata = {
   openGraph: {
     title: 'Festival Guide 2026',
     description: 'Discover music festivals for 2026. Browse curated events by genre, location, and date.',
+    images: [{ url: 'https://discover-festivals.vercel.app/api/og', width: 1200, height: 630 }],
   },
 }
 
