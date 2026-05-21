@@ -525,7 +525,7 @@ function openDetail(f, replace) {
   if (_metaDesc) _metaDesc.content = _shortDesc;
   if (_ogTitle) _ogTitle.content = f.name;
   if (_ogDesc) _ogDesc.content = _shortDesc;
-  if (_ogImage) _ogImage.content = f.img || '';
+  if (_ogImage) _ogImage.content = `https://discover-festivals.vercel.app/api/og?f=${toSlug(f.name)}`;
 }
 
 function closeDetail(fromPopstate) {
