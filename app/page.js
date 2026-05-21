@@ -9,7 +9,7 @@ export async function generateMetadata(props) {
   const festival = FESTIVALS_META.find((f) => f.slug === slug)
   if (!festival) return {}
 
-  const ogImage = `/api/og?f=${slug}`
+  const ogImage = `https://discover-festivals.vercel.app/api/og?f=${slug}`
 
   return {
     title: `${festival.name} — Festival Guide '26`,
