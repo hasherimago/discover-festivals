@@ -1593,3 +1593,116 @@
   .saved-info-bar.visible {
     display: block;
   }
+
+  /* ── CALENDAR VIEW ── */
+  #calendar-view {
+    display: none;
+    padding: 0 0 40px;
+  }
+
+  .cal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  .cal-month-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .cal-nav-btn {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    border-radius: 8px;
+    padding: 6px 14px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .cal-nav-btn:hover {
+    background: rgba(255,255,255,0.14);
+  }
+
+  .cal-nav-btn:disabled {
+    opacity: 0.2;
+    cursor: default;
+  }
+
+  .cal-timeline {
+    position: relative;
+    overflow-x: auto;
+  }
+
+  .cal-day-labels {
+    display: grid;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+  }
+
+  .cal-day-label {
+    font-size: 11px;
+    color: rgba(255,255,255,0.25);
+    text-align: center;
+  }
+
+  .cal-today-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: rgba(255,200,50,0.4);
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  .cal-lanes {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-height: 60px;
+    position: relative;
+  }
+
+  .cal-lane {
+    position: relative;
+    height: 36px;
+  }
+
+  .cal-pill {
+    position: absolute;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: filter 0.15s ease;
+    border: 1px solid rgba(255,255,255,0.1);
+    top: 2px;
+  }
+
+  .cal-pill:hover {
+    filter: brightness(1.2);
+  }
+
+  .cal-pill.curated {
+    border-left: 3px solid #f5a623;
+  }
+
+  .cal-empty {
+    color: rgba(255,255,255,0.3);
+    font-size: 14px;
+    padding: 40px 0;
+    text-align: center;
+  }

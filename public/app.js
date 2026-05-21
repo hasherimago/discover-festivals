@@ -65,6 +65,7 @@ let activeTags = [];
 let activeCountry = '';
 let currentView = 'grid';
 let showSavedOnly = false;
+let calendarCurrentMonth = null;
 
 const SMILEY_SVG = '<svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" style="vertical-align:middle;flex-shrink:0;"><circle cx="12" cy="12" r="10"/><line x1="9" y1="9" x2="9.01" y2="9" stroke-width="2.5"/><line x1="15" y1="9" x2="15.01" y2="9" stroke-width="2.5"/><path d="M8 14h8"/><path d="M10 14c0 1.5.5 3 2 3s2-1.5 2-3"/></svg>';
 const MONTHS = ['May', 'June', 'July', 'August', 'September'];
@@ -219,6 +220,7 @@ function applyFilters() {
   document.getElementById('festival-count').textContent = filtered.length;
   renderGrid(filtered);
   renderList(filtered);
+  renderCalendar(filtered);
 }
 
 // ── HELPERS ──
@@ -427,6 +429,140 @@ function renderList(festivals) {
   });
 }
 
+// ── RENDER CALENDAR ──
+function renderCalendar(festivals) {
+  const el = document.getElementById('calendar-view');
+  el.innerHTML = '';
+
+  const MONTH_ORDER = ['May', 'June', 'July', 'August', 'September'];
+  const MONTH_NUM   = { May: 5, June: 6, July: 7, August: 8, September: 9 };
+  const MONTH_DAYS  = { May: 31, June: 30, July: 31, August: 31, September: 30 };
+  const PILL_BG = {
+    Electronic: 'rgba(124,106,240,0.45)',
+    Techno:     'rgba(255,107,157,0.45)',
+    Psytrance:  'rgba(196,90,240,0.45)',
+    Mindfulness:'rgba(62,207,178,0.45)',
+    Burner:     'rgba(255,112,67,0.45)',
+    Offgrid:    'rgba(69,232,138,0.45)',
+    'World Music':'rgba(240,124,106,0.45)',
+    Arts:       'rgba(106,180,240,0.45)',
+  };
+
+  const grouped = {};
+  festivals.forEach(f => { if (!grouped[f.month]) grouped[f.month] = []; grouped[f.month].push(f); });
+  const availableMonths = MONTH_ORDER.filter(m => grouped[m]?.length);
+
+  if (!availableMonths.length) {
+    el.innerHTML = '<div class="cal-empty">No festivals found</div>';
+    return;
+  }
+
+  if (!calendarCurrentMonth || !availableMonths.includes(calendarCurrentMonth)) {
+    const now = new Date();
+    const nowNum = now.getMonth() + 1;
+    const upcoming = availableMonths.filter(m => MONTH_NUM[m] >= nowNum);
+    calendarCurrentMonth = upcoming.length ? upcoming[0] : availableMonths[availableMonths.length - 1];
+  }
+
+  const monthIdx      = availableMonths.indexOf(calendarCurrentMonth);
+  const month         = calendarCurrentMonth;
+  const daysInMonth   = MONTH_DAYS[month];
+  const monthNum      = MONTH_NUM[month];
+  const monthFests    = grouped[month] || [];
+
+  // Header
+  const header = document.createElement('div');
+  header.className = 'cal-header';
+
+  const prevBtn = document.createElement('button');
+  prevBtn.className = 'cal-nav-btn';
+  prevBtn.textContent = '←';
+  prevBtn.disabled = monthIdx === 0;
+  prevBtn.onclick = () => { calendarCurrentMonth = availableMonths[monthIdx - 1]; renderCalendar(festivals); };
+
+  const titleEl = document.createElement('div');
+  titleEl.className = 'cal-month-title';
+  titleEl.textContent = `${month} 2026`;
+
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'cal-nav-btn';
+  nextBtn.textContent = '→';
+  nextBtn.disabled = monthIdx === availableMonths.length - 1;
+  nextBtn.onclick = () => { calendarCurrentMonth = availableMonths[monthIdx + 1]; renderCalendar(festivals); };
+
+  header.appendChild(prevBtn);
+  header.appendChild(titleEl);
+  header.appendChild(nextBtn);
+  el.appendChild(header);
+
+  // Timeline
+  const timeline = document.createElement('div');
+  timeline.className = 'cal-timeline';
+
+  // Day labels
+  const dayLabelsEl = document.createElement('div');
+  dayLabelsEl.className = 'cal-day-labels';
+  dayLabelsEl.style.gridTemplateColumns = `repeat(${daysInMonth}, 1fr)`;
+  for (let d = 1; d <= daysInMonth; d++) {
+    const lbl = document.createElement('div');
+    lbl.className = 'cal-day-label';
+    lbl.textContent = (d === 1 || d % 5 === 0) ? d : '';
+    dayLabelsEl.appendChild(lbl);
+  }
+  timeline.appendChild(dayLabelsEl);
+
+  // Compute clipped day ranges and assign lanes
+  const withDays = monthFests.map(f => {
+    const s = new Date(f.start + 'T00:00:00');
+    const e = new Date(f.end   + 'T00:00:00');
+    const startDay = s.getMonth() + 1 === monthNum ? s.getDate() : 1;
+    const endDay   = e.getMonth() + 1 === monthNum ? e.getDate() : daysInMonth;
+    return { f, startDay, endDay: Math.max(startDay, endDay) };
+  }).sort((a, b) => a.startDay - b.startDay || a.endDay - b.endDay);
+
+  const laneOccupied = [];
+  const assigned = withDays.map(item => {
+    let li = laneOccupied.findIndex(l => !l.some(r => r.start <= item.endDay && r.end >= item.startDay));
+    if (li === -1) { li = laneOccupied.length; laneOccupied.push([]); }
+    laneOccupied[li].push({ start: item.startDay, end: item.endDay });
+    return { ...item, lane: li };
+  });
+
+  // Build lane rows
+  const lanesEl = document.createElement('div');
+  lanesEl.className = 'cal-lanes';
+  for (let i = 0; i < laneOccupied.length; i++) {
+    lanesEl.appendChild(Object.assign(document.createElement('div'), { className: 'cal-lane' }));
+  }
+
+  // Place pills
+  assigned.forEach(({ f, startDay, endDay, lane }) => {
+    const pill = document.createElement('div');
+    pill.className = 'cal-pill' + (f.curated ? ' curated' : '');
+    pill.title = f.name;
+    pill.textContent = f.name;
+    pill.style.left  = `${((startDay - 1) / daysInMonth) * 100}%`;
+    pill.style.width = `${((endDay - startDay + 1) / daysInMonth) * 100}%`;
+    const colorTag = f.tags.find(t => PILL_BG[t]);
+    pill.style.background = colorTag ? PILL_BG[colorTag] : 'rgba(255,255,255,0.12)';
+    pill.onclick = () => openDetail(f);
+    lanesEl.children[lane].appendChild(pill);
+  });
+
+  timeline.appendChild(lanesEl);
+
+  // Today line
+  const now = new Date();
+  if (now.getFullYear() === 2026 && now.getMonth() + 1 === monthNum) {
+    const todayLine = document.createElement('div');
+    todayLine.className = 'cal-today-line';
+    todayLine.style.left = `${((now.getDate() - 0.5) / daysInMonth) * 100}%`;
+    timeline.appendChild(todayLine);
+  }
+
+  el.appendChild(timeline);
+}
+
 // ── DETAIL PANEL ──
 function openDetail(f, replace) {
   // Hero BG
@@ -610,21 +746,32 @@ function closeDetail(fromPopstate) {
 window.addEventListener('popstate', () => closeDetail(true));
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
 
-// ── VIEW TOGGLE ── (fixed: both start hidden, .active shows)
+// ── VIEW TOGGLE ──
 function setView(v) {
   currentView = v;
   const grid = document.getElementById('grid-view');
   const list = document.getElementById('list-view');
+  const cal = document.getElementById('calendar-view');
   const btnGrid = document.getElementById('btn-grid');
   const btnList = document.getElementById('btn-list');
+  const btnCal = document.getElementById('btn-calendar');
+
+  grid.style.display = 'none';
+  list.style.display = 'none';
+  cal.style.display = 'none';
+  btnGrid.classList.remove('active');
+  btnList.classList.remove('active');
+  btnCal.classList.remove('active');
+
   if (v === 'grid') {
     grid.style.removeProperty('display');
-    list.style.display = 'none';
-    btnGrid.classList.add('active'); btnList.classList.remove('active');
-  } else {
-    grid.style.display = 'none';
+    btnGrid.classList.add('active');
+  } else if (v === 'list') {
     list.style.display = 'block';
-    btnList.classList.add('active'); btnGrid.classList.remove('active');
+    btnList.classList.add('active');
+  } else if (v === 'calendar') {
+    cal.style.display = 'block';
+    btnCal.classList.add('active');
   }
 }
 
