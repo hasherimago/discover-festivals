@@ -141,6 +141,7 @@ function buildFilters() {
     showSavedOnly = !showSavedOnly;
     savedPill.classList.toggle('active', showSavedOnly);
     savedPill.innerHTML = heartSVG(showSavedOnly, 12) + ' Saved';
+    document.getElementById('saved-info-bar').classList.toggle('visible', showSavedOnly);
     applyFilters();
   };
   tf.appendChild(savedPill);

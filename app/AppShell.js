@@ -122,6 +122,9 @@ export default function AppShell() {
             <span className="filter-group-label">Vibe</span>
             <div className="filter-group" id="tag-filters"></div>
           </div>
+          <div id="saved-info-bar" className="saved-info-bar">
+            Saved festivals stay in this browser even after you close it. They won&apos;t appear on your other devices or browsers.
+          </div>
         </div>
 
         <div id="main">
