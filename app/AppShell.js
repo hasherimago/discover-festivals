@@ -36,7 +36,7 @@ export default function AppShell() {
               </button>
               <button id="btn-list" onClick={() => window.setView('list')}>
                 <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                  <path d="M21 10H3M21 6H3M21 14H3M21 18H3"/>
+                  <path d="M8 6H21M8 12H21M8 18H21M3 6H3.01M3 12H3.01M3 18H3.01"/>
                 </svg>
                 List
               </button>
