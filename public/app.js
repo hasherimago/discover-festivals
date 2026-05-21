@@ -750,7 +750,7 @@ function openDetail(f, replace) {
   const existingMedia = document.getElementById('detail-media');
   if (existingMedia) existingMedia.remove();
 
-  if (f.youtube || f.spotify) {
+  if (f.youtube || f.spotify || f.soundcloud) {
     const mediaEl = document.createElement('div');
     mediaEl.id = 'detail-media';
     mediaEl.className = 'detail-media';
@@ -783,6 +783,21 @@ function openDetail(f, replace) {
       iframe.style.cssText = 'width:100%;height:152px;border-radius:12px;border:0;display:block;';
       iframe.allow = 'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
       iframe.allowFullscreen = true;
+      block.appendChild(label);
+      block.appendChild(iframe);
+      mediaEl.appendChild(block);
+    }
+
+    if (f.soundcloud) {
+      const block = document.createElement('div');
+      block.className = 'media-block';
+      const label = document.createElement('div');
+      label.className = 'media-label';
+      label.textContent = 'Playlist';
+      const iframe = document.createElement('iframe');
+      iframe.allow = 'autoplay';
+      iframe.src = `https://w.soundcloud.com/player/?url=${f.soundcloud}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_artwork=true&buying=false&sharing=false&download=false`;
+      iframe.style.cssText = 'width:100%;height:152px;border-radius:12px;border:0;display:block;overflow:hidden;';
       block.appendChild(label);
       block.appendChild(iframe);
       mediaEl.appendChild(block);
