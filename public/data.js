@@ -59,7 +59,7 @@ export const FESTIVALS = [
   {
     name: "Roma Tribal Meeting", start: "2026-05-22", end: "2026-05-24", location: "Rome", country: "Italy", month: "May", tags: ["Arts", "World Music"], tickets: true,
     url: "https://festivalsandretreats.com/2019/04/02/roma-tribal-meeting/", img: "img/2019_04_Bildschirmfoto-2026-01-20-um-14.01.26.png",
-    website: "http://www.romatribal.com", instagram: null,
+    website: "http://www.romatribal.com", instagram: "https://www.instagram.com/romatribal/",
     description: "3-day tribal belly dance festival in Rome. Workshops, exhibitions and performances celebrating FatChanceBellyDance and Fusion Belly Dance styles.",
     html_content: "<p><em>Roma Tribal Meeting</em> is a 3-day event for the lovers of Tribal Belly Dance. You will get the chance to attend workshops, explore your own creativity, create pieces and exhibit your creations afterwards.</p>",
     quote: "For centuries, the gathering of community has been the driving force of evolution. We are encouraging artists to congregate in Rome with the idea of sharing and developing an international community based on traditions and innovations that found the Transcultural Dances. Within our network, individual and group expressions give light to new styles and new artistic and captivating creations.\n\nFatChanceBellyDance Style and Fusion Belly Dance (formerly Tribal Fusion) are at the crossroads of change in the panorama of contemporary belly dance throughout the world. Looking for change, but deeply respecting traditional cultures, we aspire to nurture different artistic expressions.\n\nRoma Tribal is the first gathering in Italy where ideas of authenticity, diversity and fusions simply provide an opportunity for growth and awareness of this dance movement; a moment where musicians and dancers can collaborate and acknowledge their own artistic research.\n\nRoma Tribal offers the opportunity for artists and companies to be part of a gathering through cohesive workshops and exhibitions showcasing their most recent creations.",
@@ -134,7 +134,7 @@ export const FESTIVALS = [
   {
     name: "Wurzelfestival", start: "2026-06-04", end: "2026-06-07", location: "Bavaria", country: "Germany", month: "June", tags: ["Electronic"], tickets: true,
     url: "https://festivalsandretreats.com/2019/04/11/wurzel-festival/", img: "img/2019_04_19601215_1551493681587987_4157998990596320229_n.png",
-    website: "https://www.wurzelfestival.de", instagram: null,
+    website: "https://www.wurzelfestival.de", instagram: "https://www.instagram.com/wurzelfestival",
     description: "Colourful electronic music festival in Bavaria. Community-driven event inspired by original Berlin club culture with participatory planning.",
     html_content: "<p>Wurzel Festival is a colourful electronic music festival with several stages.</p>",
     quote: "The name says it all: We are committed to preserving the original Berlin celebration culture, which is still legendary today. Together with our guests, we are a 'root family' and our guests are involved in the planning and implementation from the very beginning according to the 'participatory principle'. The suggestions of our guests for decoration, the line-up, the supporting program and the gastronomic offer are part of the joint implementation and firmly anchored in our root concept. Decisions are made jointly via our various social media channels. This closeness to the guest creates a deep group membership between us and our visitors. Together we form the 'root family.",

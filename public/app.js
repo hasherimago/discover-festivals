@@ -506,7 +506,7 @@ function renderCalendar(festivals) {
   for (let d = 1; d <= daysInMonth; d++) {
     const lbl = document.createElement('div');
     lbl.className = 'cal-day-label';
-    lbl.textContent = (d === 1 || d % 5 === 0) ? d : '';
+    lbl.textContent = d;
     dayLabelsEl.appendChild(lbl);
   }
   timeline.appendChild(dayLabelsEl);
@@ -540,7 +540,10 @@ function renderCalendar(festivals) {
     const pill = document.createElement('div');
     pill.className = 'cal-pill' + (f.curated ? ' curated' : '');
     pill.title = f.name;
-    pill.textContent = f.name;
+    const textSpan = document.createElement('span');
+    textSpan.className = 'cal-pill-text';
+    textSpan.textContent = `${f.name} · ${formatDates(f)}`;
+    pill.appendChild(textSpan);
     pill.style.left  = `${((startDay - 1) / daysInMonth) * 100}%`;
     pill.style.width = `${((endDay - startDay + 1) / daysInMonth) * 100}%`;
     const colorTag = f.tags.find(t => PILL_BG[t]);
@@ -554,10 +557,10 @@ function renderCalendar(festivals) {
   // Today line
   const now = new Date();
   if (now.getFullYear() === 2026 && now.getMonth() + 1 === monthNum) {
-    const todayLine = document.createElement('div');
-    todayLine.className = 'cal-today-line';
-    todayLine.style.left = `${((now.getDate() - 0.5) / daysInMonth) * 100}%`;
-    timeline.appendChild(todayLine);
+    const todayWrap = document.createElement('div');
+    todayWrap.className = 'cal-today-wrap';
+    todayWrap.style.left = `${((now.getDate() - 0.5) / daysInMonth) * 100}%`;
+    timeline.appendChild(todayWrap);
   }
 
   el.appendChild(timeline);
