@@ -9,6 +9,7 @@ export default function AppShell() {
   const [isAboutOpen, setIsAboutOpen] = useState(false)
   const [submitName, setSubmitName] = useState('')
   const [submitStatus, setSubmitStatus] = useState('idle') // idle | submitting | success | error
+  const [photoZoomed, setPhotoZoomed] = useState(false)
 
   const fabRef = useRef(null)
 
@@ -21,6 +22,10 @@ export default function AppShell() {
     document.addEventListener('mousedown', handleClick)
     return () => document.removeEventListener('mousedown', handleClick)
   }, [])
+
+  useEffect(() => {
+    if (!isAboutOpen) setPhotoZoomed(false)
+  }, [isAboutOpen])
 
   async function handleSubmit() {
     if (!submitName.trim()) return
@@ -438,17 +443,21 @@ export default function AppShell() {
             <img
               src="/img/arsen.png"
               alt="Profile"
+              onClick={() => setPhotoZoomed(z => !z)}
               style={{
-                width: '96px', height: '96px',
+                width: photoZoomed ? '260px' : '96px',
+                height: photoZoomed ? '260px' : '96px',
                 borderRadius: '50%',
                 border: '2px solid #e8a045',
                 objectFit: 'cover',
                 marginBottom: '16px',
+                cursor: 'pointer',
+                transition: 'width 0.3s ease, height 0.3s ease, border-radius 0.3s ease',
               }}
             />
 
             <div style={{ fontSize: '18px', fontWeight: 600, color: 'white', textAlign: 'center' }}>
-              {"Arsen"/* YOUR NAME */}
+              {""/* YOUR NAME */}
             </div>
 
             <div style={{
@@ -457,10 +466,10 @@ export default function AppShell() {
               lineHeight: 1.7,
               textAlign: 'center',
               marginTop: '10px',
-              maxWidth: '340px',
+              maxWidth: '500px',
             }}>
               <p style={{ marginBottom: '12px' }}>Welcome to Curated Festivals.</p>
-              <p style={{ marginBottom: '12px' }}>Hey, I'm Arsen and here's why I created this site. I couldn't find a single good curated festival list anywhere. Everything was scattered across blogs, forums, random Reddit threads. So I built one myself.</p>
+              <p style={{ marginBottom: '12px' }}>Hey, I'm Arsen and I created this site because I couldn't find a single good curated festival list anywhere. Everything was scattered across reels, posts and Reddit threads. So I built one myself.</p>
 <p>Every festival here is hand-picked by me — ones I'd actually consider going to. No SEO filler, no paid placements. It's free and open to everyone, and I hope the list keeps growing as more good festivals find their audience.</p>
             </div>
 
