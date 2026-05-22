@@ -665,7 +665,7 @@ function renderCalendar(festivals) {
 }
 
 // ── DETAIL PANEL ──
-function openDetail(f, replace) {
+function openDetail(f) {
   // Hero BG
   const heroBg = document.getElementById('detail-hero-bg');
   heroBg.src = f.img;
@@ -835,11 +835,7 @@ function openDetail(f, replace) {
   }
 
   document.getElementById('view-detail').scrollTop = 0;
-  document.getElementById('view-main').classList.add('slide-out');
-  document.getElementById('view-detail').classList.add('open');
-  const _slug = toSlug(f.name);
-  const _histFn = replace ? 'replaceState' : 'pushState';
-  history[_histFn]({ detail: f.name }, '', '?f=' + _slug);
+  document.body.classList.add('detail-open');
   document.title = f.name + ' — Festival Season 2026';
   const _shortDesc = (f.description || '').replace(/\n/g, ' ').slice(0, 200);
   if (_metaDesc) _metaDesc.content = _shortDesc;
@@ -848,10 +844,8 @@ function openDetail(f, replace) {
   if (_ogImage) _ogImage.content = `https://discover-festivals.vercel.app/api/og?f=${toSlug(f.name)}`;
 }
 
-function closeDetail(fromPopstate) {
-  document.getElementById('view-detail').classList.remove('open');
-  document.getElementById('view-main').classList.remove('slide-out');
-  if (!fromPopstate) history.pushState({}, '', location.pathname);
+function closeDetail() {
+  document.body.classList.remove('detail-open');
   document.title = _origTitle;
   if (_metaDesc) _metaDesc.content = _origMetaDesc;
   if (_ogTitle) _ogTitle.content = _origOgTitle;
@@ -859,18 +853,6 @@ function closeDetail(fromPopstate) {
   if (_ogImage) _ogImage.content = _origOgImage;
 }
 
-window.addEventListener('popstate', () => {
-  const vm = document.getElementById('view-main');
-  vm.style.transition = 'none';
-  vm.style.opacity = '1';
-  vm.style.transform = 'none';
-  closeDetail(true);
-  requestAnimationFrame(() => {
-    vm.style.transition = '';
-    vm.style.opacity = '';
-    vm.style.transform = '';
-  });
-});
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
 
 // ── VIEW TOGGLE ──
@@ -950,5 +932,5 @@ window.closeDetail = closeDetail;
 const _initSlug = new URLSearchParams(location.search).get('f');
 if (_initSlug) {
   const _initFest = FESTIVALS.find(f => toSlug(f.name) === _initSlug);
-  if (_initFest) openDetail(_initFest, true);
+  if (_initFest) openDetail(_initFest);
 }

@@ -76,30 +76,21 @@
   }
 
   /* ── VIEW TRANSITIONS ── */
-  #view-main {
-    transition: opacity 0.28s ease, transform 0.28s ease;
-    will-change: opacity, transform;
-  }
-
-  #view-main.slide-out {
-    opacity: 0;
-    transform: translateX(-28px);
-    pointer-events: none;
-  }
- 
   #view-detail {
+    display: none;
     position: fixed;
     inset: 0;
     background: var(--bg);
     z-index: 200;
     overflow-y: auto;
-    transform: translateX(100%);
-    transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
-    will-change: transform;
   }
 
-  #view-detail.open {
-    transform: translateX(0);
+  body.detail-open #view-detail {
+    display: block;
+  }
+
+  body.detail-open #view-main {
+    display: none;
   }
 
   /* ── HEADER ── */
