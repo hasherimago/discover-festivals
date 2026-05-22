@@ -1,8 +1,80 @@
 'use client'
 
+import { useState, useRef, useEffect } from 'react'
 import Script from 'next/script'
 
 export default function AppShell() {
+  const [fabOpen, setFabOpen] = useState(false)
+  const [isSubmitOpen, setIsSubmitOpen] = useState(false)
+  const [isAboutOpen, setIsAboutOpen] = useState(false)
+  const [submitName, setSubmitName] = useState('')
+  const [submitStatus, setSubmitStatus] = useState('idle') // idle | submitting | success | error
+
+  const fabRef = useRef(null)
+
+  useEffect(() => {
+    function handleClick(e) {
+      if (fabRef.current && !fabRef.current.contains(e.target)) {
+        setFabOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [])
+
+  async function handleSubmit() {
+    if (!submitName.trim()) return
+    setSubmitStatus('submitting')
+    try {
+      const res = await fetch(
+        'https://formspree.io/f/YOUR_FORM_ID', /* replace with your Formspree form ID */
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ festival: submitName }),
+        }
+      )
+      if (res.ok) {
+        setSubmitStatus('success')
+        setTimeout(() => {
+          setSubmitName('')
+          setSubmitStatus('idle')
+          setIsSubmitOpen(false)
+        }, 2000)
+      } else {
+        setSubmitStatus('error')
+      }
+    } catch {
+      setSubmitStatus('error')
+    }
+  }
+
+  const overlayStyle = {
+    position: 'fixed', inset: 0,
+    background: 'rgba(0,0,0,0.82)',
+    display: 'flex', alignItems: 'center', justifyContent: 'center',
+    zIndex: 1000,
+  }
+
+  const modalBox = (maxWidth) => ({
+    background: '#111111',
+    border: '1px solid rgba(255,255,255,0.08)',
+    borderRadius: '16px',
+    maxWidth,
+    width: '90%',
+    padding: '36px',
+    position: 'relative',
+    boxSizing: 'border-box',
+  })
+
+  const closeBtn = {
+    position: 'absolute', top: '16px', right: '16px',
+    background: 'none', border: 'none',
+    color: 'rgba(255,255,255,0.4)',
+    fontSize: '20px', cursor: 'pointer', lineHeight: 1,
+    padding: '4px 8px',
+  }
+
   return (
     <>
       {/* ══════════════════════ MAIN VIEW ══════════════════════ */}
@@ -185,12 +257,226 @@ export default function AppShell() {
           <div id="detail-no-data" style={{display:'none'}}>
             <div className="detail-divider"></div>
             <div className="detail-pending-note">
-              ✦ Description & links for this festival haven&apos;t been added yet.<br />
+              ✦ Description &amp; links for this festival haven&apos;t been added yet.<br />
               Visit the source page for details.
             </div>
           </div>
         </div>
       </div>{/* /view-detail */}
+
+
+      {/* ══════════════════════ FAB ══════════════════════ */}
+      <div ref={fabRef} style={{ position: 'fixed', bottom: '24px', right: '24px', zIndex: 500 }}>
+
+        {/* Pill: Suggest a festival — bottom: 84px from viewport = 60px above container */}
+        <div style={{
+          position: 'absolute', right: 0,
+          bottom: fabOpen ? '60px' : '0px',
+          opacity: fabOpen ? 1 : 0,
+          transform: fabOpen ? 'translateY(0)' : 'translateY(16px)',
+          transition: 'opacity 0.2s ease, transform 0.2s ease, bottom 0.2s ease',
+          pointerEvents: fabOpen ? 'auto' : 'none',
+          whiteSpace: 'nowrap',
+        }}>
+          <button
+            onClick={() => { setFabOpen(false); setIsSubmitOpen(true) }}
+            style={{
+              background: '#1a1a1a',
+              border: '1px solid rgba(255,255,255,0.1)',
+              borderRadius: '999px',
+              color: 'white',
+              fontSize: '14px',
+              padding: '8px 16px',
+              cursor: 'pointer',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.background = '#222' }}
+            onMouseLeave={e => { e.currentTarget.style.background = '#1a1a1a' }}
+          >
+            🎪 Suggest a festival
+          </button>
+        </div>
+
+        {/* Pill: About — bottom: 136px from viewport = 112px above container, 50ms stagger */}
+        <div style={{
+          position: 'absolute', right: 0,
+          bottom: fabOpen ? '112px' : '0px',
+          opacity: fabOpen ? 1 : 0,
+          transform: fabOpen ? 'translateY(0)' : 'translateY(16px)',
+          transition: 'opacity 0.2s ease 0.05s, transform 0.2s ease 0.05s, bottom 0.2s ease 0.05s',
+          pointerEvents: fabOpen ? 'auto' : 'none',
+          whiteSpace: 'nowrap',
+        }}>
+          <button
+            onClick={() => { setFabOpen(false); setIsAboutOpen(true) }}
+            style={{
+              background: '#1a1a1a',
+              border: '1px solid rgba(255,255,255,0.1)',
+              borderRadius: '999px',
+              color: 'white',
+              fontSize: '14px',
+              padding: '8px 16px',
+              cursor: 'pointer',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.background = '#222' }}
+            onMouseLeave={e => { e.currentTarget.style.background = '#1a1a1a' }}
+          >
+            👋 About
+          </button>
+        </div>
+
+        {/* Main FAB button */}
+        <button
+          onClick={() => setFabOpen(o => !o)}
+          style={{
+            width: '48px', height: '48px',
+            borderRadius: '50%',
+            background: '#1a1a1a',
+            border: '1px solid rgba(232,160,69,0.3)',
+            color: '#e8a045',
+            fontSize: '24px',
+            cursor: 'pointer',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            transform: fabOpen ? 'rotate(45deg)' : 'rotate(0deg)',
+            transition: 'transform 0.25s, color 0.25s',
+            position: 'relative', zIndex: 1,
+            padding: 0,
+          }}
+          aria-label={fabOpen ? 'Close menu' : 'Open menu'}
+        >
+          +
+        </button>
+
+      </div>
+
+
+      {/* ══════════════════════ SUGGEST A FESTIVAL MODAL ══════════════════════ */}
+      {isSubmitOpen && (
+        <div style={overlayStyle} onMouseDown={() => setIsSubmitOpen(false)}>
+          <div style={modalBox('420px')} onMouseDown={e => e.stopPropagation()}>
+            <button style={closeBtn} onClick={() => setIsSubmitOpen(false)}>×</button>
+
+            <div style={{ fontSize: '20px', fontWeight: 600, color: 'white' }}>
+              Know a festival we&apos;re missing?
+            </div>
+            <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.45)', marginTop: '6px' }}>
+              Just drop the name — we&apos;ll look into it.
+            </div>
+
+            <input
+              type="text"
+              value={submitName}
+              onChange={e => setSubmitName(e.target.value)}
+              onKeyDown={e => { if (e.key === 'Enter') handleSubmit() }}
+              placeholder="Festival name..."
+              style={{
+                marginTop: '24px',
+                width: '100%',
+                boxSizing: 'border-box',
+                background: '#1a1a1a',
+                border: '1px solid rgba(255,255,255,0.1)',
+                borderRadius: '10px',
+                padding: '12px 16px',
+                color: 'white',
+                fontSize: '15px',
+                outline: 'none',
+                display: 'block',
+              }}
+              onFocus={e => { e.target.style.borderColor = '#e8a045' }}
+              onBlur={e => { e.target.style.borderColor = 'rgba(255,255,255,0.1)' }}
+            />
+
+            {submitStatus === 'success' ? (
+              <div style={{ marginTop: '12px', color: '#e8a045', textAlign: 'center', fontSize: '16px' }}>
+                Thanks! We&apos;ll check it out 🎪
+              </div>
+            ) : (
+              <>
+                <button
+                  onClick={handleSubmit}
+                  disabled={submitStatus === 'submitting' || !submitName.trim()}
+                  style={{
+                    marginTop: '12px',
+                    width: '100%',
+                    background: '#e8a045',
+                    color: '#0a0a0a',
+                    fontWeight: 600,
+                    borderRadius: '10px',
+                    padding: '12px',
+                    fontSize: '15px',
+                    border: 'none',
+                    cursor: (submitStatus === 'submitting' || !submitName.trim()) ? 'default' : 'pointer',
+                    opacity: (submitStatus === 'submitting' || !submitName.trim()) ? 0.6 : 1,
+                    display: 'block',
+                    boxSizing: 'border-box',
+                  }}
+                  onMouseEnter={e => { if (submitStatus !== 'submitting' && submitName.trim()) e.currentTarget.style.background = '#f0b055' }}
+                  onMouseLeave={e => { e.currentTarget.style.background = '#e8a045' }}
+                >
+                  {submitStatus === 'submitting' ? 'Sending…' : 'Submit'}
+                </button>
+                {submitStatus === 'error' && (
+                  <div style={{ marginTop: '8px', color: '#f87171', fontSize: '13px' }}>
+                    Something went wrong, try again.
+                  </div>
+                )}
+              </>
+            )}
+          </div>
+        </div>
+      )}
+
+
+      {/* ══════════════════════ ABOUT MODAL ══════════════════════ */}
+      {isAboutOpen && (
+        <div style={overlayStyle} onMouseDown={() => setIsAboutOpen(false)}>
+          <div
+            style={{ ...modalBox('460px'), display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+            onMouseDown={e => e.stopPropagation()}
+          >
+            <button style={closeBtn} onClick={() => setIsAboutOpen(false)}>×</button>
+
+            <img
+              src="/img/arsen.jpg"
+              alt="Profile"
+              style={{
+                width: '96px', height: '96px',
+                borderRadius: '50%',
+                border: '2px solid #e8a045',
+                objectFit: 'cover',
+                marginBottom: '16px',
+              }}
+            />
+
+            <div style={{ fontSize: '18px', fontWeight: 600, color: 'white', textAlign: 'center' }}>
+              {/* YOUR NAME */}
+            </div>
+
+            <div style={{
+              fontSize: '14px',
+              color: 'rgba(255,255,255,0.55)',
+              lineHeight: 1.7,
+              textAlign: 'center',
+              marginTop: '10px',
+              maxWidth: '340px',
+            }}>
+              {/* YOUR BIO TEXT */}
+            </div>
+
+            <a
+              href={/* YOUR LINK */ '#'}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontSize: '14px', color: '#e8a045', textAlign: 'center', marginTop: '16px', textDecoration: 'none' }}
+              onMouseEnter={e => { e.currentTarget.style.textDecoration = 'underline' }}
+              onMouseLeave={e => { e.currentTarget.style.textDecoration = 'none' }}
+            >
+              {/* YOUR LINK TEXT */}
+            </a>
+
+          </div>
+        </div>
+      )}
+
 
       <Script src="/app.js" type="module" strategy="afterInteractive" />
     </>
