@@ -859,7 +859,18 @@ function closeDetail(fromPopstate) {
   if (_ogImage) _ogImage.content = _origOgImage;
 }
 
-window.addEventListener('popstate', () => closeDetail(true));
+window.addEventListener('popstate', () => {
+  const vm = document.getElementById('view-main');
+  vm.style.transition = 'none';
+  vm.style.opacity = '1';
+  vm.style.transform = 'none';
+  closeDetail(true);
+  requestAnimationFrame(() => {
+    vm.style.transition = '';
+    vm.style.opacity = '';
+    vm.style.transform = '';
+  });
+});
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
 
 // ── VIEW TOGGLE ──

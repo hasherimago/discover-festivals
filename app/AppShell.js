@@ -481,7 +481,7 @@ export default function AppShell() {
               onMouseEnter={e => { e.currentTarget.style.textDecoration = 'underline' }}
               onMouseLeave={e => { e.currentTarget.style.textDecoration = 'none' }}
             >
-              {"My Instagram 🅾"}
+              {"My Instagram"}
             </a>
 
           </div>
