@@ -836,6 +836,7 @@ function openDetail(f) {
 
   document.getElementById('view-detail').scrollTop = 0;
   document.body.classList.add('detail-open');
+  history.pushState({ festival: f.name }, '');
   document.title = f.name + ' — Festival Season 2026';
   const _shortDesc = (f.description || '').replace(/\n/g, ' ').slice(0, 200);
   if (_metaDesc) _metaDesc.content = _shortDesc;
@@ -854,6 +855,7 @@ function closeDetail() {
 }
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
+window.addEventListener('popstate', () => closeDetail());
 
 // ── VIEW TOGGLE ──
 function setView(v) {
@@ -927,6 +929,16 @@ setupCountdown();
 window.setView = setView;
 window.applyFilters = applyFilters;
 window.closeDetail = closeDetail;
+
+// ── SWIPE-BACK ON DETAIL PANEL ──
+let touchStartX = 0;
+const _viewDetail = document.getElementById('view-detail');
+_viewDetail.addEventListener('touchstart', e => {
+  touchStartX = e.touches[0].clientX;
+}, { passive: true });
+_viewDetail.addEventListener('touchend', e => {
+  if (e.changedTouches[0].clientX - touchStartX > 60) closeDetail();
+}, { passive: true });
 
 // ── DEEP LINK ──
 const _initSlug = new URLSearchParams(location.search).get('f');
