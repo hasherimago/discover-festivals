@@ -597,6 +597,34 @@
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4);
   }
 
+  .card--past {
+    opacity: 0.4;
+  }
+
+  .card--past:hover {
+    opacity: 0.7;
+  }
+
+  .past-divider {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 0;
+    color: rgba(255,255,255,0.25);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .past-divider::before,
+  .past-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(255,255,255,0.08);
+  }
+
   .card.curated {
     border-color: rgba(232, 160, 69, 0.22);
   }

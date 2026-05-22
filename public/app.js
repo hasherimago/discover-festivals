@@ -243,8 +243,9 @@ function formatDates(f) {
   const s = new Date(f.start + 'T00:00:00');
   const e = new Date(f.end + 'T00:00:00');
   const mos = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  if (s.getMonth() === e.getMonth()) return `${s.getDate()}–${e.getDate()} ${mos[s.getMonth()]}`;
-  return `${s.getDate()} ${mos[s.getMonth()]}–${e.getDate()} ${mos[e.getMonth()]}`;
+  const yearSuffix = s.getFullYear() !== 2026 ? ` ${s.getFullYear()}` : '';
+  if (s.getMonth() === e.getMonth()) return `${s.getDate()}–${e.getDate()} ${mos[s.getMonth()]}${yearSuffix}`;
+  return `${s.getDate()} ${mos[s.getMonth()]}–${e.getDate()} ${mos[e.getMonth()]}${yearSuffix}`;
 }
 
 function tagEl(t, small) {
@@ -314,9 +315,20 @@ function renderGrid(festivals) {
     el.innerHTML = '<div class="empty-state"><div class="icon">🔍</div><h3>No festivals found</h3><p>Try adjusting your filters</p></div>';
     return;
   }
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  let dividerInserted = false;
   festivals.forEach((f, i) => {
+    const isPast = new Date(f.end + 'T00:00:00') < today;
+    if (isPast && !dividerInserted) {
+      const divider = document.createElement('div');
+      divider.className = 'past-divider';
+      divider.innerHTML = '<span>Past festivals</span>';
+      el.appendChild(divider);
+      dividerInserted = true;
+    }
     const card = document.createElement('div');
-    card.className = 'card' + (f.curated ? ' curated' : '');
+    card.className = 'card' + (f.curated ? ' curated' : '') + (isPast ? ' card--past' : '');
     card.style.animationDelay = `${Math.min(i, 20) * 0.03}s`;
     card.onclick = () => openDetail(f);
 
