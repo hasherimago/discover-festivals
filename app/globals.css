@@ -1237,9 +1237,9 @@
   }
 
   .btn-instagram:hover {
-    border-color: rgba(200, 80, 180, 0.6);
-    color: #e85dc5;
-    background: rgba(200, 80, 180, 0.08);
+    border-color: rgba(232, 160, 69, 0.6);
+    color: var(--accent);
+    background: var(--accent-dim);
     transform: translateY(-1px);
   }
 

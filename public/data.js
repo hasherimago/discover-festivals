@@ -814,7 +814,7 @@ export const FESTIVALS = [
   {
     name: "Ezera Skaņas", start: "2026-07-31", end: "2026-08-02", location: "Vestiena", country: "Latvia", month: "July", tags: ["Electronic", "Arts", "Offgrid"], tickets: true,
     curated: false,
-    url: null, img: null,
+    url: null, img: "https://musiclatvia.lv/wp-content/uploads/2025/11/Ezera-skanas.jpg",
     website: "https://www.ezeraskanas.lv/", instagram: "https://www.instagram.com/ezeraskanas/",
     youtube: "08PQ-fbQAYQ?si=Xbu9spQmCN3xkrpB",
     spotify: null,
@@ -826,7 +826,7 @@ export const FESTIVALS = [
   {
     name: "Komorebi Festival", start: "2026-07-31", end: "2026-08-03", location: "Golden Lake", country: "Georgia", month: "July", tags: ["Electronic", "Techno", "Offgrid", "Arts"], tickets: true,
     curated: false,
-    url: null, img: null,
+    url: null, img: "https://images.xceed.me/blog/wp-content/uploads/2025/03/26200317/316966312_676324157188312_2741729808736149085_n-e1743012233956.jpg",
     website: "https://tkt.ge/komorebi2026", instagram: "https://www.instagram.com/komorebifest/",
     youtube: null,
     spotify: null,
@@ -1098,7 +1098,7 @@ export const FESTIVALS = [
   {
     name: "Dimensions Festival", start: "2026-08-27", end: "2026-08-31", location: "Tisno", country: "Croatia", month: "August", tags: ["Electronic", "Techno"], tickets: true,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://dimensionsfestival.com/wp-content/uploads/2024/10/BB240829_DIMENSIONS_2024_Analogue_JakeDavis_@jakephilipdavis_@khromacollective-865811180035.jpg",
     website: "https://dimensionsfestival.com/", instagram: "https://www.instagram.com/dimensionsfestival",
     youtube: "Yvd9iCwA6YM?si=z5S7Mpr5Zs0yYhsj",
     spotify: null,
@@ -1166,7 +1166,7 @@ export const FESTIVALS = [
   {
     name: "Draaimolen Festival", start: "2026-09-04", end: "2026-09-05", location: "Tilburg", country: "Netherlands", month: "September", tags: ["Electronic", "Techno", "Offgrid"], tickets: false,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://media.eurotravelo.com/wp-content/uploads/2026/03/drymoo.webp",
     website: "https://www.draaimolen.nu/events/draaimolen-festival-2026?tab=about", instagram: "https://www.instagram.com/draaimolen_/",
     youtube: "pGoUJdtscWY?si=FQwUsYzqgiYEwY_u",
     spotify: null,
@@ -1188,10 +1188,10 @@ export const FESTIVALS = [
   },
   {
     name: "Plisskën Festival", start: "2026-09-12", end: "2026-09-13", location: "Athens", country: "Greece", month: "September", tags: ["Electronic", "Techno"], tickets: true,
-    url: null, img: null,
+    url: null, img: "https://viberate-upload.ams3.cdn.digitaloceanspaces.com/prod/entity/festival/plissken-festival-RbWEE",
     website: "https://www.plisskenfestival.gr/festival", instagram: "https://www.instagram.com/plisskenfest/",
     youtube: "_jsyZETRVw4?si=qN8UZDU8Z4Pae7m3",
-    spotify: "plissk%C3%ABnfest",
+    spotify: "314k17Ma5tD9DGN7PT38FT",
     soundcloud: null,
     description: "Two-day avant-garde music festival in Athens blending electronic, indie, hip-hop, punk and experimental sounds across multiple stages, with a commitment to bold curation, sustainability and community.",
     html_content: "<p>Plisskën Festival has been a fixture of Athens' late-summer cultural calendar since its launch in December 2010, building a loyal following through its embrace of innovation and diversity across electronic, indie, hip-hop, punk, and experimental music. Each stage carries its own distinct energy — from gritty electronic beats and darkwave atmospheres to bold synth-pop and punk-fuelled anthems — making Plisskën one of the rare festivals that genuinely defies a single genre label.</p><p>Beyond its adventurous programming, the festival champions sustainability and community engagement as core values, with initiatives that reflect a commitment to culture with conscience. Praised for its immersive atmosphere and inclusive ethos, it has grown from a pioneering local event into a globally recognized platform for cutting-edge music in the heart of Greece.</p>",
@@ -1233,9 +1233,9 @@ export const FESTIVALS = [
   },
   // OCTOBER
   {
-    name: "C2C Festival", start: "2026-10-29", end: "2026-11-01", location: "Torino", country: "Italy", month: "October", tags: ["Electronic"], tickets: true,
+    name: "C2C Festival", start: "2026-10-29", end: "2026-11-01", location: "Turin", country: "Italy", month: "October", tags: ["Electronic", "Arts", "Techno"], tickets: true,
     curated: true,
-    url: null, img: null,
+    url: null, img: "https://cdn.sanity.io/images/rizm0do5/production/6987a68c700a10aa9a163e321cc46403eff44aba-2048x1365.jpg",
     website: "https://clubtoclub.it/event/c2c-festival-2026/", instagram: "https://www.instagram.com/clubtoclub",
     youtube: "EqsQAAJtAoY?si=-72mYN6fvAKwvSK7",
     spotify: null,
@@ -1260,7 +1260,7 @@ export const FESTIVALS = [
   {
     name: "Flash Festival", start: "2027-05-19", end: "2027-05-22", location: "Castiglion Fiorentino", country: "Italy", month: "May", tags: ["Electronic", "Mindfulness"], tickets: true,
     curated: false,
-    url: null, img: null,
+    url: null, img: "https://static.myeasol.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6IjQzNzJiM2QzLTkzZDUtNGMxMC1iZDAwLTJkNWUzOGFkNDFkOCIsInB1ciI6ImJsb2JfaWQifX0=--e7da4129e788904080cab5f773eeca01c8c68c90/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsxOTIwLG51bGxdLCJzYXZlciI6eyJzdHJpcCI6dHJ1ZSwicXVhbGl0eSI6ODV9fSwicHVyIjoidmFyaWF0aW9uIn19--e748e971f8cf7cad636cd59f6d8e5dff0b37c6cd/FF26WebsitePictures10.png",
     website: "https://www.flashfestivaltuscany.com/", instagram: "https://www.instagram.com/flashfestivaltuscany/",
     youtube: "YX8nEqJYS4I?si=JR1bqfqEdNCDQ30N",
     spotify: null,
