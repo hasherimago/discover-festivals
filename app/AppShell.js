@@ -27,7 +27,7 @@ export default function AppShell() {
     setSubmitStatus('submitting')
     try {
       const res = await fetch(
-        'https://formspree.io/f/YOUR_FORM_ID', /* replace with your Formspree form ID */
+        'https://formspree.io/f/mpqnrbpj', /* replace with your Formspree form ID */
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -292,7 +292,7 @@ export default function AppShell() {
             onMouseEnter={e => { e.currentTarget.style.background = '#222' }}
             onMouseLeave={e => { e.currentTarget.style.background = '#1a1a1a' }}
           >
-            🎪 Suggest a festival
+            😛 Suggest a festival
           </button>
         </div>
 
@@ -356,10 +356,10 @@ export default function AppShell() {
             <button style={closeBtn} onClick={() => setIsSubmitOpen(false)}>×</button>
 
             <div style={{ fontSize: '20px', fontWeight: 600, color: 'white' }}>
-              Know a festival we&apos;re missing?
+            Missing a festival worth going to? 
             </div>
             <div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.45)', marginTop: '6px' }}>
-              Just drop the name — we&apos;ll look into it.
+            Drop the name — I'll look into it.
             </div>
 
             <input
@@ -436,7 +436,7 @@ export default function AppShell() {
             <button style={closeBtn} onClick={() => setIsAboutOpen(false)}>×</button>
 
             <img
-              src="/img/arsen.jpg"
+              src="/img/arsen.png"
               alt="Profile"
               style={{
                 width: '96px', height: '96px',
@@ -448,7 +448,7 @@ export default function AppShell() {
             />
 
             <div style={{ fontSize: '18px', fontWeight: 600, color: 'white', textAlign: 'center' }}>
-              {/* YOUR NAME */}
+              {"Arsen"/* YOUR NAME */}
             </div>
 
             <div style={{
@@ -459,18 +459,20 @@ export default function AppShell() {
               marginTop: '10px',
               maxWidth: '340px',
             }}>
-              {/* YOUR BIO TEXT */}
+              <p style={{ marginBottom: '12px' }}>Welcome to Curated Festivals.</p>
+              <p style={{ marginBottom: '12px' }}>Hey, I'm Arsen and here's why I created this site. I couldn't find a single good curated festival list anywhere. Everything was scattered across blogs, forums, random Reddit threads. So I built one myself.</p>
+<p>Every festival here is hand-picked by me — ones I'd actually consider going to. No SEO filler, no paid placements. It's free and open to everyone, and I hope the list keeps growing as more good festivals find their audience.</p>
             </div>
 
             <a
-              href={/* YOUR LINK */ '#'}
+              href={/* YOUR LINK */ 'https://www.instagram.com/arsenmalash/'}
               target="_blank"
               rel="noopener noreferrer"
               style={{ fontSize: '14px', color: '#e8a045', textAlign: 'center', marginTop: '16px', textDecoration: 'none' }}
               onMouseEnter={e => { e.currentTarget.style.textDecoration = 'underline' }}
               onMouseLeave={e => { e.currentTarget.style.textDecoration = 'none' }}
             >
-              {/* YOUR LINK TEXT */}
+              {"My Instagram 🅾"}
             </a>
 
           </div>

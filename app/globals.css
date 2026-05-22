@@ -1,4 +1,4 @@
-  :root {
+ :root {
     --bg: #0a0a0a;
     --bg2: #111111;
     --bg3: #191919;
@@ -86,7 +86,7 @@
     transform: translateX(-28px);
     pointer-events: none;
   }
-
+ 
   #view-detail {
     position: fixed;
     inset: 0;
@@ -1830,3 +1830,4 @@
       display: block;
     }
   }
+ 
