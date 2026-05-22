@@ -836,7 +836,7 @@ function openDetail(f) {
 
   document.getElementById('view-detail').scrollTop = 0;
   document.body.classList.add('detail-open');
-  history.pushState({ festival: f.name }, '');
+  history.pushState({ festival: f.name }, '', '?f=' + toSlug(f.name));
   document.title = f.name + ' — Festival Season 2026';
   const _shortDesc = (f.description || '').replace(/\n/g, ' ').slice(0, 200);
   if (_metaDesc) _metaDesc.content = _shortDesc;
@@ -847,6 +847,7 @@ function openDetail(f) {
 
 function closeDetail() {
   document.body.classList.remove('detail-open');
+  history.replaceState({}, '', '/');
   document.title = _origTitle;
   if (_metaDesc) _metaDesc.content = _origMetaDesc;
   if (_ogTitle) _ogTitle.content = _origOgTitle;
