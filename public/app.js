@@ -852,8 +852,8 @@ function openDetail(f) {
   }
 
   savedScrollY = window.scrollY;
-  document.getElementById('view-detail').scrollTop = 0;
   document.body.classList.add('detail-open');
+  document.getElementById('view-detail').scrollTop = 0;
   history.pushState({ festival: f.name }, '', '?f=' + toSlug(f.name));
   document.title = f.name + ' — Festival Season 2026';
   const _shortDesc = (f.description || '').replace(/\n/g, ' ').slice(0, 200);
