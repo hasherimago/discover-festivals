@@ -60,6 +60,7 @@ function refreshSaveButtons(name) {
 }
 
 // ── STATE ──
+let savedScrollY = 0;
 let activeMonths = [];
 let activeTags = [];
 let activeCountry = '';
@@ -777,10 +778,26 @@ function openDetail(f) {
   const existingMedia = document.getElementById('detail-media');
   if (existingMedia) existingMedia.remove();
 
-  if (f.youtube || f.spotify || f.soundcloud) {
+  if (f.video || f.youtube || f.spotify || f.soundcloud) {
     const mediaEl = document.createElement('div');
     mediaEl.id = 'detail-media';
     mediaEl.className = 'detail-media';
+
+    if (f.video) {
+      const block = document.createElement('div');
+      block.className = 'media-block';
+      const label = document.createElement('div');
+      label.className = 'media-label';
+      label.textContent = 'Aftermovie';
+      const video = document.createElement('video');
+      video.src = f.video;
+      video.controls = true;
+      video.playsInline = true;
+      video.style.cssText = 'width:100%;aspect-ratio:16/9;border-radius:12px;display:block;';
+      block.appendChild(label);
+      block.appendChild(video);
+      mediaEl.appendChild(block);
+    }
 
     if (f.youtube) {
       const block = document.createElement('div');
@@ -834,6 +851,7 @@ function openDetail(f) {
     descEl.parentNode.insertBefore(mediaEl, descEl.nextSibling);
   }
 
+  savedScrollY = window.scrollY;
   document.getElementById('view-detail').scrollTop = 0;
   document.body.classList.add('detail-open');
   history.pushState({ festival: f.name }, '', '?f=' + toSlug(f.name));
@@ -847,6 +865,7 @@ function openDetail(f) {
 
 function closeDetail() {
   document.body.classList.remove('detail-open');
+  window.scrollTo(0, savedScrollY);
   history.replaceState({}, '', '/');
   document.title = _origTitle;
   if (_metaDesc) _metaDesc.content = _origMetaDesc;
