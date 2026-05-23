@@ -1018,7 +1018,7 @@
     border-radius: 100px;
     cursor: pointer;
     transition: all 0.15s;
-    position: absolute;
+    position: fixed;
     top: 24px;
     left: 40px;
     z-index: 10;
