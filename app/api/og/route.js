@@ -65,7 +65,7 @@ export async function GET(request) {
         width: '100%',
         height: '100%',
         objectFit: 'cover',
-        opacity: 0.6,
+        opacity: 0.8,
       }, undefined, { src: imgUrl }),
 
       // Gradient overlay
@@ -73,7 +73,7 @@ export async function GET(request) {
         display: 'flex',
         position: 'absolute',
         top: 0, left: 0, right: 0, bottom: 0,
-        background: 'linear-gradient(to top, rgba(10,10,10,0.97) 40%, rgba(10,10,10,0.25) 100%)',
+        background: 'linear-gradient(to top, rgba(10, 10, 10, 0.7) 40%, rgba(10,10,10,0.25) 100%)',
       }),
 
       // Eyebrow label — top left
