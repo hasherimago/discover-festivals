@@ -218,7 +218,8 @@ function sortFestivals(arr) {
 }
 
 function applyFilters() {
-  const q = document.getElementById('search').value.toLowerCase().trim();
+  const _strip = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const q = _strip(document.getElementById('search').value).toLowerCase().trim();
   const country = activeCountry;
   const saved = getSaved();
   const filtered = FESTIVALS.filter(f => {
@@ -227,7 +228,7 @@ function applyFilters() {
     if (country && f.country !== country) return false;
     if (!matchesTags(f, activeTags)) return false;
     if (q) {
-      const hay = `${f.name} ${f.location} ${f.country} ${f.tags.join(' ')}`.toLowerCase();
+      const hay = _strip(`${f.name} ${f.location} ${f.country} ${f.tags.join(' ')}`).toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;

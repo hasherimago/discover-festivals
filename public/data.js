@@ -1079,8 +1079,8 @@ export const FESTIVALS = [
   {
     name: "Nemora Fest", start: "2026-08-27", end: "2026-08-30", location: "Torre Alfina, Lazio", country: "Italy", month: "August", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
     curated: true,
-    url: null, img: "https://scontent-muc2-1.cdninstagram.com/v/t51.82787-15/670635011_18076791128297662_8296076885794718955_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzg3NjU0NjIwMDUzMTExNTY3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jMspvTlH9_wQ7kNvwFkIIQU&_nc_oc=Adp5kgNQKD2ymSdJct16i6Xb9f9k_jq-zEk8cGwWbceYsXsB_XattFM53sDgIDKXlEBKnUFvL7pkW3gXu04fnCSC&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-muc2-1.cdninstagram.com&_nc_gid=Ti3Xt2VWPkYhX83lJ9ltpw&_nc_ss=7a22e&oh=00_Af4Yi3RE4vfPDzA9v8f5KYht1PF9X_hyYf7x8KV9GkoBEA&oe=6A12A74D",
-    website: null, instagram: "https://www.instagram.com/nemora.fest/",
+    url: null, img: "https://res.cloudinary.com/dglrghiom/image/upload/v1779621897/Nemora_fest_axt87p.jpg",
+    website: "https://www.nemorafest.eu/", instagram: "https://www.instagram.com/nemora.fest/",
     youtube: null,
     spotify: null,
     soundcloud: null,
@@ -1204,9 +1204,9 @@ export const FESTIVALS = [
   {
     name: "Mystic Creatures", start: "2026-09-03", end: "2026-09-07", location: "Złocieniec", country: "Poland", month: "September", tags: ["Electronic", "Techno", "Arts"], tickets: true,
     curated: true,
-    url: null, img: "https://scontent-muc2-1.cdninstagram.com/v/t51.82787-15/531611831_18143494012412921_3178787165603063541_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzY5NzU2ODczMjMyMjk2NTk0Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Z2hIi2cTiOIQ7kNvwGHBo6A&_nc_oc=AdoHwNenV888tuZUAgF2B5ddX3ys7yR5wbAOF-R0IwKThrdEZGn2PguqfbtaTc4pYQjTZKavp5gU33XqbGqN5kSI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-muc2-1.cdninstagram.com&_nc_gid=PZ0H6AI8nivLiELQRb95EQ&_nc_ss=7a22e&oh=00_Af7pnHpVsrFImrT4U_chQae7B0udKJ8ubYXnmGZaAxd6iA&oe=6A12ADF1",
+    url: null, img: "https://res.cloudinary.com/dglrghiom/image/upload/v1779622073/Mystic_Creations_clsgop.jpg",
     website: "https://mysticcreaturesfestival.com/", instagram: "https://www.instagram.com/mystic.creatures_/",
-    youtube: null,
+    youtube: "g99_P-ceqHk?si=cvE16s533aRCs4Sl",
     spotify: null,
     soundcloud: null,
     description: "Four-day festival on a forested island in Złocieniec, Poland, with six stages spanning progressive house, techno, psy-techno and ambient, plus art installations and a philosophy of liberation and collective self-expression.",
