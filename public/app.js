@@ -297,6 +297,7 @@ function imgEl(src, cls, alt) {
   img.className = cls;
   img.alt = alt;
   img.loading = 'lazy';
+  img.decoding = 'async';
   img.referrerPolicy = 'no-referrer';
   img.onerror = function () {
     const ph = document.createElement('div');
@@ -860,7 +861,6 @@ function openDetail(f) {
   if (_metaDesc) _metaDesc.content = _shortDesc;
   if (_ogTitle) _ogTitle.content = f.name;
   if (_ogDesc) _ogDesc.content = _shortDesc;
-  if (_ogImage) _ogImage.content = `https://discover-festivals.vercel.app/api/og?f=${toSlug(f.name)}`;
 }
 
 function closeDetail() {
@@ -871,7 +871,6 @@ function closeDetail() {
   if (_metaDesc) _metaDesc.content = _origMetaDesc;
   if (_ogTitle) _ogTitle.content = _origOgTitle;
   if (_ogDesc) _ogDesc.content = _origOgDesc;
-  if (_ogImage) _ogImage.content = _origOgImage;
 }
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
@@ -933,11 +932,9 @@ const _origTitle = document.title;
 const _metaDesc = document.querySelector('meta[name="description"]');
 const _ogTitle = document.querySelector('meta[property="og:title"]');
 const _ogDesc = document.querySelector('meta[property="og:description"]');
-const _ogImage = document.querySelector('meta[property="og:image"]');
 const _origMetaDesc = _metaDesc ? _metaDesc.content : '';
 const _origOgTitle = _ogTitle ? _ogTitle.content : '';
 const _origOgDesc = _ogDesc ? _ogDesc.content : '';
-const _origOgImage = _ogImage ? _ogImage.content : '';
 
 // ── INIT ──
 buildFilters();
