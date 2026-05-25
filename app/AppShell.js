@@ -90,12 +90,11 @@ export default function AppShell() {
             <h1>Curated Festivals  <span>&apos;26</span></h1>
             <div className="subtitle">
               Europe<span className="dot"> · </span><span id="festival-count"></span>&nbsp;Events<span className="subtitle-dates"><span className="dot"> · </span>May—September</span><span className="dot"> · </span>
-              <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" style={{flexShrink:0,marginRight:'3px'}}>
-                <circle cx="12" cy="12" r="10"/>
-                <line x1="9" y1="9" x2="9.01" y2="9" strokeWidth="2.5"/>
-                <line x1="15" y1="9" x2="15.01" y2="9" strokeWidth="2.5"/>
-                <path d="M8 14h8"/>
-                <path d="M10 14c0 1.5.5 3 2 3s2-1.5 2-3"/>
+              <svg width="13" height="13" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" style={{flexShrink:0,marginRight:'3px'}}>
+                <path d="M87.1 35.2C87.1 32.2 87 28.8 86.7 24.9C85.1 5.4 68.2 2 47.5 2C26.8 2 9.9 5.4 8.3 24.9C8 28.8 7.9 32.2 7.9 35.2C3.3 37.3 0 42.2 0 47.9C0 54.8 4.8 60.6 11 61.6V70C11 82.8 21.4 93.2 34.3 93.2H60.8C73.6 93.2 84.1 82.8 84.1 70V61.6C90.3 60.6 95.1 54.9 95.1 47.9C95 42.2 91.7 37.3 87.1 35.2ZM82.1 54.5C81.6 54.5 81.4 54.5 81.3 54.4C80.2 54.1 79.1 54.4 78.2 55.1C77.3 55.8 76.8 56.8 76.8 58V70C76.8 78.8 69.6 86 60.7 86H34.3C25.4 86 18.2 78.8 18.2 70V58C18.2 56.9 17.7 55.8 16.8 55.1C15.9 54.4 14.8 54.2 13.7 54.4C13.6 54.4 13.3 54.5 12.9 54.5C9.8 54.5 7.2 51.5 7.2 47.9C7.2 45.1 8.8 42.7 11 41.8V42.5C11 44.5 12.6 46.1 14.6 46.1C16.6 46.1 18.2 44.5 18.2 42.5V35.2C18.2 32.3 19 29.6 20.4 27.3C26.9 29.8 36.6 31.5 47.5 31.5C58.4 31.5 68.1 29.9 74.6 27.3C75.9 29.6 76.8 32.3 76.8 35.2V42.5C76.8 44.5 78.4 46.1 80.4 46.1C82.4 46.1 84 44.5 84 42.5V41.8C86.2 42.7 87.8 45.1 87.8 47.9C87.8 51.6 85.2 54.5 82.1 54.5Z" fill="currentColor"/>
+                <path d="M34.1002 53.2004C37.6348 53.2004 40.5002 50.335 40.5002 46.8004C40.5002 43.2658 37.6348 40.4004 34.1002 40.4004C30.5656 40.4004 27.7002 43.2658 27.7002 46.8004C27.7002 50.335 30.5656 53.2004 34.1002 53.2004Z" fill="currentColor"/>
+                <path d="M60.9 53.2004C64.4346 53.2004 67.3 50.335 67.3 46.8004C67.3 43.2658 64.4346 40.4004 60.9 40.4004C57.3654 40.4004 54.5 43.2658 54.5 46.8004C54.5 50.335 57.3654 53.2004 60.9 53.2004Z" fill="currentColor"/>
+                <path d="M67.9998 65.4998C62.1998 64.1998 56.4998 61.0998 53.7998 59.6998C51.4998 58.4998 48.9998 58.8998 47.4998 60.1998C45.9998 58.8998 43.4998 58.4998 41.1998 59.6998C38.4998 61.0998 32.7998 64.1998 26.9998 65.4998C25.2998 65.8998 24.9998 68.2998 26.6998 68.9998C31.0998 70.9998 36.3998 72.1998 41.1998 71.5998C44.5998 71.1998 46.4998 69.8998 47.4998 68.3998C48.5998 69.9998 50.4998 71.1998 53.7998 71.5998C58.4998 72.1998 63.7998 70.9998 68.2998 68.9998C69.9998 68.2998 69.6998 65.8998 67.9998 65.4998Z" fill="currentColor"/>
               </svg>
               Handpicked by <a href="https://www.instagram.com/arsenmalash/" target="_blank" rel="noopener noreferrer" style={{color:'inherit',textDecoration:'none',borderBottom:'1px solid currentColor',marginLeft:'3px'}}>Arsen</a>
             </div>
@@ -348,7 +347,9 @@ export default function AppShell() {
           }}
           aria-label={fabOpen ? 'Close menu' : 'Open menu'}
         >
-          +
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+            <path d="M12 5v14M5 12h14"/>
+          </svg>
         </button>
 
       </div>

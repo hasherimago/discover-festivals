@@ -138,7 +138,7 @@ function buildFilters() {
   const savedPill = document.createElement('div');
   savedPill.className = 'pill saved-pill';
   savedPill.id = 'saved-filter-pill';
-  savedPill.innerHTML = heartSVG(false, 12) + ' Saved';
+  savedPill.innerHTML = heartSVG(false, 12) + '<span style="margin-left: 4px">Saved</span>';;
   savedPill.onclick = () => {
     showSavedOnly = !showSavedOnly;
     savedPill.classList.toggle('active', showSavedOnly);
