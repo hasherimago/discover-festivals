@@ -32,7 +32,7 @@ export async function GET(request) {
   const slug = searchParams.get('f') || ''
   const festival = FESTIVALS_META.find((f) => f.slug === slug) || null
 
-  const name = festival?.name || "Festival Guide '26"
+  const name = festival?.name || "Curated Festivals '26"
   const location = festival ? `${festival.location}, ${festival.country}` : 'Europe'
   const dates = festival ? formatDates(festival) : 'May - September'
   const tags = festival?.tags || []
@@ -83,11 +83,11 @@ export async function GET(request) {
         top: 48,
         left: 60,
         color: '#e8a045',
-        fontSize: 13,
+        fontSize: 24,
         letterSpacing: '0.15em',
         textTransform: 'uppercase',
         fontWeight: 700,
-      }, "FESTIVAL GUIDE '26"),
+      }, "CURATED FESTIVALS '26"),
 
       // Bottom content stack
       el('div', {
