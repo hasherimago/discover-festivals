@@ -113,7 +113,7 @@ export async function GET(request) {
         el('div', {
           display: 'flex',
           color: 'rgba(240,240,240,0.55)',
-          fontSize: 20,
+          fontSize: 24,
           marginBottom: 20,
         }, `${dates}   ${location}`),
 
@@ -131,9 +131,9 @@ export async function GET(request) {
                   borderRadius: 100,
                   border: `1.5px solid ${TAG_COLORS[tag] || 'rgba(255,255,255,0.3)'}`,
                   color: TAG_COLORS[tag] || 'rgba(240,240,240,0.7)',
-                  fontSize: 13,
+                  fontSize: 16,
                   letterSpacing: '0.06em',
-                  textTransform: 'uppercase',
+                  textTransform: 'lowercase',
                   fontWeight: 700,
                 }, tag, { key: tag })
               ),
