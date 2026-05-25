@@ -57,9 +57,9 @@ export const FESTIVALS = [
   },
   {
     name: "Burning Nest", start: "2026-05-18", end: "2026-05-25", location: "Exeter", country: "England", month: "May", tags: ["Burner", "Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2016/02/02/burning-nest/", img: "https://scontent-muc2-1.xx.fbcdn.net/v/t39.30808-6/631620551_1314511014038724_5013400604086228735_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=QRJtzF5Qvp0Q7kNvwEjOGiT&_nc_oc=Adp_EjFcEWgRxoDys_UMKjir7gCSbs8yg53feunbxBQmGaGyet6PzUtFS4lieom2h_FxFYZa0JBH6nPPhd_8bTNG&_nc_zt=23&_nc_ht=scontent-muc2-1.xx&_nc_gid=qanWOfsRAxelwPRKTnKExQ&_nc_ss=7b2a8&oh=00_Af4cPbORNjk7CcWsdd3ZRq4NMN0qAkEeQBh3VzLKN68Gow&oe=6A13AD09",
-    website: "http://www.burningnest.co.uk", instagram: null,
-    youtube: null,
+    url: "https://festivalsandretreats.com/2016/02/02/burning-nest/", img: "https://burningnest.co.uk/wp-content/uploads/2026/04/Copy-of-20230528_222513-1024x461.jpg",
+    website: "http://www.burningnest.co.uk", instagram: "https://www.instagram.com/burning_nest/",
+    youtube: "-tK-xG5g8G0?si=5qRJo-eawVOBLeG9",
     spotify: null,
     soundcloud: null,
     description: "UK Burning Man-inspired gathering in Exeter celebrating creativity, radical self-expression and community. Memberships not tickets — everyone participates.",
