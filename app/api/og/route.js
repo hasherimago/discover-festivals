@@ -33,7 +33,7 @@ export async function GET(request) {
   const festival = FESTIVALS_META.find((f) => f.slug === slug) || null
 
   const name = festival?.name || "Curated Festivals '26"
-  const location = festival ? `${festival.location}, ${festival.country}` : 'Europe'
+  const location = festival ? `${festival.location}, ${festival.country}` : '- Europe'
   const dates = festival ? formatDates(festival) : 'May - September'
   const tags = festival?.tags || []
   const imgUrl = festival?.img
@@ -59,14 +59,18 @@ export async function GET(request) {
     },
     [
       // Background image
-      imgUrl && el('img', {
+      el('img', {
         position: 'absolute',
         top: 0, left: 0, right: 0, bottom: 0,
         width: '100%',
         height: '100%',
         objectFit: 'cover',
         opacity: 0.8,
-      }, undefined, { src: imgUrl }),
+      }, undefined, {
+        src: festival
+          ? imgUrl
+          : '/img/og-main-preview.jpg'
+      }),
 
       // Gradient overlay
       el('div', {
@@ -87,7 +91,7 @@ export async function GET(request) {
         letterSpacing: '0.15em',
         textTransform: 'uppercase',
         fontWeight: 700,
-      }, "CURATED FESTIVALS '26"),
+      }, "HANDPICKED by ARSEN"),
 
       // Bottom content stack
       el('div', {
