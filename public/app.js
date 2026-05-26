@@ -670,7 +670,7 @@ function renderCalendar(festivals) {
 // ── EDITORIAL RENDERER ──
 function renderEditorial(editorial) {
   const labels = {
-    why:       'Why this festival',
+    why:       'About',
     vibe:      'The vibe',
     sounds:    'Sounds like',
     doNotMiss: 'Do not miss',

@@ -2,7 +2,7 @@ export const FESTIVALS = [
   // MAY
   {
     name: "Space to Emerge", start: "2026-05-01", end: "2026-05-04", location: "Lake District", country: "England", month: "May", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2018/01/01/space-to-emerge/", img: "img/2018_01_download.jpg",
+    url: "https://festivalsandretreats.com/2018/01/01/space-to-emerge/", img: "/img/2018_01_download.jpg",
     website: "https://www.spacetoemerge.com", instagram: null,
     youtube: null,
     spotify: null,
@@ -13,7 +13,7 @@ export const FESTIVALS = [
   },
   {
     name: "The Cocoon", start: "2026-05-03", end: "2026-05-10", location: "Crete", country: "Greece", month: "May", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2025/08/25/the-cocoon/", img: "img/2025_08_intimacyfestivalcrete.jpg",
+    url: "https://festivalsandretreats.com/2025/08/25/the-cocoon/", img: "/img/2025_08_intimacyfestivalcrete.jpg",
     website: "https://the-cocoon.com/?utm_source=SFAR&utm_term=SFAR", instagram: null,
     youtube: null,
     spotify: null,
@@ -24,7 +24,7 @@ export const FESTIVALS = [
   },
   {
     name: "Elfia Vorden Festival", start: "2026-05-08", end: "2026-05-10", location: "Vorden", country: "Netherlands", month: "May", tags: ["Arts"], tickets: false,
-    url: "https://linktr.ee/Kingdom_of_Elfia", img: "img/2024_04_278638909_5270052903028574_757411625807642330_n.jpg",
+    url: "https://linktr.ee/Kingdom_of_Elfia", img: "/img/2024_04_278638909_5270052903028574_757411625807642330_n.jpg",
     website: "https://www.elfia.com/en", instagram: "https://www.instagram.com/kingdomofelfia/?hl=en",
     youtube: null,
     spotify: null,
@@ -35,7 +35,7 @@ export const FESTIVALS = [
   },
   {
     name: "Contact in Paradise", start: "2026-05-11", end: "2026-05-17", location: "Wien", country: "Austria", month: "May", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2023/04/13/contact-in-paradise/", img: "img/2023_04_contact-improvisation.jpg",
+    url: "https://festivalsandretreats.com/2023/04/13/contact-in-paradise/", img: "/img/2023_04_contact-improvisation.jpg",
     website: "https://contact-in-paradise.com", instagram: null,
     youtube: null,
     spotify: null,
@@ -46,7 +46,7 @@ export const FESTIVALS = [
   },
   {
     name: "Wood Festival", start: "2026-05-15", end: "2026-05-17", location: "Braziers Park, Oxfordshire", country: "UK", month: "May", tags: ["World Music"], tickets: true,
-    url: "https://festivalsandretreats.com/2019/09/08/wood-festival/", img: "img/2019_09_ifXSvNbdqlR1Xq0u7Yh5y1Y-rCM.png",
+    url: "https://festivalsandretreats.com/2019/09/08/wood-festival/", img: "/img/2019_09_ifXSvNbdqlR1Xq0u7Yh5y1Y-rCM.png",
     website: "http://www.woodfestival.com", instagram: null,
     youtube: null,
     spotify: null,
@@ -69,7 +69,7 @@ export const FESTIVALS = [
 
   {
     name: "Flamingalo", start: "2026-05-27", end: "2026-05-31", location: "Alentejo", country: "Portugal", month: "May", tags: ["Burner", "Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2026/03/10/flamingalo/", img: "img/2026_03_flamingalo-burn-portugal-scaled.jpg",
+    url: "https://festivalsandretreats.com/2026/03/10/flamingalo/", img: "/img/2026_03_flamingalo-burn-portugal-scaled.jpg",
     website: "https://flamingalo.org", instagram: "https://www.instagram.com/flamingalo.pt/",
     youtube: null,
     spotify: null,
@@ -80,7 +80,7 @@ export const FESTIVALS = [
   },
   {
     name: "Conscious Camp", start: "2026-05-28", end: "2026-05-31", location: "Shrewsbury", country: "UK", month: "May", tags: ["Offgrid", "Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/04/22/conscious-camp-2/", img: "img/2023_04_circle3-960x400-1.jpg",
+    url: "https://festivalsandretreats.com/2024/04/22/conscious-camp-2/", img: "/img/2023_04_circle3-960x400-1.jpg",
     website: "https://consciouscamp.co.uk", instagram: null,
     youtube: "bm2vf_s_TFw?si=se1-IiVZmDQgdVAm",
     spotify: null,
@@ -102,7 +102,7 @@ export const FESTIVALS = [
   },
   {
     name: "Psychedelic Experience Festival", start: "2026-05-29", end: "2026-06-01", location: "Gallin-Kuppentin", country: "Germany", month: "May", tags: ["Psytrance", "Electronic"], tickets: true,
-    url: "https://festivalsandretreats.com/2017/05/02/psychedelic-experience-festival/", img: "img/2017_05_PsychedelicExperience-00041.jpg",
+    url: "https://festivalsandretreats.com/2017/05/02/psychedelic-experience-festival/", img: "/img/2017_05_PsychedelicExperience-00041.jpg",
     website: "http://www.psyexperience-festival.com", instagram: "https://www.instagram.com/psyexperiencefestival/?hl=en",
     youtube: "MLZLTKcb8gc?si=amDaKkVeUiEZZIfT",
     spotify: "2w0j0qXvcVUdDkOhuvbYc9?si=4OTCpIujTySAVvSQXWDBxQ",
@@ -113,7 +113,7 @@ export const FESTIVALS = [
   },
   {
     name: "Space of Love Festival", start: "2026-05-29", end: "2026-06-07", location: "Öland", country: "Sweden", month: "May", tags: ["Mindfulness", "Offgrid"], tickets: true,
-    url: "https://spaceoflove.nu/festival/", img: "img/2016_03_spaceoflove.jpg",
+    url: "https://spaceoflove.nu/festival/", img: "/img/2016_03_spaceoflove.jpg",
     website: "https://spaceoflove.nu/festival/", instagram: "https://www.instagram.com/spaceoflovefestival/",
     youtube: null,
     spotify: null,
@@ -195,7 +195,7 @@ export const FESTIVALS = [
   },
   {
     name: "Art Baer Burn", start: "2026-06-11", end: "2026-06-14", location: "Bad Sulza", country: "Germany", month: "June", tags: ["Burner", "Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/06/11/art-baer-burn/", img: "img/2024_06_art-baer-burn.jpg",
+    url: "https://festivalsandretreats.com/2024/06/11/art-baer-burn/", img: "/img/2024_06_art-baer-burn.jpg",
     website: "https://blog.artbaer.de/en/home-english", instagram: null,
     youtube: null,
     spotify: null,
@@ -207,7 +207,7 @@ export const FESTIVALS = [
   {
     name: "Waking Life", start: "2026-06-17", end: "2026-06-22", location: "Crato", country: "Portugal", month: "June", tags: ["Psytrance", "Techno", "Electronic"], tickets: false,
     curated: true,
-    url: "https://festivalsandretreats.com/2022/01/29/waking-life/", img: "img/2022_01_Waking-Life-Portugal.jpg",
+    url: "https://festivalsandretreats.com/2022/01/29/waking-life/", img: "/img/2022_01_Waking-Life-Portugal.jpg",
     website: "https://wakinglife.pt/", instagram: "https://www.instagram.com/wakinglife.pt/",
     description: "Not-for-profit participatory festival in Portugal promoting cultural and agricultural initiatives. Techno, experimental and electronic music in the sun.",
     html_content: "<p>Waking Life is a not-for-profit participatory community festival promoting cultural, counter-cultural and agricultural initiatives in Portugal. Discover techno, experimental and electronic music in the sun!</p>",
@@ -225,7 +225,7 @@ export const FESTIVALS = [
   },
   {
     name: "Tantric Joy Festival", start: "2026-06-17", end: "2026-06-21", location: "Amsterdam", country: "Netherlands", month: "June", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2025/11/08/tantric-joy-festival-amsterdam-2/", img: "img/2025_11_tantra-joy-festival.png",
+    url: "https://festivalsandretreats.com/2025/11/08/tantric-joy-festival-amsterdam-2/", img: "/img/2025_11_tantra-joy-festival.png",
     website: "http://www.tantricjoyfestivalamsterdam.com", instagram: "https://www.instagram.com/tantricjoyfestivalamsterdam/",
     youtube: null,
     spotify: null,
@@ -236,7 +236,7 @@ export const FESTIVALS = [
   },
   {
     name: "Black Forest Ecstatic Dance Festival", start: "2026-06-18", end: "2026-06-21", location: "Black Forest", country: "Germany", month: "June", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2025/01/07/black-forest-ecstatic-dance-festival/", img: "img/2025_01_black-forest-ecstatic-dance-festival.jpg",
+    url: "https://festivalsandretreats.com/2025/01/07/black-forest-ecstatic-dance-festival/", img: "/img/2025_01_black-forest-ecstatic-dance-festival.jpg",
     website: "https://www.ecstaticblackforest.de/english", instagram: "https://www.instagram.com/ecstaticdancefreiburg/",
     youtube: null,
     spotify: null,
@@ -248,7 +248,7 @@ export const FESTIVALS = [
   {
     name: "Solstice Festival", start: "2026-06-18", end: "2026-06-20", location: "Ruka. Kuusamo", country: "Finland", month: "June", tags: ["Electronic", "Offgrid", "Techno"], tickets: true,
     curated: true,
-    url: "https://festivalsandretreats.com/2024/12/26/solstice-festival/", img: "img/2024_12_solstice-festival.jpg",
+    url: "https://festivalsandretreats.com/2024/12/26/solstice-festival/", img: "/img/2024_12_solstice-festival.jpg",
     website: "https://solsticefestival.fi", instagram: "https://www.instagram.com/solstice.festival",
     youtube: "x5YJKkMSyKA?si=EpWqPBZEUAy2kJMl",
     spotify: null,
@@ -259,7 +259,7 @@ export const FESTIVALS = [
   },
   {
     name: "Where the Sheep Sleep", start: "2026-06-18", end: "2026-06-22", location: "Flevoland", country: "Netherlands", month: "June", tags: ["Burner", "Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2020/03/10/where-the-sheep-sleep/", img: "img/2020_03_where-the-sheep.jpg",
+    url: "https://festivalsandretreats.com/2020/03/10/where-the-sheep-sleep/", img: "/img/2020_03_where-the-sheep.jpg",
     website: "https://sheep.burningman.nl", instagram: "https://www.instagram.com/burningmannl/?hl=en",
     youtube: null,
     spotify: null,
@@ -282,7 +282,7 @@ export const FESTIVALS = [
   },
   {
     name: "Everness Festival", start: "2026-06-19", end: "2026-06-28", location: "Bükk Hills", country: "Hungary", month: "June", tags: ["Offgrid", "Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2026/04/30/everness-festival/", img: "img/2026_04_everness-festival.jpg",
+    url: "https://festivalsandretreats.com/2026/04/30/everness-festival/", img: "/img/2026_04_everness-festival.jpg",
     website: "https://evernessfestival.com/festival", instagram: "https://www.instagram.com/evernessfest/",
     youtube: "Q1grqoxSBu4?si=rGTaNsUvWqIF8UNs",
     spotify: null,
@@ -293,7 +293,7 @@ export const FESTIVALS = [
   },
   {
     name: "Butiba Festival", start: "2026-06-21", end: "2026-06-24", location: "Kegums", country: "Latvia", month: "June", tags: ["Arts", "Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2026/03/03/butiba-festival-2/", img: "img/2026_03_butiba-festival.jpg",
+    url: "https://festivalsandretreats.com/2026/03/03/butiba-festival-2/", img: "/img/2026_03_butiba-festival.jpg",
     website: "https://butibafestival.com/", instagram: "https://www.instagram.com/butiba_festival/",
     youtube: "27F9CZVXiQ4?si=thHQsvNeiINcxHIV",
     spotify: null,
@@ -304,7 +304,7 @@ export const FESTIVALS = [
   },
   {
     name: "Pachamama Play Festival", start: "2026-06-21", end: "2026-07-04", location: "Bay of Kotor", country: "Montenegro", month: "June", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2026/01/09/pachamama-play-festival/", img: "img/2026_01_Acro-Festival-montegro-pachamama.jpg",
+    url: "https://festivalsandretreats.com/2026/01/09/pachamama-play-festival/", img: "/img/2026_01_Acro-Festival-montegro-pachamama.jpg",
     website: "https://pachamamaretreat.me/pachamama-play-festival", instagram: "https://www.instagram.com/pachamama.retreat",
     youtube: "uf27kthkgnU?si=YHuU2iuJ4TNZHzZm",
     spotify: null,
@@ -315,7 +315,7 @@ export const FESTIVALS = [
   },
   {
     name: "Kiez Burn", start: "2026-06-23", end: "2026-06-29", location: "Brandenburg", country: "Germany", month: "June", tags: ["Burner", "Arts"], tickets: false,
-    url: "https://festivalsandretreats.com/2024/04/22/kiez-burn-2/", img: "img/2024_04_o37kfb.jpg",
+    url: "https://festivalsandretreats.com/2024/04/22/kiez-burn-2/", img: "/img/2024_04_o37kfb.jpg",
     website: "https://mmm.kiezburn.org", instagram: null,
     youtube: null,
     spotify: null,
@@ -326,7 +326,7 @@ export const FESTIVALS = [
   },
   {
     name: "UFO Bufo Festival", start: "2026-06-24", end: "2026-06-28", location: "South Bohemia", country: "Czech Republic", month: "June", tags: ["Offgrid", "Psytrance"], tickets: true,
-    url: "https://festivalsandretreats.com/2017/05/03/ufo-bufo-2017/", img: "img/2017_05_91970206_1632558423548958_8290940246120464384_o-scaled.jpg",
+    url: "https://festivalsandretreats.com/2017/05/03/ufo-bufo-2017/", img: "/img/2017_05_91970206_1632558423548958_8290940246120464384_o-scaled.jpg",
     website: "https://www.ufobufo.eu", instagram: "https://www.instagram.com/ufobufo",
     youtube: "1x0pgg7aLl4?si=KMYYjDCgQg_27eMM",
     spotify: null,
@@ -337,7 +337,7 @@ export const FESTIVALS = [
   },
   {
     name: "Burning Mountain Festival", start: "2026-06-25", end: "2026-06-28", location: "Zernez", country: "Switzerland", month: "June", tags: ["Burner", "Psytrance", "Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/04/22/burning-mountain-festival/", img: "img/2024_04_burningmountain23_0022-L.jpg",
+    url: "https://festivalsandretreats.com/2024/04/22/burning-mountain-festival/", img: "/img/2024_04_burningmountain23_0022-L.jpg",
     website: "https://www.burning-mountain.ch", instagram: "https://www.instagram.com/burningmountain",
     youtube: "QEy5CcGXyO4?si=ruCeRiCyTYPm3cYN",
     spotify: null,
@@ -349,7 +349,7 @@ export const FESTIVALS = [
   {
     name: "Château Perché Festival", start: "2026-06-25", end: "2026-07-06", location: "Bouville", country: "France", month: "June", tags: ["Techno", "Electronic"], tickets: false,
     curated: true,
-    url: "https://festivalsandretreats.com/2023/01/26/chateau-perche-festival/", img: "img/2023_01_Untitled-design-26.jpg",
+    url: "https://festivalsandretreats.com/2023/01/26/chateau-perche-festival/", img: "/img/2023_01_Untitled-design-26.jpg",
     website: "https://chateauperchefestival.com/", instagram: "https://www.instagram.com/chateauperchefestival/",
     youtube: "Tms381S6WnY?si=fXaYxXAsZSAoTecb",
     spotify: null,
@@ -361,7 +361,7 @@ export const FESTIVALS = [
   
   {
     name: "Masters of Calm Festival", start: "2026-06-26", end: "2026-07-05", location: "Dubingiai", country: "Lithuania", month: "June", tags: ["Mindfulness", "Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2020/02/27/masters-of-calm-2020-life-changing-adventure/", img: "img/2020_02_mastersofcalm-2.jpg",
+    url: "https://festivalsandretreats.com/2020/02/27/masters-of-calm-2020-life-changing-adventure/", img: "/img/2020_02_mastersofcalm-2.jpg",
     website: "http://mastersofcalm.com", instagram: "https://www.instagram.com/mastersofcalm_festival/?hl=en",
     youtube: "xt_TIh5ZYAE?si=xu7uyuJhJByl05ZE",
     spotify: null,
@@ -417,7 +417,7 @@ export const FESTIVALS = [
   // JULY
   {
     name: "Bear Stone Festival", start: "2026-07-02", end: "2026-07-05", location: "Mrežnica river", country: "Croatia", month: "July", tags: ["Psytrance", "Offgrid", "Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/04/22/bear-stone-festival/", img: "img/2024_04_Logo2026_500-1.png",
+    url: "https://festivalsandretreats.com/2024/04/22/bear-stone-festival/", img: "/img/2024_04_Logo2026_500-1.png",
     website: "https://bearstonefestival.com", instagram: "https://www.instagram.com/bearstonefestival",
     youtube: "-4IbDc4hT10?si=3VbL86nL9IoUtLiL",
     spotify: null,
@@ -428,7 +428,7 @@ export const FESTIVALS = [
   },
   {
     name: "Rampage Open Air", start: "2026-07-02", end: "2026-07-05", location: "Lommel", country: "Belgium", month: "July", tags: ["Electronic"], tickets: true,
-    url: "https://festivalsandretreats.com/2020/04/07/rampage/", img: "img/2020_04_56764491_10161740629060051_4637088052743766016_o.jpg",
+    url: "https://festivalsandretreats.com/2020/04/07/rampage/", img: "/img/2020_04_56764491_10161740629060051_4637088052743766016_o.jpg",
     website: "https://www.rampage.eu", instagram: "https://www.instagram.com/rampage.international",
     youtube: "WNC4siwAwdM?si=bvnOZGH-zLiXTA5a",
     spotify: null,
@@ -439,7 +439,7 @@ export const FESTIVALS = [
   },
   {
     name: "Third Eye Festival", start: "2026-07-03", end: "2026-07-06", location: "Wilhelmsburg", country: "Germany", month: "July", tags: ["Techno", "Electronic", "Psytrance", "Offgrid"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/12/26/third-eye-festival/", img: "img/2024_12_third-eye-festival-1024x1024.jpg",
+    url: "https://festivalsandretreats.com/2024/12/26/third-eye-festival/", img: "/img/2024_12_third-eye-festival-1024x1024.jpg",
     website: "https://www.thirdeyefestival.de", instagram: "https://www.instagram.com/third_eye_festival/",
     youtube: "Djm77uDNkB4?si=tI4-mtvZXImSbvGJ",
     spotify: null,
@@ -482,7 +482,7 @@ export const FESTIVALS = [
   },
   {
     name: "Slot Art Festival", start: "2026-07-08", end: "2026-07-12", location: "Lubiąż", country: "Poland", month: "July", tags: ["Arts", "World Music"], tickets: true,
-    url: "https://festivalsandretreats.com/2016/02/03/slot-art-festival/", img: "img/2016_02_slotartfestival.jpg",
+    url: "https://festivalsandretreats.com/2016/02/03/slot-art-festival/", img: "/img/2016_02_slotartfestival.jpg",
     website: "http://slot.art.pl/en", instagram: "https://www.instagram.com/slotartfestival/",
     youtube: "cnJXAtMX-kA?si=b7GzMlNzY_-P764z",
     spotify: null,
@@ -493,7 +493,7 @@ export const FESTIVALS = [
   },
   {
     name: "Body Love Festival", start: "2026-07-09", end: "2026-07-13", location: "Bavaria", country: "Germany", month: "July", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2025/02/21/body-love-festival-2/", img: "img/2025_02_bodylovefestival.jpg",
+    url: "https://festivalsandretreats.com/2025/02/21/body-love-festival-2/", img: "/img/2025_02_bodylovefestival.jpg",
     website: "https://linktr.ee/BoDy_LoVe_2026", instagram: "https://www.instagram.com/bodylovefestival/",
     youtube: null,
     spotify: null,
@@ -516,7 +516,7 @@ export const FESTIVALS = [
   },
   {
     name: "Kosmos Festival", start: "2026-07-09", end: "2026-07-12", location: "Ristiina", country: "Finland", month: "July", tags: ["Electronic", "Psytrance"], tickets: true,
-    url: "https://festivalsandretreats.com/2018/01/09/kosmos-festival/", img: "img/2018_01_kosmos-eventti-2-1024x536-1.png",
+    url: "https://festivalsandretreats.com/2018/01/09/kosmos-festival/", img: "/img/2018_01_kosmos-eventti-2-1024x536-1.png",
     website: "https://kosmosfestival.fi", instagram: "https://www.instagram.com/kosmos_festival/?hl=en",
     youtube: "omOgiMteqq4?si=ODJFcaK-N6xvdRWD",
     spotify: null,
@@ -527,7 +527,7 @@ export const FESTIVALS = [
   },
   {
     name: "Ritual Gatherings", start: "2026-07-10", end: "2026-07-12", location: "Cape Akra", country: "Bulgaria", month: "July", tags: ["Electronic", "Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/12/26/ritual-gatherings/", img: "img/2024_12_ritual-gatherings.jpg",
+    url: "https://festivalsandretreats.com/2024/12/26/ritual-gatherings/", img: "/img/2024_12_ritual-gatherings.jpg",
     website: "https://ritualgatherings.com", instagram: "https://www.instagram.com/ritual_gatherings/",
     youtube: "4O6SUzLvvWg?si=_Z0tE5Tn97Td9Oc0",
     spotify: null,
@@ -574,7 +574,7 @@ export const FESTIVALS = [
   },
   {
     name: "Caia Tribe Gathering", start: "2026-07-15", end: "2026-07-19", location: "Steyerberg", country: "Germany", month: "July", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2023/11/03/caia-tribe-gathering/", img: "img/2023_11_KatharinaBauerPhotography__CaiaGathering_2023_DSC07718-Gros.jpeg",
+    url: "https://festivalsandretreats.com/2023/11/03/caia-tribe-gathering/", img: "/img/2023_11_KatharinaBauerPhotography__CaiaGathering_2023_DSC07718-Gros.jpeg",
     website: "https://caia-academy.de/gathering", instagram: "https://www.instagram.com/caia.academy/",
     youtube: "v9sDNcp6I5k?si=l-RSEQ2MvKLSIoO1",
     spotify: null,
@@ -584,7 +584,7 @@ export const FESTIVALS = [
   },
   {
     name: "Kolorádó Festival", start: "2026-07-15", end: "2026-07-19", location: "Káloz", country: "Hungary", month: "July", tags: ["Offgrid", "Electronic", "Techno", "World Music"], tickets: true,
-    url: "https://festivalsandretreats.com/2022/01/29/kolorado/", img: "img/2022_01_Kolorado-Hungary.jpg",
+    url: "https://festivalsandretreats.com/2022/01/29/kolorado/", img: "/img/2022_01_Kolorado-Hungary.jpg",
     website: "https://kolorado.hu/en", instagram: "https://www.instagram.com/koloradofesztival/",
     youtube: "BwqAoHr-De8?si=W6ir_jN50olEoJLR",
     spotify: null,
@@ -595,7 +595,7 @@ export const FESTIVALS = [
   },
   {
     name: "Electric Castle Festival", start: "2026-07-16", end: "2026-07-19", location: "Bánffy Castle, Bonțida", country: "Romania", month: "July", tags: ["Electronic"], tickets: true,
-    url: "https://festivalsandretreats.com/2020/04/07/electric-castle/", img: "img/2020_04_Electric-Castle-photo-Electric-Castle-on-FB.jpg",
+    url: "https://festivalsandretreats.com/2020/04/07/electric-castle/", img: "/img/2020_04_Electric-Castle-photo-Electric-Castle-on-FB.jpg",
     website: "https://electriccastle.ro", instagram: "https://www.instagram.com/electriccastle/",
     youtube: "TrtoLPTQiB8?si=8uRB7YEe1ecAf7FB",
     spotify: null,
@@ -606,7 +606,7 @@ export const FESTIVALS = [
   },
   {
     name: "Yaga Gathering", start: "2026-07-16", end: "2026-07-20", location: "Šilutė district", country: "Lithuania", month: "July", tags: ["Psytrance", "Mindfulness", "Arts", "Offgrid"], tickets: true,
-    url: "https://festivalsandretreats.com/2016/01/24/yaga-gathering-lithuania-2016/", img: "img/2016_01_Yaga_09_24_Day1_0029.jpg",
+    url: "https://festivalsandretreats.com/2016/01/24/yaga-gathering-lithuania-2016/", img: "/img/2016_01_Yaga_09_24_Day1_0029.jpg",
     website: "https://yaga.lt", instagram: "https://www.instagram.com/yagathering/",
     youtube: "rH7f2wtptm8?si=NU4rfrA6bEpwDpUF",
     spotify: null,
@@ -616,7 +616,7 @@ export const FESTIVALS = [
   },
   {
     name: "The Festival of Creativity", start: "2026-07-17", end: "2026-07-26", location: "Ticha-Dolní Dvořiště", country: "Czech Republic", month: "July", tags: ["Arts", "Mindfulness", "Offgrid"], tickets: true,
-    img: "img/2021_09_satfestivalfirebannerstyle.jpg",
+    img: "/img/2021_09_satfestivalfirebannerstyle.jpg",
     website: "https://roadjunkyfestival.com", instagram: null,
     youtube: "ZQ5HOyCIs40?si=BB3KC6gIV9-4Oogs",
     spotify: null,
@@ -638,7 +638,7 @@ export const FESTIVALS = [
   },
   {
     name: "Borderland", start: "2026-07-20", end: "2026-07-26", location: "Skåne", country: "Sweden", month: "July", tags: ["Burner", "Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2016/01/29/borderland/", img: "img/2016_01_borderland_logo2015.png",
+    url: "https://festivalsandretreats.com/2016/01/29/borderland/", img: "/img/2016_01_borderland_logo2015.png",
     website: "https://talk.theborderland.se/main", instagram: null,
     youtube: null,
     spotify: null,
@@ -662,7 +662,7 @@ export const FESTIVALS = [
   },
   {
     name: "Feel Festival", start: "2026-07-23", end: "2026-07-26", location: "Lichterfeld, Brandenburg", country: "Germany", month: "July", tags: ["Electronic", "Techno", "Mindfulness", "Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2019/04/01/feel-festival/", img: "img/2019_04_Blackwork_2017_07_07_Feel_PDB5317.jpeg",
+    url: "https://festivalsandretreats.com/2019/04/01/feel-festival/", img: "/img/2019_04_Blackwork_2017_07_07_Feel_PDB5317.jpeg",
     website: "https://feel-festival.de", instagram: "https://www.instagram.com/feelfestival/",
     youtube: "YO1wYjI63Ho?si=GKqc5KrpVl8eLbzh",
     spotify: null,
@@ -685,7 +685,7 @@ export const FESTIVALS = [
   },
   {
     name: "Castlefest", start: "2026-07-30", end: "2026-08-02", location: "Lisse", country: "Netherlands", month: "July", tags: ["Arts", "World Music"], tickets: true,
-    url: "https://festivalsandretreats.com/2022/02/01/castlefest/", img: "img/2022_02_Castlefest-Netherlands.jpg",
+    url: "https://festivalsandretreats.com/2022/02/01/castlefest/", img: "/img/2022_02_Castlefest-Netherlands.jpg",
     website: "https://castlefest.nl/en", instagram: "https://www.instagram.com/castlefest/",
     youtube: "Ng0PaI7bq4o?si=uZt_yH3OHXYMuHVf",
     spotify: null,
@@ -696,7 +696,7 @@ export const FESTIVALS = [
   },
   {
     name: "Fengaros Festival", start: "2026-07-30", end: "2026-08-01", location: "Lumina, Kornos", country: "Cyprus", month: "July", tags: ["World Music", "Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/04/22/fengaros-festival/", img: "img/2024_04_f4-203-0a6e0adf-558w.webp",
+    url: "https://festivalsandretreats.com/2024/04/22/fengaros-festival/", img: "/img/2024_04_f4-203-0a6e0adf-558w.webp",
     website: "https://www.fengaros.com", instagram: "https://www.instagram.com/fengaros",
     youtube: "DCpOBAsvNRI?si=5u_MKoCeFMB4bhzu",
     spotify: null,
@@ -849,7 +849,7 @@ export const FESTIVALS = [
   // AUGUST
   {
     name: "MO:DEM Festival", start: "2026-08-03", end: "2026-08-09", location: "Zrmanja canyon", country: "Croatia", month: "August", tags: ["Psytrance"], tickets: false,
-    url: "https://festivalsandretreats.com/2017/07/04/modem-festival-2019/", img: "img/2017_07_123770640_3498696346872672_4439305078199450544_n.jpg",
+    url: "https://festivalsandretreats.com/2017/07/04/modem-festival-2019/", img: "/img/2017_07_123770640_3498696346872672_4439305078199450544_n.jpg",
     website: "http://www.modemfestival.com", instagram: null,
     youtube: null,
     spotify: null,
@@ -860,7 +860,7 @@ export const FESTIVALS = [
   },
   {
     name: "Pyramid Festival", start: "2026-08-03", end: "2026-08-09", location: "Rtanj Mountain", country: "Serbia", month: "August", tags: ["Offgrid"], tickets: true,
-    url: "https://festivalsandretreats.com/2026/03/10/pyramid-festival/", img: "img/2026_02_PYRAMID-KV-01.png",
+    url: "https://festivalsandretreats.com/2026/03/10/pyramid-festival/", img: "/img/2026_02_PYRAMID-KV-01.png",
     website: "https://pyramidfestival.com/pyramid-festival-2026-sovra-edition", instagram: null,
     youtube: null,
     spotify: null,
@@ -871,7 +871,7 @@ export const FESTIVALS = [
   },
   {
     name: "Healing Festival", start: "2026-08-05", end: "2026-08-09", location: "South Bohemia", country: "Czech Republic", month: "August", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/04/22/healing-festival/", img: "img/2024_04_ceremonie-1536x1024-1.jpg",
+    url: "https://festivalsandretreats.com/2024/04/22/healing-festival/", img: "/img/2024_04_ceremonie-1536x1024-1.jpg",
     website: "https://healingfestival.eu", instagram: null,
     youtube: null,
     spotify: null,
@@ -894,7 +894,7 @@ export const FESTIVALS = [
   },
   {
     name: "Ancient Trance Festival", start: "2026-08-06", end: "2026-08-09", location: "Saxony", country: "Germany", month: "August", tags: ["World Music", "Electronic"], tickets: true,
-    url: "https://festivalsandretreats.com/2017/01/04/ancient-trance-festival/", img: "img/2017_01_ancientrancefestival.jpg",
+    url: "https://festivalsandretreats.com/2017/01/04/ancient-trance-festival/", img: "/img/2017_01_ancientrancefestival.jpg",
     website: "https://ancient-trance.de/en", instagram: null,
     youtube: null,
     spotify: null,
@@ -905,7 +905,7 @@ export const FESTIVALS = [
   },
   {
     name: "Ecstatica Festival", start: "2026-08-08", end: "2026-08-11", location: "Hainburg an der Donau", country: "Austria", month: "August", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/04/22/ecstatica-festival/", img: "img/2024_04_rsw_740cg_truem.webp",
+    url: "https://festivalsandretreats.com/2024/04/22/ecstatica-festival/", img: "/img/2024_04_rsw_740cg_truem.webp",
     website: "https://ecstaticafestival.com", instagram: null,
     youtube: null,
     spotify: null,
@@ -927,7 +927,7 @@ export const FESTIVALS = [
   },
   {
     name: "Sizigia Eclipse Festival", start: "2026-08-10", end: "2026-08-14", location: "Andalusia", country: "Spain", month: "August", tags: ["Electronic"], tickets: true,
-    url: "https://festivalsandretreats.com/2026/01/09/sizigia-eclipse-festival/", img: "img/2026_01_sizigia-fetival-eclipse.jpg",
+    url: "https://festivalsandretreats.com/2026/01/09/sizigia-eclipse-festival/", img: "/img/2026_01_sizigia-fetival-eclipse.jpg",
     website: "https://sizigiaeclipse.com", instagram: null,
     youtube: null,
     spotify: null,
@@ -938,7 +938,7 @@ export const FESTIVALS = [
   },
   {
     name: "Boomtown Fair", start: "2026-08-12", end: "2026-08-16", location: "Matterley Estate, Winchester", country: "England", month: "August", tags: ["Arts", "Electronic"], tickets: false,
-    url: "https://festivalsandretreats.com/2016/02/10/boomtown-festival/", img: "img/2016_02_boomtownfestival.jpg",
+    url: "https://festivalsandretreats.com/2016/02/10/boomtown-festival/", img: "/img/2016_02_boomtownfestival.jpg",
     website: "http://www.boomtownfair.co.uk", instagram: null,
     youtube: null,
     spotify: null,
@@ -949,7 +949,7 @@ export const FESTIVALS = [
   },
   {
     name: "Iceland Eclipse", start: "2026-08-12", end: "2026-08-15", location: "Iceland", country: "Iceland", month: "August", tags: ["Mindfulness", "Offgrid"], tickets: true,
-    url: "https://festivalsandretreats.com/2026/01/09/iceland-eclipse/", img: "img/2026_01_iceland-eclipse-festival.jpeg",
+    url: "https://festivalsandretreats.com/2026/01/09/iceland-eclipse/", img: "/img/2026_01_iceland-eclipse-festival.jpeg",
     website: "https://icelandeclipse.com", instagram: null,
     youtube: null,
     spotify: null,
@@ -960,7 +960,7 @@ export const FESTIVALS = [
   },
   {
     name: "Roztoč Fest", start: "2026-08-13", end: "2026-08-17", location: "Moravia", country: "Czech Republic", month: "August", tags: ["Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/04/22/roztoc-fest-2/", img: "img/2024_04_fan-workshop-2048x1367-1.webp",
+    url: "https://festivalsandretreats.com/2024/04/22/roztoc-fest-2/", img: "/img/2024_04_fan-workshop-2048x1367-1.webp",
     website: "https://roztocfest.com", instagram: null,
     youtube: null,
     spotify: null,
@@ -971,7 +971,7 @@ export const FESTIVALS = [
   },
   {
     name: "New Healing Festival", start: "2026-08-17", end: "2026-08-23", location: "Mecklenburg", country: "Germany", month: "August", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2019/04/11/new-healing-festival/", img: "img/2019_04_55823744_1267947103371559_4379219186954534912_o.jpg",
+    url: "https://festivalsandretreats.com/2019/04/11/new-healing-festival/", img: "/img/2019_04_55823744_1267947103371559_4379219186954534912_o.jpg",
     website: "http://www.newhealing.de", instagram: null,
     youtube: null,
     spotify: null,
@@ -982,7 +982,7 @@ export const FESTIVALS = [
   },
   {
     name: "Green Man Festival", start: "2026-08-20", end: "2026-08-23", location: "Glanusk Park, Brecon Beacons", country: "Wales", month: "August", tags: ["Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2016/02/14/green-man-festival/", img: "img/2016_02_greenman.png",
+    url: "https://festivalsandretreats.com/2016/02/14/green-man-festival/", img: "/img/2016_02_greenman.png",
     website: "http://www.greenman.net", instagram: null,
     youtube: null,
     spotify: null,
@@ -992,7 +992,7 @@ export const FESTIVALS = [
   },
   {
     name: "Lost Village", start: "2026-08-27", end: "2026-08-30", location: "Lincolnshire", country: "UK", month: "August", tags: ["Electronic"], tickets: false,
-    url: "https://festivalsandretreats.com/2022/01/29/lost-village/", img: "img/2022_01_Lost-Village-England.jpg",
+    url: "https://festivalsandretreats.com/2022/01/29/lost-village/", img: "/img/2022_01_Lost-Village-England.jpg",
     website: "https://lostvillagefestival.com", instagram: null,
     youtube: null,
     spotify: null,
@@ -1003,7 +1003,7 @@ export const FESTIVALS = [
   },
   {
     name: "Shambala Festival", start: "2026-08-27", end: "2026-08-30", location: "Northamptonshire", country: "UK", month: "August", tags: ["Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2016/02/03/shambala/", img: "img/2016_02_the_kids_area09_website_image_voek_standard-1.jpg",
+    url: "https://festivalsandretreats.com/2016/02/03/shambala/", img: "/img/2016_02_the_kids_area09_website_image_voek_standard-1.jpg",
     website: "https://www.shambalafestival.org/essential-info", instagram: null,
     youtube: null,
     spotify: null,
@@ -1121,7 +1121,7 @@ export const FESTIVALS = [
   // SEPTEMBER
   {
     name: "Kama Etna Festival", start: "2026-09-01", end: "2026-09-06", location: "Mount Etna, Sicily", country: "Italy", month: "September", tags: ["Mindfulness"], tickets: true,
-    url: "https://festivalsandretreats.com/2025/06/05/kama-etna-festival/", img: "img/2025_06_WhatsApp-Image-2025-05-29-at-22.07.12.jpeg",
+    url: "https://festivalsandretreats.com/2025/06/05/kama-etna-festival/", img: "/img/2025_06_WhatsApp-Image-2025-05-29-at-22.07.12.jpeg",
     website: "https://kamaetnafest.com/the-festival", instagram: null,
     youtube: null,
     spotify: null,
@@ -1132,7 +1132,7 @@ export const FESTIVALS = [
   },
   {
     name: "Own Spirit Festival", start: "2026-09-02", end: "2026-09-07", location: "Huesca, Aragon", country: "Spain", month: "September", tags: ["Psytrance"], tickets: true,
-    url: "https://festivalsandretreats.com/2016/02/17/own-spirit-festival/", img: "img/2016_02_11427787_454813438029069_3897174652792562629_n.jpg",
+    url: "https://festivalsandretreats.com/2016/02/17/own-spirit-festival/", img: "/img/2016_02_11427787_454813438029069_3897174652792562629_n.jpg",
     website: "http://www.ownspiritfestival.org", instagram: null,
     youtube: null,
     spotify: null,
@@ -1143,7 +1143,7 @@ export const FESTIVALS = [
   },
   {
     name: "The Island Festival", start: "2026-09-03", end: "2026-09-07", location: "Obonjan island", country: "Croatia", month: "September", tags: ["Electronic"], tickets: true,
-    url: "https://festivalsandretreats.com/2022/01/29/the-island-festival/", img: "img/2022_01_The-Island-Festival-Croatia.jpg",
+    url: "https://festivalsandretreats.com/2022/01/29/the-island-festival/", img: "/img/2022_01_The-Island-Festival-Croatia.jpg",
     website: "https://www.crystal-tours.de/reiseziel/Obonjan/The+Island/en", instagram: null,
     youtube: null,
     spotify: null,
@@ -1154,7 +1154,7 @@ export const FESTIVALS = [
   },
   {
     name: "at.tension", start: "2026-09-03", end: "2026-09-06", location: "Lärz airfield", country: "Germany", month: "September", tags: ["Arts"], tickets: true,
-    url: "https://festivalsandretreats.com/2022/02/01/at-tension/", img: "img/2022_02_at.tension-Germany.jpeg",
+    url: "https://festivalsandretreats.com/2022/02/01/at-tension/", img: "/img/2022_02_at.tension-Germany.jpeg",
     website: "https://www.attension-festival.de/en/festival", instagram: null,
     youtube: null,
     spotify: null,
@@ -1165,7 +1165,7 @@ export const FESTIVALS = [
   },
   {
     name: "Space Safari", start: "2026-09-04", end: "2026-09-07", location: "Ardennes", country: "Belgium", month: "September", tags: ["Psytrance", "Offgrid"], tickets: true,
-    url: "https://festivalsandretreats.com/2020/01/08/space-safari/", img: "img/2020_01_spacesafari.jpg",
+    url: "https://festivalsandretreats.com/2020/01/08/space-safari/", img: "/img/2020_01_spacesafari.jpg",
     website: "https://space-safari.com", instagram: null,
     youtube: null,
     spotify: null,
@@ -1188,7 +1188,7 @@ export const FESTIVALS = [
   },
   {
     name: "Portugal Contact Festival", start: "2026-09-14", end: "2026-09-19", location: "Alentejo", country: "Portugal", month: "September", tags: ["Mindfulness", "Offgrid"], tickets: true,
-    url: "https://festivalsandretreats.com/2024/04/22/portugal-contact-festival/", img: "img/2024_04_Quinta-Braz-Meeting-chill-scaled-1.jpg",
+    url: "https://festivalsandretreats.com/2024/04/22/portugal-contact-festival/", img: "/img/2024_04_Quinta-Braz-Meeting-chill-scaled-1.jpg",
     website: "https://forgotten-land.com/events/portugal-contact-festival", instagram: null,
     youtube: null,
     spotify: null,

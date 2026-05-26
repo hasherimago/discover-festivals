@@ -1236,11 +1236,6 @@
     transform: translateY(-1px);
   }
 
-  .detail-divider {
-    height: 1px;
-    background: var(--border);
-    margin: 0 0 28px;
-  }
 
   .detail-description h3 {
     font-family: var(--font-display);
@@ -1826,11 +1821,7 @@
   }
 
   /* ── Editorial block ── */
-  .editorial {
-    border: 0.5px solid rgba(255, 255, 255, 0.12);
-    border-radius: 12px;
-    overflow: hidden;
-  }
+ 
 
   .editorial__row {
     display: flex;
