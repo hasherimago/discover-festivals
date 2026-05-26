@@ -40,7 +40,7 @@ export async function GET(request) {
     ? festival.img.startsWith('http')
       ? festival.img
       : `https://discover-festivals.vercel.app${festival.img}`
-    : null
+    : 'https://discover-festivals.vercel.app/img/og-main-preview.jpg'
 
   const fontUrl = new URL('/fonts/syne-bold.woff', request.url)
   const syneData = await fetch(fontUrl).then((r) => r.arrayBuffer())
@@ -69,7 +69,7 @@ export async function GET(request) {
       }, undefined, {
         src: festival
           ? imgUrl
-          : '/img/og-main-preview.jpg'
+          :'https://discover-festivals.vercel.app/img/og-main-preview.jpg'
       }),
 
       // Gradient overlay
