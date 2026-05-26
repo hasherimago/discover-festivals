@@ -10,8 +10,8 @@ const nextConfig = {
     return [
       {
         source: '/',
-        has: [{ type: 'query', key: 'f' }],
-        destination: '/festivals/:f',
+        has: [{ type: 'query', key: 'f', value: '(?<slug>.*)' }],
+        destination: '/festivals/:slug',
         permanent: true,
       },
     ]

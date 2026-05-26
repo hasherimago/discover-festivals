@@ -860,7 +860,7 @@ function openDetail(f) {
   const _slug = toSlug(f.name);
   const _alreadyOnRoute = window.location.pathname === `/festivals/${_slug}`;
   if (!_alreadyOnRoute) {
-    history.pushState({ festival: f.name }, '', `?f=${_slug}`);
+    history.pushState({ festival: f.name }, '', `/festivals/${_slug}`);
   }
   document.title = f.name + ' — Festival Season 2026';
   const _shortDesc = (f.description || '').replace(/\n/g, ' ').slice(0, 200);
