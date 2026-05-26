@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import Script from 'next/script'
 
-export default function AppShell() {
+export default function AppShell({ initialSlug }) {
   const [fabOpen, setFabOpen] = useState(false)
   const [isSubmitOpen, setIsSubmitOpen] = useState(false)
   const [isAboutOpen, setIsAboutOpen] = useState(false)
@@ -22,6 +22,18 @@ export default function AppShell() {
     document.addEventListener('mousedown', handleClick)
     return () => document.removeEventListener('mousedown', handleClick)
   }, [])
+
+  useEffect(() => {
+    if (initialSlug) {
+      // app.js exposes window.openDetail — call it after the script loads
+      const timer = setTimeout(() => {
+        if (typeof window.openDetail === 'function') {
+          window.openDetail(initialSlug)
+        }
+      }, 100)
+      return () => clearTimeout(timer)
+    }
+  }, [initialSlug])
 
   useEffect(() => {
     if (!isAboutOpen) setPhotoZoomed(false)

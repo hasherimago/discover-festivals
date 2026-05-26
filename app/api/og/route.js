@@ -1,4 +1,4 @@
-import { ImageResponse } from '@vercel/og'
+import { ImageResponse } from 'next/og'
 import FESTIVALS_META from '../../../lib/festivals-meta.js'
 
 export const runtime = 'edge'

@@ -856,7 +856,12 @@ function openDetail(f) {
   savedScrollY = window.scrollY;
   document.body.classList.add('detail-open');
   document.getElementById('view-detail').scrollTop = 0;
-  history.pushState({ festival: f.name }, '', '?f=' + toSlug(f.name));
+  // Only update URL if we're not already on the festival's own route
+  const _slug = toSlug(f.name);
+  const _alreadyOnRoute = window.location.pathname === `/festivals/${_slug}`;
+  if (!_alreadyOnRoute) {
+    history.pushState({ festival: f.name }, '', `?f=${_slug}`);
+  }
   document.title = f.name + ' — Festival Season 2026';
   const _shortDesc = (f.description || '').replace(/\n/g, ' ').slice(0, 200);
   if (_metaDesc) _metaDesc.content = _shortDesc;
@@ -959,8 +964,17 @@ _viewDetail.addEventListener('touchend', e => {
 }, { passive: true });
 
 // ── DEEP LINK ──
-const _initSlug = new URLSearchParams(location.search).get('f');
+// Support both /?f=slug (legacy) and /festivals/slug (new)
+const _params = new URLSearchParams(window.location.search);
+const _legacySlug = _params.get('f');
+const _pathMatch = window.location.pathname.match(/^\/festivals\/([^/]+)$/);
+const _initSlug = _pathMatch ? _pathMatch[1] : _legacySlug;
 if (_initSlug) {
   const _initFest = FESTIVALS.find(f => toSlug(f.name) === _initSlug);
   if (_initFest) openDetail(_initFest);
 }
+
+window.openDetail = function(slug) {
+  const fest = FESTIVALS.find(f => toSlug(f.name) === slug);
+  if (fest) openDetail(fest);
+};
