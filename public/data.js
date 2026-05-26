@@ -215,6 +215,13 @@ export const FESTIVALS = [
     youtube: "SblhBXtzLd4?si=5oM3zpVQLaW_PKZP",
     spotify: "1imLVsf9bhkDh1IjyuA3Bs?pi=kOFgpofRTFK1L",
     soundcloud: null,
+    editorial: {
+      why: "Born from a group of friends in 2017, now one of Europe's most respected underground gatherings. 8,000 people in 2024 and it still feels like everyone knows each other.",
+      vibe: "Six days during summer solstice in the desert heat of Crato. Phones off, people on. Swim in the lake at sunrise, dance again by noon.",
+      sounds: "Hypnotic techno, experimental electronics, live acoustic sets. Giegling-affiliated, no commercial headliners.",
+      doNotMiss: "The bamboo temple on the island — talks by day, something else entirely by night.",
+      tip: "Water taps every 20m — Alentejo heat is serious. Bring a refillable bottle. Shuttle from Lisbon, Porto and Madrid.",
+    },
   },
   {
     name: "Tantric Joy Festival", start: "2026-06-17", end: "2026-06-21", location: "Amsterdam", country: "Netherlands", month: "June", tags: ["Mindfulness"], tickets: true,

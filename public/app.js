@@ -667,6 +667,26 @@ function renderCalendar(festivals) {
   el.appendChild(mobileList);
 }
 
+// ── EDITORIAL RENDERER ──
+function renderEditorial(editorial) {
+  const labels = {
+    why:       'Why this festival',
+    vibe:      'The vibe',
+    sounds:    'Sounds like',
+    doNotMiss: 'Do not miss',
+    tip:       'Insider tip',
+  };
+  const rows = Object.keys(labels)
+    .filter(key => editorial[key])
+    .map(key => `
+      <div class="editorial__row">
+        <div class="editorial__label">${labels[key]}</div>
+        <div class="editorial__text">${editorial[key]}</div>
+      </div>`)
+    .join('');
+  return `<div class="editorial">${rows}</div>`;
+}
+
 // ── DETAIL PANEL ──
 function openDetail(f) {
   // Hero BG
@@ -753,9 +773,11 @@ function openDetail(f) {
   const richEl = document.getElementById('detail-rich');
   const noDataEl = document.getElementById('detail-no-data');
 
-  if (f.description) {
+  if (f.editorial || f.description) {
     const descEl = document.getElementById('detail-description');
-    if (f.html_content) {
+    if (f.editorial) {
+      descEl.innerHTML = renderEditorial(f.editorial);
+    } else if (f.html_content) {
       descEl.innerHTML = f.html_content;
       if (f.quote) {
         const quoteEl = document.createElement('blockquote');

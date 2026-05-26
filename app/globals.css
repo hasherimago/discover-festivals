@@ -1824,4 +1824,50 @@
       display: block;
     }
   }
+
+  /* ── Editorial block ── */
+  .editorial {
+    border: 0.5px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .editorial__row {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    padding: 0.85rem 1.25rem;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .editorial__row:last-child {
+    border-bottom: none;
+  }
+
+  .editorial__label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #E8A830;
+    min-width: 110px;
+    flex-shrink: 0;
+    padding-top: 1px;
+  }
+
+  .editorial__text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  @media (max-width: 600px) {
+    .editorial__row {
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+
+    .editorial__label {
+      min-width: unset;
+    }
+  }
  
