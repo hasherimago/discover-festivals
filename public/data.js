@@ -10,6 +10,14 @@ export const FESTIVALS = [
     description: "Weekend retreat in the Lake District with healing therapies, workshops and dancing with like-minded people in a bluebell wood overlooking Lake Windermere.",
     html_content: "<p><em>Space to Emerge</em> is a weekend retreat full of workshops. In three days, you will be able to engage in one-to-one healing therapies, workshops and dance till morning while meeting like-minded people in a peaceful environment in the Lake District.</p>",
     quote: "At Space to Emerge, we aim to create a community to restore community.\n\nSetting up our camp in the beauty of a bluebell wood overlooking Lake Windermere, we are a coming together of people who are awakening to a different sense of being on this Earth.\n\nAs we escape for just a moment from the chaos of the world into the peaceful surroundings of an old growth wood, we create a sense of kinship not only to our human community and ancestors, but to the animal, plant and mineral spirits of the Earth and to the old gods that roam this land.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "The Cocoon", start: "2026-05-03", end: "2026-05-10", location: "Crete", country: "Greece", month: "May", tags: ["Mindfulness"], tickets: true,
@@ -21,6 +29,14 @@ export const FESTIVALS = [
     description: "7-day retreat in Crete for conscious intimacy, sensitivity and deep transformation. Workshops, rituals and ocean immersion for authentic relating.",
     html_content: "<p>A chance to go deeper into connection in Crete!</p>\n<p><em>Through multiple guided workshops per day, held by international teachers, supported by morning rituals, integrative spaces and the vastness of the ocean, we explore the realms of true connection in every aspect.</em></p>\n<p><em>It is a space for embodied experience, an invitation to shed old layers, to reveal yourself with skin and soul, to drop masks, soften the armor, and meet life and other beautiful people - from your most sensitive spark to your wildest outcry - just as you are.'</em></p>",
     quote: "The Cocoon is a 7-day retreat in Crete, Greece, of conscious intimacy, sensitivity and deep transformation. Over the course of seven days, we dive into the terrain of conscious connection: the space where body, emotion and soul meet radical honesty and authentic relating.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Elfia Vorden Festival", start: "2026-05-08", end: "2026-05-10", location: "Vorden", country: "Netherlands", month: "May", tags: ["Arts"], tickets: false,
@@ -32,6 +48,14 @@ export const FESTIVALS = [
     description: "Fantasy festival at Castle Vorden in the Netherlands. Over 30,000 dreamers, 200+ acts and three full days of elves, costumes and magic.",
     html_content: "<p>Who wouldn't want to go to a castle surrounded by a forest and pretend to be an elf for the weekend?</p>",
     quote: "After our emotional farewell to Castle De Haar, we're finally ready to bring over 30,000 dreamers, 200+ acts, beloved caterers, and our growing list of exhibitors to a brand new home. It wasn't easy, but with your support, we're moving magic forward. 💫 Welcome to Castle Vorden, the new home of Elfia! 🏰\n\nA place where a new era begins and this time, you'll have 3 full days to explore, dream, and live your fantasy.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Contact in Paradise", start: "2026-05-11", end: "2026-05-17", location: "Wien", country: "Austria", month: "May", tags: ["Mindfulness"], tickets: true,
@@ -43,6 +67,14 @@ export const FESTIVALS = [
     description: "Contact improvisation festival in Vienna. Community of creative dancers with world-class musicians and instructors in a transformative playground.",
     html_content: "<p>Contact in Paradise is a contact improvisation festival where you can immerse yourself in a community of creative, joyful dancers exploring paradise together. The festival boasts a lineup of world-class musicians and dance instructors to help you build skills, connect with creatives like yourself, and enjoy a truly transformative experience.</p>",
     quote: "It's an inspiring playground where I feel awake, alive, connected, and pure. CI in paradise means to me that it's a safe place where I allow myself to explore beyond what I already know, to grow with friends, to learn more and more and more with lots of joy.\n\nParadise. That's what makes me think of Paradise Lost and Paradise Regained. So something that we may lose again and again, but that we can regain. I guess I'm less interested in the heavenly, otherworldly paradise and more interested in the earthly paradise - the best of all tangible, tangible worlds.\n\nIn my eyes, paradise is not a fixed state, but something dynamic that we continuously create through the way we are with each other and in this world.\n\nAnd what would be suitable to create such a world? Presence; authenticity; encounter in which we can open up; to be able to be beings with body, mind and soul and bring in all our vitality. All these aspects also permeate my offers; I want to live and share that as best I can at every moment.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Wood Festival", start: "2026-05-15", end: "2026-05-17", location: "Braziers Park, Oxfordshire", country: "UK", month: "May", tags: ["World Music"], tickets: true,
@@ -54,6 +86,14 @@ export const FESTIVALS = [
     description: "Small, welcoming festival in Oxfordshire with music, workshops, food and drink. Sustainable, family-friendly and award-winning green event.",
     html_content: "<p>A small, welcoming festival that offers music, workshops, food and drink. They are welcoming to children. Great for families. The Wood festival invites us all to gather in a conscious celebration of Mother Earth, together we can create a better, happier and healthier place to live.</p>",
     quote: "The principles behind Wood are still at the core of what we do: running events in the most sustainable way we can, with great music and a wide range of workshops and activities for all to enjoy. We're proud that Wood has won the top Greener Festival award as well as awards spanning the age range from both Festival Kids and The Oldie magazine! We do all this with a small but dedicated team, many of whom have been involved in our events for years.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Burning Nest", start: "2026-05-18", end: "2026-05-25", location: "Exeter", country: "England", month: "May", tags: ["Burner", "Arts"], tickets: true,
@@ -65,6 +105,14 @@ export const FESTIVALS = [
     description: "UK Burning Man-inspired gathering in Exeter celebrating creativity, radical self-expression and community. Memberships not tickets — everyone participates.",
     html_content: "<p>The Burning Nest is another gathering inspired by Burning Man, but they go their own way and sell 'memberships' rather than tickets to help everyone understand that it's not about coming along and staring at a stage. It is a celebration of human creativity, a spontaneous community and a place for radical self-expression.</p>",
     quote: "At Nest we have no visitors, no spectators. We only have participants. Our Nest is determined by the participants who create it. And all members are invited to be part of the creation.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
 
   {
@@ -77,6 +125,14 @@ export const FESTIVALS = [
     description: "Burning Man-inspired festival in Alentejo, Portugal. A gathering of creative Europeans 90 minutes from Lisbon, guided by the 10 principles of Burning Man.",
     html_content: "<p>An emerging Burning Man event in Portugal, Flamingalo is an opportunity to meet some of the most creative people in Europe.</p>",
     quote: "FLAMINGALO is set to soar once again! Our Burning Man-inspired event returns to the heart of Portugal, Alentejo, from May 27 - 31, 2026.\n\nJust a 90-minute journey from Lisbon, Alentejo is the perfect nest for our gathering of vibrant flaminglers.\n\nWith the 10 principles of Burning Man guiding us, we aim to unite, respect, and revel together. Get ready to reignite the spirit of creativity, community, and celebrate with us!\n\nSo, fasten your feathers and prepare to embrace the flaming spirit of FLAMINGALO for an extraordinary ascent!\n\nFlamingalo is a co-created event. Nothing exists unless we come together and make it happen! The core organization has already found the land, ordered toilets, and are setting up basic support structures like First Aid and Welfare. But all the rest is up to you!",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Conscious Camp", start: "2026-05-28", end: "2026-05-31", location: "Shrewsbury", country: "UK", month: "May", tags: ["Offgrid", "Mindfulness"], tickets: true,
@@ -88,9 +144,17 @@ export const FESTIVALS = [
     description: "Intimate 200-person gathering in Wales for music, workshops and community. Alcohol-free space for authentic connection and inner work.",
     html_content: "<p>Conscious Camp is a gathering of 200 people in Wales who come together for music, workshops and community vibes.</p>",
     quote: "This is a magical place where magical things happen.\n\nIf you have never been before then you are in for a heartwarming, nurturing, healing experience. The connections, the workshops, the music, the river, and all the other people here make it one of Wales's favourite small gatherings. We limit the number to 200 to keep the connections real and feel like a real Earth family.\n\nThis is an intoxicant-free festival. This allows people to explore themselves deeper without numbing out what is bubbling under the surface. We have many practitioners and workshop leaders who offer a safe space to purge whatever needs releasing. For others, this is simply a place to connect, sing, dance, and have fun. The choice is yours.\n\nNever has it been more important to come together, spread positivity and change doesn't happen overnight but only by coming together again and again and focusing on the change within ourselves.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
-    name: "Earth Garden", start: "2026-05-29", end: "2026-05-31", location: "Ta' Qali", country: "Malta", month: "May", tags: ["World Music", "Electronic", "Mindfulness"], tickets: true,
+    name: "Earth Garden", start: "2026-05-29", end: "2026-05-31", location: "Ta' Qali", country: "Malta", month: "May", tags: ["World Music", "Electronic", "Psytrance"], tickets: true,
     url: "https://festivalsandretreats.com/2019/03/29/earth-garden/", img: "https://i.ytimg.com/vi/BW1cgVa6lFg/maxresdefault.jpg",
     website: "https://www.earthgarden.com.mt", instagram: "https://www.instagram.com/earthgarden/",
     youtube: "4_trRFTcCVE?si=M3sTKuQnWGqD5s9d",
@@ -99,6 +163,14 @@ export const FESTIVALS = [
     description: "Long weekend festival in Malta blending world music, electronic beats, healing and cultural diversity. 5 stages, 120+ acts from around the world.",
     html_content: "<p><em>Earth Garden</em> is a chance to head to Malta and rock it for a long weekend.</p>",
     quote: "Celebrate music, diversity and life at Earth Garden Festival, the music festival that kicks off your summer buzz and guarantees loads of fun at one of Europe's top tourist destinations.\n\nIt features 5 different music areas and around 120 acts from around the World with an eclectic music fusion of World Music, Ska, Funk, Blues, Reggae, Alternative Rock, Dub, Hip-Hop, Psychedelic Trance, Techno, Acid, House, Electro, Drum 'n' Bass and more. Earth Garden isn't just about music. It's also about cultural diversity, community, healing, creativity and inspiration. The Festival offers an International Food-Court, Healing, Yoga & Meditation Area with daily workshops, a colourful & diverse Ethnic Market, two naturally shaded campsites and a Fun Park.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Psychedelic Experience Festival", start: "2026-05-29", end: "2026-06-01", location: "Gallin-Kuppentin", country: "Germany", month: "May", tags: ["Psytrance", "Electronic"], tickets: true,
@@ -110,6 +182,14 @@ export const FESTIVALS = [
     description: "Open-air psytrance festival near Rüthen, Germany. 55 hours of non-stop music across two floors, art market, fire installations, and 2033 lakes.",
     html_content: "<p>What to expect from Psychedelic Experience Open Air Festival? The organisers promise severe sleep deprivation due to dance floor activities and 2033 lakes in the area.</p>",
     quote: "Once a year, the gates to another world open, where reality and dreams dance together. Where rhythms touch the horizon and time stands still for four days. The Psychedelic Experience is more than a festival - it is a ritual of coming together. People from all over the world follow the call - with open hearts, amazed eyes, and a longing for music, culture, and freedom.\n\nAs the first major open-air festival of the summer, we celebrate the beginning of a new season. A musical universe unfolds across two floors - 55 hours of non-stop music, carried by international artists, pulsating bass, and moments that will last forever.\n\nLights flow through the forest, voices become colors, and the night tells stories. The lovingly designed Main Stage and Ambient Garden create a space that invites you to marvel, dance, and dream. The market square becomes a village: full of art, design, sounds, and culinary inspirations from many cultures. Those who want to linger before or after will find peace, water, and vastness in the land of 2033 lakes - and perhaps a little bit of what we thought we had lost.\n\nTo a summer that not only begins - but moves.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Space of Love Festival", start: "2026-05-29", end: "2026-06-07", location: "Öland", country: "Sweden", month: "May", tags: ["Mindfulness", "Offgrid"], tickets: true,
@@ -121,6 +201,14 @@ export const FESTIVALS = [
     description: "Festival on the Swedish isle of Öland with workshops from family constellation to yoga and African dance. A chance to slow down and open your heart.",
     html_content: "<p>Space of Love Festival is held on the Swedish isle of Oland and so is a great place to meet some Scandinavian hippies running workshops from family constellation to yoga to African dance.</p>",
     quote: "There we celebrate and create, meet new and old friends, and try new paths to discover more about ourselves, one another and how we can live more beautifully on our planet. We are blessed with many expressions of nature; forest, meadows, sand and sea, sunrise and birdsong and an often cloudless blue sky. We all get a chance to slow down and ground, go deeper and allow our hearts to open. We make new connections and find new doors to open. The Space of Love we create within and around us, and take it on home when we leave the island.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Klub Dramatik", start: "2026-05-23", end: "2026-05-24", location: "Antwerp", country: "Belgium", month: "May", tags: ["Electronic", "Techno"], tickets: true,
@@ -133,6 +221,14 @@ export const FESTIVALS = [
     description: "Open-air electronic music festival in Antwerp's Nachtegalenpark forest with curated funk, disco, house and techno across three intimate stages.",
     html_content: "<p>Klub Dramatik is an open-air electronic music festival held within Nachtegalenpark, a beloved green forest in Antwerp, Belgium. Now in its ninth edition, the two-day festival presents a carefully curated mix of funk, disco, house, and techno, featuring both emerging talents and established contemporary artists across three distinct stage environments — Forest, Turbine, and a third experimental space.</p><p>The wooded setting allows for close personal contact between performers and the crowd, with velvet build-ups and rambunctious energy throughout. Built around inclusive, respectful, and care-oriented principles, it is one of Belgium's most beloved small-scale underground gatherings.</p>",
     quote: null,
+    editorial: {
+      about: "A beloved Belgian underground institution, now in its ninth edition. Two days of hand-picked electronic music in Nachtegalenpark — one of Antwerp's most beautiful forest parks. Small enough to feel like a secret, big enough to matter.",
+      vibe: "Forest rave with a neighbourhood feel. Inclusive, care-oriented, velvet energy. The kind of crowd that came for the music and stayed for the people.",
+      sounds: "Funk, disco, deep house and techno across three intimate stages. Programming leans contemporary underground rather than big names.",
+      doNotMiss: "The Forest stage — dancing surrounded by actual trees with sound bleeding through the canopy is what makes Klub Dramatik different from every other city festival.",
+      tip: "Nachtegalenpark is easily reachable by bike or public transport from Antwerp Central. Skip the car — the park roads are tight and parking is a headache.",
+    },
+    poster: null,
   },
   {
     name: "Refractor Festival", start: "2026-05-29", end: "2026-05-31", location: "Valdeverdeja", country: "Spain", month: "May", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
@@ -145,6 +241,14 @@ export const FESTIVALS = [
     description: "Intimate 500-person festival on the banks of the Río Tajo in Toledo, Spain, with 90% of artists performing in Spain for the first time across Funktion One sound systems.",
     html_content: "<p>Refractor unfolds over three days on the banks of the Río Tajo near Valdeverdeja in the province of Toledo, Central Spain. With a deliberately limited capacity of 500 participants, the festival fosters a profound communion with nature where the landscape becomes an integral part of the artistic experience.</p><p>Programming spans live performances and DJ sets from techno and trance via Funktion One sound systems to dub and reggae — with 90% of artists performing in Spain for the first time. Safe spaces for LGBTQI+ and FLINTA communities underline its commitment to making the gathering as much about human connection as artistic expression.</p>",
     quote: null,
+    editorial: {
+      about: "A 500-person gathering on the banks of the Tagus river, two hours from Madrid. Intimate by design, underground by nature. One of Spain's best-kept secrets.",
+      vibe: "Intimate offgrid gathering where the river, the trees and the bassline are equally important. Small enough that you'll recognize faces by day two.",
+      sounds: "Techno and electronic music with a deep, hypnotic lean. Funktion-One system, custom-built for the site. Sunday sees dub and reggae collective Mud and Fyah take over.",
+      doNotMiss: "Sunday's shift in energy — the festival trades techno for something deeper and more soulful as Mud and Fyah takes over the final stretch.",
+      tip: "Book the shuttle from Madrid — it's a remote spot and arriving together with other attendees sets the tone for the whole weekend.",
+    },
+    poster: null,
   },
   // JUNE
   {
@@ -158,6 +262,14 @@ export const FESTIVALS = [
     description: "A week-long boutique festival on the Albanian Riviera merging underground electronic music with Mediterranean sun and sea.",
     html_content: "<p>Kala Festival takes place across eight days each June on the Albanian Riviera, occupying the village of Dhërmi and several kilometres of coastline that the travel world has only recently begun to notice. Described by Clash Magazine as setting \"the new standard for beachside festivals,\" Kala operates on a philosophy of quality over scale, capping attendance to preserve the intimacy of what is genuinely one of the last unspoiled stretches of the Mediterranean. Five open-air venues are scattered across the geography — beach bars, a canyon stage at Gjipe accessible only by boat, a late-night yacht club, a forest amphitheatre — all equipped with wooden dancefloors and premium sound systems that treat the Ionian air as a collaborator rather than a problem to overcome.</p><p>The music leans into extended sets, with artists typically holding the floor for five hours or more — a format that rewards depth over spectacle and draws a crowd of serious listeners who understand the difference. The palette spans house, disco, soul, techno, and further out, with both established names and underground voices sharing equal billing. All tickets include hotel accommodation within walking distance of the stages, making Kala feel less like a festival and more like a week-long residency in a place you will immediately want to return to. Mornings are for the sea; the rest belongs to the music.</p>",
     quote: null,
+    editorial: {
+      about: "Albania's most acclaimed boutique festival, now in its seventh edition. A week-long gathering on the Albanian Riviera where turquoise water meets wooden dancefloors and a lineup that skews deliberately underground. Accommodation is bundled with every ticket.",
+      vibe: "Beach holiday meets serious music festival. Late-20s to mid-30s London-Berlin energy, more tote bags than flower crowns. Boat parties, cliffside stages, and sunrise sets that feel genuinely earned.",
+      sounds: "House, disco, balearic and left-field electronic. Not EDM — think artists who sell out smaller clubs in London or Berlin but would never headline a commercial festival.",
+      doNotMiss: "The Gjipe stage — only reachable by boat, set in a canyon. One of the most surreal dancefloors in Europe.",
+      tip: "Tickets include hotel accommodation and are sold in payment-plan instalments. Buy early — room allocations range from seafront to hillside and the best go fast.",
+    },
+    poster: null,
   },
   {
     name: "Wildheart Gathering", start: "2026-06-04", end: "2026-06-07", location: "South Bohemia", country: "Czech Republic", month: "June", tags: ["Offgrid", "Mindfulness"], tickets: true,
@@ -169,6 +281,14 @@ export const FESTIVALS = [
     description: "Summer gathering in South Bohemia for wild herb walks, movement, singing and campfire evenings. A beautiful re-wild event focused on self-care.",
     html_content: "<p>A summer solstice gathering with music, movement and herbalism.</p>",
     quote: "We invite you to another Beautiful Gathering. If you love connecting with nature, learning about wild herbs, deepening your connection with yourself and others, being fully present, sitting around the fire under summer skies, laughing, relaxing, or jamming and dancing - this event is for you. Let's re-wild.\n\nThis Year's Theme: Self-Care.\n\nA time to give ourselves the love, nourishment, time, and space we all deserve.\n\nWe will start each day with a movement class to connect with our bodies. During the day, we will explore wild plants and create magical potions to take home. We will answer questions like: What can we eat that grows freely around us? How can we use plants to heal, enhance our well-being, and bring more beauty into daily life? We will craft herbal spa products and use them right away at our outdoor hot tub. In the evenings, we'll sing and dance our hearts out in workshops and spontaneous jams.\n\nAll of this will happen in the heart of nature, surrounded by green meadows and forests in Novohradské Hory, South Czechia.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Wurzelfestival", start: "2026-06-04", end: "2026-06-07", location: "Niedergörsdorf", country: "Germany", month: "June", tags: ["Electronic"], tickets: true,
@@ -180,6 +300,14 @@ export const FESTIVALS = [
     description: "Colourful electronic music festival in Bavaria. Community-driven event inspired by original Berlin club culture with participatory planning.",
     html_content: "<p>Wurzel Festival is a colourful electronic music festival with several stages.</p>",
     quote: "The name says it all: We are committed to preserving the original Berlin celebration culture, which is still legendary today. Together with our guests, we are a 'root family' and our guests are involved in the planning and implementation from the very beginning according to the 'participatory principle'. The suggestions of our guests for decoration, the line-up, the supporting program and the gastronomic offer are part of the joint implementation and firmly anchored in our root concept. Decisions are made jointly via our various social media channels. This closeness to the guest creates a deep group membership between us and our visitors. Together we form the 'root family.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "PÁVOIA Festival", start: "2026-06-05", end: "2026-06-08", location: "Debrznica", country: "Poland", month: "June", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
@@ -192,6 +320,14 @@ export const FESTIVALS = [
     description: "Intimate 500-person electronic festival at a 19th-century manor park near the German border, one hour from Berlin.",
     html_content: "<p>PAVOIA Festival takes place each June at Pałac Debrznica, a 19th-century manor house set within a nature park an hour's drive from Berlin — close enough to attract a well-connected European crowd, remote enough to feel like a genuine escape. The grounds carry a quality of magical incongruity: ancient trees and overgrown gardens, a 19th-century palace, a weathered wooden shipwreck, and an old military helicopter rusting in the undergrowth, all coexisting as improbable neighbours. Across three floors — Bermuda, Palac, and Etage0 — roughly 500 guests move between deep house, acid house, and driving progressive techno, with a scale deliberately kept small enough that the community feeling is real rather than performed.</p><p>Beyond the dancefloors, PAVOIA offers yoga workshops, tarot, saunas, a Magic Market, and a food village — not as distractions but as part of the same philosophy: that a festival is a living, breathing space shaped by everyone inside it, where connection and care are as important as the music. The organizers describe it as \"a place where reality is left behind for a weekend full of ecstatic good vibes,\" and the intimacy of the setting makes that ambition credible. Consent culture, awareness, and inclusion are treated as foundational rather than afterthought, and the result is a festival with the warmth of a gathering among friends even for first-time visitors.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Art Baer Burn", start: "2026-06-11", end: "2026-06-14", location: "Bad Sulza", country: "Germany", month: "June", tags: ["Burner", "Arts"], tickets: true,
@@ -203,6 +339,14 @@ export const FESTIVALS = [
     description: "Regional burn near Berlin celebrating art, community and play. Inspired by Burning Man since 1986 — a magical event for creation, connection and fun.",
     html_content: "<p>Art Baer is a regional burn that focuses on, well, art...</p>",
     quote: "Art has always been an integral part of all Burn-Events. Strictly speaking since Larry Harvey burned the first wooden effigy in 1986 on Baker Beach in San Francisco.\n\nART BAER is a magical event that is all about celebrating art, community, play and other shenanigans.\n\nThis summer event organized by the Berlin Burner e. V. invites you to have new experiences, present your art, find other people for larger art projects, find inspiration and - of course - have a LOT of fun!",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Waking Life", start: "2026-06-17", end: "2026-06-22", location: "Crato", country: "Portugal", month: "June", tags: ["Psytrance", "Techno", "Electronic"], tickets: false,
@@ -216,12 +360,13 @@ export const FESTIVALS = [
     spotify: "1imLVsf9bhkDh1IjyuA3Bs?pi=kOFgpofRTFK1L",
     soundcloud: null,
     editorial: {
-      why: "Born from a group of friends in 2017, now one of Europe's most respected underground gatherings. 8,000 people in 2024 and it still feels like everyone knows each other.",
+      about: "Born from a group of friends in 2017, now one of Europe's most respected underground gatherings. 8,000 people in 2024 and it still feels like everyone knows each other.",
       vibe: "Six days during summer solstice in the desert heat of Crato. Phones off, people on. Swim in the lake at sunrise, dance again by noon.",
       sounds: "Hypnotic techno, experimental electronics, live acoustic sets. Giegling-affiliated, no commercial headliners.",
       doNotMiss: "The bamboo temple on the island — talks by day, something else entirely by night.",
       tip: "Water taps every 20m — Alentejo heat is serious. Bring a refillable bottle. Shuttle from Lisbon, Porto and Madrid.",
     },
+    poster: null,
   },
   {
     name: "Tantric Joy Festival", start: "2026-06-17", end: "2026-06-21", location: "Amsterdam", country: "Netherlands", month: "June", tags: ["Mindfulness"], tickets: true,
@@ -233,6 +378,14 @@ export const FESTIVALS = [
     description: "5-day tantra festival near Amsterdam with 60 workshops, 6 temples, concerts and ecstatic dance. 400 participants and 30 international facilitators.",
     html_content: "<p>An opportunity to discover what Tantra is all about.</p>\n<p>For more information about their view on tantra, the programme and facilitators, and ticket options see their website.</p>",
     quote: "5 days of joy in nature with 400 participants, 30 amazing international facilitators, 3 DJ's and the choice from 60 workshops, 6 Temples, Concerts, Solstice Celebration and other Rituals, dancing every day and a beautiful Spa area.\n\nThe theme of this year will be Divine Essence Nature and Kali the Goddess to guide us in our process!\n\nAll vegan 12 meals included and different options for camping accommodation. We had an amazing 5th edition in beautiful nature, 45 min. from the city of Amsterdam. This edition 17-21 June 2026, will be again at Landgoed Energy up. We will enjoy the grounding of the earth, the wildness of the wind, the softness of the lake waters and the power of fire.\n\nImagine, waking up every morning with the tribe, meditating with the birds, taking a sauna or hot tub, swimming at the beach, walking in the forest, making a campfire and grounding our bodies with dance on the grass. And that all in a great variety of tantra workshops, temples and concerts...",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Black Forest Ecstatic Dance Festival", start: "2026-06-18", end: "2026-06-21", location: "Black Forest", country: "Germany", month: "June", tags: ["Mindfulness"], tickets: true,
@@ -244,6 +397,14 @@ export const FESTIVALS = [
     description: "4-day outdoor ecstatic dance festival in the Black Forest. Morning and evening dance, yoga, contact improvisation, campfires and forest bathing.",
     html_content: "<p>Black Forest Ecstatic Dance Festival is an ecstatic dance festival in the Black Forest!</p>",
     quote: "THE MAGIC OF BEING in Nature\n\nFour days outdoors. Camping in the heart of the Black Forest, dancing on a soft, wide meadow, barefoot under the open sky - accompanied by sun, wind, and stars.\n\nOnce again, we come together to dance, breathe deeply, and let go of everyday life. A space for genuine connection - with nature, with ourselves, and with one another. A time to recharge and simply be.\n\nEvery morning and evening, we share an Ecstatic Dance. In between, you are invited to join yoga, contact improvisation, singing circles, and workshops focused on grounding and playfulness. There is plenty of space for lightness, presence, and shared experience. No phones, no pressure - instead, campfires, forest bathing, music, and meaningful encounters. A family-style camp that needs very little - and therefore leaves a lasting impact.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Solstice Festival", start: "2026-06-18", end: "2026-06-20", location: "Ruka. Kuusamo", country: "Finland", month: "June", tags: ["Electronic", "Offgrid", "Techno"], tickets: true,
@@ -256,6 +417,14 @@ export const FESTIVALS = [
     description: "Electronic music festival in northern Finland near the Arctic Circle during midsummer, when the sun never sets. Three stages with picturesque views over lakes.",
     html_content: "<p>Solstice Festival is an electronic music festival held up close to the arctic circle to make the most of midsummer.</p>",
     quote: "Solstice is a gathering for people who enjoy music, art and nature, preferably combined. It takes place during midsummer in northern Finland next to the Arctic Circle. The festival site, Rukatunturi, is an arctic fell which rises half a kilometer above sea level, giving people picturesque views over pine trees and lakes.\n\nThat time of the year combined with the northern location means the sun doesn't set at all, creating a unique atmosphere - a celebration of light and life.\n\nThe music is spread across three distinct stages, each with their own unique vibe. The Peak hosts high-octane genre-free club sounds, where as down in the Valley, myriad forms of psychedelic, neuron-tingling sonics find a home. The Kelo tent is where one is primed to sit down and take it all in through a plethora of live performances and speciality DJ sets.",
+    editorial: {
+      about: "Three days on top of Rukatunturi fell in northern Finland, 490 meters above sea level, during the summer solstice when the sun never sets. In 2026 it's part of Oulu's European Capital of Culture programme.",
+      vibe: "Electronic music under the midnight sun, with free-roaming reindeer and a community that genuinely seems surprised it gets to be here. Dreamlike, calm and focused.",
+      sounds: "Experimental and underground electronic — minimal house, techno, ambient. Heavy Finnish representation alongside international guests. Site-specific art commissions throughout.",
+      doNotMiss: "After Hours at ski lodge Piste from 1AM — the mountain takes a rest and the mood shifts into something smaller and more intimate.",
+      tip: "Ski lifts are included with 3-day tickets to get between the summit stages and the village. Weekly flights from Helsinki via Finnair, or night train to Kemijärvi then a 90-minute bus.",
+    },
+    poster: "/img/Solstice-2026-Lineup-Poster.webp",
   },
   {
     name: "Where the Sheep Sleep", start: "2026-06-18", end: "2026-06-22", location: "Flevoland", country: "Netherlands", month: "June", tags: ["Burner", "Arts"], tickets: true,
@@ -267,6 +436,14 @@ export const FESTIVALS = [
     description: "Burning Man-inspired gathering in the Netherlands. A massive immersive playground for four days of art, community and self-expression.",
     html_content: "<p>Burning Man-inspired gathering in the Netherlands. A massive immersive playground for four days of art, community and self-expression.</p>",
     quote: "Where The Sheep Sleep is more than just a celebration of community: it is a massive, immersive, interactive playground that we all build and live in for four days. It is an opportunity for everyone to be the most amazing and unexpected version they can be. Art Is A Fundamental Part Of Where The Sheep Sleep. The Term Art Is Quite Large, Encapsulating Everything From Large Installation Structures And Sculptures, Sound Installations, Art Cars, Participatory Workshops & Live Performances.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Sónar Festival", start: "2026-06-18", end: "2026-06-20", location: "Barcelona", country: "Spain", month: "June", tags: ["Electronic", "Techno"], tickets: true,
@@ -279,6 +456,14 @@ export const FESTIVALS = [
     description: "Sónar Festival is where raw electronic energy collides with underground culture, art, and relentless sound. Set in the industrial pulse of Barcelona, Sónar has built a reputation as one of the most forward-thinking festivals in the world.",
     html_content: "<p>Sónar Barcelona is an annual three-day event dedicated to electronic music and digital culture. It attracts roughly 120,000 to 150,000 attendees and operates across two main formats. Sónar by Day takes place at Fira Montjuïc, running from mid-afternoon to midnight with a focus on live performances and experimental acts. Sónar by Night moves to the larger Fira Gran Via venue, running until 07:00 and featuring high-capacity stages for global DJ headliners and intense audio-visual productions.</p><p>Parallel to the music, the Sónar+D segment serves as a professional conference for creative technologies. This branch hosts workshops, masterclasses, and tech showcases involving AI, robotics, and immersive sound. Starting in 2026, the festival is shifting its primary operations to consolidate both Day and Night activities at the Fira Gran Via site. This change aims to streamline logistics and house all stages, art installations, and professional exhibitions within a single unified footprint.</p>",
     quote: null,
+    editorial: {
+      about: "Founded in Barcelona in 1994, Sónar is now in its 33rd edition and remains the most culturally influential electronic music festival in Europe. Around 120,000–140,000 attendees across three days at Fira Barcelona, plus Sónar+D — a congress on creativity and technology at a separate city venue.",
+      vibe: "Equal parts industry conference and rave. Professionals, artists, and music heads from across the world converge on Barcelona. Dense, high-production, relentlessly forward-looking.",
+      sounds: "Advanced electronic music in the broadest sense — techno, experimental, avant-pop, club music, digital art. 2026 headliners include The Prodigy, Charlotte de Witte and Dom Dolla alongside a much deeper experimental programme.",
+      doNotMiss: "OFFSónar — the parallel festival running in Barcelona clubs and venues alongside the main programme. Some of the best parties of the weekend happen here.",
+      tip: "In 2026 Sónar moves to a single venue (Fira Barcelona Gran Via), eliminating the old day/night split. Build in your own rest breaks — 14 hours of continuous programming each day will break you if you try to do it all.",
+    },
+    poster: "/img/Sonar-2026-Lineup-Poster-2.jpg",
   },
   {
     name: "Everness Festival", start: "2026-06-19", end: "2026-06-28", location: "Bükk Hills", country: "Hungary", month: "June", tags: ["Offgrid", "Mindfulness"], tickets: true,
@@ -290,6 +475,14 @@ export const FESTIVALS = [
     description: "Ten-day transformative gathering in Hungary's Bükk Hills. Workshops, meditation, music and community for awareness, recharge and deep connection.",
     html_content: "<p>Everness Festival is one of the most welcoming events you could go to this summer.</p>",
     quote: "Everness is not just a festival for us, but a space where you can get a little closer to yourself, and to others in the process. It started in 2013 with a simple but strong intention: to create a community where you don't have to play roles, where you can ask, search, develop, and where we support each other in this.\n\nThe Everness Festival is a living manifestation of this. Ten days where you can break away from your usual rhythm, slow down and really be present. You don't have to do anything right, you just have to show up and be open to what's coming. That's what many people love about it: that there is no one way, no one answer, but you find what works for you.\n\nThe three pillars of the festival are awareness, recharge and community, and these are not fancy words, but very liveable experiences. Awareness here is not a theory, but a series of realizations: how you start to notice your patterns, your decisions and how much change you have in your hands. And recharge is not just rest, but the kind of energy that makes you want to live, create, and connect again. And community is perhaps one of the strongest parts of the whole. It is very easy to connect here and these relationships often remain after the festival.\n\nWhether it's about relationships, family, or self-knowledge, there are programs that help you look at these, sometimes from a completely new perspective. And yes, the more difficult, more intimate topics are not left out either, but always in a safe, accepting space.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Butiba Festival", start: "2026-06-21", end: "2026-06-24", location: "Kegums", country: "Latvia", month: "June", tags: ["Arts", "Mindfulness"], tickets: true,
@@ -301,6 +494,14 @@ export const FESTIVALS = [
     description: "Summer solstice festival in Latvia celebrating joy, healing and community. Music, ceremonies, rituals and sacred musicians during four days of solstice.",
     html_content: "<p>Make the most of the summer solstice at Butiba Festival!</p>\n<p><em>BŪTĪBA Festival is lively, joyful, healing, self-inquiry and Family Friendly event happening during four days of Summer Solstice.</em></p>\n<p><em>It is time for celebration, ceremonies, rituals and just being together with like minded, together with local and foreign sacred musicians, dancers, shamans and teachers.'</em></p>",
     quote: "True Celebration is born out of joy which is born deep within and then becomes a song, dance, laughter....and some tears of Gratitude. To be true, alive, shining in joy and love.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Pachamama Play Festival", start: "2026-06-21", end: "2026-07-04", location: "Bay of Kotor", country: "Montenegro", month: "June", tags: ["Mindfulness"], tickets: true,
@@ -312,6 +513,14 @@ export const FESTIVALS = [
     description: "Intimate 40-person gathering at Pachamama Farm, Montenegro for AcroYoga, yoga, meditation and beach time. Alcohol and drug-free over one or two weeks.",
     html_content: "<p>A playful gathering of movement, connection, and acro-yoga!</p>",
     quote: "This year at Pachamama, we are coming together for a small, intimate festival shaped by play, curiosity, and shared presence, over one or two joyful weeks.\n\nAround 40 people will share this time, a gentle mix of community members, facilitators, volunteers, and participants. We will gather at Pachamama Farm, surrounded by nature and close to hidden beaches, creating an easy space for movement, rest, and heartfelt connection.\n\nAcroYoga sits at the center of the experience, inviting trust, laughter, and playful exploration. Sessions are open to all levels, from complete beginners to experienced practitioners. Alongside this, there will be yoga, meditation, music, dance, massage, and creative moments, with plenty of space to rest, visit the beach, and simply enjoy being together.\n\nLife at Pachamama is simple and grounded. Days unfold with shared meals, time in the garden, feeding animals, forest walks, and swims at nearby hidden beaches. To support a clear and connected atmosphere, the gathering is alcohol-free and drug-free, allowing us to stay present and fully available to the experience we create together.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Kiez Burn", start: "2026-06-23", end: "2026-06-29", location: "Brandenburg", country: "Germany", month: "June", tags: ["Burner", "Arts"], tickets: false,
@@ -323,6 +532,14 @@ export const FESTIVALS = [
     description: "Five-day Burning Man-inspired event in Brandenburg celebrating self-expression and creativity. No fixed programme — all content contributed by attendees.",
     html_content: "<p>Kiez Burn is a five day mini-Burn inspired by the now worldwide Burning Man vibe. So it's based on autonomy, self-expression and performance arts.</p>",
     quote: "The purpose of this local burn is to bring together individuals from the global and local community who share a passion for self-expression and creativity. It will provide participants with the opportunity to connect, participate in various workshops and activities, and express themselves through various forms of art and performance.\n\nThere is no team that decides on the program - all offers are contributed by attendees themselves. It is for these reasons that Kiez Burn has the potential to create a sense of belonging and leave a lasting impact on all who participate.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "UFO Bufo Festival", start: "2026-06-24", end: "2026-06-28", location: "South Bohemia", country: "Czech Republic", month: "June", tags: ["Offgrid", "Psytrance"], tickets: true,
@@ -334,6 +551,14 @@ export const FESTIVALS = [
     description: "Czech psytrance festival since 2013 with natural digital detox — no mobile coverage. Strictly non-commercial, no ads or sponsor logos.",
     html_content: "<p><em>UFO Bufo</em> encourages good old-fashioned face-to-face communication as their festival location provides a natural digital detox (in two words - no coverage). So why not challenge oneself?</p>",
     quote: "Since 2013, we participate in an event, which became one of the biggest Czech psytrance festivals in history.\n\nThe festival is strictly non-commercial, you will not see any advertisements or sponsor logos, there will be a few carefully selected kiosks with related goods to expand local food and drink menu, as well as psychedelic clothings and accessories.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Burning Mountain Festival", start: "2026-06-25", end: "2026-06-28", location: "Zernez", country: "Switzerland", month: "June", tags: ["Burner", "Psytrance", "Arts"], tickets: true,
@@ -345,6 +570,14 @@ export const FESTIVALS = [
     description: "Psytrance festival at 1500m in the Swiss Alps. Campsite by the River Inn in the Engadine valley with flamethrowers, fire installations and top-tier lineups.",
     html_content: "<p>A chance to party high up in the Swiss Alps with Burning Mountain Festival!</p>",
     quote: "At 1500m above sea level, the Burning Mountain takes place in the middle of one of Europe's highest inhabited valleys: the Engadine! Come and enjoy the campsite next to the beautiful River Inn and relax in one of the most amazing spots along the PsyTrance circuit.\n\nFlamethrowers, dozens of performance artists, fire installations, a huge central fire, some say we're pyromaniacs. Maybe they are right. We just love to make the mountain burn!\n\nBurning Mountain has undoubtedly one of the most amazing lineups presenting year after year some of the finest progressive & psychedelic trance acts from all over the world. Immerse yourself in amazing lightshows and art installations!",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Château Perché Festival", start: "2026-06-25", end: "2026-07-06", location: "Bouville", country: "France", month: "June", tags: ["Techno", "Electronic"], tickets: false,
@@ -357,6 +590,14 @@ export const FESTIVALS = [
     description: "Enchanted castle rave in central France. Deep house and techno in a 200-artist, 3-day celebration of electronic music and alternative arts since 2015.",
     html_content: "<p>Each year, the Château Perché festival is a unique fusion of music, art, and culture. It appears at several castles around central France. It's a three-day celebration of rhythms, art, and culture including 200 local and international artists. It is like a dream come to life, but with less princes and more bass!</p>\n<p>The event was established in 2015 by the Auvergne group 'L'Atrabilaire Amoureuse'. The objective was to link the French history of old castles with a new wave culture, symbolized by electronic music and alternative arts. The first edition took place in the region of Auvergne, where its founders are from, but it has now spread to other areas in what is known as the 'diagonal of nothingness.' House, techno, and schneckno are just a few of the many electronic music genres represented in the soundtrack. The festival now lasts for three days due to how well it did.</p>",
     quote: "It is like a dream come to life, but with less princes and more bass.",
+    editorial: {
+      about: "Born in 2015, Château Perché takes over a different historic French château each year and turns it into an immersive world of music, costumes, art and workshops. The 2026 edition is a special format — two 5-day sessions with a limited capacity of 4,000 people each at Château de Vaux in Aube.",
+      vibe: "French phantasmagorical utopia. Everyone comes in costume. No big names — just talents. 24-hour music across stages ranging from mental techno to psytrance to live bands, wrapped in land art and monumental floral installations.",
+      sounds: "Melodic techno, progressive house, psychedelic trance, ambient, chill-out. 400+ artists across 6 stages, curated by 44 selectors. Deliberately eclectic.",
+      doNotMiss: "The workshops camp — 300 workshops across the weekend including movement, emotional connection, audiovisual performances and breathwork. It's not just a rave.",
+      tip: "Shuttles run from Paris, Lyon, Toulouse, Moulins and other cities. Costumes are strongly encouraged — arriving in regular clothes is technically allowed but you'll feel out of place immediately.",
+    },
+    poster: "/img/chateau.jpg",
   },
   
   {
@@ -369,6 +610,14 @@ export const FESTIVALS = [
     description: "Forest festival in Lithuania for 10 days of workshops, music, yoga and adventure. Balanced for families, couples and solo travellers in pine forest nature.",
     html_content: "<p>Masters of Calm is a festival held in the middle of the forest in Lithuania with a vibrant, welcoming atmosphere.</p>",
     quote: "Holidays, after which return not only rested, but inspired, met new friends, experienced many first-time, expanded the possibilities of your thoughts and body.\n\nDo you want quality rest and recharge until next summer? Experiences balanced for families, couples, friends and those who like to experience adventure alone or expand their circle of friends! Here you will definitely add new experiences to your adventure passport!\n\nThe festival will take place in beautiful nature, in the middle of the pine forest of the Asveja Regional Park Golden Forest.\n\nYou can come to the festival for a weekend, for five days or for the whole 10 days to enjoy the carefree tranquility of nature and the unusual routine full of adventure and discovery!",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Soria Gathering", start: "2026-06-26", end: "2026-06-30", location: "Sørøya island", country: "Norway", month: "June", tags: ["Electronic", "Mindfulness", "Offgrid"], tickets: true,
@@ -380,6 +629,14 @@ export const FESTIVALS = [
     description: "Electronic music festival on the Norwegian islands in the midnight sun. Dance floors, fire, art and bass — a pilgrimage to the north where the sun never sets.",
     html_content: "<p>Soria Gathering is an electronic dance music festival in the midnight sun of the spectacular Norwegian islands.</p>",
     quote: "A pilgrimage to the north, where the sun never sets.\n\nWe consider our dance floors as core elements of the festival journey. There will be fire, there will be art, there will be movement - there will be bass! And in the center of it, you!\n\nReplenish your energy levels. Join us for yoga, breath work or wind down with a sound-healing session.\n\nBeing at Værøy is an immersive experience with raw Nordic nature. The site an art piece in itself, go for an adventure, wander about and explore. All there to bring your attention to the present moment.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Nest Microfest", start: "2026-06-12", end: "2026-06-14", location: "Pontons, Barcelona", country: "Spain", month: "June", tags: ["Electronic", "Mindfulness", "Offgrid"], tickets: true,
@@ -391,6 +648,14 @@ export const FESTIVALS = [
     description: "Micro-festival in the vineyards and pine forests of Alt Penedès, one hour outside Barcelona, with three stages powered by custom BORIS Soundsystems and a retreat spirit.",
     html_content: "<p>NEST is a Barcelona-based micro-festival held in the vineyards and pine forests of the Alt Penedès hills, one hour outside the city. The setting feels worlds away from urban life, surrounded by countryside that the festival circuit considers one of the most charming in the Barcelona area.</p><p>Musically, NEST balances deep house and downtempo with a broad spectrum of underground electronic music across three distinct stages, each powered by custom-built BORIS Soundsystems. Beyond the music, a retreat spirit pervades: camping in nature, yoga sessions, creative workshops, and an emphasis on genuine community connection.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Fusion Festival", start: "2026-06-24", end: "2026-06-28", location: "Lärz", country: "Germany", month: "June", tags: ["Electronic", "Techno", "Psytrance", "Burner", "Arts"], tickets: true,
@@ -402,6 +667,14 @@ export const FESTIVALS = [
     description: "Europe's legendary non-commercial cultural gathering on a former Soviet airbase in Lärz, Germany — volunteer-run, sponsor-free, and defined by radical creativity and collective self-organization.",
     html_content: "<p>Fusion Festival is one of Europe's most legendary non-commercial cultural gatherings, held annually on a former Soviet airbase at Lärz in the Mecklenburg lakeland of Germany. Run entirely by the Kulturkosmos collective on a volunteer and non-profit basis, the festival operates outside the mainstream music industry — no sponsorship, no VIP areas, and a strict no-photography policy that protects the freedom and anonymity of its community.</p><p>Over five days and nights, thousands gather across dozens of hand-built stages and art installations to experience techno, trance, house, ambient, and experimental music in an environment defined by radical creativity and collective self-organization. The result is less a festival and more a temporary autonomous city — part art project, part political statement, part all-night dance.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Friends of Friends Festival", start: "2026-06-26", end: "2026-06-28", location: "London Waterloo", country: "UK", month: "June", tags: ["Electronic", "Mindfulness", "Offgrid", "Arts"], tickets: true,
@@ -413,6 +686,14 @@ export const FESTIVALS = [
     description: "Independent electronic music gathering in a lakeside forest setting celebrating inclusivity and diversity, blending house, techno, jungle, and live bands from grassroots and international acts.",
     html_content: "<p>Friends of Friends Festival is an intimate, independent electronic music gathering celebrated over the summer solstice in a lakeside setting framed by willow trees and surrounded by woodland. Launched in 2023, the festival is built around inclusivity, diversity, and sustainability, with a curatorial emphasis on festivals as places of freedom and connection.</p><p>The musical offering spans a remarkable breadth: house, disco, techno, jungle, and live electronica sit alongside soul, funk, samba, psychedelic rock, and jazz. The festival prides itself on platforming grassroots acts alongside renowned international artists, enriched by Caribbean food vendors, interactive installations, and a community-first atmosphere that blurs the lines between attendees and organizers.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   // JULY
   {
@@ -425,6 +706,14 @@ export const FESTIVALS = [
     description: "Psychedelic, heavy rock and electronic festival on Croatia's Mrežnica river. Stunning art installations, live bands and DJ sets in a vibrant dreamland.",
     html_content: "<p>The Bear Stone Festival is set in a stunning location on the river banks of Mrežnica in Croatia. Prepare for your perception of life to change as you lose track of time in this colourful vibrant dreamland of colour, music, and art.</p>",
     quote: "Welcome to Bear Stone Festival the first of its kind. An audio-visual experience and international gathering of travellers and tribes in the Croatian outback. Two days of psychedelic, desert, fuzz, heavy rock, electronic and experimental music accompanied by live bands, DJ sets and a Jam stage. Stunning landscapes, fantastic psychedelic art installations, and projections will shape a unique festival experience and make you re-examine reality.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Rampage Open Air", start: "2026-07-02", end: "2026-07-05", location: "Lommel", country: "Belgium", month: "July", tags: ["Electronic"], tickets: true,
@@ -436,6 +725,14 @@ export const FESTIVALS = [
     description: "Biggest drum and bass and dubstep festival in the universe. Two days of bass music in Werchter, Belgium with 30+ artists shaking the arena.",
     html_content: "<p>Rampage is the biggest drum and bass and dubstep party in the universe! Experience two days of the best of bass music in the heart of Belgium.</p>",
     quote: "More than 30 artists will be shaking the arena to its very foundations, with, for the very first time, a fully dedicated Rampage Resort for ravers only! The annual highlight of bass music is about to be even bigger than ever before: the Rampage community is stronger than ever and the team has vowed to present a show that surpasses anything and everything anyone has ever seen before.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Third Eye Festival", start: "2026-07-03", end: "2026-07-06", location: "Wilhelmsburg", country: "Germany", month: "July", tags: ["Techno", "Electronic", "Psytrance", "Offgrid"], tickets: true,
@@ -447,6 +744,14 @@ export const FESTIVALS = [
     description: "Electronic music and arts festival in the forest south of Berlin. Techno, ambient, yoga, meditation and visual art for self-discovery and healing.",
     html_content: "<p>Third Eye Festival is an electronic music festival in the south of Berlin in the forest.</p>",
     quote: "Immerse yourself in a curated selection of Techno/Deep Techno & Ambient/Experimental DJs and Live performances, as our festival invites you on a transformative musical odyssey that resonates with the mind, body, and soul. Prepare to be swept away by a comprehensive musical experience that transcends boundaries and captivates every sense.\n\nExplore the profound potential of music, visual art, collective painting, yoga, and meditation as powerful tools for self-discovery and healing. Our festival serves as a guiding light on the path to personal and global transformation, fostering a nurturing environment where creative expression knows no bounds.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Surya Spirits Festival", start: "2026-07-03", end: "2026-07-06", location: "Gent", country: "Belgium", month: "July", tags: ["Psytrance", "Mindfulness"], tickets: true,
@@ -458,6 +763,14 @@ export const FESTIVALS = [
     description: "Psytrance and wellness fusion festival in the endless woods of the Ardennes, Belgium. Daytime, family-friendly and close to Ghent in a gorgeous natural setting.",
     html_content: "<p>Surya Spirits Festival is a trance-fusion of dance and well-being located in the endless woods of The Ardennes.</p>",
     quote: "Surya SpiritS Festival is a trance-fusion of dance and well-being. This daytime family friendly festival is located in a gorgeous natural setting near Ghent.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Lithica Gathering", start: "2026-07-06", end: "2026-07-12", location: "Tessanden", country: "Norway", month: "July", tags: ["Offgrid", "Mindfulness"], tickets: true,
@@ -469,6 +782,14 @@ export const FESTIVALS = [
     description: "Wild human rewilding experiment in Norway. Multi-generational clan living in pristine nature — a gathering to reclaim wild spaces for wild humans.",
     html_content: "<p>The Lithica Gathering is an immersive, week-long wilderness and ancestral skills event set in the Scandinavian wilderness. Rooted in the 'Rewilding Humans' movement, it focuses on reviving traditional crafts, living as a community, and reconnecting with nature.</p>",
     quote: "The Lithica project has been maturing over years, with many people under many names. Our collective deep quest is to find and buy a large tract of land where we could live wildly and invite as many people as possible to rediscover their inner Wildness.\n\nWe even dream of a network of such places, so that, like the old days, we could experience a nomadic or semi-nomadic lifestyle. \n\nLithica is no longer a dream but a movement gaining interest in many places all over the world. In this moment it’s private people pledging to turn a piece of their backyard into their wild Lithica zone, and several groups talking and discussing buying land together.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Elsewhere Festival", start: "2026-07-07", end: "2026-07-12", location: "Zaragoza", country: "Spain", month: "July", tags: ["Burner", "Arts", "Offgrid"], tickets: true,
@@ -479,6 +800,14 @@ export const FESTIVALS = [
     soundcloud: null,
     description: "Elsewhere (often referring to Elsewhere Spain) is an official regional Burning Man event and temporary community based in the Spanish desert near Zaragoza. Founded by the 'Nobodies Collective', it replaced the former Nowhere festival, embracing the exact same radical, cash-free principles of self-expression, gifting, and leaving no trace",
     html_content: "<p>Elsewhere (often referring to Elsewhere Spain) is an official regional Burning Man event and temporary community based in the Spanish desert near Zaragoza. Founded by the 'Nobodies Collective', it replaced the former Nowhere festival, embracing the exact same radical, cash-free principles of self-expression, gifting, and leaving no trace</p>\n<p>What happens at Nowhere? A lot of things! Basically, what happens and what is there is what you bring with YOU, what YOU want to share. And, what the other participants want to share. This can be an art project, performance project, innovation project, workshop, event, art-car, barrio.</p>\n<p><em>Nowhere Festival</em> is Spain's answer to Burning Man and is a week of music, art installations and strangeness out in the desert of Northern Spain. Similar to Burning Man, <em>Nowhere Festival</em> is based on the core principles of self-expression, nature, love and self-reliance.</p>\n<p>Instead of a standard music festival with booked headliners, Elsewhere is entirely participatory. Attendees co-create the event from scratch, building a temporary city in the hot, dusty landscape. It is a week of art installations, theme camps, workshops, and music around the fire, fueled entirely by what the community brings.</p>",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Slot Art Festival", start: "2026-07-08", end: "2026-07-12", location: "Lubiąż", country: "Poland", month: "July", tags: ["Arts", "World Music"], tickets: true,
@@ -490,6 +819,14 @@ export const FESTIVALS = [
     description: "Five-day alternative culture festival inside a Polish monastery. Punk rock, Christian spirituality and independent art over dozens of workshops and concerts.",
     html_content: "<p><em>The Slot Art Festival</em> is held inside the compound of an old monastery giving a surreal, timeless backdrop to all the great art installations and music held over the 5 days.</p>\n<p>There are elements of punk rock, Christian spirituality and alternative culture in this festival.</p>",
     quote: "The Slot Art Festival is one of the largest alternative culture festivals in Poland. It's five days filled with dozens of workshops, concerts, parties, films, and seminars. It's also something much more - five days away from the daily rat race, battles and rush.\n\nWe're intrigued by fresh, new, seeking ideas in culture which are often missing in popular media forms. We value independent, authentic artists who create because of an inner need to express themselves and not because of the dictates of specialists who want more profit and sales.\n\nFor many that means realizing one's ideas based on the philosophy of DIY (Do It Yourself). We look for artists/performers who treat the public and their message seriously, and who are not so self-absorbed in themselves or their art. We also look for a public who is not interested in a one-sided view of things or in just consuming, but who are interactive, willing to dialog, cooperate, and experience something together with others.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Body Love Festival", start: "2026-07-09", end: "2026-07-13", location: "Bavaria", country: "Germany", month: "July", tags: ["Mindfulness"], tickets: true,
@@ -501,6 +838,14 @@ export const FESTIVALS = [
     description: "Weekend festival of ecstatic dance, contact improv and twerk/yoga with live music in a former Botanic Garden eco-village, 90 minutes from Berlin.",
     html_content: "<p>Body Love Festival features ecstatic dance, contact improv and twerk/yoga with live music sets in a country setting.</p>",
     quote: "A weekend dedicated to movement, connection, and community. Just 90 minutes from Berlin, join us at 'Wir bauen Zukunft' - a former Botanic Garden turned eco-village - for a truly unique experience.\n\nWhat you can expect: Come reconnect with your body through music, dance, and shared moments with an international community. From movement practices to live music, this is a space where you can freely express yourself and enjoy a sense of togetherness.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Silva Festival", start: "2026-07-09", end: "2026-07-11", location: "Unnaryd", country: "Sweden", month: "July", tags: ["Offgrid", "Mindfulness"], tickets: true,
@@ -513,6 +858,14 @@ export const FESTIVALS = [
     description: "Off-grid electronic and world music festival deep in the Swedish forest. Floating sauna, beautiful lake stage, sustainable energy and diverse workshops.",
     html_content: "<p>The Silva Festival in Sweden is a 3-day outdoor forest music and nature festival held in Unnaryd. It acts as a community-focused gathering centered around music from around the world, creative workshops, dancing under the trees, and immersive nature experiences suitable for both adults and children.It serves as the spiritual continuation and next chapter of the former Into the Woods festival.</p>",
     quote: "A three-day forest festival with music from all corners of the world, creative and playful workshops, dancing beneath the stars and treetops, meaningful encounters, and community. A playground in the forest for you and your crew, big and small. Check out the program here.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Kosmos Festival", start: "2026-07-09", end: "2026-07-12", location: "Ristiina", country: "Finland", month: "July", tags: ["Electronic", "Psytrance"], tickets: true,
@@ -524,6 +877,14 @@ export const FESTIVALS = [
     description: "Popular electronic and psytrance festival in Finnish nature. Drum and bass, techno, psytrance and suomisaundi with healing and circus shows.",
     html_content: "<p>Kosmos Festival is an extremely popular electronic music fest in the Finnish nature.</p>",
     quote: "Kosmos Festival is a gathering of a wide variety of people. The program offers anything from wild drum'n'bass and techno to all kinds of psytrance and, of course, our national heritage - suomisaundi.\n\nThe newly organized Oasis area is all things relaxing, educational and healing. Live bands and circus shows offer organic enjoyment as a balance to the electronic program. All in all, you have endless possibilities to enjoy your time, meet loads of new people and get in touch with the forest spirit.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Ritual Gatherings", start: "2026-07-10", end: "2026-07-12", location: "Cape Akra", country: "Bulgaria", month: "July", tags: ["Electronic", "Mindfulness"], tickets: true,
@@ -535,6 +896,14 @@ export const FESTIVALS = [
     description: "Ritual Gatherings is an intimate, boutique music and lifestyle festival held annually on the Black Sea coast in Bulgaria, usually near the ancient Fortress Akra in Chernomorets. It blends electronic and ambient music with wellness practices, art, and community living to create a holistic festival experience.",
     html_content: "<p>Ritual Gatherings is an intimate beach festival from friends for friends where music, art, food and mindfulness blend into an unforgettable Ritual.</p>",
     quote: "Ritual Gatherings is an intimate beach festival from friends for friends where music, art, food and mindfulness blend into an unforgettable Ritual. An unmatched experience on Cape Akra, Chernomorets, at the Bulgarian Black Sea coast. A geographically unique location, where you can observe both the sunset and the sunrise.\n\nAs you step into our enchanting realm, you're not just attending an event, you're becoming part of a community, a family. And no, that's not just another festival using the buzz word. Our very founders are a brother and a sister and their life-long best friends, who live to meet and chat to as many of their guests as possible, so when we say family we actually do mean it.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Stone Techno Festival", start: "2026-07-10", end: "2026-07-12", location: "Essen", country: "Germany", month: "July", tags: ["Electronic", "Techno"], tickets: false,
@@ -547,6 +916,14 @@ export const FESTIVALS = [
     description: "Rigorously curated three-day techno festival at the UNESCO World Heritage Zeche Zollverein industrial complex in Essen.",
     html_content: "<p>Stone Techno Festival is held each July at Zeche Zollverein, a former coal mine in Essen that has been a UNESCO World Heritage Site since 2001 and one of the most architecturally striking festival venues in Europe. Presented by The Third Room collective in collaboration with Foundation Zollverein, the festival is built around a philosophy of trust-based curation and audience literacy — it does not sell headliners, it builds programmes. The monumental industrial architecture of the complex — steel towers, machine halls, loading bays — provides a raw spatial environment that amplifies the music rather than competing with it, and the festival's emphasis on long-form listening, high-quality acoustics, and immersive atmosphere over spectacle makes it feel closer in spirit to a serious club than an outdoor festival.</p><p>The 2026 curation series deepens the format: the most influential artists in contemporary techno each receive extended stage control, designing both the sound and the visual environment of their floor. A dedicated Listening Floor introduces a space for experimental and ambient work, where stillness is as valid a response as movement. Stone Techno is an expression of the Ruhr area's character — a region shaped by solidarity, transformation, and an earned relationship with heavy machinery — and the festival wears that identity with conviction.</p>",
     quote: null,
+    editorial: {
+      about: "Techno festival on the grounds of UNESCO World Heritage Site Zollverein — a former coal mine in Essen with towering headframes and brutalist architecture. Around 8,000 people across five stages, including a new circular amphitheatre for ambient and experimental sets in 2026.",
+      vibe: "Industrial heritage meets underground techno. No-phone policy on many dancefloors. Focused on the music rather than social media. The setting does half the work — there's nothing quite like dancing between preserved mining machinery.",
+      sounds: "Deep, serious techno. Past headliners include Ben Klock, DVS1, Helena Hauff, Aurora Halal. 120+ artists in 2026.",
+      doNotMiss: "The new ambient amphitheatre — a deliberately slowed-down stage that provides a meditative counterpoint to the main areas. Rare at a techno festival of this scale.",
+      tip: "Düsseldorf (45 minutes by regional train) offers far more accommodation options than Essen. Book by February — Zollverein's growing reputation fills the city fast.",
+    },
+    poster: "/img/Stone-Techno-Festival-2026-Lineup-Poster.webp",
   },
   {
     name: "Awakenings Festival", start: "2026-07-10", end: "2026-07-12", location: "Hilvarenbeek", country: "Netherlands", month: "July", tags: ["Electronic", "Techno"], tickets: true,
@@ -559,6 +936,14 @@ export const FESTIVALS = [
     description: "Awakenings Festival is the ultimate techno holiday! The festival grounds at Hilvarenbeek are the perfect backdrop for a weekend full of new discoveries, memories and a lot of techno madness. With 80.000 visitors from over 80 countries in a weekend Awakenings Festival is the highlight of Europe's techno music calendar.",
     html_content: "<p>Every summer, the Netherlands transforms into the heart of the global techno scene with Awakenings Festival — a world-renowned electronic music festival celebrated for its immersive atmosphere, cutting-edge production, and legendary lineups. Surrounded by the natural beauty of Hilvarenbeek, the festival brings together thousands of music lovers from across the globe for several unforgettable days of pounding techno, mesmerizing visuals, and open-air stages designed with extraordinary attention to detail. From sunrise sets to late-night performances, Awakenings creates a powerful experience where music, freedom, and connection come together in perfect harmony.</p><p>Known for hosting some of the biggest names in techno and underground electronic music, Awakenings Festival offers far more than just performances — it delivers a complete cultural escape. Visitors can enjoy camping under the stars, interactive art installations, vibrant food areas, and a welcoming international community united by a shared passion for electronic music. Whether you are a dedicated techno enthusiast or discovering the scene for the first time, Awakenings stands out as one of Europe's most iconic festivals and an essential destination for anyone seeking an electrifying summer experience.</p>",
     quote: null,
+    editorial: {
+      about: "Started as a club night in Amsterdam in 1997, Awakenings has grown into the world's largest dedicated techno festival. 80,000 visitors from over 80 countries across three days at Beekse Bergen in Hilvarenbeek, eight stages, 120+ artists.",
+      vibe: "The closest thing to a techno church at festival scale. Massive production, serious crowd, no concessions to the mainstream. Zero compromise on the programming — pure techno since the 1990s.",
+      sounds: "Pure techno. Industrial, acid, melodic — all subgenres, no house crossovers, no commercial headliners. Past artists include Carl Cox, Adam Beyer, Charlotte de Witte, Amelie Lens, Richie Hawtin.",
+      doNotMiss: "The tent structures — giant covered stages that host some of the most intense sets of the weekend. The production inside is extraordinary.",
+      tip: "Camping is available and worth it. Weekend passes sell fast — often before the full lineup is announced. Budget €300–380 for a full weekend ticket.",
+    },
+    poster: "Awakenings-Festival-2026-Lineup-Poster-2.webp",
   },
   {
     name: "Butik Festival", start: "2026-07-14", end: "2026-07-18", location: "Tolmin", country: "Slovenia", month: "July", tags: ["Electronic", "Techno", "Offgrid"], tickets: false,
@@ -571,6 +956,14 @@ export const FESTIVALS = [
     description: "Intimate boutique festival at the confluence of two alpine rivers in the Soča Valley, Slovenia, capped at 2,500 people.",
     html_content: "<p>Butik Electronic Music Festival is one of Europe's most scenically extraordinary small gatherings, set at the exact point where the emerald-green Soča and the ice-cold Tolminka rivers meet, framed by the dramatic limestone peaks of the Julian Alps and the edge of Triglav National Park. Capped at 2,500 people and running across five days in July, it operates on a deliberate \"less is more\" philosophy — high-quality sound and tight capacity in service of preserving what organizers call the magical, pristine nature of the valley. Two contrasting stages shape the experience: the sun-drenched Beach Stage where you dance on river pebbles and cool off between sets in glacial water, and the Forest Stage tucked deep in the trees, where nighttime light installations make the forest itself feel alive.</p><p>The music draws from underground house, techno, electro, disco, and Italo, mixing internationally recognized selectors with rising Slovenian talent in a lineup that rewards curiosity. Daytime hours are unhurried — swimming, workshops, communal meals — before the energy builds into immersive late-night floor sessions that run until the mountains catch the light again. Butik is built on ecological consciousness, genuine warmth toward the local community, and a culture of respectful, conscious interaction. For a certain kind of music lover, discovering that such a festival exists in such a place feels like finding something that was never meant to be found.</p>",
     quote: null,
+    editorial: {
+      about: "Founded in 2019, Butik caps at 2,500 to 3,000 people and sits at the confluence of the emerald-green Soča and the ice-cold Tolminka rivers in the Julian Alps. One of the most beautiful festival sites in Europe. Majority of attendees come from Germany, Netherlands, Austria, Slovenia and France.",
+      vibe: "Intimate, relaxed, happy. The kind of festival where you swim in a turquoise alpine river in the afternoon and dance barefoot in the sand at night. Nobody's on their phones — not by policy, just by vibe.",
+      sounds: "Techno, house, electro, breaks, disco and everything in between. Boutique capacity with an international circuit lineup — artists like Sonja Moonear, Gerd Janson, Ryan Elliott have all played here.",
+      doNotMiss: "The Forest Stage — tucked away in the trees, feels completely hidden from the world. One of the most magical dance floors in Europe according to everyone who's been.",
+      tip: "The Soča river is alpine cold even in July — swim with confidence and respect the current. Within 2 hours of Ljubljana, 3.5 hours of Zagreb.",
+    },
+    poster: "Butik-2026-Lineup-Poster.webp",
   },
   {
     name: "Caia Tribe Gathering", start: "2026-07-15", end: "2026-07-19", location: "Steyerberg", country: "Germany", month: "July", tags: ["Mindfulness"], tickets: true,
@@ -581,6 +974,14 @@ export const FESTIVALS = [
     soundcloud: null,
     description: "Holistic gathering of 300 at one of Germany's oldest eco-villages. Ecstatic dance, yoga, breathwork, cacao ceremony and organic food in Steyerberg.",
     html_content: "<p>The CAIA academy invites up to 300 people to celebrate life, nature, and the joy of being together at the Lebensgarten Steyerberg, one of the oldest eco-villages in Germany.</p>\n<p>The CAIA Tribe Gathering represents holistic awareness, community, creativity, sensitivity, authenticity, self-development, presence, appreciation, and sustainability.</p>\n<p>Amidst the beautiful flora and fauna of the Lebensgarten Steyerberg with its big permaculture garden, the aim is to collectively embrace the future and experience a new way of being together. Participants are encouraged to express themselves in their unique way, celebrating life, the universe, and the wonders that surround them.</p>\n<p>What to expect at the CAIA Tribe Gathering:</p>\n<p>- We celebrate life, the universe, and the wonders that surround us.<br/>\n- We sing together around the campfire.<br/>\n- We dance in an exhilarating Ecstatic Dance.<br/>\n- We meditate in silence and with dynamic, lively practices.<br/>\n- Guided breathwork sessions help us breathe consciously.<br/>\n- In yoga sessions, we engage both mind and body, covering everything from Acro to Yin Yoga.<br/>\n- We eat together tasty regional, seasonal, vegan, organic food with vegetables from our permaculture garden.</p>",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Kolorádó Festival", start: "2026-07-15", end: "2026-07-19", location: "Káloz", country: "Hungary", month: "July", tags: ["Offgrid", "Electronic", "Techno", "World Music"], tickets: true,
@@ -592,6 +993,14 @@ export const FESTIVALS = [
     description: "Signal-free festival in Káloz near Budapest. Switch off and enjoy culture, camping, forest adventures and community vibes.",
     html_content: "<p>The Kolorádó Festival is an intimate, nature-focused music and arts festival held in Hungary. The festival is known for its free-spirited vibe, blending a diverse array of musical genres with an eco-conscious, regenerating environment. </p>",
     quote: "We’re creating an ecosystem where music, art, and nature shape everyday life. We can explore new ways of festival-making and festival-going, offering a conscious alternative to an increasingly fast-paced and alienating cultural environment. \n\nIn our new location, Káloz, we work regeneratively: reviving a dried-out lake system, building a permaculture farm, and reimagining old buildings, including Zichy Castle, with gardens and hidden paths. ",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Electric Castle Festival", start: "2026-07-16", end: "2026-07-19", location: "Bánffy Castle, Bonțida", country: "Romania", month: "July", tags: ["Electronic"], tickets: true,
@@ -603,6 +1012,14 @@ export const FESTIVALS = [
     description: "Five-day electronic music festival at the 15th-century Bánffy Castle in Transylvania, Romania. 250+ artists, new media installations and 24/7 camping.",
     html_content: "<p>Electric Castle is a five-day electronic music festival that takes place in the Transylvanian domain of Bánffy Castle. Explore the unique Romanian sights by day and catch major electronic acts by night.</p>",
     quote: "Electric Castle is loved by 250,000+ people every year for its unique and immersive 4 day & 24/7 experience, awarded by the music festival industry for its relentless quality and appreciated by thousands of artists worldwide.\n\nTaking place next to the iconic 15th-century Bánffy Castle, at the heart of Transylvania, Electric Castle surprises at every edition with a diverse lineup, of more than 250 local & international artists, touching a mix of genres, with new media installations & performances and disruptive talks.\n\nWith one of Europe's best festival campings, EC Village is a temporary home for a community that returns each year for a memorable adventure.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Yaga Gathering", start: "2026-07-16", end: "2026-07-20", location: "Šilutė district", country: "Lithuania", month: "July", tags: ["Psytrance", "Mindfulness", "Arts", "Offgrid"], tickets: true,
@@ -613,6 +1030,14 @@ export const FESTIVALS = [
     soundcloud: null,
     description: "Psychedelic open-air gathering in Lithuania since 2003. Alternative lifestyle, trance, healing arts, electronic music and holistic therapy.",
     html_content: "<p><em>The Yaga Gathering</em> is a psychedelic open-air gathering held in Lithuania each year. The festival first started in 2003 and has slowly grown since then. It's the usual New Age and pagan themes with a total absence of advertisement or brand names.</p>\n<p><em>The Yaga Gathering</em> is a combination of alternative lifestyle, music and arts. Events include trance, the healing arts, electronic music, handicrafts, holistic therapy and wellness activities. The festival is very eco-friendly and goes to extremes to preserve nature.</p>\n<p><em>The Yaga Gathering</em> is not sponsored by any organization and is strictly supported by ticket sales.</p>",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "The Festival of Creativity", start: "2026-07-17", end: "2026-07-26", location: "Ticha-Dolní Dvořiště", country: "Czech Republic", month: "July", tags: ["Arts", "Mindfulness", "Offgrid"], tickets: true,
@@ -623,6 +1048,14 @@ export const FESTIVALS = [
     soundcloud: null,
     description: "Intimate 125-person creative festival in Czech forest hills. All-inclusive week of workshops from dance to fire-making, nightly campfire singing.",
     html_content: "<p>The Festival of Creativity is a different kind of festival. There are just 125 places available and all the food is included over the week of camping in the forested hills of the Czech Republic.</p>\n<p>All day long you make creative workshops ranging from dance to shiatsu to fire making, and all night you sing and make music around the fires.</p>\n<p>Each person attending is invited to also teach something if they feel motivated and the atmosphere is a cosy one where you make new friends at each food circle.</p>",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "WHOLE", start: "2026-07-17", end: "2026-07-20", location: "Berlin", country: "Germany", month: "July", tags: ["Electronic", "Techno"], tickets: true,
@@ -635,6 +1068,14 @@ export const FESTIVALS = [
     description: "The world's largest queer electronic music festival, held in a former open-pit mine in Brandenburg, uniting music, politics, and liberation.",
     html_content: "<p>WHOLE Festival is, by most measures, the world's largest queer electronic music festival — drawing 9,000 attendees to Ferropolis, a former brown coal mining site in Brandenburg, for three days each summer in an environment that could not be more different from Berlin's underground clubs and yet feels like their most natural extension. Founded in 2017 by a collective of Berlin party organizers, the festival creates what it calls a queer utopia: a temporary autonomous space in nature, away from the city's conventions, where diverse expressions of gender, sexuality, and identity are not merely tolerated but actively cared for. Nudism, communal swimming, and bodily liberation feature alongside the music as acts of the same politics. Community tickets, free entry for disability accompaniment, and expanded solidarity programs for refugees, people of colour, trans individuals, and those facing economic hardship make inclusion structural rather than rhetorical.</p><p>The sonic landscape is as diverse as the community it serves: international collectives representing Brazilian QBIPOC artists, femme-focused labels, trans-centered scenes, Central Asian underground culture, and the full sweep of contemporary club music — house, techno, bass, experimental, and Latin rhythms — share the bill without hierarchy. WHOLE is explicit that queer liberation is part of a broader fight against oppression, and it makes that argument through the specific joy of 9,000 people dancing in a field that used to be a mine, in a country where that kind of joy still carries political weight. There is nowhere else quite like it.</p>",
     quote: null,
+    editorial: {
+      about: "Now in its eighth edition, WHOLE transforms Ferropolis — the 'City of Iron', a former mining site near Berlin with colossal excavators — into a 72-hour queer festival. Six stages, community spaces, talks, workshops, and a global network of queer nightlife collectives.",
+      vibe: "Colossal industrial machines as altars for a community that refuses to stay hidden. Hyper-pop surrealism meets Y2K futurism. An ecosystem rather than a festival — music, performance, and social reflection woven together.",
+      sounds: "Techno, house, bass music, experimental electronics. Arena brings hard-hitting techno; Forest stage sees breakbeat and genre-blurring sets; Beach stage offers sun-soaked house. 2026 features Miss Kittin, HAAi, SHERELLE and more.",
+      doNotMiss: "The community spaces and talks — WHOLE's discourse around queer care, intimacy and collective organising is as much a part of the festival as the dancefloors.",
+      tip: "Ferropolis is about 90 minutes from Berlin by car. Camping is on-site. Accommodation books fast — plan early.",
+    },
+    poster: "/img/Whole-Festival-2026-Lineup-Poster.jpg",
   },
   {
     name: "Borderland", start: "2026-07-20", end: "2026-07-26", location: "Skåne", country: "Sweden", month: "July", tags: ["Burner", "Arts"], tickets: true,
@@ -646,6 +1087,14 @@ export const FESTIVALS = [
     description: "Swedish co-created gathering run by participants, not spectators. Hugs are currency, places by lottery — a week of community and creativity.",
     html_content: "<p><em>Borderland</em> is a festival gathering sustained by co-creators rather than spectators. A place to be and basic amenities are provided, but otherwise, hugs are the only currency.</p>\n<p>It's very hard to get a place, however, and a lottery is held usually in February to see who gets to buy a ticket...</p>\n<p>It's on every co-creator to arrive with all that they need for sleeping and eating, with an eager readiness on hand to be a part of our entertainment of inner growth and generous giving of hugs.</p>\n<p><em>Borderland</em> encourages people to create as their whimsy dictates, so long as one's whimsy is not about trashing the place. There are no tickets. You just register for a membership, pay a small fee, and that's it. The festival runs strictly on a volunteer basis with no sponsorship. Capitalism has no place at Borderland. Indeed, the buying or selling of goods on the premises is strictly verboten. Rather the entire week is for focusing on a world inside ourselves, sustaining our chi on hugs, community, and the giving of gifts over all else.</p>",
     quote: "The Borderland is an event and community of people who create together. It's the liminal space between dreams and realities, it's borders delimited only by your fancy and fantasies. It's a growing community of people of different backgrounds, interests, outlooks and skills.\n\nBorderland is made by its participants and everyone's involved. That's why we have memberships instead of tickets. No preconditions exists for being a member since capacity at the event is limited they're sold by lottery.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
 
   {
@@ -659,6 +1108,14 @@ export const FESTIVALS = [
     description: "Five-day electronic music and arts festival across Puglia's masserias and Adriatic beaches, blending underground sound with Mediterranean soul.",
     html_content: "<p>Polifonic Festival is a five-day celebration of electronic music and Mediterranean culture held each July across multiple venues in Puglia's Valle d'Itria — a landscape of olive groves, whitewashed trulli, and coastline that seems to exist for exactly this kind of event. The main stage is Masseria Capece, a stone-walled farmhouse flanked by ancient trees, where the air feels different and, as the crew notes, \"makes you feel lighter.\" From there, the festival spills outward to Cala Maka and Le Palme Beach Club overlooking the Adriatic, turning the entire region into a living programme that moves between dusk at the masseria and sunrise on the sea. Describing itself as a \"Made in Italy brand with a Mediterranean twist,\" Polifonic is genuinely committed to the territory — exploring how art, food, and music can root themselves in place rather than simply passing through.</p><p>The programming reflects a serious underground sensibility without tipping into obscurity: the festival has hosted Laurent Garnier, Carl Craig, and Moodymann alongside emerging figures from techno, left-field house, and experimental electronics, always seeking artists who can hold a dancefloor and something more. The 2026 edition organizes itself around the theme \"Sensory Bloom\" — a heightening of the senses through sound, light, and space that captures the festival's ambition to be felt rather than merely attended. At Polifonic, the music doesn't happen despite the landscape; it happens because of it.</p>",
     quote: null,
+    editorial: {
+      about: "Now in its eighth edition, Polifonic takes place across three distinct locations in the Valle d'Itria in Puglia — a medieval masseria, a beach club, and a coastal venue. Five days, 63+ artists, an annual theme. 2026's theme is 'Sensory Bloom'.",
+      vibe: "Olive groves, trulli, Adriatic light and some of the most carefully considered lineups in Europe. Small enough to feel boutique, big enough to have a real community.",
+      sounds: "Underground and intentionally diverse. Carl Craig b2b Moodymann, Donato Dozzy, Ben UFO, Sama' Abdulhadi, Shackleton live, A Guy Called Gerald live. A full spectrum of sound across the Itria Valley.",
+      doNotMiss: "Masseria Capece on Friday and Saturday — the ancient stone farmhouse surrounded by centuries-old olive trees. The acoustics and atmosphere are unlike anywhere else.",
+      tip: "Arrive early on each day. The daytime programming at the masseria during golden hour is one of the most beautiful festival experiences in Italy.",
+    },
+    poster: "/img/Polifonic.jpg",
   },
   {
     name: "Feel Festival", start: "2026-07-23", end: "2026-07-26", location: "Lichterfeld, Brandenburg", country: "Germany", month: "July", tags: ["Electronic", "Techno", "Mindfulness", "Arts"], tickets: true,
@@ -670,6 +1127,14 @@ export const FESTIVALS = [
     description: "Music and arts festival near Berlin with 10 stages, yoga, meditation and art workshops. Half-pipe skateboarding and beautiful beach lakes nearby.",
     html_content: "<p><em>Feel Festival</em> is a music-focused festival but many other activities like yoga, guided meditations, and art workshops are being offered. They even have a half-pipe for skateboarding! The festival area is surrounded by beautiful beaches so you can always try water sports as well.</p>",
     quote: "The 2026 Feel Festival will take place under the motto Feel Unterwegs - Gemeinsam Grenzen überwinden.\n\nWe live in a world full of boundaries - visible and invisible. Boundaries that actively separate people instead of connecting them. Boundaries between countries, genders, identities, realities of life, or even rich and poor. Boundaries that dictate where we belong, how we should live, and whom we should love.\n\nIn order to overcome these boundaries together, we must keep moving and not fall into stagnation and powerlessness. We must have the courage to embrace the new, to cast off old baggage and leave familiar paths behind. We seek encounter, not division, because on every journey we encounter stories, voices, and experiences that offer us the chance to broaden our perspectives - beyond origin, language, sexual orientation, or beliefs.\n\nLook forward to ten lovingly designed stages - each with its own world and its own sound, from hip hop and techno to house, disco, and live music. Established artists and newcomers alike will come together here.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Ozora Psychedelic Festival", start: "2026-07-24", end: "2026-08-04", location: "Dádpuszta", country: "Hungary", month: "July", tags: ["Psytrance", "Electronic", "Techno", "World Music"], tickets: true,
@@ -682,6 +1147,14 @@ export const FESTIVALS = [
     description: "Hungary's biggest psychedelic tribal gathering in Dádpuszta. One week of psytrance, massive art constructions and thousands of interesting people.",
     html_content: "<p>Ok, Ozora is a big festival and mostly we're about small events and gatherings on this site but as long as you don't think psytrance music should have remained in the 20th century and would rather listen to music that sounds good even when you're not on drugs, then you might enjoy the acts at Ozora. But there are also a lot of other cool things going on and some amazing constructions and plenty of interesting people who congregate each year at Ozora.</p>",
     quote: "The experience of a parallel existence created by our diversely colored dreams and visions of the same pure unblemished space, paradise on earth, our fairy tale. Sweethomeozora. Where our respect and love of each other and all of Mother Earth's creatures can take root and bloom. A universe of openness and togetherness where we can evolve towards becoming one with cosmic energies, with nature, with consciousness, with wholeness through dance, trance, creation, invention, transformation and peace. Our playground where we learn to share and care, to express and connect, to create and heal, to unify and beautify the world around us and in us.",
+    editorial: {
+      about: "Started as a solar eclipse celebration in 1999, Ozora has become the world's most important psychedelic trance gathering. 12 days in the Hungarian countryside near Dádpuszta with around 25,000 to 30,000 attendees. Multiple stages including the iconic main stage, The Dome, Dragon Nest, Pumpui and Ambyss.",
+      vibe: "12-day tribal gathering for free spirits. Immersive art installations, holistic workshops, visionary art galleries. Not just a festival — a temporary society with its own philosophy and values.",
+      sounds: "Psychedelic trance is the heartbeat but the programming spans downtempo, world music, live electronica and ambient. Continuous 24/7 music across multiple stages.",
+      doNotMiss: "The main stage opening ceremony on Monday evening — after days of the valley slowly waking up, this is when Ozora officially begins.",
+      tip: "Budget in HUF locally — cash is practical for many vendors. The gate opens days before the official programme so early arrivals can settle in before it gets busy.",
+    },
+    poster: "/img/OZORA-Festival-2026-Lineup-Poster.jpg",
   },
   {
     name: "Castlefest", start: "2026-07-30", end: "2026-08-02", location: "Lisse", country: "Netherlands", month: "July", tags: ["Arts", "World Music"], tickets: true,
@@ -693,6 +1166,14 @@ export const FESTIVALS = [
     description: "Fantasy festival at Keukenhof Castle in Lisse, Netherlands. Young and old enter the Other World of medieval crafts, music and fantasy culture.",
     html_content: "<p>Castlefest is the Fantasy festival of the Netherlands. Enter a different world at this unique festival!</p>",
     quote: "A fest for young and old, where, as soon as you enter the gates, you find yourself in the Other World. Castlefest is a total experience with lots of music, fantasy writers, themed catering, medieval crafts and a large market which offers everything a fantasy fan is looking for.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Fengaros Festival", start: "2026-07-30", end: "2026-08-01", location: "Lumina, Kornos", country: "Cyprus", month: "July", tags: ["World Music", "Arts"], tickets: true,
@@ -704,6 +1185,14 @@ export const FESTIVALS = [
     description: "Annual music village festival in the Cypriot village of Kato Drys. Workshops in rhythm, voice, modal composition and improvisation for all levels.",
     html_content: "<p>Fengaros Festival is a summer experience of wonder and creativity in the Mediterranean village of Kato Drys on Cyprus.</p>\n<p>The workshops range from awakening inner rhythm, voice exploration training, modal music composition and improvisation.</p>",
     quote: "Fengaros hosts annual workshops in the picturesque village of Kato Drys in Cyprus. What in recent years has become a hub for knowledge exchange and creative collaboration, Fengaros Music Village will nurture a broad network of artists once more, ranging from music enthusiasts to amateurs to established professionals.\n\nThis year, the series of daily workshops will make up three main pillars that cover a range of topics within the scope of music and performing arts.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Hors Sol Festival", start: "2026-07-02", end: "2026-07-05", location: "Causse Noir, Cévennes", country: "France", month: "July", tags: ["Electronic", "Techno", "Offgrid", "Arts"], tickets: true,
@@ -715,6 +1204,14 @@ export const FESTIVALS = [
     description: "Self-financed 500-person gathering on France's Causse Noir plateau in the Cévennes, merging electronic music and visual art with collective rituals at human scale far from commercial standardization.",
     html_content: "<p>HORS-SOL distinguishes itself through its remote location on France's Causse Noir plateau in the Cévennes, and an unwavering commitment to intimacy — the festival holds a deliberately small capacity of 500 people, prioritizing the quality of encounters, attention to artistic expression, and balance with nature.</p><p>Self-financed and independent, the gathering is run by the HORS-SOL collective and merges electronic music and visual art with collective rituals in the wild open-air landscape. Championing freedom, open-mindedness, and mutual respect, it creates a temporary autonomous community where creative expression thrives away from commercial standardization.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Pohoda Festival", start: "2026-07-08", end: "2026-07-11", location: "Trenčín", country: "Slovakia", month: "July", tags: ["Electronic", "World Music", "Arts", "Mindfulness"], tickets: true,
@@ -726,6 +1223,14 @@ export const FESTIVALS = [
     description: "Slovakia's largest festival on a former military airfield in Trenčín, with 30,000 daily attendees across 15 stages spanning rock, electronic, jazz, world music, theatre, film and literature — no VIP areas.",
     html_content: "<p>Pohoda is Slovakia's largest and most diverse music and arts festival, held since 1997 on a former military airfield on the banks of the Váh river in Trenčín, framed by three Western Carpathian mountain ranges. With 30,000 daily attendees across 15 stages, it manages the rare feat of feeling simultaneously large and unhurried.</p><p>The programming is strikingly pluralistic: rock, pop, indie, electronic, classical, folk, experimental, jazz, and world music share billing with theatre, film, visual art, literature, dance, and workshops. There are no VIP areas or tiered experiences, and the festival won Best Medium-Sized Festival at the European Festival Awards 2023.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Nation of Gondwana", start: "2026-07-16", end: "2026-07-19", location: "Nauen", country: "Germany", month: "July", tags: ["Electronic", "Techno"], tickets: true,
@@ -738,6 +1243,14 @@ export const FESTIVALS = [
     description: "One of Germany's oldest electronic music festivals since 1995, with 10,000 visitors at a lakeside venue near Nauen and four stages dedicated exclusively to techno — no dilution, no distractions.",
     html_content: "<p>Founded in 1995, Nation of Gondwana is one of Germany's oldest electronic music festivals, taking place at Waldsee Grünefeld in Schönwalde-Glien, just 60 km from Berlin near Nauen. Around 10,000 visitors gather lakeside under the motto 'FEET ARE FOR DANCING,' with four stages dedicated exclusively to electronic music — no side entertainment competing for attention. The organizers prioritize quality over quantity, investing in best-in-class sound systems, while the waterside stage lets dancers move on soft sand with the lake available for swimming.</p><p>The lineup draws serious names from across the techno and experimental spectrum — Avalon Emerson, Dasha Rush, Robert Hood, Barbara Preisinger, Prosumer — alongside beloved recurring acts that give returning visitors a sense of continuity. Quirky touches like a women's choir and Techno Table Tennis signal an open-minded crowd. Groove magazine describes the festival's heart as one 'that beats for and with each other,' welcoming free spirits who want to lose themselves in music in a tribal, lakeside setting.</p>",
     quote: null,
+    editorial: {
+      about: "Now in its 32nd year, Nation of Gondwana is the oldest festival on this list. A three-day outdoor gathering in a forest clearing with a lake near Berlin, capped at around 10,000 visitors. Four stages, all focused entirely on electronic music. Sold out every year.",
+      vibe: "Berlin nightlife transplanted to a lakeside forest. No side activities or workshops — just music, dancing and the water. The stage directly on the lake is what people come back for.",
+      sounds: "Techno and house in the Berlin tradition. 2026 lineup includes Robert Hood, Gene On Earth, Josey Rebelle, Prosumer, Octo Octa live. Genre depth over breadth.",
+      doNotMiss: "The lakeside stage at night — dancing in the soft sand with the water behind you is the defining Gondwana moment.",
+      tip: "Car parking is right next to the camping area. Located 60km from Berlin — about 45 minutes. Tickets sell out fast when they go on sale in April.",
+    },
+    poster: "/img/Gondwana.jpeg",
   },
   {
     name: "Mit Dir Festival", start: "2026-07-23", end: "2026-07-26", location: "Friedland", country: "Germany", month: "July", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
@@ -750,6 +1263,14 @@ export const FESTIVALS = [
     description: "Intimate 2,500-person festival near Eisenhüttenstadt running since 2016, with six stages, a lakeside setting, and community-first pricing where premium buyers subsidise affordable entry for others.",
     html_content: "<p>Running since 2016 in Friedland near Eisenhüttenstadt, roughly 110 km from Berlin, Mit Dir Festival is a deliberately intimate gathering of around 2,500 attendees built on the philosophy 'MIT DIR – MIT UNS, MIT EUCH, MIT WUMMS' (With you – with us, with each other, with impact). Its small scale means less hassle, more genuine connection, and the same faces crossing your path all weekend. Six stages host over 100 DJs, live acts, bands, and walking acts across four days, with electronic floors drawing on house, techno, and trance in the vein of Berlin clubs like Sisyphos and Ritter Butzke, alongside an alternative stage with karaoke, poetry slams, and workshops.</p><p>The festival operates on a non-commercial, community-first attitude — pricing is tiered so premium buyers subsidise affordable entry for others, and the organizers curate around values and artistic alignment rather than name recognition. An idyllic lake sits right on the doorstep. Heartfelt and quite beautiful, it is a place described by its own organizers as one where 'floors carry you even when you yourself are wavering.'</p>",
     quote: null,
+    editorial: {
+      about: "Intimate four-day festival 110km from Berlin with 2,500 visitors. Non-commercial attitude, four electronic floors and an alternative stage with bands, karaoke and poetry slams. Feels like the Berlin club circuit relocated to a field.",
+      vibe: "Small, friendly, unpretentious. The kind of festival where you end up talking to the people you were just dancing next to. Group tickets available at a discount.",
+      sounds: "Electronic music in the style of Berlin clubs like Sisyphos, About:Blank and Ritter Butzke. Melodic techno to deep house. Past artists include Reinier Zonneveld, Marcus Meinhardt, Jan Oberlaender.",
+      doNotMiss: "The alternative stage — karaoke, poetry slams and live bands between the electronic sets. Unexpectedly fun contrast.",
+      tip: "Group of five? Buy a group ticket — it's meaningfully cheaper. 110km from Berlin, about an hour and a half by car.",
+    },
+    poster: null,
   },
   {
     name: "Wabi Sabi Festival", start: "2026-07-24", end: "2026-07-26", location: "Vaas", country: "France", month: "July", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
@@ -762,6 +1283,14 @@ export const FESTIVALS = [
     description: "Volunteer-run micro-festival set within 18th-century ruins in the Sologne region of France, transforming a crumbling historical site into a stage for underground techno and electronic sound.",
     html_content: "<p>Wabi Sabi is a micro-festival of electronic music and visual arts born from a volunteer collective, celebrating the beauty of imperfection its name implies. Set within 18th-century ruins transformed for a weekend into an enchanted world in the Sologne region of France, about two hours from Paris, the festival turns a crumbling historical site into a vivid stage for underground sound.</p><p>The musical programming is deliberately wide-ranging: groovy, breaky, hypnotic, atmospheric, or bass-heavy techno all find their place across two stages — an invitation to discovery, escape, and the awakening of new states of consciousness. Chill zones, communal camping, on-site dining, and animated performances encourage deep connection at this deliberately intimate gathering.</p>",
     quote: null,
+    editorial: {
+      about: "A young French festival — third edition in 2026 — taking place in a beautiful setting of ruins in the Sarthe region. An invitation to explore electronic music as a path to new states of consciousness. Intimate capacity, strong community.",
+      vibe: "Ambient, groovy, hypnotic and braindance in equal measure. An enchanted world built around ruins, transformed for a weekend. Thoughtful, sensory and genuinely unusual.",
+      sounds: "Ambient, deep house, breakbeats, mental techno, atmospheric electronics. Curated for discovery and evasion rather than peak-time impact.",
+      doNotMiss: "The evening transformation of the ruins — when the light fades and the music takes over, the atmosphere is completely unlike a conventional festival.",
+      tip: "Small festival with strong community energy — go open to meeting people. Check the Helloasso page for ticket availability as they sell in limited batches.",
+    },
+    poster: "/img/wabi-sabi.jpg",
   },
   {
     name: "Doel Festival", start: "2026-07-25", end: "2026-07-25", location: "Doel (Beveren)", country: "Belgium", month: "July", tags: ["Electronic", "Techno"], tickets: true,
@@ -774,6 +1303,14 @@ export const FESTIVALS = [
     description: "One-day festival in the near-deserted Belgian ghost town of Doel, where empty houses become stages for electronic music and art, transforming a fading village into a living cultural space.",
     html_content: "<p>Doel Festival takes place in the near-deserted village of Doel in the Belgian province of Beveren, a place whose population has dwindled to fewer than 20 due to decades of port expansion plans — leaving behind streets layered with graffiti art, visible history in the facades of still-standing buildings, and an atmosphere unlike any other festival setting in Europe.</p><p>Over 14 hours, empty houses become stages for electronic and live music, with the site divided into unique sonic universes, while open-air art exhibitions, surprise happenings, and participative markets animate the streets. The festival's mission is explicitly about revival — using music and art to create bridges and transform Doel's perception from ghost town to living community.</p>",
     quote: null,
+    editorial: {
+      about: "One day, 14 hours, in the mythical abandoned village of Doel near Antwerp — a ghost town that has been fighting demolition for decades. The festival uses art and music to collectively reimagine its future. Four stages named after elements of the village itself.",
+      vibe: "Surrealist painting to wander inside. Graffiti-covered houses, a participative market, surprise happenings, and a genuinely political undercurrent. More like urban exploration plus rave than a standard festival.",
+      sounds: "House and techno including acid, experimental, old-school and minimal. 2026 features .VRIL live, Efdemin & nthng, Kevin Saunderson as E-Dancer, Rhadoo and Sedef Adasï.",
+      doNotMiss: "The Haven stage — set inside one of the village's surviving structures. The most intimate and atmospheric of the four spaces.",
+      tip: "Tickets are €70–80 for the full day. Easily reachable from Antwerp — about 30 minutes by car or shuttle.",
+    },
+    poster: "/img/doel-festival-2026.webp",
   },
   {
     name: "Dekmantel Festival", start: "2026-07-29", end: "2026-08-02", location: "Amsterdam", country: "Netherlands", month: "July", tags: ["Electronic", "Techno"], tickets: true,
@@ -786,6 +1323,14 @@ export const FESTIVALS = [
     description: "Amsterdam's most revered electronic music festival, held in a forest, championing depth, curation, and community over spectacle.",
     html_content: "<p>Dekmantel Festival is Amsterdam's defining electronic music gathering, held each summer in the Amsterdamse Bos — a sprawling park of rolling meadows and towering trees south of the city. Since its founding in 2013, the festival has built a reputation not on scale or spectacle but on the quality and courage of its programming: a carefully layered universe of techno, house, experimental electronics, ambient, and dub, spread across six distinct stages that each become their own sonic world. There are no VIP areas, no over-the-top branding — just an obsessive commitment to music and the kind of warm, unpretentious community that forms around it. Many artists count it as their favourite festival precisely because they are encouraged to take risks rather than play to the crowd.</p><p>What sets Dekmantel apart is the specific, irreproducible feeling of being among people who came for the music, in a forest, in August, under sound systems tuned with almost religious care to the space between the trees. With over 160 artists moving between underground pioneers and emerging voices, the festival reads as both a living archive of electronic music culture and a forward-looking laboratory — rooted in Amsterdam's history but always reaching further out.</p>",
     quote: null,
+    editorial: {
+      about: "Founded in 2013, Dekmantel is one of Europe's most critically respected electronic festivals. Three days at Amsterdamse Bos — a 1,000-hectare forest park 11km from Amsterdam Centraal. Around 15,000 per day, six stages, deliberately capped. Tickets sell out before the lineup is announced.",
+      vibe: "A thousand hectares of forest, summer light, and sound systems obsessively designed for the specific combination of trees and space. The feeling of being among people who came purely for the music.",
+      sounds: "Serious underground house, techno and leftfield electronic. No compromises. 2026 features Underground Resistance live, Ricardo Villalobos, Marcel Dettmann, James Holden & Surgeon, A Guy Called Gerald. New 'At Dawn' morning programme runs 11AM–2PM each day.",
+      doNotMiss: "The Boiler Room stage — intimate, globally streamed, and often where the most experimental sets of the weekend happen.",
+      tip: "Bike or bus from Amsterdam — the forest is 11km from Centraal and traffic near the site gets congested. Camping available at nearby Europarcs with a separate ticket.",
+    },
+    poster: "/img/Dekmantal-2026-Lineup-Poster.webp",
   },
   {
     name: "Prærie Festival", start: "2026-07-30", end: "2026-08-02", location: "Galenbeck", country: "Germany", month: "July", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
@@ -797,6 +1342,14 @@ export const FESTIVALS = [
     description: "Community-run 2,000-person festival in Galenbeck, Mecklenburg, with over 100 acts across four stages of open-air techno and electronic, a swimming lake, and an ethos of mist, bass, and warm-hearted people.",
     html_content: "<p>Prærie Festival unfolds across four days at the end of July in Galenbeck, Mecklenburg — a landscape of open prairie, lakes, and forest that gives the festival its name and its mood. Over 100 acts play across four stages, and the experience is anchored in three things the organizers name explicitly: 'Nebel, Bass und herzliche Menschen' (mist, bass, and warm-hearted people). Ticket prices are kept accessible, with solidarity tickets available for those with limited budgets or caregiving responsibilities, and more than 150 volunteers staff the festival each year.</p><p>The organizers hold a zero-tolerance line on discrimination, backed by awareness teams on call around the clock. With roughly 2,000 attendees it remains small enough to feel like a community of regulars — described as a place where you can simply be yourself, have inspiring conversations, and watch the music slowly fade while your heart still pounds during a dawn walk across the prairie. The venue includes a swimming lake, spa and wellness facilities, and a camping area called the Findlingsgarten.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Garbicz Festival", start: "2026-07-30", end: "2026-08-03", location: "Garbicz", country: "Poland", month: "July", tags: ["Electronic", "Techno", "Psytrance"], tickets: true,
@@ -809,6 +1362,14 @@ export const FESTIVALS = [
     description: "Boutique lakeside festival in a Polish forest near the German border, founded by Berlin's Bachstelzen and Holzmarkt collectives, with a community feel built on deep melodic techno and environmental stewardship.",
     html_content: "<p>Garbicz Festival is set in a serene lakeside forest near Lake Wielicko in western Poland, just across the German border — a pristine natural landscape that forms the backbone of one of Europe's most beloved boutique electronic gatherings since its founding in 2013 by the creators of Berlin's Bachstelzen and Holzmarkt collectives.</p><p>With around 7,000–8,000 attendees, it is large enough to feel vibrant but small enough to feel communal. Deep melodic techno, house, ambient, and experimental sounds resonate across multiple themed stages from sunset to sunrise, complemented by wellness sanctuaries, site-specific art installations, and environmental initiatives — all in service of the idea that strangers can become a family over five days in the Polish forest.</p>",
     quote: null,
+    editorial: {
+      about: "Founded by the creators of Berlin's KaterBlau and Bachstelzen clubs, brought to a lake in western Poland. Berlin scene DNA with Detroit and international reach — but surrounded by ancient oaks and crystalline water instead of concrete. 8,000 tickets sold in 2024.",
+      vibe: "Screen-free and intentional — phones down, people up. The kind of place where you swim in the lake at sunrise and somehow end up dancing again by noon.",
+      sounds: "Techno, deep house, melodic and progressive. Giegling-affiliated artists, Berlin and international selectors. Solar-powered stages with high-end sound systems.",
+      doNotMiss: "Sunrise ambient sessions by the lake and the Garbage AiR initiative — art made entirely from festival waste, scattered through the forest between stages.",
+      tip: "Bring your own cutlery and containers. Food is mostly vegetarian and good. The whole operation runs on leave-no-trace principles. Solar power, composting systems throughout.",
+    },
+    poster: "/img/Garbicz-2026.jpg",
   },
   {
     name: "Traumburg Festival", start: "2026-07-30", end: "2026-08-02", location: "Schloss Dornburg", country: "Germany", month: "July", tags: ["Electronic", "World Music", "Arts"], tickets: true,
@@ -821,6 +1382,14 @@ export const FESTIVALS = [
     description: "Small independent arts and music festival at an abandoned baroque castle in eastern Germany, built on radical collective equality and a Do It With Others ethos.",
     html_content: "<p>Traumburg is a festival for arts and music held each summer at Schloss Dornburg, a wild, romantic baroque castle in the countryside of eastern Germany — built for a queen who never occupied it, standing empty for most of the year, and transformed briefly into something vivid and strange by everyone who gathers there. Since its first edition in 2020, what began as a casual house party among friends has grown into a distinctive annual gathering of around 300 to 500 participants, all of whom operate under the festival's foundational principle: a \"Do It With Others\" (DIWO) ethos in which there is no hierarchy between organizers, artists, and guests. Everyone contributes; everyone belongs equally to what gets made. The castle's rooms, basement tunnels, and gardens become stages for electronic music, live coding visuals, dance installations, and ambient performances, with each edition organized around a theme that runs through both the aesthetics and the spiritual texture of the weekend.</p><p>The music spans experimental electronics, ambient, and club-oriented sounds, often with artists working across disciplines — blending performance art, visual coding, and participatory installation into the same experience. Traumburg prioritizes spontaneity, sustainability, and the building of genuine relationships within creative communities; it is funded collectively, with costs shared equally by participants. The result is a festival that feels less like an event you attend and more like a temporary autonomous world you help build — fragile, specific, and unlike anywhere else.</p>",
     quote: null,
+    editorial: {
+      about: "Now in its sixth edition, Traumburg is a DIWO (do-it-with-others) arts and music festival at Schloss Dornburg — a romantic baroque castle deep in the east German countryside near Magdeburg. Founded by a group of Berlin, Hamburg and Amsterdam creatives. Every year follows a new thematic concept.",
+      vibe: "Castle becomes a cluster of exhibitions, installations and interdisciplinary interactions for a long weekend. Passive attendee becomes active contributor. Small community feel — you'll meet the artists.",
+      sounds: "Electronic music and visual arts in dialogue. Experimental, leftfield and dance-floor sounds. The music serves the broader experience rather than dominating it.",
+      doNotMiss: "The open call artworks — Traumburg commissions site-specific pieces each year through an open call. What you find scattered through the castle grounds depends entirely on that year's contributors.",
+      tip: "Train to Prödel station near Magdeburg, then Traumburg shuttle to the castle. Deutschland Ticket valid. Shuttle runs twice an hour during arrival windows.",
+    },
+    poster: null,
   },
   {
     name: "Ezera Skaņas", start: "2026-07-31", end: "2026-08-02", location: "Vestiena", country: "Latvia", month: "July", tags: ["Electronic", "Arts", "Offgrid"], tickets: true,
@@ -833,6 +1402,14 @@ export const FESTIVALS = [
     description: "Rare sunrise lake festival in Latvia where audiences row out onto the water before dawn to witness music greet the light.",
     html_content: "<p>Ezera Skaņas is one of the most singular festival experiences in Europe: an event that begins at 3:30 in the morning on Lake Kāla in Vestiena, Latvia, when audience members row out onto the water in complete darkness and silence until a floating stage appears and the first sounds begin to rise. The music builds with the coming light, intensifying as the horizon shifts from black to grey to gold, until the set culminates exactly as the sun clears the water. Born as a non-commercial artistic concept, Ezera Skaņas is a long-term thought exercise in what it means to listen, to be present, and to experience sound as something woven into the physical world rather than played at it. Tickets are limited to a few hundred people, and the intimacy of that number on the lake, in the pre-dawn quiet, is irreplaceable.</p><p>After the sunrise performance, the festival extends onshore at the Festen harbour, where acoustic and electronic stages run through the day and into the weekend, with lakeside camping for those who want to linger. The genres are secondary to the spirit: what draws people to Ezera Skaņas is not a lineup but a ritual — the desire to mark time passing in a beautiful place, surrounded by people who understand why that matters. Every year the experience of the early morning on the water cannot be arranged by anyone — it simply happens, and then it is over.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Komorebi Festival", start: "2026-07-31", end: "2026-08-03", location: "Golden Lake", country: "Georgia", month: "July", tags: ["Electronic", "Techno", "Offgrid", "Arts"], tickets: true,
@@ -845,6 +1422,14 @@ export const FESTIVALS = [
     description: "Underground electronic music festival on Georgia's Black Sea coast, celebrating the harmony of sea, forest, music, and human connection.",
     html_content: "<p>Komorebi Festival takes its name from the Japanese word for sunlight filtering through leaves — and that quality of dappled, shifting light defines its character: something beautiful that is hard to pin down, easier to feel than describe. Held in late summer at Golden Lake on Georgia's Black Sea coast, the festival emerged from the extraordinary flowering of electronic music culture that has made Tbilisi and its surroundings one of the most creatively alive places in the world. The setting combines the expansive energy of the water with the enclosing warmth of the forest, and the festival's programming — spanning over 40 international artists across multiple stages — treats the landscape as a collaborator, with afternoon ambience dissolving into evening techno and house, and live choreography and yoga sessions woven into the daylight hours.</p><p>Komorebi stands on the values of equality, respect, and what the organizers describe as \"romantic and emotional love of music that unites us all\" — language that sounds idealistic until you experience a crowd in Georgia dancing at dawn and understand that it is simply accurate. The Georgian electronic music scene — rooted in a city that has lived through profound political disruption and emerged with something fierce and tender — gives Komorebi a context that most European festivals cannot manufacture, and the best moments happen in that specific light.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   // AUGUST
   {
@@ -857,6 +1442,14 @@ export const FESTIVALS = [
     description: "Psychedelic electronic festival in Croatia's Zrmanja canyon. Years of unforgettable experiences combining psytrance, visuals and community spirit.",
     html_content: "<p><em>Modem Festival</em> has been going strong for years, and still on its way towards creating an unforgettable psychedelic experience.</p>",
     quote: "A positive, festive and persevering spirit was the thing that kept us pushing. Let's keep it that way! In cooperation with our DeltaProcess collective, we prepared special visuals for our last V/A compilation. Have a blast watching mind-bending and psychedelic videos and make sure to keep the spirit alive.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Pyramid Festival", start: "2026-08-03", end: "2026-08-09", location: "Rtanj Mountain", country: "Serbia", month: "August", tags: ["Offgrid"], tickets: true,
@@ -868,6 +1461,14 @@ export const FESTIVALS = [
     description: "Festival at the foot of Serbia's mystical Rtanj Mountain. A community-shaped gathering blending music, ritual, art and nature over several days.",
     html_content: "<p>Pyramid Festival is a chance to meet some of the most interesting people in Serbia.</p>\n<p>The organisers of <em>Pyramid Festival</em> say:</p>\n<p><em>Sovra is a traditional Slavic kilim symbol, a woven emblem of deep meaning. It depicts the table - not simply furniture, but the heart of the home, where the closest ones gather. Around the Sovra, families marked turning points in their lives, honored ancestors, and celebrated sacred moments. It is the place of trust, belonging, and unity - a reminder that what begins with the few can expand to embrace the many.</em></p>\n<p><em>This is the essence of Pyramid Festival 2026. When our tribe gathers around the Sovra, it is not just those present who feel the bond. The energy spreads outward - through dance, art, and nature - weaving together strangers into family, and a gathering into a living myth.</em></p>\n<p><em>Throughout the days and into the nights, Pyramid Festival flows as one continuous journey. The valley resounds with music that rises and falls with the sun - from sunrise ceremonies to afternoon grooves, from twilight transitions to midnight peaks. It is more than an event. It is a modern ritual, a 21st-century pilgrimage to a place where the energy of the mountain and the energy of the people merge into one.'</em></p>",
     quote: "At the foot of the mystical Rtanj Mountain, something more than a festival has taken root. Over the years, what began as a gathering has blossomed into Pyramid Village - a living community shaped by the spirit of Pyramid Festival. It is no longer just a temporary meeting ground, but a place that continues to breathe, grow, and welcome people year after year.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Healing Festival", start: "2026-08-05", end: "2026-08-09", location: "South Bohemia", country: "Czech Republic", month: "August", tags: ["Mindfulness"], tickets: true,
@@ -879,6 +1480,14 @@ export const FESTIVALS = [
     description: "5-day wellness festival in South Bohemia with 150+ workshops, yoga, ecstatic dance, cold therapy and ceremonies. Inspiration, joy and personal transformation.",
     html_content: "<p>The Healing Festival is a 5 day hippie festival of wellness, bliss and transformation.</p>\n<p>This festival has over 150 workshops, music concerts, yoga, cold therapy, ecstatic dance, ceremonies, and rituals with healing music and dance, and even a designer marketplace to explore. It promises to be a festival of grounding, joy, inspiration, and a creative space to meet like minded people.</p>",
     quote: "Experience a fascinating oasis of inspiration, knowledge, and blossoming.\n\nOur Vision is to inspire an opening of minds and hearts on the path towards new possibilities and to contribute to creating a world where it is a joy to live together. We are catalysts for change and creators of an oasis of community that accepts responsibility for actively creating their lives, their actions and the impact they have on others and the planet.\n\nYou will find proven techniques that you can incorporate into your life to help you live a fulfilled and happy life.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Mahagoni Festival", start: "2026-08-06", end: "2026-08-09", location: "Rittergut Etzdorf", country: "Germany", month: "August", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
@@ -891,6 +1500,14 @@ export const FESTIVALS = [
     description: "Four-day electronic music and arts festival at a historic Saxon estate, hosting over 80 acts across six stages in a communal, awareness-focused environment.",
     html_content: "<p>Mahagoni Festival unfolds each August at Rittergut Etzdorf, a historic manor estate in Saxony-Anhalt that provides an unlikely but compelling backdrop for four days of electronic music, live performances, and cultural programming. The grounds blend rustic architectural character with contemporary festival production — stone buildings, open fields, and mature trees providing natural partitioning between six main stages and several smaller project spaces, where more than 80 artists move between deep house, techno, experimental electronics, and live instrumental work. With around 3,000 visitors expected, the festival sits at a scale that feels communal without losing its scope, designed to welcome seasoned festival-goers and those discovering this world for the first time in equal measure.</p><p>Mahagoni is as much a social event as a musical one: a place described consistently by its community as a space where connections form and stories unfold. The estate becomes a temporary home for the weekend, complete with camping under the Saxon sky, a fully cashless environment, and a trained awareness team ensuring that safety is structural rather than reactive. The programming resists the obvious, with a diversity of acts and disciplines that reflects a genuine curatorial curiosity rather than a checklist of recognizable names. It has the character of a festival built by people who attend festivals — which is the best reason to trust one.</p>",
     quote: null,
+    editorial: {
+      about: "Intimate cultural festival at Rittergut Etzdorf — a historic estate with a lake near Halle, Germany. No VIP area, no sponsors, no calculation. Built around togetherness and DIY spirit. Seven stages across four days, fully cashless.",
+      vibe: "Cosmopolitan and tolerant space for creatives. Anti-commercial, pro-community. The lake is central — people swim, sit, and connect there as much as they dance.",
+      sounds: "Genre-fluid electronic — deep house, techno, afrobeat, pop. Past artists include Ace Tee, Bashkka, Daria Kolosova. Broad and eclectic rather than genre-pure.",
+      doNotMiss: "The historic Rittergut estate itself — stages are built into and around old agricultural buildings in ways that make the architecture part of the experience.",
+      tip: "Located near Halle — about 40 minutes from Leipzig, 1.5 hours from Berlin. Fully cashless so load up your wristband on arrival.",
+    },
+    poster: "/img/Mahagoni-2026.jpg",
   },
   {
     name: "Ancient Trance Festival", start: "2026-08-06", end: "2026-08-09", location: "Saxony", country: "Germany", month: "August", tags: ["World Music", "Electronic"], tickets: true,
@@ -902,6 +1519,14 @@ export const FESTIVALS = [
     description: "Celebration of ancient music fused with electronics in Saxony. Jaw harps, shamanic roots and modern ecstatic world music in a space of love and community.",
     html_content: "<p>Ancient Trance Festival is a celebration of ancient music fused with electronic music.</p>",
     quote: "For us, Ancient Trance means inviting cultural diversity and preserving music as a handmade cultural technique. The sound of the Jaw Harp, as one of the oldest instruments of humanity, becomes the mediator between the most diverse styles of a young, international music scene. On the trails of shamans we want to connect a great variety of traditional sounds and, by following the old ethnic roots, lead to modern ecstatic world music.\n\nAs a team we have a common vision, which we bring to life with the festival. It is a space for inner growth based on a circular culture, whose cornerstones are appreciation, mindfulness, respect, compassion, empathy and love. Creating a space where we can feel the magic and come together as human beings. Celebrate together and enjoy the liveliness of being.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Ecstatica Festival", start: "2026-08-08", end: "2026-08-11", location: "Hainburg an der Donau", country: "Austria", month: "August", tags: ["Mindfulness"], tickets: true,
@@ -913,6 +1538,14 @@ export const FESTIVALS = [
     description: "Ecstatic dance festival in an ecovillage on the Austria-Slovakia border. Breathwork, live music, sound healing and conscious connection in Central Europe.",
     html_content: "<p>An ecstatic dance festival held in a ecovillage.</p>",
     quote: "Experience the magic of a 4 day immersive festival. Located in Ecovillage Hainburg on the border of Austria and Slovakia. Ecstatica offers an enchanting blend of Ecstatic Dance, breathwork, live music, embodied movement, educational workshops, performances, and a vibrant community atmosphere.\n\nEcstatica is an immersive festival experience brimming with Ecstatic Dance, Breathwork, live music, embodied movement, Sound Healing ceremonies, conscious connection, play, art, performance and a thriving community in the heart of Central Europe, Sweden and Thailand.\n\nJoin us in celebrating life, love, community and our profound connection with nature.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Convento Festival", start: "2026-08-09", end: "2026-08-14", location: "Tuscany", country: "Italy", month: "August", tags: ["Mindfulness", "Offgrid"], tickets: true,
@@ -924,6 +1557,14 @@ export const FESTIVALS = [
     description: "5-day retreat in an ancient Tuscany monastery. Movement, sound, breath and presence workshops for around 100 participants in the sacred hills.",
     html_content: "<p>Tuscany? An old monastery? Connection? Celebration? Convento Festival has it all!</p>",
     quote: "Join us for Convento Festival, a five-day retreat-style gathering in the Tuscan hills, held on the sacred grounds of Il Convento: an ancient monastery that has been a place of spiritual practice for over 500 years, lovingly restored into our family's retreat center.\n\nHere, we shed the noise of the world and tune into what truly matters: our most authentic selves, the whisper of our inner calling, and the timeless longing for connection and belonging. Through carefully curated workshops in movement, sound, breath, and presence, we awaken the wisdom of our bodies and hearts.\n\nIn this intimate community of around 100 participants, we reconnect with one another and with the living pulse of nature. Now entering its third year, Convento Festival continues to grow as a field of deep process, celebration, and remembrance - a homecoming to what it means to be human.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Sizigia Eclipse Festival", start: "2026-08-10", end: "2026-08-14", location: "Andalusia", country: "Spain", month: "August", tags: ["Electronic"], tickets: true,
@@ -935,6 +1576,14 @@ export const FESTIVALS = [
     description: "Electronic festival in Andalusia during Spain's August 2026 total solar eclipse. Music and dance beneath the celestial alignment of sun, moon and earth.",
     html_content: "<p>There might be better ways to observe a total eclipse than at an electronic music festival like Sizigia but we don't know many...</p>",
     quote: "On August 2026, the firmament above Spain will conspire in rare harmony. The Moon will draw its veil across the Sun, and daylight will bow to shadow. A fleeting alignment - measured not in hours, but in the beating of hearts will bind the Sun, the Moon, and the Earth in a silent covenant.\n\nThis is Sizigia.\n\nNot merely an eclipse, but a celestial summons. A moment when light and darkness entwine, and the ancient rhythm of the cosmos reveals itself to those who dare to look.\n\nWe invite you to stand within this shadow, to bear witness to this mystical sight.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Boomtown Fair", start: "2026-08-12", end: "2026-08-16", location: "Matterley Estate, Winchester", country: "England", month: "August", tags: ["Arts", "Electronic"], tickets: false,
@@ -946,6 +1595,14 @@ export const FESTIVALS = [
     description: "Conceptual UK festival imagined as a city with its own mythology, politics and evolution. 4 days of themed districts, music and immersive theatre in Winchester.",
     html_content: "<p><em>Boomtown</em> is an English festival with an anarchic creative spirit and its own mythology surrounding each year's edition. Conceptualised as a city with its own politics and cultural evolution, those attending the festival are residents of Boomtown and have a part to play in its unfolding narrative.</p>",
     quote: "Step into a city unlike any other, where music meets imagination and every corner holds a new adventure. A festival but not as you know it. Wander through themed districts bursting with unique design, groundbreaking stages, vivid characters, and unforgettable experiences. This isn't just a festival - it's a holiday to a parallel world. In 2025, we began our journey into something new. Scroll and discover more...",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Iceland Eclipse", start: "2026-08-12", end: "2026-08-15", location: "Iceland", country: "Iceland", month: "August", tags: ["Mindfulness", "Offgrid"], tickets: true,
@@ -957,6 +1614,14 @@ export const FESTIVALS = [
     description: "4-day immersive festival in Iceland during the 2026 total eclipse. Visionaries, artists and eclipse seekers at the intersection of music and wellness.",
     html_content: "<p>Iceland Eclipse is an opportunity to see a total eclipse while at a transformational festival...</p>",
     quote: "Iceland eclipse is a four day immersive experience for visionaries, artists, & eclipse seekers to gather at the intersection of space, music, exploration, & wellness.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Roztoč Fest", start: "2026-08-13", end: "2026-08-17", location: "Moravia", country: "Czech Republic", month: "August", tags: ["Arts"], tickets: true,
@@ -968,6 +1633,14 @@ export const FESTIVALS = [
     description: "Czech flow arts and live music festival for circus artists, fire dancers, actors and performers. Live DJs, workshops, huge shows and all-night firejams.",
     html_content: "<p>Roztec Fest is a festival of flow arts and live music.</p>",
     quote: "Come to Roztoč - the festival for circus artists, fire dancers, actors and performance artists in general.\n\nWe've got both live music and DJs, lots of workshops, multiple huge shows, all-night firejams, and so much more!\n\nAt Roztoč, we have a long history of amazing shows. It's both a festival for circus and performance artists, as well as a music festival. Everybody will find something they like here!",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "New Healing Festival", start: "2026-08-17", end: "2026-08-23", location: "Mecklenburg", country: "Germany", month: "August", tags: ["Mindfulness"], tickets: true,
@@ -979,6 +1652,14 @@ export const FESTIVALS = [
     description: "Family-friendly alternative festival in Mecklenburg with meditation, yoga, ceremonies and electronic music nights. Community gathering for personal development.",
     html_content: "<p><em>New Healing Festival</em> is an alternative family-friendly festival.</p>",
     quote: "The New Healing Festival offers you a week full of music, art, and inspiration - a magical experience in a unique atmosphere. You can expect a varied program of meditation, yoga, philosophy, wellness, ceremonies, experience sharing, music, art, and much more, which will be expanded over the weekend to include two spaces where you can indulge in the finest electronic beats and dance the night away.\n\nWe celebrate personal development, open and inspiring exchange with free spirits, and the connection between people from all over the world. The New Healing Festival is a real-life laboratory and a gathering to learn, grow, and exchange ideas together for a whole week.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Green Man Festival", start: "2026-08-20", end: "2026-08-23", location: "Glanusk Park, Brecon Beacons", country: "Wales", month: "August", tags: ["Arts"], tickets: true,
@@ -989,6 +1670,14 @@ export const FESTIVALS = [
     soundcloud: null,
     description: "Independent alternative music festival in Wales' Brecon Beacons. Indie, psych, folk and electronica across 17 stages with 1500 multi-arts acts and bonfires.",
     html_content: "<p><em>Green Man</em> is an alternative music festival set in Wales 'where mystical ley lines meet amid ancient Welsh oak trees'.</p>\n<p>It's primarily a place to catch great concerts and recent years have seen the likes of Fleet Foxes, PJ Harvey, Father John Misty... There are up to 1500 multi-arts acts performed across 17 stages, as well as Gaeli music sessions, all-night bonfires and secret gigs here and there.</p>\n<p>The Green Man Festival is an independent music, science, and arts festival held annually in August. The festival is inspired by the mythical figure of the Green Man, a symbol of rebirth and the cycle of new growth that occurs every spring.</p>\n<p>Green Man is known for showcasing a diverse range of genres including indie, psychedelia, Americana, electronica, and folk, as well as featuring DJs playing a variety of music. The family-friendly festival has evolved into a week-long event, with capacity for 25,000 people.</p>\n<p>Learn more about Green Man Festival!</p>",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Lost Village", start: "2026-08-27", end: "2026-08-30", location: "Lincolnshire", country: "UK", month: "August", tags: ["Electronic"], tickets: false,
@@ -1000,6 +1689,14 @@ export const FESTIVALS = [
     description: "Intimate electronic music festival in an abandoned Lincolnshire forest. Explore derelict houses, overgrown courtyards and an abandoned airport.",
     html_content: "<p>Lost Village is an intimate festival which takes place in an abandoned forest - let your curiosity run free!</p>",
     quote: "As you navigate through a network of winding pathways; derelict houses, overgrown courtyards, dilapidated streets and an abandoned airport all lie ahead.\n\nOnce a year we head back into the woods...",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Shambala Festival", start: "2026-08-27", end: "2026-08-30", location: "Northamptonshire", country: "UK", month: "August", tags: ["Arts"], tickets: true,
@@ -1011,18 +1708,34 @@ export const FESTIVALS = [
     description: "Diverse UK festival in Northamptonshire. 200+ musical acts, cabaret, workshops, comedy, circus and poetry over four days at a secret countryside location.",
     html_content: "<p><em>The Shambala Festival</em> looks determined to be the Midlands of England's most diverse gathering. People of all ages are welcome, families are encouraged, and young children are promised an experience akin to flying through Neverland.</p>\n<p>Check out more on Shambala Festival!</p>",
     quote: "Shambala takes place across four days on the August Bank Holiday Weekend at a stunning secret location in the heart of the Northamptonshire countryside. The variety and quality of entertainment on offer is staggering for a festival of its size. With over 200 diverse musical acts across 12 live stages, world-class cabaret, an amazing array of workshops, stand-up comedy, inspirational talks and debates, jaw dropping circus and acrobatics, interactive theatre and nationally acclaimed poetry all housed in beautifully decorated venues.\n\nPioneering, intimate and truly innovative, Shambala Festival has perfectly blended creativity and participation for well over a decade. Shambala is a special place where you play, revitalise, make lots of new friends and return to the world fuelled-up on the beauty of being alive. As well as being known as a legendary party, it is also a haven for cutting edge theatrics and performance, a think-tank of ideas and an award winning green event.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Evolve Festival", start: "2026-08-27", end: "2026-08-30", location: "Helenesee", country: "Germany", month: "August", tags: ["Mindfulness"], tickets: true,
     curated: true,
     url: "https://festivalsandretreats.com/2024/06/11/evolve-festival/", img: "https://framerusercontent.com/images/PmLlOVDwD3sjijDHdeWz2cpReM.gif",
     website: "https://www.evolve-festival.com/", instagram: "https://www.instagram.com/evolve_festival/",
-    youtube: null,
+    youtube: "yjZAJoB4-tg?si=TXjsqN-tOJ7Y3taK",
     spotify: null,
     soundcloud: null,
     description: "Weekend festival at Helenesee, Germany where yoga, personal growth and ceremonies meet music and dance. Workshops, healing and multiple stages lakeside.",
     html_content: "<p>A weekend where yoga, personal growth and holistic ceremonies meet music, dance and festival vibes. Lakeside at Helenesee in Germany - workshops, healing practices, and multiple stages.</p>",
     quote: "Evolve's vision is to create events that promote personal growth, self-discovery, and a deeper connection to oneself and the world around us. Our goal is to create a community of like-minded people who are passionate about making a positive impact on the world, both on and off the mat. We believe that by fostering a community of individuals who are dedicated to personal growth, we can make a positive impact on the world, one breath at a time.",
+    editorial: {
+      about: "Conscious festival at Helenesee lake near Frankfurt (Oder), 1.5 hours from Berlin. Four days, seven theme worlds: music, dance, yoga, workshops, rituals, art and wellness. 150+ artists, 200+ sessions. Sustainable, vegan, sober-friendly, LGBTQ+ welcoming.",
+      vibe: "Deep inner exploration meets collective celebration. Ecstatic dance, sound baths, breathwork and mindfulness woven through the schedule alongside the music. A festival that trusts stillness as much as movement.",
+      sounds: "Meditative electronic, ambient, ecstatic dance music and world rhythms. Not club techno — think deep grooves and frequencies designed to open rather than assault.",
+      doNotMiss: "The ecstatic dances — structured group movement experiences that build slowly and can get surprisingly emotional. Nothing else at the festival feels quite like them.",
+      tip: "Ticket is around €159. Family-friendly and inclusive by design. The lake is beautiful for swimming throughout the festival.",
+    },
+    poster: null,
   },
   {
     name: "Hütte in the Forest", start: "2026-08-05", end: "2026-08-09", location: "Château d'Etangsannes", country: "France", month: "August", tags: ["Electronic", "Offgrid", "Arts"], tickets: true,
@@ -1031,15 +1744,23 @@ export const FESTIVALS = [
     website: "https://hutteintheforest.com/", instagram: "https://www.instagram.com/hutteintheforest/",
     youtube: null,
     spotify: null,
-    soundcloud: null,
+    soundcloud: "https://soundcloud.com/huttecollective/sets/huette25?si=2acdcf7c08604568acdafd8f0d956c07&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     description: "Independent four-day festival around a French château blending psychedelic and dance-driven electronic music with visual arts, creative workshops, and artist residencies in a forest setting.",
     html_content: "<p>Hütte in the Forest is a four-day independent festival nestled around a picturesque French château, evolving from an intimate gathering of friends into a thriving international community that draws visitors from across Europe. The event creates socio-musical environments where people can meet in complete freedom, blending acoustic and electronic music programming with visual arts, hands-on creative workshops, and artist residencies in a forest setting.</p><p>The programming — spanning psychedelic, dance-driven techno, progressive, and trance — channels a collective, transformative energy, while the festival's ethos prioritizes active participation over passive spectatorship. Attendees are invited to connect, create and grow together, making Hütte as much a creative retreat as a music event.</p>",
     quote: null,
+    editorial: {
+      about: "What started as a gathering of friends around a fire has grown into an international community festival at Château d'Etangsannes in France. Four days surrounded by nature, music and arts. Draws an international crowd from across Europe.",
+      vibe: "Community-built, nature-led. The gathering spirit of its origins is still intact — intimate, welcoming and genuinely communal. People stay for the connections as much as the music.",
+      sounds: "Deep, leftfield electronic across multiple outdoor stages. Programming reflects the founders' British-French roots — eclectic, groove-oriented, quality over recognition.",
+      doNotMiss: "The forest stages after dark — when the setting sun disappears and the music takes over the trees, it becomes something genuinely special.",
+      tip: "Check the official website for shuttle information from nearby cities. The château is the kind of place you want to arrive at in daylight to appreciate fully.",
+    },
+    poster: "/img/Hütte in the Forest.jpg",
   },
   {
     name: "CRX Festival", start: "2026-08-07", end: "2026-08-08", location: "Cave di Fantano, Grottaglie", country: "Italy", month: "August", tags: ["Electronic", "Techno", "Offgrid", "Arts", "World Music"], tickets: true,
     curated: true,
-    url: null, img: "https://images.xceed.me/events/banners/crx-festival-2026-full-pass-grottaglie-xceed-7633.jpg?w=1920&h=1440&ar=4:3&fm=auto",
+    url: null, img: "/img/CRX-bg.webp",
     website: "https://xceed.me/en/grottaglie/event/crx-festival-2026-full-pass-early-bird/219775/channel/crx-festival", instagram: "https://www.instagram.com/crxfestival/",
     youtube: null,
     spotify: null,
@@ -1047,11 +1768,19 @@ export const FESTIVALS = [
     description: "Laboratory-festival transforming ancient stone quarries in Grottaglie, Puglia into a resonant venue where experimental electronic sound, environmental consciousness, and international club culture merge from sunset to sunrise.",
     html_content: "<p>CRX Festival — whose name stands for Collective Resonance Experience — takes place at the Fantiano Caves near Grottaglie in Puglia, southern Italy, transforming an ancient quarry into a resonant, living venue where sound and nature merge from sunset to sunrise. Born from the cultural association E7X, the festival positions itself as a laboratory-festival that aims to open new pathways in the Italian music landscape.</p><p>The programming brings together a genuinely international cast — from Toronto's Bambii to Medellín's Verraco and experimentalists like Dis Fig — alongside site-specific art installations that engage the caves' extraordinary natural acoustics as a compositional element in their own right.</p>",
     quote: null,
+    editorial: {
+      about: "Second edition of CRX (Collective Resonance Experience), set in the Cave di Fantano — ancient limestone quarry caves near Grottaglie in the heel of southern Italy. Sunset to sunrise across two stages. A 2026 addition: CRX Village, a masseria with trulli accommodations a few kilometres from the site.",
+      vibe: "Sound meets geology. The caves create natural acoustics unlike anything in conventional festival settings. Experimental, collective, deeply site-specific. Born from Milan cultural association E7X.",
+      sounds: "Bass music, experimental electronics, techno and jungle. Artists chosen for how their sound responds to the cave acoustics. Past artists include Dis Fig, Dry Cleaning, Goth-Trad.",
+      doNotMiss: "The moment the sun drops behind the cave walls and the light shifts — the festival's visual and sonic atmosphere transforms completely.",
+      tip: "CRX Village (separate ticket add-on) is highly recommended if you want to fully decompress between nights. The caves are accessed via shuttle from the village.",
+    },
+    poster: "/img/CRX-2026.webp",
   },
   {
     name: "ZMAR Festival", start: "2026-08-07", end: "2026-08-09", location: "Zmar", country: "Portugal", month: "August", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
     curated: true,
-    url: null, img: "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-6/702962049_976668318444376_6866225458322428624_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1dyi3AD7ayEQ7kNvwHOC_GY&_nc_oc=AdpJ5JIiNrpbp6E9EsRlQenDNNqhfPSrIyrHE74RlNnAwvNwI5prt5-45QAv_SOUKpc&_nc_zt=23&_nc_ht=scontent-fra3-1.xx&_nc_gid=XdBURtiT37ho45itZ0Pefg&_nc_ss=7b2a8&oh=00_Af7qRXP3Tqcu3Zc84YkFXpjZbX9EaJsN0hX9db0Fig_Nkw&oe=6A15528A",
+    url: null, img: "/img/zmar.jpg",
     website: "https://linktr.ee/zmarfestival", instagram: "https://www.instagram.com/zmarfestival/",
     youtube: null,
     spotify: null,
@@ -1059,6 +1788,14 @@ export const FESTIVALS = [
     description: "Three-day electronic music gathering at Zmar Eco Camp in the Alentejo cork oak forest, where solar-powered stages meet a natural lake and the unhurried pace of rural Portugal.",
     html_content: "<p>ZMAR Festival unfolds each August at Zmar Eco Camp, a remarkable eco-resort set deep within the cork oak forests of Odemira in southern Portugal's Alentejo — a setting that already feels like a utopia before a single note is played. The camp's solar-powered bungalows, natural lake, and sweeping wooden terraces become the geography of a three-day gathering that combines electronic music across multiple stages with the specific pleasure of waking up in the Portuguese countryside to birdsong and silence. The music programming gravitates toward deep house, organic techno, and leftfield electronic sounds, with a curatorial sensibility that prefers atmosphere over impact and intimacy over scale.</p><p>What distinguishes ZMAR is the holistic texture of the experience: yoga, wild swimming, and long communal meals at wooden tables are woven through the schedule alongside the music, so that the weekend feels less like an event you attend and more like a brief life lived in a better way. For those who know the Alentejo, this is not a surprise — the region's cork forests and slow light have always demanded a certain quality of presence. For those who don't, ZMAR is a revelation: a festival that trusts the land to do half the work.</p>",
     quote: null,
+    editorial: {
+      about: "Three-day electronic music gathering at Zmar Eco Camp — a solar-powered eco-resort set in the cork oak forests of Odemira in southern Portugal's Alentejo. The camp's bungalows, natural lake and wooden terraces become the geography of a festival that values atmosphere over scale.",
+      vibe: "Holistic festival texture — yoga, wild swimming and communal meals at wooden tables are woven through the schedule alongside the music. Less like an event you attend, more like a brief life lived in a better way.",
+      sounds: "Deep house, organic techno and leftfield electronic. Programming prefers atmosphere over impact, intimacy over scale. Aligned with the Alentejo's own unhurried pace.",
+      doNotMiss: "Dawn at the lake — the Alentejo light at sunrise over cork oaks with leftover music drifting from the stages is something you'll talk about for years.",
+      tip: "The camp's solar-powered infrastructure means everything runs on a different energy than a conventional festival. Embrace the slowness — that's the point.",
+    },
+    poster: null,
   },
   {
     name: "Fata Morgana Festival", start: "2026-08-07", end: "2026-08-10", location: "Coutarnoux", country: "France", month: "August", tags: ["Electronic", "Techno", "Offgrid", "Arts"], tickets: true,
@@ -1071,6 +1808,14 @@ export const FESTIVALS = [
     description: "Multidisciplinary festival under the vast limestone vaults of an abandoned Burgundy quarry, blending techno, dub, experimental and trance with contemporary art, architecture, cinema and workshops over two days and nights.",
     html_content: "<p>Fata Morgana is a multidisciplinary festival that takes place under the vast limestone vaults of the Grotte de Champ Retard, an abandoned quarry of colossal dimensions in the Burgundy countryside, 2.5 hours from Paris. Founded in 2022, the festival runs over two days and two nights, transforming this forgotten geological space into a platform for social and artistic experimentation.</p><p>Music, contemporary art, architecture, scenography, digital art, cinema, publishing, workshops, and conferences interweave throughout the programme. The musical palette spans techno, dub, experimental, trance, bass, and breakbeat, performed within a monumental environment where the stone itself becomes a visual and acoustic element — with more than 50 French and international artists participating each year.</p>",
     quote: null,
+    editorial: {
+      about: "Fourth edition of this transdisciplinary French festival at the Grotte de Champs Retard — a cyclopean abandoned limestone quarry in Burgundy, 2.5 hours from Paris. Music, visual art, cinema, architecture, digital art and workshops across three days. 50+ French and international artists.",
+      vibe: "Stone becomes stage. An illusion collectively shared — three days suspended out of time, between celebration and contemplation. Art is material, rock is scenery, dream is shared reality.",
+      sounds: "Experimental, ambient, techno and bass music — chosen for how they respond to the cave's natural acoustics and cavernous reverb. Leftfield and hybrid rather than dance-floor pure.",
+      doNotMiss: "The cave itself at night — when the limestone walls are lit and music fills the natural chamber, the experience is completely unlike any other festival in Europe.",
+      tip: "30 minutes from Auxerre by car, 2.5 hours from Paris. Camping on-site. Weekend and 3-day passes available. Small festival — get tickets early.",
+    },
+    poster: null,
   },
   {
     name: "Bucht der Träumer", start: "2026-08-13", end: "2026-08-17", location: "Helenesee / Frankfurt (Oder)", country: "Germany", month: "August", tags: ["Electronic", "Techno", "Burner", "Offgrid", "Arts"], tickets: true,
@@ -1082,6 +1827,14 @@ export const FESTIVALS = [
     description: "Four-to-five day electronic festival at Lake Helenesee near Berlin with 13,000 attendees, spanning techno, house, psytrance, amapiano and rap alongside three workshop areas, a sauna, and Psycare structures.",
     html_content: "<p>Bucht der Träumer ('Bay of Dreamers') is an electronic music festival held at Lake Helenesee, one hour east of Berlin near Frankfurt (Oder), running each August since 2017. The festival offers a space where excessive moments are just as important as emotional depth — expressed in programming that stretches from techno, house, downtempo, and disco to psytrance, breakbeats, amapiano, rap, and world music.</p><p>Beyond the music, the site hosts three boldly curated workshop areas with interactive programming for body, brain, and soul, alongside a sauna, massage and wellness zone, and strong Awareness and Psycare structures. With around 13,000 attendees, the festival is large enough for intensity but retains a friendly, community-focused atmosphere rooted in the lakeside natural setting.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Nemora Fest", start: "2026-08-27", end: "2026-08-30", location: "Torre Alfina, Lazio", country: "Italy", month: "August", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
@@ -1094,6 +1847,14 @@ export const FESTIVALS = [
     description: "Nascent festival at the enchanted Bosco del Sasseto forest in Torre Alfina, Lazio — called 'The Snow White Wood' by National Geographic — blending sound, performance and gardening in a volcanic, moss-covered landscape.",
     html_content: "<p>Nemora Fest is a collaborative festival held at Terre di Agartha in Torre Alfina, Lazio — a medieval hilltop village in northern Lazio renowned for the enchanted Bosco del Sasseto forest at its foot, which National Geographic has called 'The Snow White Wood.' The festival unfolds through sound, performance, and collective presence.</p><p>A programming philosophy that integrates gardening activities, open workshops, and shared music creates a cohesive immersive experience. The setting — ancient forest paths, volcanic ridgelines, and moss-covered boulders — lends the gathering a mythological, regenerative atmosphere where the boundary between music festival and natural ritual dissolves.</p>",
     quote: null,
+    editorial: {
+      about: "Brand new festival — first edition in 2026 — from Milan collectives Migarden and DE RIO. Set within the centuries-old forest of Terre di Agartha in Torre Alfina, Lazio. Electronic soundscapes woven with ancient forest environment, performance and collective presence.",
+      vibe: "Land-focused and hybrid. Sound, performance and presence in a forest that has been here for centuries. The forest is not backdrop — it is participant.",
+      sounds: "Techno and electronic music with experimental and organic sensibility. Emerging from the Milan underground scene with an international vision.",
+      doNotMiss: "Being at the first edition of something new — Migarden and DE RIO have built a strong reputation in Milan and this is their first large-format festival.",
+      tip: "Very new festival with limited information available. Follow the organizers' Instagram channels for updates closer to the date. Torre Alfina is in northern Lazio, about 1.5 hours from Rome.",
+    },
+    poster: "https://res.cloudinary.com/dglrghiom/image/upload/v1779621897/Nemora_fest_axt87p.jpg",
   },
   {
     name: "Schwing und Stampf Festival", start: "2026-08-27", end: "2026-08-30", location: "Wolfenschiessen", country: "Switzerland", month: "August", tags: ["Electronic", "Techno", "Offgrid", "Arts"], tickets: true,
@@ -1105,6 +1866,14 @@ export const FESTIVALS = [
     description: "Non-profit Swiss alpine festival at 900 metres elevation near Lucerne, run by five local music labels, with two distinct stages and radical inclusivity in a forest and meadow setting.",
     html_content: "<p>Schwing und Stampf is an independent Swiss collective and four-day festival rooted in contemporary festival and club culture, held in Wolfenschiessen near Lucerne at 900 metres elevation amid tall fir trees, mountain meadows, and a large swimming pool. Organizers describe it as a place where reality softens and a collective dream begins to take shape — through sound, landscape and the people who gather here.</p><p>Two distinct stages shape the musical experience: the intense Stampf Floor, focused on the interface between sound and light, and the livelier Schwing Floor where colourful, flashy, and energetic energy prevails. Founded as a non-profit initiative in partnership with five Lucerne music labels, the festival champions radical inclusivity — a big party where everyone is welcome, no matter their sexuality or origin.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Dimensions Festival", start: "2026-08-27", end: "2026-08-31", location: "Tisno", country: "Croatia", month: "August", tags: ["Electronic", "Techno"], tickets: true,
@@ -1117,6 +1886,14 @@ export const FESTIVALS = [
     description: "Five-day underground electronic odyssey at The Garden Resort on Croatia's Adriatic coast — house, techno, electro, breaks and minimal with 150+ artists, boat parties and after-parties at Barbarella's.",
     html_content: "<p>Dimensions Festival is a five-day gathering of like-minded music heads at The Garden Tisno, a stunning site nestled into Croatia's Adriatic coastline. Launched in 2012 as a sister event to Outlook Festival, it has become one of Europe's premier underground electronic events, bringing together a carefully curated programme spanning house, techno, electro, breaks, minimal, drum & bass, and disco, delivered through world-class sound systems across multiple stages, boat parties, and legendary after-parties at Barbarella's Discotheque.</p><p>With over 150 artists and a global community of devoted music heads, Dimensions blends high-energy dancefloors with the relaxed, sun-soaked rhythm of the Adriatic coast. The festival's reputation rests on its curatorial precision — every artist feels essential, every space feels considered — and on a holiday atmosphere that makes five days feel both fleeting and transformative.</p>",
     quote: null,
+    editorial: {
+      about: "Born in 2012 as the sister festival to Outlook, Dimensions has carved a distinct identity over five days at The Garden Resort in Tisno. 150+ artists, boat parties, Barbarella's Discotheque late-nights, and a beach stage that serves as the heart of the whole operation.",
+      vibe: "Community-driven, summer-pilgrimage energy. Crystal-clear Adriatic water, pine-covered stages, seaside dancefloors and a crowd that returns year after year. Quality over quantity throughout.",
+      sounds: "House, techno, electro, UK bass, breaks and minimal. Long DJ sets over peak-time impact. Past artists include Floating Points, Ben UFO, Helena Hauff, Call Super, Daniel Avery.",
+      doNotMiss: "Boat parties and the secret island events — some of the most memorable sets of the week happen on the water or at sunrise after a Barbarella's night.",
+      tip: "Boat parties and after-hours events are often separate tickets — plan ahead if you want them. The Garden Resort is in Tisno, about 1 hour from Split.",
+    },
+    poster: "/img/Dimensions-2026-Lineup.webp",
   },
   // SEPTEMBER
   {
@@ -1129,6 +1906,14 @@ export const FESTIVALS = [
     description: "Immersive arts and intimacy festival on Sicily's Mount Etna. A celebration of Eros, art and humanity where pleasure, expression and connection are honored.",
     html_content: "<p>Kama Etna Festival is held on the island of Sicily in the autumn!</p>",
     quote: "Kāma Etna Festival is born from a heartfelt desire to create a magical space where individuals can release fear and embrace their true selves amidst the beauty of pleasure. It is a celebration of Eros, of art, and of humanity - a gathering where we honor our shared essence through presence, expression, and connection.\n\nKāma invites you to dive into your vulnerability, your desires, and your truth - to explore new ways of expressing boundaries and longing, to let go of shame, and to rediscover the beauty of authenticity. It is a space where nothing is expected, yet everything is possible; where being is enough, and expression becomes art.\n\nRooted in awareness, consciousness, and deep respect for every person's boundaries and desires, this festival offers an immersive experience that weaves together study, practice, and reflection with celebration, music, and performance.\n\nThe festival will be held at Femminamorta, a sacred and powerful location on the island of Sicily, Italy, from September 1st to 6th, 2026.\n\nThroughout these days, you'll move between moments of learning and deep connection, and moments of pure enjoyment - live performances, DJ sets, and captivating artistic expressions that awaken the senses and celebrate life itself.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Own Spirit Festival", start: "2026-09-02", end: "2026-09-07", location: "Huesca, Aragon", country: "Spain", month: "September", tags: ["Psytrance"], tickets: true,
@@ -1140,6 +1925,14 @@ export const FESTIVALS = [
     description: "Visionary psytrance festival in Huesca, Spain. Psychedelic culture, community and dance as spiritual expression. Two 24-hour stages, family-friendly.",
     html_content: "<p>Back when we were young and frying our brains on liquid LSD, trance music was all about the inner journey, turning the dance floor into one big shamanic space and seeing just how far you could push your consciousness.</p>\n<p>Not many of us survived, unsurprisingly, and these days trance festivals often seem to blend the repetitive beats with everything New Age. Boom Festival led the way and Own Spirit Festival is starting up near Barcelona with a similar vibe.</p>",
     quote: "Own Spirit is a visionary festival that combines music and psychedelic culture, sense of community, spiritual growth and dance as an expression of being.\n\nAt Own Spirit Festival we celebrate life, inviting people of all ages, including families and children, to take part in this process of transformation and gain of mindfulness.\n\nWe offer two stages, the Dancefloor and the Temple of Frequencies, where national and international djs from the psytrance scene and psychedelic electronic music will play 24 hours non-stop.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "The Island Festival", start: "2026-09-03", end: "2026-09-07", location: "Obonjan island", country: "Croatia", month: "September", tags: ["Electronic"], tickets: true,
@@ -1151,6 +1944,14 @@ export const FESTIVALS = [
     description: "Five-day festival on the private Croatian island of Obonjan. Electronic music, stunning venues, wellness, culinary delights and crystal-clear sea swimming.",
     html_content: "<p>The Island Festival is a festival and at the same time a pretty expensive holiday with 700 other people on a Croatian island.</p>",
     quote: "At the beginning of September, THE ISLAND FESTIVAL returns to the stunning private island of Obonjan in Croatia. Immerse yourself in an unforgettable five-day journey of music, relaxation, and adventure. Experience breathtaking venues like the east harbour, the forest, the pool, the amphitheater, and even aboard our exclusive boat party. Dance to the beats of renowned DJs and artists, enjoy raves in stunning locations, and take part in our wellness program featuring yoga, meditation, and more.\n\nSavor a variety of culinary delights, including street food, a rich breakfast buffet, and delicious vegan, vegetarian, and non-vegetarian dishes at the island's restaurants. When it's time to unwind, take a dip in the crystal-clear sea or relax by the pool. THE ISLAND FESTIVAL is more than just a festival - it's a unique and exclusive gathering for open-minded, passionate lovers of electronic music. Join a community of like-minded individuals for this extraordinary adventure. Secure your spot now and become part of this magical experience.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "at.tension", start: "2026-09-03", end: "2026-09-06", location: "Lärz airfield", country: "Germany", month: "September", tags: ["Arts"], tickets: true,
@@ -1162,6 +1963,14 @@ export const FESTIVALS = [
     description: "Interdisciplinary theatre festival across 100 hectares of a former airfield in Lärz, Germany. Aeroplane hangars, landing strip and circus tents.",
     html_content: "<p>at.tension festival is a biennial, interdisciplinary theatre festival, curated, organised and realized by actors from Kulturkosmos Müritz e.V. and its network of supporters.</p><p>The expansive, approximately 100-hectare Kulturkosmos site in Lärz is a unique location and extraordinary stage for a theatre festival, with its former aeroplane hangars and a landing strip, various circus tents, and different open and parking spaces.</p>",
     quote: "...a unique location and extraordinary stage for a theatre festival, with its former aeroplane hangars and a landing strip, various circus tents...",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Space Safari", start: "2026-09-04", end: "2026-09-07", location: "Ardennes", country: "Belgium", month: "September", tags: ["Psytrance", "Offgrid"], tickets: true,
@@ -1173,6 +1982,14 @@ export const FESTIVALS = [
     description: "Psychedelic trance festival in the Ardennes Forest, Belgium. Multi-dimensional journey of psytrance music, expressive dance and visual wonders.",
     html_content: "<p>Space Safari almost certainly involves exploring your inner space in the Ardennes Forest with the help of some friendly chemicals.</p>",
     quote: "Come and discover the mesmerizing world of psychedelic trance music, expressive dance and visual wonders, we're all set for a multi-dimensional journey at Supernova.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Draaimolen Festival", start: "2026-09-04", end: "2026-09-05", location: "Tilburg", country: "Netherlands", month: "September", tags: ["Electronic", "Techno", "Offgrid"], tickets: false,
@@ -1185,6 +2002,14 @@ export const FESTIVALS = [
     description: "100% independent non-profit electronic festival in the atmospheric forests of Tilburg, where world-class stage design meets raw Dutch woodland across six distinct sonic environments.",
     html_content: "<p>Draaimolen Festival is a 100% independent, non-profit gathering rooted in the dense forests of Tilburg, where the MOB Complex is transformed into a surreal landscape each year. Six beautifully crafted stages — including the legendary Pit and the architectural Chapel — each offer a different sonic and visual environment, hosting programming that ranges from techno and house to experimental electronics, with a focus on exclusive back-to-back performances and live sets often unique to the event.</p><p>The festival's founding principle is the pursuit of a perfect symbiosis between music, art, and nature, prioritizing the synergy of these elements over commercial appeal. Built by a small, passionate team and a large community of devotees, Draaimolen consistently chooses depth over scale, creativity over familiarity, and community over spectacle — making it one of the most quietly essential festivals in the European electronic calendar.</p>",
     quote: null,
+    editorial: {
+      about: "100% independent non-profit festival in the forests of MOB Complex — a former military mobilization complex in Tilburg. Six stages including the legendary Pit and the Chapel. Dedicated to the symbiosis of music, art and nature. September 4–5, 2026.",
+      vibe: "Illegal rave in the woods — but actually safe, beautifully produced and deeply intentional. No fences — just tree trunks and branches enclosing the space. Minimalist by design, focused entirely on music and art.",
+      sounds: "Experimental techno, house, ambient. Exclusively unique back-to-back performances and live sets, often exclusive to Draaimolen. Stage hosts in 2026 include TraTraTrax, Eris Drew & Octo Octa, Timedance.",
+      doNotMiss: "The Chapel — a stage designed by video artist Heleen Blanken with her visual art under ambient soundtracks. One of the most distinctive stage environments at any European festival.",
+      tip: "Weekend and single-day passes available. The MOB Complex is right at the edge of Tilburg — easily reachable from the city centre. Camping available.",
+    },
+    poster: "/img/Draaimolen-ads.jpg",
   },
   {
     name: "Portugal Contact Festival", start: "2026-09-14", end: "2026-09-19", location: "Alentejo", country: "Portugal", month: "September", tags: ["Mindfulness", "Offgrid"], tickets: true,
@@ -1196,6 +2021,14 @@ export const FESTIVALS = [
     description: "Contact improvisation music festival in Portugal's Alentejo nature. Dance on the beach and ocean with international teachers for 6 days of movement.",
     html_content: "<p><em>Portugal Contact Festival</em> is a contact improvisation community music festival immersed in nature. Enjoy the spontaneous jams, and get lost in the wave of movement in the outdoor dance space in the beauty of nature. Prepare to let your mind, body, and soul align and dance on the beach and in the ocean.</p>",
     quote: "Welcome to the eighth year of our wonderful Portugal Contact Festivals. Immerse yourself with us in an intensive experience in the contact world. Forgotten Land Community encourages people to recognize and use their creative potential. In the workshops, meetings, and festivals, we work together with different artistic methods to immerse ourselves in a flow state that allows everyone to blossom self-forgetfully in play. This can awaken self-healing forces and activate the community-oriented solution and life designs.\n\nWe have invited international artists and teachers who combine many years of teaching experience, professional choreography work, intensive movement research and performance experience.\n\nWe focus on cultivating a deeper awareness of listening, breathing, giving, receiving, and timing.\n\nWe invite you to an original country side house nestled in typical Portuguese farmland at the Algarve coast close by Faro. The home of many wonderful Contact and Somatic events.",
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Plisskën Festival", start: "2026-09-12", end: "2026-09-13", location: "Athens", country: "Greece", month: "September", tags: ["Electronic", "Techno"], tickets: true,
@@ -1207,6 +2040,14 @@ export const FESTIVALS = [
     description: "Two-day avant-garde music festival in Athens blending electronic, indie, hip-hop, punk and experimental sounds across multiple stages, with a commitment to bold curation, sustainability and community.",
     html_content: "<p>Plisskën Festival has been a fixture of Athens' late-summer cultural calendar since its launch in December 2010, building a loyal following through its embrace of innovation and diversity across electronic, indie, hip-hop, punk, and experimental music. Each stage carries its own distinct energy — from gritty electronic beats and darkwave atmospheres to bold synth-pop and punk-fuelled anthems — making Plisskën one of the rare festivals that genuinely defies a single genre label.</p><p>Beyond its adventurous programming, the festival champions sustainability and community engagement as core values, with initiatives that reflect a commitment to culture with conscience. Praised for its immersive atmosphere and inclusive ethos, it has grown from a pioneering local event into a globally recognized platform for cutting-edge music in the heart of Greece.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Mystic Creatures", start: "2026-09-03", end: "2026-09-07", location: "Złocieniec", country: "Poland", month: "September", tags: ["Electronic", "Techno", "Arts"], tickets: true,
@@ -1219,6 +2060,14 @@ export const FESTIVALS = [
     description: "Four-day festival on a forested island in Złocieniec, Poland, with six stages spanning progressive house, techno, psy-techno and ambient, plus art installations and a philosophy of liberation and collective self-expression.",
     html_content: "<p>Mystic Creatures Festival takes place on a forested island surrounded by a beautiful lake in Złocieniec, western Poland, over four days of electronic music, immersive art, and community ritual. The island setting — remote, wild, and reached like a threshold into another world — is central to the festival's identity, with attendees invited to release the creatures hidden inside and celebrate a weekend full of art, culture, community and mystic madness.</p><p>Six beautifully crafted stages host diverse electronic programming ranging from progressive house and deep house to techno, psy-techno, ambient, and hip-hop, while workshops, art installations, and performances celebrate creativity and self-expression. The festival cultivates a philosophy of liberation and authenticity where the line between attendee and participant dissolves in the natural atmosphere of the island.</p>",
     quote: null,
+    editorial: {
+      about: "Five days on a mystical island surrounded by a lake in Złocieniec, northern Poland. Now in its fourth edition, Mystic Creatures draws a strongly German crowd alongside Polish, Dutch and international attendees. 300+ artists across six beautifully crafted stages.",
+      vibe: "Fairytale in a forest. Wild and independent. The island setting creates a natural sense of departure from ordinary life — the creatures found a home here, and you will too.",
+      sounds: "Progressive house, deep house, downtempo, psy-techno, techno, tech house, ambient and hip hop. Broad spectrum, community-curated rather than genre-pure.",
+      doNotMiss: "Arriving by boat to the island — the approach across the water is part of the magic. The sirens singing, as the festival describes it.",
+      tip: "The island is in Błędno near Złocieniec — about 3 hours from Berlin by car. Camping is the only accommodation option. Bring all supplies for the duration.",
+    },
+    poster: "/img/mystic-creatures-2026.jpg",
   },
   {
     name: "Komorebi Music Festival", start: "2026-09-04", end: "2026-09-06", location: "Forte di Vinadio (CN)", country: "Italy", month: "September", tags: ["Electronic", "Techno", "Arts"], tickets: true,
@@ -1230,6 +2079,14 @@ export const FESTIVALS = [
     description: "Three-day electronic festival at the historic Forte di Vinadio in the Piedmont Alps, where sound, nature and performative arts merge within the fort's panoramic alpine architecture.",
     html_content: "<p>Komorebi Music Festival is a three-day electronic music odyssey held at the Forte di Vinadio (Fort Albertino), a historic alpine fortress in the Stura di Demonte Valley in the Piedmont region of northern Italy. The festival's name — 'komorebi' being the Japanese concept of sunlight filtering through leaves — reflects its atmospheric sensibility: sounds, nature and performative arts merge into a dance-driven dimension where rhythms meet the whisper of the wind through the leaves.</p><p>The fort's imposing architecture, panoramic mountain setting, and natural acoustic character become active elements of the programming, transforming the venue into more than a backdrop. With an open-call model for emerging artists and a deliberately curated lineup, Komorebi cultivates an intimate sense of collective belonging within a genuinely spectacular landscape.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   {
     name: "Eternal Sun Festival", start: "2026-09-04", end: "2026-09-06", location: "Sougia, Crete", country: "Greece", month: "September", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
@@ -1241,6 +2098,14 @@ export const FESTIVALS = [
     description: "Intimate 500-guest electronic festival in the remote seaside village of Sougia on Crete's southern coast, combining sunset-to-sunrise sessions at Club Fortuna with daytime Mediterranean village life on the Libyan Sea.",
     html_content: "<p>Eternal Sun Festival is an intimate, independent electronic music gathering held in the remote seaside village of Sougia on the southern coast of Crete, tucked between the dramatic Cretan mountains and the deep blue Libyan Sea. With a strict capacity of just 500 guests at Club Fortuna — a world-class open-air venue with a bespoke sound system built specifically for the site — the festival creates a truly small-scale, music-focused experience for those who value quality over quantity.</p><p>The programming centers on leftfield house, techno, and experimental electronica through carefully curated international DJs, running from sunset to sunrise across three evenings. By day, the slow-paced rhythm of Mediterranean village life takes over — beaches, local culture, the sea — creating a philosophy that blends high-energy musical performances with the tranquil cadence of life in Sougia.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
   // OCTOBER
   {
@@ -1254,6 +2119,14 @@ export const FESTIVALS = [
     description: "Italy's largest indoor music festival in Turin, celebrating 25 years of avant-garde electronic, experimental and contemporary sound across four days each October.",
     html_content: "<p>Club to Club — C2C Festival — was born in Turin in the early 2000s as a pioneering European dance event and has grown into an international platform for experimental and cross-disciplinary sound, bridging music, art, and technology. Over more than two decades, the festival has showcased the most adventurous evolutions of the avant-pop scene, presenting visionary lineups rooted in electronic music while also exploring contemporary sounds across pop, jazz, rap, and hip-hop.</p><p>Held at Lingotto Fiere in Turin, C2C stands as Italy's largest indoor music festival and one of Europe's leading contemporary cultural events. The 2026 edition marks the festival's landmark 25th anniversary — a milestone that underscores its unique position as a global reference point for boundary-pushing sound, where few festivals offer the chance to encounter so much innovation concentrated across a single long weekend.</p>",
     quote: null,
+    editorial: {
+      about: "Founded in Turin in 2002, Club to Club is Italy's largest indoor music festival and a global reference point for avant-pop. 2026 is its 25th anniversary edition. 42,000 attendees in 2025, with a record 40% international audience. Coincides with Turin's Contemporary Art Week.",
+      vibe: "Radically eclectic. Techno peaks, ethereal pop, guitars and synthesisers, cloud rap and jazz in the same weekend. Inconstant flow that makes you feel and dance and occasionally feel provoked. Not like other festivals.",
+      sounds: "Avant-pop and adventurous electronics across the broadest possible spectrum. 2026 features Robyn, Arca, Kelela, BADBADNOTGOOD, Theo Parrish extended set, Yung Lean & Bladee, Crystallmess. Pitchfork called it the 'ne-plus-ultra of avant-garde eclecticism'.",
+      doNotMiss: "The smaller 'alternative' stage — this is where the festival's purely electronic attitude comes through with harder, more hypnotic sets while the main stage does avant-pop.",
+      tip: "Multiple venues across Turin — check the programme carefully and plan which events to prioritise. The festival coincides with Turin's Contemporary Art Week so museums and galleries are also worth exploring.",
+    },
+    poster: "/img/C2C-2026.jpg",
   },
   // MAY 2027
   {
@@ -1267,6 +2140,14 @@ export const FESTIVALS = [
     description: "Multidisciplinary electronic music and contemporary arts festival at a decommissioned military telecom arsenal near Brussels.",
     html_content: "<p>Horst Arts and Music Festival takes place each May at Asiat Park in Vilvoorde, roughly ten kilometres north of Brussels — a former military arsenal for telecommunications equipment that operated from 1946 to 2008, where vast warehouses, barracks, and driving courts have been slowly claimed back by moss, trees, and creative ambition since Horst became its cultural anchor. The festival's operating principle is stated with unusual directness: \"(R)evolution over repetition.\" It believes that complexity and contradiction are not problems to manage but the essential conditions of public life, and it builds its programme — over 100 electronic and experimental music acts alongside visual artists, architects, and performers — as an argument for that position. Every corner of Asiat Park becomes part of the conversation: the decommissioned infrastructure doubles as stage, gallery, listening space, and architectural proposition simultaneously.</p><p>What distinguishes Horst within the European festival landscape is its genuine refusal of homogenization: it is not trying to be the best version of a familiar thing but something different in kind. The arts programming treats the park as \"shared infrastructure for encounter, experimentation, and collective imagination,\" with installations that respond to the site's industrial history and performances that resist the boundary between art and public space. Horst is the kind of festival that makes you think differently about what a festival is for — and that is, finally, the most interesting thing a festival can do.</p>",
     quote: null,
+    editorial: {
+      about: "Three-day arts and music festival at Asiat Park — a former military base in Vilvoorde, just outside Brussels. 15,000 attendees across three days. World-class architects design bespoke stages each edition. Already sold out for 2026.",
+      vibe: "Complexity celebrated over clarity. A living organism in constant motion — electronic music, large-scale art installations and architecture in conversation. More like a temporary autonomous creative ecosystem than a music festival.",
+      sounds: "Deep house, techno, experimental and global sounds. Nearly half the bookings are Belgian artists — a genuine local-scene crash course for visitors. 2026 headliners include Daphni and Gilles Peterson.",
+      doNotMiss: "The architectural stages — each edition commissions new designs that challenge how sound and space interact. A ship emerged from the lake as a dancefloor at a previous edition.",
+      tip: "Shuttle buses run from Vilvoorde Station, Ghent, Antwerp and Leuven. Bikes are encouraged — dedicated parking and a collective ride from Brussels is organized each year.",
+    },
+    poster: null,
   },
   {
     name: "Flash Festival", start: "2027-05-19", end: "2027-05-22", location: "Castiglion Fiorentino", country: "Italy", month: "May", tags: ["Electronic", "Mindfulness"], tickets: true,
@@ -1279,5 +2160,13 @@ export const FESTIVALS = [
     description: "Boutique music and lifestyle festival in Tuscany combining soulful electronic music with wine, food, and genuine Italian culture on a working agriturismo estate.",
     html_content: "<p>Flash Festival Tuscany began in 2017 as a birthday party in the Tuscan hills and has grown, with considerable intentionality, into one of the most distinctive small festivals in Europe — a four-day gathering in Castiglion Fiorentino that treats music, food, and place as equally essential to the experience. Set across a working agriturismo estate surrounded by rolling vineyards and olive groves within sight of a medieval hilltop castle, the festival runs a single curated stage — no clashes, no competing rooms — meaning every artist plays to a unified crowd and every set matters. The programming spans soulful house, poolside disco, eclectic electronics, and club-ready sounds, with the Tuscan hills providing the backdrop and the natural light doing what no production budget can replicate.</p><p>Flash is also a serious engagement with where it is: pasta-making workshops with local grandmothers, wine tastings led by the families who have grown the grapes for generations, morning yoga overlooking the valley, movement workshops, and Mediterranean dinners are woven through the programme with genuine care rather than as cultural decoration. Organized with the warmth of someone who wanted her friends — and eventually strangers who feel like friends — to experience Tuscany the way it deserves to be experienced. Four days of la dolce vita lived properly, with very good sound.</p>",
     quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: null,
   },
 ];

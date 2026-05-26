@@ -670,7 +670,7 @@ function renderCalendar(festivals) {
 // ── EDITORIAL RENDERER ──
 function renderEditorial(editorial) {
   const labels = {
-    why:       'About',
+    about:     'About',
     vibe:      'The vibe',
     sounds:    'Sounds like',
     doNotMiss: 'Do not miss',
@@ -685,6 +685,21 @@ function renderEditorial(editorial) {
       </div>`)
     .join('');
   return `<div class="editorial">${rows}</div>`;
+}
+
+// ── POSTER LIGHTBOX ──
+function openPosterLightbox(src) {
+  const overlay = document.createElement('div');
+  overlay.id = 'poster-lightbox';
+  overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:9999;display:flex;align-items:center;justify-content:center;cursor:pointer;';
+  const img = document.createElement('img');
+  img.src = src;
+  img.loading = 'lazy';
+  img.decoding = 'async';
+  img.style.cssText = 'max-width:90vw;max-height:90vh;border-radius:12px;display:block;object-fit:contain;';
+  overlay.appendChild(img);
+  overlay.onclick = () => overlay.remove();
+  document.body.appendChild(overlay);
 }
 
 // ── DETAIL PANEL ──
@@ -773,9 +788,10 @@ function openDetail(f) {
   const richEl = document.getElementById('detail-rich');
   const noDataEl = document.getElementById('detail-no-data');
 
-  if (f.editorial || f.description) {
+  const hasEditorialContent = f.editorial && Object.values(f.editorial).some(v => v && v.trim());
+  if (hasEditorialContent || f.description) {
     const descEl = document.getElementById('detail-description');
-    if (f.editorial) {
+    if (hasEditorialContent) {
       descEl.innerHTML = renderEditorial(f.editorial);
     } else if (f.html_content) {
       descEl.innerHTML = f.html_content;
@@ -802,7 +818,7 @@ function openDetail(f) {
   const existingMedia = document.getElementById('detail-media');
   if (existingMedia) existingMedia.remove();
 
-  if (f.video || f.youtube || f.spotify || f.soundcloud) {
+  if (f.video || f.youtube || f.spotify || f.soundcloud || f.poster) {
     const mediaEl = document.createElement('div');
     mediaEl.id = 'detail-media';
     mediaEl.className = 'detail-media';
@@ -868,6 +884,23 @@ function openDetail(f) {
       iframe.style.cssText = 'width:100%;height:152px;border-radius:12px;border:0;display:block;overflow:hidden;';
       block.appendChild(label);
       block.appendChild(iframe);
+      mediaEl.appendChild(block);
+    }
+
+    if (f.poster) {
+      const block = document.createElement('div');
+      block.className = 'media-block';
+      const label = document.createElement('div');
+      label.className = 'media-label';
+      label.textContent = 'Festival poster';
+      const posterImg = document.createElement('img');
+      posterImg.src = f.poster;
+      posterImg.loading = 'lazy';
+      posterImg.decoding = 'async';
+      posterImg.style.cssText = 'width:100%;border-radius:12px;display:block;cursor:pointer;';
+      posterImg.onclick = () => openPosterLightbox(f.poster);
+      block.appendChild(label);
+      block.appendChild(posterImg);
       mediaEl.appendChild(block);
     }
 
