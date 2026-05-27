@@ -2129,7 +2129,7 @@ export const FESTIVALS = [
   {
     name: "Omana", start: "2026-09-30", end: "2026-10-06", location: "Chalkidiki", country: "Greece", month: "September", tags: ["Electronic", "Techno", "Mindfulness"], tickets: true,
     curated: true,
-    url: null, img: "/img/omana.webp",
+    url: null, img: "/img/omana.jpg",
     website: "https://omana-festival.de/", instagram: "https://www.instagram.com/omanafestival/",
     youtube: "LWMkRF_Qba4?si=O_BYpc3AwfhUEExA",
     spotify: null,
