@@ -869,7 +869,7 @@ export const FESTIVALS = [
   },
   {
     name: "Silva Festival", start: "2026-07-09", end: "2026-07-11", location: "Unnaryd", country: "Sweden", month: "July", tags: ["Offgrid", "Mindfulness"], tickets: true,
-    url: "https://www.silvafestival.se/", img: "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/684634320_18583069423048040_7351275168126651348_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=110&ig_cache_key=Mzg5MDM5OTkwMDgzODc1NzE2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=z-UIIdI6-ewQ7kNvwG4oBJa&_nc_oc=AdpURA202nUjf2wfyKnKb9ELVkbaKc0Mw0HtB8Jffdx6l2tQ1IzpdOQ1S9XW0uUVQrQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&_nc_gid=N2Y4t8KKxi1NhQHP6JJi7g&_nc_ss=7a22e&oh=00_Af5cnjJ0LLVjtsAOZ3nINGZOxfY7GXs4J1Iy_L5VMFhvvQ&oe=6A16339F",
+    url: "https://www.silvafestival.se/", img: "/img/silva-festival.jpg",
     website: "https://www.silvafestival.se/", instagram: "https://www.instagram.com/silvafestival/",
     youtube: null,
     video:'https://video.wixstatic.com/video/fea07d_7f9147ea6e6349dc80f79ac08e1be43b/1080p/mp4/file.mp4',
@@ -1157,7 +1157,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Ozora Psychedelic Festival", start: "2026-07-24", end: "2026-08-04", location: "Dádpuszta", country: "Hungary", month: "July", tags: ["Psytrance", "Electronic", "Techno", "World Music"], tickets: true,
+    name: "Ozora Festival", start: "2026-07-24", end: "2026-08-04", location: "Dádpuszta", country: "Hungary", month: "July", tags: ["Psytrance", "Electronic", "Techno", "World Music"], tickets: true,
     curated: true,
     url: "https://festivalsandretreats.com/2016/02/09/ozora-festival/", img: "https://discover-festivals.vercel.app/img/OZORA_Festival.jpg",
     website: "https://ozorafestival.eu/", instagram: "https://www.instagram.com/ozorafestivalofficial/",
