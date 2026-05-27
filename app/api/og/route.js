@@ -87,11 +87,11 @@ export async function GET(request) {
         top: 48,
         left: 60,
         color: '#e8a045',
-        fontSize: 24,
+        fontSize: 20,
         letterSpacing: '0.15em',
         textTransform: 'uppercase',
         fontWeight: 700,
-      }, "HANDPICKED by ARSEN"),
+      }, "Carefully Curated by Arsen"),
 
       // Bottom content stack
       el('div', {

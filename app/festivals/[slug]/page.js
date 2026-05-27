@@ -15,17 +15,17 @@ export async function generateMetadata({ params }) {
   const ogImage = `https://discover-festivals.vercel.app/api/og?f=${slug}`
 
   return {
-    title: `${festival.name} — Festival Guide '26`,
+    title: `${festival.name} — Curated Festivals '26`,
     description: festival.description.slice(0, 160),
     openGraph: {
-      title: `${festival.name} — Festival Guide '26`,
+      title: `${festival.name} — Curated Festivals '26`,
       description: festival.description.slice(0, 160),
       images: [{ url: ogImage, width: 900, height: 472 }],
       url: `/festivals/${slug}`,
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${festival.name} — Festival Guide '26`,
+      title: `${festival.name} — Curated Festivals '26`,
       images: [ogImage],
     },
   }
