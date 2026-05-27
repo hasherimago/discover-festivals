@@ -86,7 +86,7 @@ export async function GET(request) {
           display: 'flex',
           position: 'absolute',
           top: 48,
-          left: 60,
+          left: 16,
           color: '#e8a045',
           fontSize: 12,
           letterSpacing: '0.15em',
@@ -100,8 +100,8 @@ export async function GET(request) {
           flexDirection: 'column',
           position: 'absolute',
           bottom: 52,
-          left: 60,
-          right: 60,
+          left: 16,
+          right: 16,
         }, [
           // Festival name
           el('div', {
