@@ -52,8 +52,8 @@ export async function GET(request) {
       {
         display: 'flex',
         flexDirection: 'column',
-        width: '900px',
-        height: '472px',
+        width: '600px',
+        height: '315px',
         background: '#0a0a0a',
         position: 'relative',
         fontFamily: 'Syne',
@@ -63,8 +63,8 @@ export async function GET(request) {
         el('img', {
           position: 'absolute',
           top: 0, left: 0, right: 0, bottom: 0,
-          width: 900,
-          height: 472,
+          width: 600,
+          height: 315,
           objectFit: 'cover',
           opacity: 0.5,
         }, undefined, {
@@ -88,7 +88,7 @@ export async function GET(request) {
           top: 48,
           left: 60,
           color: '#e8a045',
-          fontSize: 16,
+          fontSize: 12,
           letterSpacing: '0.15em',
           textTransform: 'uppercase',
           fontWeight: 700,
@@ -107,7 +107,7 @@ export async function GET(request) {
           el('div', {
             display: 'flex',
             color: '#f0f0f0',
-            fontSize: name.length > 30 ? 52 : 68,
+            fontSize: name.length > 30 ? 32 : 42,
             fontWeight: 700,
             lineHeight: 1.05,
             letterSpacing: '-0.02em',
@@ -118,7 +118,7 @@ export async function GET(request) {
           el('div', {
             display: 'flex',
             color: 'rgba(240,240,240,0.55)',
-            fontSize: 24,
+            fontSize: 14,
             marginBottom: 20,
           }, `${dates}   ${location}`),
 
@@ -149,8 +149,8 @@ export async function GET(request) {
     )
 
     return new ImageResponse(element, {
-      width: 900,
-      height: 472,
+      width: 600,
+      height: 315,
       fonts: [{ name: 'Syne', data: syneData, weight: 700 }],
     })
   } catch (err) {

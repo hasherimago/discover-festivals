@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: `${festival.name} — Curated Festivals '26`,
       description: festival.description.slice(0, 160),
-      images: [{ url: ogImage, width: 900, height: 472 }],
+      images: [{ url: ogImage, width: 600, height: 315 }],
       url: `/festivals/${slug}`,
     },
     twitter: {
