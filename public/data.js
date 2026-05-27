@@ -2145,7 +2145,7 @@ export const FESTIVALS = [
       doNotMiss: "Sunrise over the bay with Mount Athos on the horizon. Kalamitsi faces east — the morning light here is unlike most festival sites.",
       tip: "Accommodation on-site is recommended — staying in the bay means living inside the festival for the full week. Combined ticket and accommodation bookings available through omana-festival.de.",
     },
-    poster: "/img/omana_2026.webp",
+    poster: "/img/omana_2026.jpg",
   },
   // OCTOBER
   {
