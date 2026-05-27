@@ -1275,7 +1275,7 @@ export const FESTIVALS = [
   {
     name: "Mit Dir Festival", start: "2026-07-23", end: "2026-07-26", location: "Friedland", country: "Germany", month: "July", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
     curated: true,
-    url: null, img: "https://berlin-enjoy.com/wp-content/uploads/2024/07/Mit-Dir-Festival-2024-Muhle.webp",
+    url: null, img: "/img/mit-dir.jpg",
     website: "https://www.mit-dir-festival.de/", instagram: "https://www.instagram.com/mitdirfestival/",
     youtube: "HcMU84gwLTo?si=cOZ4TAOH26fOWcbw",
     spotify: null,
