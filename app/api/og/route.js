@@ -88,7 +88,7 @@ export async function GET(request) {
           top: 48,
           left: 60,
           color: '#e8a045',
-          fontSize: 20,
+          fontSize: 16,
           letterSpacing: '0.15em',
           textTransform: 'uppercase',
           fontWeight: 700,
