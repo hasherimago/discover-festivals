@@ -51,8 +51,8 @@ export async function GET(request) {
     {
       display: 'flex',
       flexDirection: 'column',
-      width: '1200px',
-      height: '630px',
+      width: '900px',
+      height: '472px',
       background: '#0a0a0a',
       position: 'relative',
       fontFamily: 'Syne',
@@ -65,7 +65,7 @@ export async function GET(request) {
         width: '100%',
         height: '100%',
         objectFit: 'cover',
-        opacity: 0.8,
+        opacity: 0.5,
       }, undefined, {
         src: festival
           ? imgUrl
@@ -77,7 +77,7 @@ export async function GET(request) {
         display: 'flex',
         position: 'absolute',
         top: 0, left: 0, right: 0, bottom: 0,
-        background: 'linear-gradient(to top, rgba(10, 10, 10, 0.7) 40%, rgba(10,10,10,0.25) 100%)',
+        background: 'linear-gradient(to top, rgba(10,10,10,0.85) 40%, rgba(10,10,10,0.5) 100%)',
       }),
 
       // Eyebrow label — top left
@@ -148,8 +148,8 @@ export async function GET(request) {
   )
 
   return new ImageResponse(element, {
-    width: 1200,
-    height: 630,
+    width: 900,
+    height: 472,
     fonts: [{ name: 'Syne', data: syneData, weight: 700 }],
   })
 }
