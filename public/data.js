@@ -2134,8 +2134,8 @@ export const FESTIVALS = [
     youtube: "LWMkRF_Qba4?si=O_BYpc3AwfhUEExA",
     spotify: null,
     soundcloud: "https://soundcloud.com/homeagain-berlin/thalo-santana-live-at-omana?si=b42b8bc3d6d74a92aa71355c53811ca0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-    description: "Week-long outdoor festival in Germany by HomeAgain Berlin. Deep electronic music, art and community in nature as summer gives way to autumn.",
-    html_content: "<p>Omana is a week-long outdoor festival created by HomeAgain Berlin — a collective rooted in the city's electronic music scene with a philosophy built around genuine community, musical depth and the transformative potential of open-air space. Set in the German landscape as the year moves toward its last warmth, the festival takes shape as something between a gathering and a ritual: a week to step out of ordinary time.</p><p>Across seven days, a carefully chosen programme of electronic music unfolds through long sets and evolving soundscapes — an emphasis on artists who understand the relationship between landscape, light and sound. HomeAgain Berlin has built a reputation for events that feel earned rather than manufactured, and Omana is the fullest expression of that ethos: the season's final deep breath before the dark months arrive.</p>",
+    description: "A week-long electronic music festival and beach holiday in Kalamitsi Bay, Chalkidiki — a breathtaking bay with views of Mount Athos. September 30 to October 6, 2026. Giegling and Different Times among the stage partners.",
+    html_content: "<p>A week-long electronic music festival and beach holiday in Kalamitsi Bay, Chalkidiki — a breathtaking bay with views of Mount Athos. September 30 to October 6, 2026. Giegling and Different Times among the stage partners.</p>",
     quote: null,
     editorial: {
       about: "A week-long electronic music festival and beach holiday in Kalamitsi Bay, Chalkidiki — a breathtaking bay with views of Mount Athos. September 30 to October 6, 2026. Giegling and Different Times among the stage partners. 70% sold out at Phase IV.",
@@ -2144,7 +2144,7 @@ export const FESTIVALS = [
       doNotMiss: "Sunrise over the bay with Mount Athos on the horizon. Kalamitsi faces east — the morning light here is unlike most festival sites.",
       tip: "Accommodation on-site is recommended — staying in the bay means living inside the festival for the full week. Combined ticket and accommodation bookings available through omana-festival.de.",
     },
-    poster: "/img/Omana_2026.webp",
+    poster: "/img/omana_2026.webp",
   },
   // OCTOBER
   {
