@@ -2172,7 +2172,7 @@ export const FESTIVALS = [
   {
     name: "Horst Arts & Music", start: "2027-05-06", end: "2027-05-08", location: "Brussels", country: "Belgium", month: "May", tags: ["Electronic", "Techno", "Arts"], tickets: true,
     curated: true,
-    url: null, img: "https://cdn.prod.website-files.com/64edfd0797f6eba52008af10/6536d1ac5150e21dc0cbef67_2.%20Illias%20Teirlinck.webp",
+    url: null, img: "/img/horst-art-music.jpg",
     website: "https://www.horstartsandmusic.com/festival", instagram: "https://www.instagram.com/horstartsandmusic/",
     youtube: "MjvmDrVfh84?si=KkJRkQ517nMdfStK",
     spotify: null,
