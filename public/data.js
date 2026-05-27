@@ -2015,7 +2015,7 @@ export const FESTIVALS = [
   {
     name: "Draaimolen Festival", start: "2026-09-04", end: "2026-09-05", location: "Tilburg", country: "Netherlands", month: "September", tags: ["Electronic", "Techno", "Offgrid"], tickets: false,
     curated: true,
-    url: null, img: "https://media.eurotravelo.com/wp-content/uploads/2026/03/drymoo.webp",
+    url: null, img: "/img/draaimolen.jpg",
     website: "https://www.draaimolen.nu/events/draaimolen-festival-2026?tab=about", instagram: "https://www.instagram.com/draaimolen_/",
     youtube: "pGoUJdtscWY?si=FQwUsYzqgiYEwY_u",
     spotify: null,
