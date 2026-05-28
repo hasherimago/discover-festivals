@@ -1586,9 +1586,9 @@
   }
 
   @media (max-width: 767px) {
-    #fab-container {
-      right: auto !important;
-      left: 24px !important;
+    #scroll-top-btn {
+      right: 24px;
+      bottom: 84px;
     }
   }
 
