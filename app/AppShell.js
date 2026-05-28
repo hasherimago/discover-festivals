@@ -282,7 +282,7 @@ export default function AppShell({ initialSlug }) {
 
 
       {/* ══════════════════════ FAB ══════════════════════ */}
-      <div ref={fabRef} style={{ position: 'fixed', bottom: '24px', right: '24px', zIndex: 500 }}>
+      <div ref={fabRef} style={{ position: 'fixed', bottom: '24px', left: '24px', zIndex: 500 }}>
 
         {/* Pill: Suggest a festival — bottom: 84px from viewport = 60px above container */}
         <div style={{
