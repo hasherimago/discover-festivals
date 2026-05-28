@@ -1585,6 +1585,13 @@
     display: none;
   }
 
+  @media (max-width: 767px) {
+    #fab-container {
+      right: auto !important;
+      left: 24px !important;
+    }
+  }
+
   @media (min-width: 768px) {
     #scroll-top-btn {
       right: 24px;
