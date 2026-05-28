@@ -1780,7 +1780,7 @@ export const FESTIVALS = [
   {
     name: "CRX Festival", start: "2026-08-07", end: "2026-08-08", location: "Cave di Fantano, Grottaglie", country: "Italy", month: "August", tags: ["Electronic", "Techno", "Offgrid", "Arts", "World Music"], tickets: true,
     curated: true,
-    url: null, img: "/img/CRX-bg.webp",
+    url: null, img: "/img/CRX-bg.jpg",
     website: "https://xceed.me/en/grottaglie/event/crx-festival-2026-full-pass-early-bird/219775/channel/crx-festival", instagram: "https://www.instagram.com/crxfestival/",
     youtube: null,
     spotify: null,

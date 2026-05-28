@@ -909,6 +909,7 @@ function openDetail(f) {
   }
 
   savedScrollY = window.scrollY;
+  sessionStorage.setItem('festScrollY', savedScrollY);
   document.body.classList.add('detail-open');
   document.getElementById('view-detail').scrollTop = 0;
   // Only update URL if we're not already on the festival's own route
@@ -926,7 +927,10 @@ function openDetail(f) {
 
 function closeDetail() {
   document.body.classList.remove('detail-open');
-  window.scrollTo(0, savedScrollY);
+  const y = savedScrollY || parseInt(sessionStorage.getItem('festScrollY') || '0', 10);
+  requestAnimationFrame(() => {
+    window.scrollTo(0, y);
+  });
   history.replaceState({}, '', '/');
   document.title = _origTitle;
   if (_metaDesc) _metaDesc.content = _origMetaDesc;
@@ -935,7 +939,10 @@ function closeDetail() {
 }
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
-window.addEventListener('popstate', () => closeDetail());
+window.addEventListener('popstate', () => {
+  const onFestivalRoute = window.location.pathname.match(/^\/festivals\/([^/]+)$/);
+  if (!onFestivalRoute) closeDetail();
+});
 
 // ── VIEW TOGGLE ──
 function setView(v) {
