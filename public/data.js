@@ -1625,10 +1625,10 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Iceland Eclipse", start: "2026-08-12", end: "2026-08-15", location: "Iceland", country: "Iceland", month: "August", tags: ["Mindfulness", "Offgrid"], tickets: true,
-    url: "https://festivalsandretreats.com/2026/01/09/iceland-eclipse/", img: "/img/2026_01_iceland-eclipse-festival.jpeg",
-    website: "https://icelandeclipse.com", instagram: null,
-    youtube: null,
+    name: "Iceland Eclipse", start: "2026-08-11", end: "2026-08-15", location: "Snæfellsnes Peninsula", country: "Iceland", month: "August", tags: ["Mindfulness", "Offgrid"], tickets: true,
+    url: "https://festivalsandretreats.com/2026/01/09/iceland-eclipse/", img: "/img/iceland-eclipse-main.jpg",
+    website: "https://icelandeclipse.com", instagram: "https://www.instagram.com/icelandeclipse",
+    youtube: "MR0EGvU0SC0?si=3WKKLDaF8daadJUo",
     spotify: null,
     soundcloud: null,
     description: "4-day immersive festival in Iceland during the 2026 total eclipse. Visionaries, artists and eclipse seekers at the intersection of music and wellness.",
@@ -1641,7 +1641,7 @@ export const FESTIVALS = [
       doNotMiss: "",
       tip: "",
     },
-    poster: null,
+    poster: "/img/iceland-eclipse.jpg",
   },
   {
     name: "Roztoč Fest", start: "2026-08-13", end: "2026-08-17", location: "Moravia", country: "Czech Republic", month: "August", tags: ["Arts"], tickets: true,

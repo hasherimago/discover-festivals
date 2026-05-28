@@ -1040,3 +1040,11 @@ window.openDetail = function(slug) {
   const fest = FESTIVALS.find(f => toSlug(f.name) === slug);
   if (fest) openDetail(fest);
 };
+
+// ── SCROLL TO TOP BUTTON ──
+const _scrollTopBtn = document.getElementById('scroll-top-btn');
+window.addEventListener('scroll', () => {
+  if (_scrollTopBtn) {
+    _scrollTopBtn.classList.toggle('visible', window.scrollY > 300);
+  }
+}, { passive: true });

@@ -1553,6 +1553,46 @@
     transform: translateX(-50%) translateY(0);
   }
 
+  #scroll-top-btn {
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.15);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 100;
+    padding: 0;
+  }
+
+  #scroll-top-btn.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  body.detail-open #scroll-top-btn {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    #scroll-top-btn {
+      left: auto;
+      right: 24px;
+      bottom: 84px;
+    }
+  }
+
   .save-info-icon {
     display: inline-flex;
     align-items: center;

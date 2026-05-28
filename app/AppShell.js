@@ -366,6 +366,12 @@ export default function AppShell({ initialSlug }) {
 
       </div>
 
+      {/* ══════════════════════ SCROLL TO TOP ══════════════════════ */}
+      <button id="scroll-top-btn" aria-label="Scroll to top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 15V5M10 5L5 10M10 5L15 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      </button>
 
       {/* ══════════════════════ SUGGEST A FESTIVAL MODAL ══════════════════════ */}
       {isSubmitOpen && (
