@@ -1008,6 +1008,7 @@ export const FESTIVALS = [
   },
   {
     name: "Dour Festival", start: "2026-07-15", end: "2026-07-19", location: "Dour", country: "Belgium", month: "July", tags: ["Electronic", "Techno"], tickets: true,
+    curated: true,
     url: "https://www.dourfestival.eu/en/", img: "/img/dour-main.jpg",
     website: "https://www.dourfestival.eu/en/", instagram: "https://www.instagram.com/dourfestival",
     youtube: "oQrv__y8AiU?si=ORV_cJYBwA5TPbEN",
@@ -1609,7 +1610,8 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Micro festival", start: "2026-08-07", end: "2026-08-09", location: "Liège", country: "Belgium", month: "August", tags: ["Electronic"], tickets: true,
+    name: "Micro Festival", start: "2026-08-07", end: "2026-08-09", location: "Liège", country: "Belgium", month: "August", tags: ["Electronic"], tickets: true,
+    curated: true,
     url: "https://microfestival.be/", img: "/img/micro-festival-main.jpg",
     website: "https://microfestival.be/", instagram: "https://www.instagram.com/microfestival",
     youtube: "8rIz9dPEFek?si=oAySmoNOiFDneHfB",
