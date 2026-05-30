@@ -154,7 +154,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Earth Garden", start: "2026-05-29", end: "2026-05-31", location: "Ta' Qali", country: "Malta", month: "May", tags: ["World Music", "Electronic", "Psytrance"], tickets: true,
+    name: "Earth Garden", start: "2026-05-29", end: "2026-05-31", location: "Ta' Qali", country: "Malta", month: "May", tags: ["Techno", "Electronic", "Psytrance", "World Music"], tickets: true,
     url: "https://festivalsandretreats.com/2019/03/29/earth-garden/", img: "https://i.ytimg.com/vi/BW1cgVa6lFg/maxresdefault.jpg",
     website: "https://www.earthgarden.com.mt", instagram: "https://www.instagram.com/earthgarden/",
     youtube: "4_trRFTcCVE?si=M3sTKuQnWGqD5s9d",

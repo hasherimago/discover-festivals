@@ -1048,3 +1048,26 @@ window.addEventListener('scroll', () => {
     _scrollTopBtn.classList.toggle('visible', window.scrollY > 300);
   }
 }, { passive: true });
+
+// ── THEME TOGGLE ──
+(function () {
+  var STORAGE_KEY = 'festival-theme';
+  function getSaved() { return localStorage.getItem(STORAGE_KEY) || 'dark'; }
+  function applyTheme(mode) {
+    document.documentElement[mode === 'dark' ? 'setAttribute' : 'removeAttribute']('data-theme', 'dark');
+  }
+  function updateBtns(mode) {
+    document.querySelectorAll('[data-theme-btn]').forEach(function(b) {
+      b.classList.toggle('active', b.dataset.themeBtn === mode);
+    });
+  }
+  function setMode(mode) {
+    localStorage.setItem(STORAGE_KEY, mode);
+    applyTheme(mode); updateBtns(mode);
+  }
+  var saved = getSaved();
+  applyTheme(saved); updateBtns(saved);
+  document.querySelectorAll('[data-theme-btn]').forEach(function(b) {
+    b.addEventListener('click', function() { setMode(b.dataset.themeBtn); });
+  });
+})();
