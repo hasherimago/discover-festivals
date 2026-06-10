@@ -228,7 +228,7 @@ function applyFilters() {
     if (country && f.country !== country) return false;
     if (!matchesTags(f, activeTags)) return false;
     if (q) {
-      const hay = _strip(`${f.name} ${f.location} ${f.country} ${f.tags.join(' ')}`).toLowerCase();
+      const hay = _strip(`${f.name} ${f.location} ${f.country} ${f.tags.join(' ')} ${f.searchAlias || ''}`).toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
