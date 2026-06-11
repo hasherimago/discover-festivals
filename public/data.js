@@ -1,7 +1,7 @@
 export const FESTIVALS = [
   // MAY
   {
-    name: "Space to Emerge", start: "2026-05-01", end: "2026-05-04", location: "Lake District", country: "England", month: "May", tags: ["Mindfulness"], tickets: true,
+    name: "Space to Emerge", start: "2026-05-01", end: "2026-05-04", location: "Lake District", country: "England", month: "May", tags: ["Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2018/01/01/space-to-emerge/", img: "/img/2018_01_download.jpg",
     website: "https://www.spacetoemerge.com", instagram: null,
     youtube: null,
@@ -20,7 +20,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "The Cocoon", start: "2026-05-03", end: "2026-05-10", location: "Crete", country: "Greece", month: "May", tags: ["Mindfulness"], tickets: true,
+    name: "The Cocoon", start: "2026-05-03", end: "2026-05-10", location: "Crete", country: "Greece", month: "May", tags: ["Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2025/08/25/the-cocoon/", img: "/img/2025_08_intimacyfestivalcrete.jpg",
     website: "https://the-cocoon.com/?utm_source=SFAR&utm_term=SFAR", instagram: null,
     youtube: null,
@@ -39,7 +39,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Elfia Vorden Festival", start: "2026-05-08", end: "2026-05-10", location: "Vorden", country: "Netherlands", month: "May", tags: ["Arts"], tickets: false,
+    name: "Elfia Vorden Festival", start: "2026-05-08", end: "2026-05-10", location: "Vorden", country: "Netherlands", month: "May", tags: ["Arts", "Boutique"], tickets: false,
     url: "https://linktr.ee/Kingdom_of_Elfia", img: "/img/2024_04_278638909_5270052903028574_757411625807642330_n.jpg",
     website: "https://www.elfia.com/en", instagram: "https://www.instagram.com/kingdomofelfia/?hl=en",
     youtube: null,
@@ -77,7 +77,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Wood Festival", start: "2026-05-15", end: "2026-05-17", location: "Braziers Park, Oxfordshire", country: "UK", month: "May", tags: ["World Music"], tickets: true,
+    name: "Wood Festival", start: "2026-05-15", end: "2026-05-17", location: "Braziers Park, Oxfordshire", country: "UK", month: "May", tags: ["World Music", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2019/09/08/wood-festival/", img: "/img/2019_09_ifXSvNbdqlR1Xq0u7Yh5y1Y-rCM.png",
     website: "http://www.woodfestival.com", instagram: null,
     youtube: null,
@@ -96,7 +96,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Burning Nest", start: "2026-05-18", end: "2026-05-25", location: "Exeter", country: "England", month: "May", tags: ["Burner", "Arts"], tickets: true,
+    name: "Burning Nest", start: "2026-05-18", end: "2026-05-25", location: "Exeter", country: "England", month: "May", tags: ["Arts", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2016/02/02/burning-nest/", img: "https://burningnest.co.uk/wp-content/uploads/2026/04/Copy-of-20230528_222513-1024x461.jpg",
     website: "http://www.burningnest.co.uk", instagram: "https://www.instagram.com/burning_nest/",
     youtube: "-tK-xG5g8G0?si=5qRJo-eawVOBLeG9",
@@ -116,7 +116,7 @@ export const FESTIVALS = [
   },
 
   {
-    name: "Flamingalo", start: "2026-05-27", end: "2026-05-31", location: "Alentejo", country: "Portugal", month: "May", tags: ["Burner", "Arts"], tickets: true,
+    name: "Flamingalo", start: "2026-05-27", end: "2026-05-31", location: "Alentejo", country: "Portugal", month: "May", tags: ["Arts", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2026/03/10/flamingalo/", img: "/img/2026_03_flamingalo-burn-portugal-scaled.jpg",
     website: "https://flamingalo.org", instagram: "https://www.instagram.com/flamingalo.pt/",
     youtube: null,
@@ -135,7 +135,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Conscious Camp", start: "2026-05-28", end: "2026-05-31", location: "Shrewsbury", country: "UK", month: "May", tags: ["Offgrid", "Mindfulness"], tickets: true,
+    name: "Conscious Camp", start: "2026-05-28", end: "2026-05-31", location: "Shrewsbury", country: "UK", month: "May", tags: ["Offgrid", "Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/04/22/conscious-camp-2/", img: "/img/2023_04_circle3-960x400-1.jpg",
     website: "https://consciouscamp.co.uk", instagram: null,
     youtube: "bm2vf_s_TFw?si=se1-IiVZmDQgdVAm",
@@ -154,7 +154,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Earth Garden", start: "2026-05-29", end: "2026-05-31", location: "Ta' Qali", country: "Malta", month: "May", tags: ["Techno", "Electronic", "Psytrance", "World Music"], tickets: true,
+    name: "Earth Garden", start: "2026-05-29", end: "2026-05-31", location: "Ta' Qali", country: "Malta", month: "May", tags: ["Electronic", "Psytrance", "World Music"], tickets: true,
     url: "https://festivalsandretreats.com/2019/03/29/earth-garden/", img: "https://i.ytimg.com/vi/BW1cgVa6lFg/maxresdefault.jpg",
     website: "https://www.earthgarden.com.mt", instagram: "https://www.instagram.com/earthgarden/",
     youtube: "4_trRFTcCVE?si=M3sTKuQnWGqD5s9d",
@@ -173,7 +173,7 @@ export const FESTIVALS = [
     poster: "/img/Earth-Garden-2026-Lineup-Poster.jpg",
   },
   {
-    name: "Psychedelic Experience Festival", start: "2026-05-29", end: "2026-06-01", location: "Gallin-Kuppentin", country: "Germany", month: "May", tags: ["Psytrance", "Electronic"], tickets: true,
+    name: "Psychedelic Experience Festival", start: "2026-05-29", end: "2026-06-01", location: "Gallin-Kuppentin", country: "Germany", month: "May", tags: ["Psytrance", "Electronic", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2017/05/02/psychedelic-experience-festival/", img: "/img/2017_05_PsychedelicExperience-00041.jpg",
     website: "http://www.psyexperience-festival.com", instagram: "https://www.instagram.com/psyexperiencefestival/?hl=en",
     youtube: "MLZLTKcb8gc?si=amDaKkVeUiEZZIfT",
@@ -192,7 +192,7 @@ export const FESTIVALS = [
     poster: "/img/Psychedelic-Experience-Festival-2026-Lineup-Poster.jpg",
   },
   {
-    name: "Space of Love Festival", start: "2026-05-29", end: "2026-06-07", location: "Öland", country: "Sweden", month: "May", tags: ["Mindfulness", "Offgrid"], tickets: true,
+    name: "Space of Love Festival", start: "2026-05-29", end: "2026-06-07", location: "Öland", country: "Sweden", month: "May", tags: ["Mindfulness", "Offgrid", "Boutique"], tickets: true,
     url: "https://spaceoflove.nu/festival/", img: "/img/2016_03_spaceoflove.jpg",
     website: "https://spaceoflove.nu/festival/", instagram: "https://www.instagram.com/spaceoflovefestival/",
     youtube: null,
@@ -211,7 +211,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Klub Dramatik", start: "2026-05-23", end: "2026-05-24", location: "Antwerp", country: "Belgium", month: "May", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Klub Dramatik", start: "2026-05-23", end: "2026-05-24", location: "Antwerp", country: "Belgium", month: "May", tags: ["Electronic", "Techno", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "https://ticketswap-image-cdn.b-cdn.net/public/202605/klub-dramatik-festival-2026-nachtegalenpark-20-may-2026-1779109430.image.jpeg",
     website: "https://klubdramatik.com/", instagram: "https://www.instagram.com/klubdramatik/",
@@ -231,7 +231,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Lentekabinet", start: "2026-05-23", end: "2026-05-24", location: "Amsterdam", country: "Netherlands", month: "May", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Lentekabinet", start: "2026-05-23", end: "2026-05-24", location: "Amsterdam", country: "Netherlands", month: "May", tags: ["Electronic", "Techno", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "/img/lentekabinet.jpg",
     website: "https://www.hetkabinetfestival.nl/", instagram: "https://www.instagram.com/lentekabinet/",
@@ -251,7 +251,7 @@ export const FESTIVALS = [
     poster: "/img/lentakabinet-2026.webp",
   },
   {
-    name: "Refractor Festival", start: "2026-05-29", end: "2026-05-31", location: "Valdeverdeja", country: "Spain", month: "May", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
+    name: "Refractor Festival", start: "2026-05-29", end: "2026-05-31", location: "Valdeverdeja", country: "Spain", month: "May", tags: ["Electronic", "Offgrid", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "https://imgproxy.ra.co/_/quality:66/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL25ld3MvMjAyNS9yZnJjdHJfcHJfaW1nXzAxNC5qcGc=",
     website: "https://linktr.ee/Refractor.os", instagram: "https://www.instagram.com/refractor.festival/",
@@ -272,7 +272,7 @@ export const FESTIVALS = [
   },
   // JUNE
   {
-    name: "Kala Festival", start: "2026-06-03", end: "2026-06-10", location: "Dhërmi", country: "Albania", month: "June", tags: ["Electronic", "Techno"], tickets: false,
+    name: "Kala Festival", start: "2026-06-03", end: "2026-06-10", location: "Dhërmi", country: "Albania", month: "June", tags: ["Electronic", "Beach", "Boutique"], tickets: false,
     curated: true,
     url: null, img: "https://imgproxy.ra.co/_/quality:66/aHR0cHM6Ly9zdGF0aWMucmEuY28vaW1hZ2VzL25ld3MvMjAyNi9rYWxhZmVzdGl2YWwuanBlZw==",
     website: "https://kala.al/", instagram: "https://www.instagram.com/kalafestival/",
@@ -292,7 +292,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Lighthouse Festival", start: "2026-06-03", end: "2026-06-07", location: "Istria", country: "Croatia", month: "June", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Lighthouse Festival", start: "2026-06-03", end: "2026-06-07", location: "Istria", country: "Croatia", month: "June", tags: ["Electronic", "Beach", "Boutique"], tickets: true,
     url: null, curated: true, img: "/img/Lighthouse.jpg",
     website: "https://lighthouse.plus/", instagram: "https://www.instagram.com/lhfofficial/",
     youtube: "G8XVUEqnO1A?si=J1WuDSwKTfulbJPR",
@@ -311,7 +311,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "UNUM", start: "2026-06-04", end: "2026-06-08", location: "Shëngjin", country: "Albania", month: "June", tags: ["Electronic", "Techno"], tickets: true,
+    name: "UNUM", start: "2026-06-04", end: "2026-06-08", location: "Shëngjin", country: "Albania", month: "June", tags: ["Electronic", "Beach", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "/img/unum.jpg",
     website: "https://unumfestival.com/", instagram: "https://www.instagram.com/unumfestival/",
@@ -331,7 +331,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Wildheart Gathering", start: "2026-06-04", end: "2026-06-07", location: "South Bohemia", country: "Czech Republic", month: "June", tags: ["Offgrid", "Mindfulness"], tickets: true,
+    name: "Wildheart Gathering", start: "2026-06-04", end: "2026-06-07", location: "South Bohemia", country: "Czech Republic", month: "June", tags: ["Offgrid", "Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2025/05/21/wildheart-gathering-2/", img: "https://www.beautifulgatherings.eu/wp-content/uploads/brizy/imgs/beautiful-Gatherings-7-983x553x0x0x983x552x1768145837.jpg",
     website: "https://www.beautifulgatherings.eu/wildheart", instagram: null,
     youtube: null,
@@ -350,7 +350,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Wurzelfestival", start: "2026-06-04", end: "2026-06-07", location: "Niedergörsdorf", country: "Germany", month: "June", tags: ["Electronic", "World Music"], tickets: true,
+    name: "Wurzelfestival", start: "2026-06-04", end: "2026-06-07", location: "Niedergörsdorf", country: "Germany", month: "June", tags: ["Electronic", "World Music", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2019/04/11/wurzel-festival/", img: "https://media.eurotravelo.com/wp-content/uploads/2026/03/6b62ce9fb834ac627f84389883d0c2619b5d7a8e-scaled.webp",
     website: "https://www.wurzelfestival.de", instagram: "https://www.instagram.com/wurzelfestival",
     youtube: "XvEyMY1ite0?si=Cau64h5MTD5f8kuA",
@@ -369,7 +369,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "PÁVOIA Festival", start: "2026-06-05", end: "2026-06-08", location: "Debrznica", country: "Poland", month: "June", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
+    name: "PÁVOIA Festival", start: "2026-06-05", end: "2026-06-08", location: "Debrznica", country: "Poland", month: "June", tags: ["Electronic", "Offgrid", "Boutique"], tickets: true,
     curated: null,
     url: null, img: "https://i0.wp.com/www.fazemag.de/wp-content/uploads/2022/02/JPbeutin_PAVOIA-289.jpeg?fit=640%2C395&ssl=1",
     website: "https://pavoia.com/", instagram: "https://www.instagram.com/wearepavoia/",
@@ -389,7 +389,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Art Baer Burn", start: "2026-06-11", end: "2026-06-14", location: "Bad Sulza", country: "Germany", month: "June", tags: ["Burner", "Arts"], tickets: true,
+    name: "Art Baer Burn", start: "2026-06-11", end: "2026-06-14", location: "Bad Sulza", country: "Germany", month: "June", tags: ["Arts", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/06/11/art-baer-burn/", img: "/img/2024_06_art-baer-burn.jpg",
     website: "https://blog.artbaer.de/en/home-english", instagram: null,
     youtube: null,
@@ -408,7 +408,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Waking Life", start: "2026-06-17", end: "2026-06-22", location: "Crato", country: "Portugal", month: "June", tags: ["Psytrance", "Techno", "Electronic"], tickets: false,
+    name: "Waking Life", start: "2026-06-17", end: "2026-06-22", location: "Crato", country: "Portugal", month: "June", tags: ["Electronic", "Lake", "Boutique"], tickets: false,
     curated: true,
     url: "https://festivalsandretreats.com/2022/01/29/waking-life/", img: "/img/2022_01_Waking-Life-Portugal.jpg",
     website: "https://wakinglife.pt/", instagram: "https://www.instagram.com/wakinglife.pt/",
@@ -428,7 +428,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Tantric Joy Festival", start: "2026-06-17", end: "2026-06-21", location: "Amsterdam", country: "Netherlands", month: "June", tags: ["Mindfulness"], tickets: true,
+    name: "Tantric Joy Festival", start: "2026-06-17", end: "2026-06-21", location: "Amsterdam", country: "Netherlands", month: "June", tags: ["Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2025/11/08/tantric-joy-festival-amsterdam-2/", img: "/img/2025_11_tantra-joy-festival.png",
     website: "http://www.tantricjoyfestivalamsterdam.com", instagram: "https://www.instagram.com/tantricjoyfestivalamsterdam/",
     youtube: null,
@@ -448,7 +448,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Black Forest Ecstatic Dance Festival", start: "2026-06-18", end: "2026-06-21", location: "Black Forest", country: "Germany", month: "June", tags: ["Mindfulness", "Offgrid"], tickets: true,
+    name: "Black Forest Ecstatic Dance Festival", start: "2026-06-18", end: "2026-06-21", location: "Black Forest", country: "Germany", month: "June", tags: ["Mindfulness", "Offgrid", "Forest", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2025/01/07/black-forest-ecstatic-dance-festival/", img: "/img/2025_01_black-forest-ecstatic-dance-festival.jpg",
     website: "https://www.ecstaticblackforest.de/english", instagram: "https://www.instagram.com/ecstaticdancefreiburg/",
     youtube: null,
@@ -467,7 +467,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Solstice Festival", start: "2026-06-18", end: "2026-06-20", location: "Ruka. Kuusamo", country: "Finland", month: "June", tags: ["Electronic", "Offgrid", "Techno"], tickets: true,
+    name: "Solstice Festival", start: "2026-06-18", end: "2026-06-20", location: "Ruka. Kuusamo", country: "Finland", month: "June", tags: ["Electronic", "Offgrid", "Boutique"], tickets: true,
     curated: true,
     url: "https://festivalsandretreats.com/2024/12/26/solstice-festival/", img: "/img/2024_12_solstice-festival.jpg",
     website: "https://solsticefestival.fi", instagram: "https://www.instagram.com/solstice.festival",
@@ -487,7 +487,7 @@ export const FESTIVALS = [
     poster: "/img/Solstice-2026-Lineup-Poster.webp",
   },
   {
-    name: "Where the Sheep Sleep", start: "2026-06-18", end: "2026-06-22", location: "Flevoland", country: "Netherlands", month: "June", tags: ["Burner", "Arts"], tickets: true,
+    name: "Where the Sheep Sleep", start: "2026-06-18", end: "2026-06-22", location: "Flevoland", country: "Netherlands", month: "June", tags: ["Arts", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2020/03/10/where-the-sheep-sleep/", img: "/img/2020_03_where-the-sheep.jpg",
     website: "https://sheep.burningman.nl", instagram: "https://www.instagram.com/burningmannl/?hl=en",
     youtube: null,
@@ -506,7 +506,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Sónar Festival", start: "2026-06-18", end: "2026-06-20", location: "Barcelona", country: "Spain", month: "June", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Sónar Festival", start: "2026-06-18", end: "2026-06-20", location: "Barcelona", country: "Spain", month: "June", tags: ["Electronic"], tickets: true,
     curated: true,
     url: null, img: "https://storage.googleapis.com/pro-cms-bucket/2662_Village_Martini_Ariel_20230615_f8ff91ebfc/2662_Village_Martini_Ariel_20230615_f8ff91ebfc.jpeg",
     website: "https://sonar.es/en", instagram: "https://www.instagram.com/sonarfestival/?hl=en",
@@ -526,7 +526,7 @@ export const FESTIVALS = [
     poster: "/img/Sonar-2026-Lineup-Poster-2.jpg",
   },
   {
-    name: "Everness Festival", start: "2026-06-19", end: "2026-06-28", location: "Bükk Hills", country: "Hungary", month: "June", tags: ["Offgrid", "Mindfulness"], tickets: true,
+    name: "Everness Festival", start: "2026-06-19", end: "2026-06-28", location: "Bükk Hills", country: "Hungary", month: "June", tags: ["Offgrid", "Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2026/04/30/everness-festival/", img: "/img/2026_04_everness-festival.jpg",
     website: "https://evernessfestival.com/festival", instagram: "https://www.instagram.com/evernessfest/",
     youtube: "Q1grqoxSBu4?si=rGTaNsUvWqIF8UNs",
@@ -545,7 +545,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Butiba Festival", start: "2026-06-21", end: "2026-06-24", location: "Kegums", country: "Latvia", month: "June", tags: ["Arts", "Mindfulness"], tickets: true,
+    name: "Butiba Festival", start: "2026-06-21", end: "2026-06-24", location: "Kegums", country: "Latvia", month: "June", tags: ["Arts", "Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2026/03/03/butiba-festival-2/", img: "/img/2026_03_butiba-festival.jpg",
     website: "https://butibafestival.com/", instagram: "https://www.instagram.com/butiba_festival/",
     youtube: "27F9CZVXiQ4?si=thHQsvNeiINcxHIV",
@@ -564,7 +564,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Pachamama Play Festival", start: "2026-06-21", end: "2026-07-04", location: "Bay of Kotor", country: "Montenegro", month: "June", tags: ["Mindfulness"], tickets: true,
+    name: "Pachamama Play Festival", start: "2026-06-21", end: "2026-07-04", location: "Bay of Kotor", country: "Montenegro", month: "June", tags: ["Mindfulness", "Beach", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2026/01/09/pachamama-play-festival/", img: "/img/2026_01_Acro-Festival-montegro-pachamama.jpg",
     website: "https://pachamamaretreat.me/pachamama-play-festival", instagram: "https://www.instagram.com/pachamama.retreat",
     youtube: "uf27kthkgnU?si=YHuU2iuJ4TNZHzZm",
@@ -583,7 +583,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Kiez Burn", start: "2026-06-23", end: "2026-06-29", location: "Brandenburg", country: "Germany", month: "June", tags: ["Burner", "Arts"], tickets: false,
+    name: "Kiez Burn", start: "2026-06-23", end: "2026-06-29", location: "Brandenburg", country: "Germany", month: "June", tags: ["Arts", "Boutique"], tickets: false,
     url: "https://festivalsandretreats.com/2024/04/22/kiez-burn-2/", img: "/img/2024_04_o37kfb.jpg",
     website: "https://mmm.kiezburn.org", instagram: null,
     youtube: null,
@@ -602,7 +602,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "UFO Bufo Festival", start: "2026-06-24", end: "2026-06-28", location: "Vítkov", country: "Czech Republic", month: "June", tags: ["Offgrid", "Psytrance"], tickets: true,
+    name: "UFO Bufo Festival", start: "2026-06-24", end: "2026-06-28", location: "Vítkov", country: "Czech Republic", month: "June", tags: ["Offgrid", "Psytrance", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2017/05/03/ufo-bufo-2017/", img: "/img/2017_05_91970206_1632558423548958_8290940246120464384_o-scaled.jpg",
     website: "https://www.ufobufo.eu", instagram: "https://www.instagram.com/ufobufo",
     youtube: "1x0pgg7aLl4?si=KMYYjDCgQg_27eMM",
@@ -621,7 +621,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Burning Mountain Festival", start: "2026-06-25", end: "2026-06-28", location: "Zernez", country: "Switzerland", month: "June", tags: ["Burner", "Psytrance", "Arts"], tickets: true,
+    name: "Burning Mountain Festival", start: "2026-06-25", end: "2026-06-28", location: "Zernez", country: "Switzerland", month: "June", tags: ["Psytrance", "Arts", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/04/22/burning-mountain-festival/", img: "/img/2024_04_burningmountain23_0022-L.jpg",
     website: "https://www.burning-mountain.ch", instagram: "https://www.instagram.com/burningmountain",
     youtube: "QEy5CcGXyO4?si=ruCeRiCyTYPm3cYN",
@@ -640,7 +640,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Château Perché Festival", start: "2026-06-25", end: "2026-07-06", location: "Bouville", country: "France", month: "June", tags: ["Techno", "Electronic"], tickets: false,
+    name: "Château Perché Festival", start: "2026-06-25", end: "2026-07-06", location: "Bouville", country: "France", month: "June", tags: ["Electronic", "Boutique"], tickets: false,
     curated: true,
     url: "https://festivalsandretreats.com/2023/01/26/chateau-perche-festival/", img: "/img/2023_01_Untitled-design-26.jpg",
     website: "https://chateauperchefestival.com/", instagram: "https://www.instagram.com/chateauperchefestival/",
@@ -661,7 +661,7 @@ export const FESTIVALS = [
   },
   
   {
-    name: "Masters of Calm Festival", start: "2026-06-26", end: "2026-07-05", location: "Dubingiai", country: "Lithuania", month: "June", tags: ["Mindfulness", "Arts"], tickets: true,
+    name: "Masters of Calm Festival", start: "2026-06-26", end: "2026-07-05", location: "Dubingiai", country: "Lithuania", month: "June", tags: ["Mindfulness", "Arts", "Lake", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2020/02/27/masters-of-calm-2020-life-changing-adventure/", img: "/img/2020_02_mastersofcalm-2.jpg",
     website: "http://mastersofcalm.com", instagram: "https://www.instagram.com/mastersofcalm_festival/?hl=en",
     youtube: "xt_TIh5ZYAE?si=xu7uyuJhJByl05ZE",
@@ -680,7 +680,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Soria Gathering", start: "2026-06-26", end: "2026-06-30", location: "Sørøya island", country: "Norway", month: "June", tags: ["Electronic", "Mindfulness", "Offgrid"], tickets: true,
+    name: "Soria Gathering", start: "2026-06-26", end: "2026-06-30", location: "Sørøya island", country: "Norway", month: "June", tags: ["Electronic", "Mindfulness", "Offgrid", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/04/16/soria-gathering/", img: "https://images.prismic.io/funktion-one/Zvl_r7VsGrYSwG_C_SoriaGatheringFunktion-OneShepherdSoundSystem2.JPG?auto=format,compress",
     website: "https://soriagathering.com/experience", instagram: "https://www.instagram.com/soria.gathering",
     youtube: "FTjoBE4FLtU?si=HwpuvSnZI1y2FfeW",
@@ -699,7 +699,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Nest Microfest", start: "2026-06-12", end: "2026-06-14", location: "Pontons, Barcelona", country: "Spain", month: "June", tags: ["Electronic", "Mindfulness", "Offgrid"], tickets: true,
+    name: "Nest Microfest", start: "2026-06-12", end: "2026-06-14", location: "Pontons, Barcelona", country: "Spain", month: "June", tags: ["Electronic", "Mindfulness", "Offgrid", "Boutique"], tickets: true,
     url: null, img: "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_1200,h_630/f_jpg/q_auto/production/artworks/Nest5Home_z2kiik.png",
     website: "https://nestmicrofest.com/", instagram: "https://www.instagram.com/nestmicrofest/",
     youtube: "6sFLp10Gpx0?si=_6saQ2btBgOZa2tn",
@@ -718,7 +718,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Skalar Festival", start: "2026-06-11", end: "2026-06-14", location: "Frankfurt (Oder)", country: "Germany", month: "June", tags: ["Techno", "Electronic", "Psytrance"], tickets: true,
+    name: "Skalar Festival", start: "2026-06-11", end: "2026-06-14", location: "Frankfurt (Oder)", country: "Germany", month: "June", tags: ["Electronic", "Psytrance", "Boutique"], tickets: true,
     url: null, img: "/img/skalar-festival.jpg",
     website: "https://www.skalarfestival.de/", instagram: "https://www.instagram.com/skalarfestival/",
     youtube: "PRhgkTDKmIw?si=dri15iA6dYnVbdya",
@@ -737,7 +737,7 @@ export const FESTIVALS = [
     poster: "/img/skalar-26.jpg",
   },
   {
-    name: "Fusion Festival", start: "2026-06-24", end: "2026-06-28", location: "Lärz", country: "Germany", month: "June", tags: ["Electronic", "Techno", "Psytrance", "Burner", "Arts"], tickets: true,
+    name: "Fusion Festival", start: "2026-06-24", end: "2026-06-28", location: "Lärz", country: "Germany", month: "June", tags: ["Electronic", "Psytrance", "Arts"], tickets: true,
     url: null, img: "https://cloudfront-eu-central-1.images.arcpublishing.com/madsack/QRGD2IYG6NFURI3ZNB3OMVSWMA.jpg",
     website: "https://fusion-festival.de/de", instagram: "https://www.instagram.com/fusionfestivallaerz/?hl=en",
     youtube: "ZMpX_gW_UT4?si=t6lyJlxL0HJRJf_d",
@@ -775,7 +775,7 @@ export const FESTIVALS = [
     poster: "/img/friends-of-friends.jpg",
   },
   {
-    name: "La Nature Festival", start: "2026-06-18", end: "2026-06-21", location: "Vielsalm", country: "Belgium", month: "June", tags: ["Electronic", "Techno", "Offgrid"], tickets: false,
+    name: "La Nature Festival", start: "2026-06-18", end: "2026-06-21", location: "Vielsalm", country: "Belgium", month: "June", tags: ["Electronic", "Offgrid", "Forest", "Boutique"], tickets: false,
     curated: true,
     url: "https://www.lanature.be/", img: "/img/la-nature-main.jpg",
     website: "https://www.lanature.be/", instagram: "https://www.instagram.com/noname_lanaturefestival/",
@@ -796,7 +796,7 @@ export const FESTIVALS = [
   },
   // JULY
   {
-    name: "Bear Stone Festival", start: "2026-07-02", end: "2026-07-05", location: "Mrežnica river", country: "Croatia", month: "July", tags: ["Psytrance", "Offgrid", "World Music"], tickets: true,
+    name: "Bear Stone Festival", start: "2026-07-02", end: "2026-07-05", location: "Mrežnica river", country: "Croatia", month: "July", tags: ["Psytrance", "Offgrid", "World Music", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/04/22/bear-stone-festival/", img: "/img/2024_04_Logo2026_500-1.png",
     website: "https://bearstonefestival.com", instagram: "https://www.instagram.com/bearstonefestival",
     youtube: "-4IbDc4hT10?si=3VbL86nL9IoUtLiL",
@@ -834,7 +834,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Orange Sun", start: "2026-07-03", end: "2026-07-05", location: "Menkendorf", country: "Germany", month: "July", tags: ["Psytrance", "Techno"], tickets: true,
+    name: "Orange Sun", start: "2026-07-03", end: "2026-07-05", location: "Menkendorf", country: "Germany", month: "July", tags: ["Psytrance", "Boutique"], tickets: true,
     url: null, img: "https://psymedia.co.za/wp-content/uploads/orange-sun-festival.jpg",
     website: "https://orangesunfestival.ebtix.de/event/K3HUJP/page", instagram: "https://www.instagram.com/orangesunfestival/",
     youtube: null,
@@ -853,7 +853,26 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Third Eye Festival", start: "2026-07-03", end: "2026-07-06", location: "Wilhelmsburg", country: "Germany", month: "July", tags: ["Techno", "Electronic", "Psytrance", "Offgrid"], tickets: true,
+    name: "Kappa FuturFestival", start: "2026-07-03", end: "2026-07-05", location: "Turin", country: "Italy", month: "July", tags: ["Electronic"], tickets: true,
+    url: null, img: "/img/kappa.jpg",
+    website: "https://www.kappafuturfestival.it/en", instagram: "https://www.instagram.com/futur_festival/",
+    youtube: "4wxs_7ybC3E?si=cuiOIfYvTnPz20qk",
+    spotify: null,
+    soundcloud: null,
+    description: "Three-day electronic music festival in Turin, Italy.",
+    html_content: "<p>Kappa FuturFestival is a three-day electronic music festival held in Turin, Italy, bringing together underground electronic artists in an urban outdoor setting.</p>",
+    quote: null,
+    editorial: {
+      about: "One of the world's great electronic music festivals, set in Parco Dora — a former Fiat factory in Turin with towering steel structures and exposed industrial architecture. Over 120,000 people from 150 countries attended the 2025 edition, with 130+ artists across six stages.  Sold out for 2026. Recognized by DJ Mag as one of the best festivals in the world.",
+      vibe: "Three days suspended between steel and sky, between industrial memory and digital future.  Noon to midnight, city centre, no camping. Turin's restaurants, museums and bars are part of the experience — this is a festival where the city is as much the draw as the stages.",
+      sounds: "Techno, house and electronic across six stages. 2026 lineup: Four Tet, Floating Points, Ben Klock, Marcel Dettmann, Carl Craig b2b Mike Banks, Charlotte de Witte, Amelie Lens, Sven Väth, Richie Hawtin, Solomun, Objekt, Avalon Emerson, Disclosure, Diplo, Four Tet, Seth Troxler and 100+ more.",
+      doNotMiss: "The Dora stage — the largest of the six, set under the vast steel canopies of the former factory. The scale of the industrial structure overhead while the music plays is unlike any other festival setting in Europe.",
+      tip: "No camping — stay in Turin and treat the city as part of the trip. The Art & Techno package combines a 5-star hotel, gourmet dining, art gallery tours and Gold festival access if you want the full Turinese experience around it.",
+    },
+    poster: "/img/kappa-lineup-26.jpg",
+  },
+  {
+    name: "Third Eye Festival", start: "2026-07-03", end: "2026-07-06", location: "Wilhelmsburg", country: "Germany", month: "July", tags: ["Electronic", "Psytrance", "Offgrid", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/12/26/third-eye-festival/", img: "/img/2024_12_third-eye-festival-1024x1024.jpg",
     website: "https://www.thirdeyefestival.de", instagram: "https://www.instagram.com/third_eye_festival/",
     youtube: "Djm77uDNkB4?si=tI4-mtvZXImSbvGJ",
@@ -872,7 +891,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Surya Spirits Festival", start: "2026-07-03", end: "2026-07-06", location: "Gent", country: "Belgium", month: "July", tags: ["Psytrance", "Mindfulness"], tickets: true,
+    name: "Surya Spirits Festival", start: "2026-07-03", end: "2026-07-06", location: "Gent", country: "Belgium", month: "July", tags: ["Psytrance", "Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2023/04/05/surya-spirits-festival/", img: "https://surya-spirits.be/wordpress/wp-content/uploads/2026/02/SURYA-FESTIVAL-SHOTS-145-of-296-1024x683.jpg",
     website: "https://surya-spirits.be", instagram: "https://www.instagram.com/surya_spirits/",
     youtube: "5LObUcGCy7U?si=FRR8E6aSW4Bb9W_4",
@@ -891,7 +910,7 @@ export const FESTIVALS = [
     poster: "/img/surya-2026.jpg",
   },
   {
-    name: "Lithica Gathering", start: "2026-07-06", end: "2026-07-12", location: "Tessanden", country: "Norway", month: "July", tags: ["Offgrid", "Mindfulness"], tickets: true,
+    name: "Lithica Gathering", start: "2026-07-06", end: "2026-07-12", location: "Tessanden", country: "Norway", month: "July", tags: ["Offgrid", "Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2023/03/29/lithica-gathering/", img: "https://images.squarespace-cdn.com/content/v1/63adc224f7b97650790a9ca0/1737641284853-SVDSLW3YB2N90FPDPUMC/P1041809.jpg",
     website: "https://www.lithica.earth", instagram: "https://www.instagram.com/lithica.rewild/",
     youtube: "KUINY1CHPQk?si=VzofxktY10pJ3lIQ",
@@ -910,7 +929,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Elsewhere Festival", start: "2026-07-07", end: "2026-07-12", location: "Zaragoza", country: "Spain", month: "July", tags: ["Burner", "Arts", "Offgrid"], tickets: true,
+    name: "Elsewhere Festival", start: "2026-07-07", end: "2026-07-12", location: "Zaragoza", country: "Spain", month: "July", tags: ["Arts", "Offgrid", "Boutique"], tickets: true,
     url: "https://nobodies.team/", img: "https://nobodies.team/images/hero-1.jpg",
     website: "https://nobodies.team/", instagram: "https://www.instagram.com/elsewhere.burn/",
     youtube: null,
@@ -947,7 +966,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Body Love Festival", start: "2026-07-09", end: "2026-07-13", location: "Bavaria", country: "Germany", month: "July", tags: ["Mindfulness"], tickets: true,
+    name: "Body Love Festival", start: "2026-07-09", end: "2026-07-13", location: "Bavaria", country: "Germany", month: "July", tags: ["Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2025/02/21/body-love-festival-2/", img: "/img/2025_02_bodylovefestival.jpg",
     website: "https://linktr.ee/BoDy_LoVe_2026", instagram: "https://www.instagram.com/bodylovefestival/",
     youtube: null,
@@ -966,7 +985,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Silva Festival", start: "2026-07-09", end: "2026-07-11", location: "Unnaryd", country: "Sweden", month: "July", tags: ["Offgrid", "Mindfulness", "World Music"], tickets: true,
+    name: "Silva Festival", start: "2026-07-09", end: "2026-07-11", location: "Unnaryd", country: "Sweden", month: "July", tags: ["Offgrid", "Mindfulness", "World Music", "Boutique"], tickets: true,
     url: "https://www.silvafestival.se/", img: "/img/silva-festival.jpg",
     website: "https://www.silvafestival.se/", instagram: "https://www.instagram.com/silvafestival/",
     youtube: null,
@@ -986,7 +1005,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Kosmos Festival", start: "2026-07-09", end: "2026-07-12", location: "Ristiina", country: "Finland", month: "July", tags: ["Electronic", "Psytrance"], tickets: true,
+    name: "Kosmos Festival", start: "2026-07-09", end: "2026-07-12", location: "Ristiina", country: "Finland", month: "July", tags: ["Electronic", "Psytrance", "Lake", "Forest", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2018/01/09/kosmos-festival/", img: "/img/2018_01_kosmos-eventti-2-1024x536-1.png",
     website: "https://kosmosfestival.fi", instagram: "https://www.instagram.com/kosmos_festival/?hl=en",
     youtube: "omOgiMteqq4?si=ODJFcaK-N6xvdRWD",
@@ -1005,7 +1024,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Ritual Gatherings", start: "2026-07-10", end: "2026-07-12", location: "Cape Akra", country: "Bulgaria", month: "July", tags: ["Electronic", "Mindfulness"], tickets: true,
+    name: "Ritual Gatherings", start: "2026-07-10", end: "2026-07-12", location: "Cape Akra", country: "Bulgaria", month: "July", tags: ["Electronic", "Mindfulness", "Beach", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/12/26/ritual-gatherings/", img: "/img/2024_12_ritual-gatherings.jpg",
     website: "https://ritualgatherings.com", instagram: "https://www.instagram.com/ritual_gatherings/",
     youtube: "4O6SUzLvvWg?si=_Z0tE5Tn97Td9Oc0",
@@ -1044,6 +1063,25 @@ export const FESTIVALS = [
     poster: "/img/Stone-Techno-Festival-2026-Lineup-Poster.webp",
   },
   {
+    name: "Rote Dichte", start: "2026-07-10", end: "2026-07-12", location: "Galenbeck", country: "Germany", month: "July", tags: ["Techno", "Offgrid", "Forest", "Boutique"], tickets: true,
+    url: null, img: "/img/rote-dichte.jpg",
+    website: "https://www.rotedichte.de/", instagram: "https://www.instagram.com/rotedichte/",
+    youtube: null,
+    spotify: null,
+    soundcloud: null,
+    description: "Boutique three-day techno festival in Galenbeck, Germany.",
+    html_content: "<p>Rote Dichte is a boutique three-day techno festival held in Galenbeck, Germany, bringing together a focused community of electronic music lovers in an off-grid outdoor setting.</p>",
+    quote: null,
+    editorial: {
+      about: "A small, deliberately non-commercial techno and house festival in nature — no sponsors, no VIP areas, no workshops, no distractions.  Run by Betriebsfeier Berlin, the same crew behind some of the city's best underground parties. Set at Zur Kleinbahn in Galenbeck, Mecklenburg-Vorpommern.  Limited tickets, camping included. Lineup TBA — announced close to the event.",
+      vibe: "Techno and house, ohne Blabla. That's the actual tagline and it tells you everything. No side activities, no stages for anything other than the music. The forest setting in Mecklenburg does the rest.",
+      sounds: "Techno and house — modular, live acts and DJs. Past artists include Coco, Burnhard, D.M.S, Intaktogene, Mona Moore and other Berlin underground regulars. Programming stays close to the Betriebsfeier Berlin aesthetic.",
+      doNotMiss: "The intimacy — at this scale you're never more than a few rows from the decks. The distance between artist and crowd that disappears at small festivals like this is the whole point.",
+      tip: "Galenbeck is about 2 hours from Berlin by car, near Neubrandenburg. Limited tickets sell through the Rote Dichte website and newsletter — subscribe to catch the next drop.",
+    },
+    poster: "/img/rote-dichte-26.jpg",
+  },
+  {
     name: "Awakenings Festival", start: "2026-07-10", end: "2026-07-12", location: "Hilvarenbeek", country: "Netherlands", month: "July", tags: ["Electronic", "Techno"], tickets: true,
     curated: true,
     url: null, img: "https://assets.awakenings.com/images/transforms/blocks/_929x522_crop_center-center_none/2018-07-01_Awakenings_festival_352.jpg",
@@ -1064,7 +1102,7 @@ export const FESTIVALS = [
     poster: "Awakenings-Festival-2026-Lineup-Poster-2.webp",
   },
   {
-    name: "Butik Festival", start: "2026-07-14", end: "2026-07-18", location: "Tolmin", country: "Slovenia", month: "July", tags: ["Electronic", "Techno", "Offgrid"], tickets: false,
+    name: "Butik Festival", start: "2026-07-14", end: "2026-07-18", location: "Tolmin", country: "Slovenia", month: "July", tags: ["Electronic", "Offgrid", "Forest", "Boutique"], tickets: false,
     curated: true,
     url: null, img: "https://images.xceed.me/blog/wp-content/uploads/2025/07/08140915/Butik-Festivail-Slovenia-2025-guide-XCEED.jpg",
     website: "https://butikfestival.com/", instagram: "https://www.instagram.com/butik_emf/",
@@ -1084,7 +1122,7 @@ export const FESTIVALS = [
     poster: "/img/Butik-2026-Lineup-Poster.jpg",
   },
   {
-    name: "Dour Festival", start: "2026-07-15", end: "2026-07-19", location: "Dour", country: "Belgium", month: "July", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Dour Festival", start: "2026-07-15", end: "2026-07-19", location: "Dour", country: "Belgium", month: "July", tags: ["Electronic"], tickets: true,
     curated: true,
     url: "https://www.dourfestival.eu/en/", img: "/img/dour-main.jpg",
     website: "https://www.dourfestival.eu/en/", instagram: "https://www.instagram.com/dourfestival",
@@ -1104,7 +1142,7 @@ export const FESTIVALS = [
     poster: "/img/dour-lineup-26.jpg",
   },
   {
-    name: "Caia Tribe Gathering", start: "2026-07-15", end: "2026-07-19", location: "Steyerberg", country: "Germany", month: "July", tags: ["Mindfulness"], tickets: true,
+    name: "Caia Tribe Gathering", start: "2026-07-15", end: "2026-07-19", location: "Steyerberg", country: "Germany", month: "July", tags: ["Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2023/11/03/caia-tribe-gathering/", img: "/img/2023_11_KatharinaBauerPhotography__CaiaGathering_2023_DSC07718-Gros.jpeg",
     website: "https://caia-academy.de/gathering", instagram: "https://www.instagram.com/caia.academy/",
     youtube: "v9sDNcp6I5k?si=l-RSEQ2MvKLSIoO1",
@@ -1122,7 +1160,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Kolorádó Festival", start: "2026-07-15", end: "2026-07-19", location: "Káloz", country: "Hungary", month: "July", tags: ["Offgrid", "Electronic", "Techno", "World Music"], tickets: true,
+    name: "Kolorádó Festival", start: "2026-07-15", end: "2026-07-19", location: "Káloz", country: "Hungary", month: "July", tags: ["Offgrid", "Electronic", "World Music", "Lake", "Forest", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2022/01/29/kolorado/", img: "/img/2022_01_Kolorado-Hungary.jpg",
     website: "https://kolorado.hu/en", instagram: "https://www.instagram.com/koloradofesztival/",
     youtube: "BwqAoHr-De8?si=W6ir_jN50olEoJLR",
@@ -1160,7 +1198,7 @@ export const FESTIVALS = [
     poster: "/img/Electric-Castle-2026.jpg",
   },
   {
-    name: "Yaga Gathering", start: "2026-07-16", end: "2026-07-20", location: "Šilutė district", country: "Lithuania", month: "July", tags: ["Psytrance", "Mindfulness", "Arts", "Offgrid"], tickets: true,
+    name: "Yaga Gathering", start: "2026-07-16", end: "2026-07-20", location: "Šilutė district", country: "Lithuania", month: "July", tags: ["Psytrance", "Mindfulness", "Arts", "Offgrid", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2016/01/24/yaga-gathering-lithuania-2016/", img: "/img/2016_01_Yaga_09_24_Day1_0029.jpg",
     website: "https://yaga.lt", instagram: "https://www.instagram.com/yagathering/",
     youtube: "rH7f2wtptm8?si=NU4rfrA6bEpwDpUF",
@@ -1178,7 +1216,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "The Festival of Creativity", start: "2026-07-17", end: "2026-07-26", location: "Ticha-Dolní Dvořiště", country: "Czech Republic", month: "July", tags: ["Arts", "Mindfulness", "Offgrid"], tickets: true,
+    name: "The Festival of Creativity", start: "2026-07-17", end: "2026-07-26", location: "Ticha-Dolní Dvořiště", country: "Czech Republic", month: "July", tags: ["Arts", "Mindfulness", "Offgrid", "Boutique"], tickets: true,
     img: "/img/2021_09_satfestivalfirebannerstyle.jpg",
     website: "https://roadjunkyfestival.com", instagram: null,
     youtube: "ZQ5HOyCIs40?si=BB3KC6gIV9-4Oogs",
@@ -1216,7 +1254,7 @@ export const FESTIVALS = [
     poster: "/img/Whole-Festival-2026-Lineup-Poster.jpg",
   },
   {
-    name: "Borderland", start: "2026-07-20", end: "2026-07-26", location: "Skåne", country: "Sweden", month: "July", tags: ["Burner", "Arts"], tickets: true,
+    name: "Borderland", start: "2026-07-20", end: "2026-07-26", location: "Skåne", country: "Sweden", month: "July", tags: ["Arts", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2016/01/29/borderland/", img: "/img/2016_01_borderland_logo2015.png",
     website: "https://talk.theborderland.se/main", instagram: null,
     youtube: null,
@@ -1236,7 +1274,7 @@ export const FESTIVALS = [
   },
 
   {
-    name: "Polifonic Festival", start: "2026-07-22", end: "2026-07-26", location: "Puglia", country: "Italy", month: "July", tags: ["Electronic", "Techno", "Arts"], tickets: true,
+    name: "Polifonic Festival", start: "2026-07-22", end: "2026-07-26", location: "Puglia", country: "Italy", month: "July", tags: ["Electronic", "Arts", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "https://festivalsandretreats.com/wp-content/uploads/2022/01/Polifonic-Italy-page.jpg",
     website: "https://www.polifonic.it/", instagram: "https://www.instagram.com/polifonic_/",
@@ -1256,7 +1294,7 @@ export const FESTIVALS = [
     poster: "/img/Polifonic.jpg",
   },
   {
-    name: "Feel Festival", start: "2026-07-23", end: "2026-07-26", location: "Lichterfeld, Brandenburg", country: "Germany", month: "July", tags: ["Electronic", "Techno", "Mindfulness", "Arts"], tickets: true, curated: true,
+    name: "Feel Festival", start: "2026-07-23", end: "2026-07-26", location: "Lichterfeld, Brandenburg", country: "Germany", month: "July", tags: ["Electronic", "Mindfulness", "Arts", "Boutique"], tickets: true, curated: true,
     url: "https://festivalsandretreats.com/2019/04/01/feel-festival/", img: "/img/2019_04_Blackwork_2017_07_07_Feel_PDB5317.jpeg",
     website: "https://feel-festival.de", instagram: "https://www.instagram.com/feelfestival/",
     youtube: "YO1wYjI63Ho?si=GKqc5KrpVl8eLbzh",
@@ -1275,7 +1313,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Landjuweel", start: "2026-07-23", end: "2026-07-26", location: "Ruigoord", country: "Netherlands", month: "July", tags: ["Mindfulness", "Arts", "World Music", "Electronic"], tickets: true,
+    name: "Landjuweel", start: "2026-07-23", end: "2026-07-26", location: "Ruigoord", country: "Netherlands", month: "July", tags: ["Mindfulness", "Arts", "World Music", "Electronic", "Boutique"], tickets: true,
     curated: true,
     url: "https://ruigoord.nl/en/ruigoord-gatherings/landjuweel/", img: "/img/Landjuweel.jpeg",
     website: "https://ruigoord.nl/en/ruigoord-gatherings/landjuweel/", instagram: "https://www.instagram.com/landjuweel.festival/",
@@ -1295,7 +1333,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Ozora Festival", start: "2026-07-24", end: "2026-08-04", location: "Dádpuszta", country: "Hungary", month: "July", tags: ["Psytrance", "Electronic", "Techno", "World Music"], tickets: true,
+    name: "Ozora Festival", start: "2026-07-24", end: "2026-08-04", location: "Dádpuszta", country: "Hungary", month: "July", tags: ["Psytrance", "Electronic", "World Music"], tickets: true,
     curated: true,
     url: "https://festivalsandretreats.com/2016/02/09/ozora-festival/", img: "https://discover-festivals.vercel.app/img/OZORA_Festival.jpg",
     website: "https://ozorafestival.eu/", instagram: "https://www.instagram.com/ozorafestivalofficial/",
@@ -1353,7 +1391,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Hors Sol Festival", start: "2026-07-02", end: "2026-07-05", location: "Causse Noir, Cévennes", country: "France", month: "July", tags: ["Electronic", "Techno", "Offgrid", "Arts"], tickets: true,
+    name: "Hors Sol Festival", start: "2026-07-02", end: "2026-07-05", location: "Causse Noir, Cévennes", country: "France", month: "July", tags: ["Electronic", "Offgrid", "Arts", "Boutique"], tickets: true,
     url: null, img: "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/production/artworks/Design_sans_titre_5_rzo1xa.png",
     website: "https://www.horssol.net/festival", instagram: "https://www.instagram.com/hors_sol_festival/",
     youtube: null,
@@ -1391,7 +1429,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Nation of Gondwana", start: "2026-07-16", end: "2026-07-19", location: "Nauen", country: "Germany", month: "July", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Nation of Gondwana", start: "2026-07-16", end: "2026-07-19", location: "Nauen", country: "Germany", month: "July", tags: ["Electronic"], tickets: true,
     curated: true,
     url: null, img: "https://groove.de/wp-content/uploads/2021/07/Nation.of_.Gondwana.2021.Foto_.A.Waltz_.DSCF7742.jpeg",
     website: "https://pyonen.de/nog2026/de", instagram: "https://www.instagram.com/nation_of_gondwana_pyonen/",
@@ -1411,7 +1449,7 @@ export const FESTIVALS = [
     poster: "/img/Gondwana.jpeg",
   },
   {
-    name: "Mit Dir Festival", start: "2026-07-23", end: "2026-07-26", location: "Friedland", country: "Germany", month: "July", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
+    name: "Mit Dir Festival", start: "2026-07-23", end: "2026-07-26", location: "Friedland", country: "Germany", month: "July", tags: ["Electronic", "Offgrid"], tickets: true,
     curated: true,
     url: null, img: "/img/mit-dir.jpg",
     website: "https://www.mit-dir-festival.de/", instagram: "https://www.instagram.com/mitdirfestival/",
@@ -1431,7 +1469,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Wabi Sabi Festival", start: "2026-07-24", end: "2026-07-26", location: "Vaas", country: "France", month: "July", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
+    name: "Wabi Sabi Festival", start: "2026-07-24", end: "2026-07-26", location: "Vaas", country: "France", month: "July", tags: ["Electronic", "Offgrid"], tickets: true,
     curated: true,
     url: null, img: "https://imgproxy.ra.co/_/quality:66/aHR0cHM6Ly9pbWFnZXMucmEuY28vZjczY2RlZTdhODRlOTRiODBlMWYxZmNhOGNmYWYwODM3ZGFmYWNiYi5qcGc=",
     website: "https://www.helloasso.com/associations/wabi-sabi/evenements/wabi-sabi-festival-2026", instagram: "https://www.instagram.com/wabisabi_festival/",
@@ -1451,7 +1489,7 @@ export const FESTIVALS = [
     poster: "/img/wabi-sabi.jpg",
   },
   {
-    name: "CLOSER Festival", start: "2026-07-24", end: "2026-07-26", location: "Livno", country: "Bosnia and Herzegovina", month: "July", tags: ["Techno", "Electronic"], tickets: true,
+    name: "CLOSER Festival", start: "2026-07-24", end: "2026-07-26", location: "Livno", country: "Bosnia and Herzegovina", month: "July", tags: ["Electronic"], tickets: true,
     url: null, img: "https://static.wixstatic.com/media/c9f31e_db267f855b544428825e3af3c8d0fc41~mv2.png/v1/fill/w_568,h_320,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c9f31e_db267f855b544428825e3af3c8d0fc41~mv2.png",
     website: "https://www.ticket4you.hr/event/closer26", instagram: "https://www.instagram.com/closer.festival/",
     youtube: null,
@@ -1490,7 +1528,7 @@ export const FESTIVALS = [
     poster: "/img/doel-festival-2026.webp",
   },
   {
-    name: "Dekmantel Festival", start: "2026-07-29", end: "2026-08-02", location: "Amsterdam", country: "Netherlands", month: "July", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Dekmantel Festival", start: "2026-07-29", end: "2026-08-02", location: "Amsterdam", country: "Netherlands", month: "July", tags: ["Electronic", "Techno", "Forest"], tickets: true,
     curated: true,
     url: null, img: "https://cdn.mos.cms.futurecdn.net/SSFvwqh73Jd3iV2cRJXPwa.jpg",
     website: "https://dekmantelfestival.com/", instagram: "https://www.instagram.com/dkmntl/",
@@ -1510,7 +1548,7 @@ export const FESTIVALS = [
     poster: "/img/Dekmantal-2026-Lineup-Poster.webp",
   },
   {
-    name: "Prærie Festival", start: "2026-07-30", end: "2026-08-02", location: "Galenbeck", country: "Germany", month: "July", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
+    name: "Prærie Festival", start: "2026-07-30", end: "2026-08-02", location: "Galenbeck", country: "Germany", month: "July", tags: ["Electronic", "Offgrid", "Lake", "Forest", "Boutique"], tickets: true,
     url: null, img: "https://i.ytimg.com/vi/eCRVQdXS4Rc/maxresdefault.jpg",
     website: "https://praerie-festival.com/", instagram: "https://www.instagram.com/praerie_festival/",
     youtube: "g1TaHjXZTUM?si=ESwrsc3Y96FN56uN",
@@ -1529,7 +1567,7 @@ export const FESTIVALS = [
     poster: "/img/prearie-2026.jpg",
   },
   {
-    name: "Garbicz Festival", start: "2026-07-30", end: "2026-08-03", location: "Garbicz", country: "Poland", month: "July", tags: ["Electronic", "Techno", "Psytrance"], tickets: true,
+    name: "Garbicz Festival", start: "2026-07-30", end: "2026-08-03", location: "Garbicz", country: "Poland", month: "July", tags: ["Electronic", "Psytrance", "Lake", "Forest"], tickets: true,
     curated: true,
     url: null, img: "https://www.beatheim.com/wp-content/uploads/2024/07/Garbicz-Festival-Photo-Policy-2024.jpg",
     website: "https://garbiczfestival.com/", instagram: "https://www.instagram.com/garbicz_festival/",
@@ -1549,7 +1587,7 @@ export const FESTIVALS = [
     poster: "/img/Garbicz-2026.jpg",
   },
   {
-    name: "Traumburg Festival", start: "2026-07-30", end: "2026-08-02", location: "Schloss Dornburg", country: "Germany", month: "July", tags: ["Electronic", "World Music", "Arts"], tickets: true,
+    name: "Traumburg Festival", start: "2026-07-30", end: "2026-08-02", location: "Schloss Dornburg", country: "Germany", month: "July", tags: ["Electronic", "World Music", "Arts", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "https://groove.de/wp-content/uploads/2022/09/Traumburg-Festival_2022_Header_-by-Leon-Schuck.jpeg",
     website: "https://www.traumburg.net/", instagram: "https://www.instagram.com/traumburg/",
@@ -1569,7 +1607,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Ezera Skaņas", start: "2026-07-31", end: "2026-08-02", location: "Vestiena", country: "Latvia", month: "July", tags: ["Electronic", "Arts", "Offgrid"], tickets: true,
+    name: "Ezera Skaņas", start: "2026-07-31", end: "2026-08-02", location: "Vestiena", country: "Latvia", month: "July", tags: ["Electronic", "Arts", "Offgrid", "Boutique"], tickets: true,
     curated: false,
     url: null, img: "https://musiclatvia.lv/wp-content/uploads/2025/11/Ezera-skanas.jpg",
     website: "https://www.ezeraskanas.lv/", instagram: "https://www.instagram.com/ezeraskanas/",
@@ -1589,7 +1627,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Komorebi Festival", start: "2026-07-31", end: "2026-08-03", location: "Golden Lake", country: "Georgia", month: "July", tags: ["Electronic", "Techno", "Offgrid", "Arts"], tickets: true,
+    name: "Komorebi Festival", start: "2026-07-31", end: "2026-08-03", location: "Golden Lake", country: "Georgia", month: "July", tags: ["Electronic", "Offgrid", "Arts", "Lake", "Boutique"], tickets: true,
     curated: false,
     url: null, img: "https://images.xceed.me/blog/wp-content/uploads/2025/03/26200317/316966312_676324157188312_2741729808736149085_n-e1743012233956.jpg",
     website: "https://tkt.ge/komorebi2026", instagram: "https://www.instagram.com/komorebifest/",
@@ -1609,7 +1647,7 @@ export const FESTIVALS = [
     poster: "/img/Komorebi-2026.jpg",
   },
   {
-    name: "ICKPA Festival", start: "2026-07-24", end: "2026-07-26", location: "Kyiv", country: "Ukraine", month: "July", tags: ["Electronic", "Techno"], tickets: true,
+    name: "ICKPA Festival", start: "2026-07-24", end: "2026-07-26", location: "Kyiv", country: "Ukraine", month: "July", tags: ["Electronic", "Boutique"], tickets: true,
     curated: true,
     url: "https://ickpafestival.com/", img: "/img/ickpa-main.jpg",
     website: "https://ickpafestival.com/", instagram: "https://www.instagram.com/ickpakyiv/",
@@ -1630,7 +1668,7 @@ export const FESTIVALS = [
   },
   // AUGUST
   {
-    name: "MO:DEM Festival", start: "2026-08-03", end: "2026-08-09", location: "Donje Primišlje", country: "Croatia", month: "August", tags: ["Psytrance", "Electronic"], tickets: true, curated: true,
+    name: "MO:DEM Festival", start: "2026-08-03", end: "2026-08-09", location: "Donje Primišlje", country: "Croatia", month: "August", tags: ["Psytrance", "Electronic", "Forest", "Boutique"], tickets: true, curated: true,
     searchAlias: "Modem",
     url: "https://festivalsandretreats.com/2017/07/04/modem-festival-2019/", img: "https://assets.backstage2.com/modem/shop/HKMuQoxvAjiHUFei3Slbv5ebuxRsFqnWMIyZjIGP.jpg",
     website: "http://www.modemfestival.com", instagram: "https://www.instagram.com/modemfestival/",
@@ -1650,7 +1688,7 @@ export const FESTIVALS = [
     poster: "/img/modem-26.jpg",
   },
   {
-    name: "Pyramid Festival", start: "2026-08-03", end: "2026-08-09", location: "Rtanj Mountain", country: "Serbia", month: "August", tags: ["Psytrance", "World Music", "Offgrid", 'Mindfulness'], tickets: true,
+    name: "Pyramid Festival", start: "2026-08-03", end: "2026-08-09", location: "Rtanj Mountain", country: "Serbia", month: "August", tags: ["Psytrance", "World Music", "Offgrid", "'Mindfulness'", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2026/03/10/pyramid-festival/", img: "/img/pyramid-fest-main.jpg",
     website: "https://pyramidfestival.com/pyramid-festival-2026-sovra-edition", instagram: null,
     youtube: "42COXoz1Slk?si=q2nutWkYeB5xLmX5",
@@ -1669,7 +1707,7 @@ export const FESTIVALS = [
     poster: "/img/pyramid-fest-2026-poster.jpg",
   },
   {
-    name: "Healing Festival", start: "2026-08-05", end: "2026-08-09", location: "South Bohemia", country: "Czech Republic", month: "August", tags: ["Mindfulness"], tickets: true,
+    name: "Healing Festival", start: "2026-08-05", end: "2026-08-09", location: "South Bohemia", country: "Czech Republic", month: "August", tags: ["Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/04/22/healing-festival/", img: "/img/2024_04_ceremonie-1536x1024-1.jpg",
     website: "https://healingfestival.eu", instagram: null,
     youtube: null,
@@ -1688,7 +1726,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Mahagoni Festival", start: "2026-08-06", end: "2026-08-09", location: "Rittergut Etzdorf", country: "Germany", month: "August", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
+    name: "Mahagoni Festival", start: "2026-08-06", end: "2026-08-09", location: "Rittergut Etzdorf", country: "Germany", month: "August", tags: ["Electronic", "Offgrid", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "https://bmg-images.forward-publishing.io/2025/07/24/66acb0c3-1df6-470e-bf2a-0574a3b5fde0.jpeg?rect=0%2C59%2C1247%2C652&w=1024&auto=format",
     website: "https://mahagoni-festival.de/", instagram: "https://www.instagram.com/mahagonifestival/",
@@ -1708,7 +1746,7 @@ export const FESTIVALS = [
     poster: "/img/Mahagoni-2026.jpg",
   },
   {
-    name: "Ancient Trance Festival", start: "2026-08-06", end: "2026-08-09", location: "Saxony", country: "Germany", month: "August", tags: ["World Music", "Electronic"], tickets: true,
+    name: "Ancient Trance Festival", start: "2026-08-06", end: "2026-08-09", location: "Saxony", country: "Germany", month: "August", tags: ["World Music", "Electronic", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2017/01/04/ancient-trance-festival/", img: "/img/2017_01_ancientrancefestival.jpg",
     website: "https://ancient-trance.de/en", instagram: null,
     youtube: null,
@@ -1727,7 +1765,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Micro Festival", start: "2026-08-07", end: "2026-08-09", location: "Liège", country: "Belgium", month: "August", tags: ["Electronic"], tickets: true,
+    name: "Micro Festival", start: "2026-08-07", end: "2026-08-09", location: "Liège", country: "Belgium", month: "August", tags: ["Electronic", "Boutique"], tickets: true,
     curated: true,
     url: "https://microfestival.be/", img: "/img/micro-festival-main.jpg",
     website: "https://microfestival.be/", instagram: "https://www.instagram.com/microfestival",
@@ -1747,7 +1785,7 @@ export const FESTIVALS = [
     poster: "/img/micro-festival-lineup-26.jpg",
   },
   {
-    name: "3000Grad", start: "2026-08-07", end: "2026-08-09", location: "Mecklenburg", country: "Germany", month: "August", tags: ["Electronic", "Techno", "World Music"], tickets: true,
+    name: "3000Grad", start: "2026-08-07", end: "2026-08-09", location: "Mecklenburg", country: "Germany", month: "August", tags: ["Electronic", "World Music", "Boutique"], tickets: true,
     url: null, img: "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_853,h_568/https://3000-festival.de/wp-content/uploads/2025/03/484254185_18301070587234501_4007445923073137751_n.jpg",
     website: "https://3000-festival.de/", instagram: "https://www.instagram.com/3000grad/",
     youtube: "dCLppjgJZsc?si=m4H7l-zFjb9Zilwq",
@@ -1766,7 +1804,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Ecstatica Festival", start: "2026-08-08", end: "2026-08-11", location: "Hainburg an der Donau", country: "Austria", month: "August", tags: ["Mindfulness"], tickets: true,
+    name: "Ecstatica Festival", start: "2026-08-08", end: "2026-08-11", location: "Hainburg an der Donau", country: "Austria", month: "August", tags: ["Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/04/22/ecstatica-festival/", img: "/img/2024_04_rsw_740cg_truem.webp",
     website: "https://ecstaticafestival.com", instagram: null,
     youtube: null,
@@ -1785,7 +1823,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Convento Festival", start: "2026-08-09", end: "2026-08-14", location: "Tuscany", country: "Italy", month: "August", tags: ["Mindfulness", "Offgrid"], tickets: true,
+    name: "Convento Festival", start: "2026-08-09", end: "2026-08-14", location: "Tuscany", country: "Italy", month: "August", tags: ["Mindfulness", "Offgrid", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2026/01/12/convento-festival-2/", img: "https://festivalsandretreats.com/wp-content/uploads/2026/01/Convento-Festival-Casola-Italien-August-2025-©-mio-schweiger-1402-scaled.jpg",
     website: "https://convento-festival.xyz", instagram: null,
     youtube: null,
@@ -1804,7 +1842,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Sizigia Eclipse Festival", start: "2026-08-10", end: "2026-08-14", location: "Huesca, Aragón", country: "Spain", month: "August", tags: ["Electronic", "Mindfulness", "Arts"], tickets: true,
+    name: "Sizigia Eclipse Festival", start: "2026-08-10", end: "2026-08-14", location: "Huesca, Aragón", country: "Spain", month: "August", tags: ["Electronic", "Mindfulness", "Arts", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2026/01/09/sizigia-eclipse-festival/", img: "/img/2026_01_sizigia-fetival-eclipse.jpg",
     website: "https://sizigiaeclipse.com", instagram: null,
     youtube: "M7tFCiZDyIE?si=2TG1wm8kGQZlItGu",
@@ -1842,7 +1880,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Iceland Eclipse", start: "2026-08-11", end: "2026-08-15", location: "Snæfellsnes Peninsula", country: "Iceland", month: "August", tags: ["Mindfulness", "Offgrid", "Electronic"], tickets: true,
+    name: "Iceland Eclipse", start: "2026-08-11", end: "2026-08-15", location: "Snæfellsnes Peninsula", country: "Iceland", month: "August", tags: ["Mindfulness", "Offgrid", "Electronic", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2026/01/09/iceland-eclipse/", img: "/img/iceland-eclipse-main.jpg",
     website: "https://icelandeclipse.com", instagram: "https://www.instagram.com/icelandeclipse",
     youtube: "MR0EGvU0SC0?si=3WKKLDaF8daadJUo",
@@ -1861,7 +1899,7 @@ export const FESTIVALS = [
     poster: "/img/iceland-eclipse.jpg",
   },
   {
-    name: "Mumush", start: "2026-08-12", end: "2026-08-17", location: "Adrianu Mare", country: "Romania", month: "August", tags: ["Psytrance", "Electronic", "World Music", "Techno", "Offgrid"], tickets: true,
+    name: "Mumush", start: "2026-08-12", end: "2026-08-17", location: "Adrianu Mare", country: "Romania", month: "August", tags: ["Psytrance", "Electronic", "World Music", "Offgrid"], tickets: true,
     url: null, img: "https://gargantua-images-production.s3.amazonaws.com/articles/536bd428-c20d-4440-a66f-0c629795d605.jpeg",
     website: "https://mumush.world/", instagram: "https://www.instagram.com/mumush_world/",
     youtube: "x1XIu1x0tzk?si=p7VEZL-2M4gVKESV",
@@ -1880,7 +1918,7 @@ export const FESTIVALS = [
     poster: "/img/mumush-lineup-26.jpg",
   },
   {
-    name: "Roztoč Fest", start: "2026-08-13", end: "2026-08-17", location: "Moravia", country: "Czech Republic", month: "August", tags: ["Arts"], tickets: true,
+    name: "Roztoč Fest", start: "2026-08-13", end: "2026-08-17", location: "Moravia", country: "Czech Republic", month: "August", tags: ["Arts", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/04/22/roztoc-fest-2/", img: "/img/2024_04_fan-workshop-2048x1367-1.webp",
     website: "https://roztocfest.com", instagram: null,
     youtube: null,
@@ -1899,7 +1937,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "New Healing Festival", start: "2026-08-17", end: "2026-08-23", location: "Mecklenburg", country: "Germany", month: "August", tags: ["Mindfulness"], tickets: true,
+    name: "New Healing Festival", start: "2026-08-17", end: "2026-08-23", location: "Mecklenburg", country: "Germany", month: "August", tags: ["Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2019/04/11/new-healing-festival/", img: "/img/2019_04_55823744_1267947103371559_4379219186954534912_o.jpg",
     website: "http://www.newhealing.de", instagram: null,
     youtube: null,
@@ -1936,7 +1974,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Wilde Möhre", start: "2026-08-21", end: "2026-08-24", location: "Drebkau", country: "Germany", month: "August", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Wilde Möhre", start: "2026-08-21", end: "2026-08-24", location: "Drebkau", country: "Germany", month: "August", tags: ["Electronic"], tickets: true,
     url: null, img: "/img/Wilde-Mohre.jpg",
     website: "https://wildemoehrefestival.de/", instagram: "https://www.instagram.com/wildemoehre/",
     youtube: "P849JgnOzrY?si=r-VmsXnY7P9fCbKr",
@@ -1955,7 +1993,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Lost Village", start: "2026-08-27", end: "2026-08-30", location: "Lincolnshire", country: "UK", month: "August", tags: ["Electronic"], tickets: false,
+    name: "Lost Village", start: "2026-08-27", end: "2026-08-30", location: "Lincolnshire", country: "UK", month: "August", tags: ["Electronic", "Forest", "Arts"], tickets: false,
     url: "https://festivalsandretreats.com/2022/01/29/lost-village/", img: "/img/2022_01_Lost-Village-England.jpg",
     website: "https://lostvillagefestival.com", instagram: null,
     youtube: null,
@@ -1974,7 +2012,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Shambala Festival", start: "2026-08-27", end: "2026-08-30", location: "Northamptonshire", country: "UK", month: "August", tags: ["Arts"], tickets: true,
+    name: "Shambala Festival", start: "2026-08-27", end: "2026-08-30", location: "Northamptonshire", country: "UK", month: "August", tags: ["Arts", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2016/02/03/shambala/", img: "/img/2016_02_the_kids_area09_website_image_voek_standard-1.jpg",
     website: "https://www.shambalafestival.org/essential-info", instagram: null,
     youtube: null,
@@ -1993,7 +2031,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Evolve Festival", start: "2026-08-27", end: "2026-08-30", location: "Helenesee", country: "Germany", month: "August", tags: ["Mindfulness"], tickets: true,
+    name: "Evolve Festival", start: "2026-08-27", end: "2026-08-30", location: "Helenesee", country: "Germany", month: "August", tags: ["Mindfulness", "Lake", "Forest", "Boutique"], tickets: true,
     curated: true,
     url: "https://festivalsandretreats.com/2024/06/11/evolve-festival/", img: "https://framerusercontent.com/images/PmLlOVDwD3sjijDHdeWz2cpReM.gif",
     website: "https://www.evolve-festival.com/", instagram: "https://www.instagram.com/evolve_festival/",
@@ -2013,7 +2051,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Hütte in the Forest", start: "2026-08-05", end: "2026-08-09", location: "Château d'Etangsannes", country: "France", month: "August", tags: ["Electronic", "Offgrid", "Arts"], tickets: true,
+    name: "Hütte in the Forest", start: "2026-08-05", end: "2026-08-09", location: "Château d'Etangsannes", country: "France", month: "August", tags: ["Electronic", "Offgrid", "Arts", "Forest", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "https://static.ra.co/images/promoter/cover/fr-hutteintheforest.jpg?dateUpdated=1776763718923",
     website: "https://hutteintheforest.com/", instagram: "https://www.instagram.com/hutteintheforest/",
@@ -2033,7 +2071,7 @@ export const FESTIVALS = [
     poster: "/img/Hutte-in-the-Forest.jpg",
   },
   {
-    name: "CRX Festival", start: "2026-08-07", end: "2026-08-08", location: "Cave di Fantano, Grottaglie", country: "Italy", month: "August", tags: ["Electronic", "Techno", "Offgrid", "Arts", "World Music"], tickets: true,
+    name: "CRX Festival", start: "2026-08-07", end: "2026-08-08", location: "Cave di Fantano, Grottaglie", country: "Italy", month: "August", tags: ["Electronic", "Offgrid", "Arts", "World Music", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "/img/CRX-bg.jpg",
     website: "https://xceed.me/en/grottaglie/event/crx-festival-2026-full-pass-early-bird/219775/channel/crx-festival", instagram: "https://www.instagram.com/crxfestival/",
@@ -2053,7 +2091,7 @@ export const FESTIVALS = [
     poster: "/img/CRX-2026.webp",
   },
   {
-    name: "ZMAR Festival", start: "2026-08-07", end: "2026-08-09", location: "Zmar", country: "Portugal", month: "August", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
+    name: "ZMAR Festival", start: "2026-08-07", end: "2026-08-09", location: "Zmar", country: "Portugal", month: "August", tags: ["Electronic", "Offgrid", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "/img/zmar.jpg",
     website: "https://linktr.ee/zmarfestival", instagram: "https://www.instagram.com/zmarfestival/",
@@ -2073,7 +2111,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Fata Morgana Festival", start: "2026-08-07", end: "2026-08-09", location: "Coutarnoux", country: "France", month: "August", tags: ["Electronic", "Techno", "Offgrid", "Arts"], tickets: true,
+    name: "Fata Morgana Festival", start: "2026-08-07", end: "2026-08-09", location: "Coutarnoux", country: "France", month: "August", tags: ["Electronic", "Offgrid", "Arts", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "https://res.cloudinary.com/shotgun/image/upload/c_limit,w_3840/fl_lossy/f_auto/q_auto/c_limit,f_auto,fl_lossy,q_auto,w_1920/v1767948122/production/artworks/260104_FMF_26_VISU_AFFICHE_1920X1080_gsjara",
     website: "https://shotgun.live/en/festivals/fata-morgana-2026", instagram: "https://www.instagram.com/fatamorganafestival/",
@@ -2093,7 +2131,7 @@ export const FESTIVALS = [
     poster: "/img/fata-morgana-lineup-26.jpg",
   },
   {
-    name: "Bucht der Träumer", start: "2026-08-13", end: "2026-08-17", location: "Helenesee / Frankfurt (Oder)", country: "Germany", month: "August", tags: ["Electronic", "Techno", "Burner", "Psytrance", "Mindfulness"], tickets: true, 
+    name: "Bucht der Träumer", start: "2026-08-13", end: "2026-08-17", location: "Helenesee / Frankfurt (Oder)", country: "Germany", month: "August", tags: ["Electronic", "Psytrance", "Mindfulness", "Lake"], tickets: true, 
     curated: true,
     url: null, "img": "https://i0.wp.com/bucht-der-traeumer.de/wp-content/uploads/2025/09/20250816_BdT25_Ponybarker_Atlantis_HorstHaller_FridaDarko-02620-1.jpg?fit=2500%2C1667&ssl=1",
     website: "https://bucht-der-traeumer.de/", instagram: "https://www.instagram.com/buchtdertraeumerfestival/?hl=en",
@@ -2113,7 +2151,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Nemora Fest", start: "2026-08-27", end: "2026-08-30", location: "Torre Alfina, Lazio", country: "Italy", month: "August", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
+    name: "Nemora Fest", start: "2026-08-27", end: "2026-08-30", location: "Torre Alfina, Lazio", country: "Italy", month: "August", tags: ["Electronic", "Offgrid", "Forest", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "https://res.cloudinary.com/dglrghiom/image/upload/v1779621897/Nemora_fest_axt87p.jpg",
     website: "https://www.nemorafest.eu/", instagram: "https://www.instagram.com/nemora.fest/",
@@ -2133,7 +2171,7 @@ export const FESTIVALS = [
     poster: "https://res.cloudinary.com/dglrghiom/image/upload/v1779621897/Nemora_fest_axt87p.jpg",
   },
   {
-    name: "Schwing und Stampf Festival", start: "2026-08-27", end: "2026-08-30", location: "Wolfenschiessen", country: "Switzerland", month: "August", tags: ["Electronic", "Techno", "Offgrid", "Arts"], tickets: true,
+    name: "Schwing und Stampf Festival", start: "2026-08-27", end: "2026-08-30", location: "Wolfenschiessen", country: "Switzerland", month: "August", tags: ["Electronic", "Offgrid", "Arts", "Boutique"], tickets: true,
     url: null, img: "https://ubwg.ch/wp-content/uploads/2025/06/schwingstampf_impression_4-1024x682.jpeg",
     website: "https://www.schwingundstampf.ch/en", instagram: "https://www.instagram.com/schwingundstampf_festival/",
     youtube: "4mqxwaT7Gk4?si=wzWZImRs6NEdYHf-",
@@ -2152,7 +2190,7 @@ export const FESTIVALS = [
     poster: "/img/Schwing-und-Stampf-2026.jpg",
   },
   {
-    name: "Dimensions Festival", start: "2026-08-27", end: "2026-08-31", location: "Tisno", country: "Croatia", month: "August", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Dimensions Festival", start: "2026-08-27", end: "2026-08-31", location: "Tisno", country: "Croatia", month: "August", tags: ["Electronic", "Beach", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "https://dimensionsfestival.com/wp-content/uploads/2024/10/BB240829_DIMENSIONS_2024_Analogue_JakeDavis_@jakephilipdavis_@khromacollective-865811180035.jpg",
     website: "https://dimensionsfestival.com/", instagram: "https://www.instagram.com/dimensionsfestival",
@@ -2173,7 +2211,7 @@ export const FESTIVALS = [
   },
   // SEPTEMBER
   {
-    name: "Kama Etna Festival", start: "2026-09-01", end: "2026-09-06", location: "Mount Etna, Sicily", country: "Italy", month: "September", tags: ["Mindfulness"], tickets: true,
+    name: "Kama Etna Festival", start: "2026-09-01", end: "2026-09-06", location: "Mount Etna, Sicily", country: "Italy", month: "September", tags: ["Mindfulness", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2025/06/05/kama-etna-festival/", img: "/img/2025_06_WhatsApp-Image-2025-05-29-at-22.07.12.jpeg",
     website: "https://kamaetnafest.com/the-festival", instagram: null,
     youtube: null,
@@ -2192,7 +2230,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Own Spirit Festival", start: "2026-09-02", end: "2026-09-07", location: "Baldellou", country: "Spain", month: "September", tags: ["Psytrance", "Mindfulness"], tickets: true,
+    name: "Own Spirit Festival", start: "2026-09-02", end: "2026-09-07", location: "Baldellou", country: "Spain", month: "September", tags: ["Psytrance", "Mindfulness", "Boutique"], tickets: true,
     url: null, img: "https://www.ownspiritfestival.org/wp-content/uploads/2023/10/dancefloorDay-1.jpg",
     website: "https://www.ownspiritfestival.org/", instagram: "https://www.instagram.com/ownspiritfestival/",
     youtube: "Hsp38wZoxdQ?si=EmwX-Wuh88qjpgiD",
@@ -2211,7 +2249,7 @@ export const FESTIVALS = [
     poster: "/img/Own Spirit lineup-26.jpg",
   },
   {
-    name: "The Island Festival", start: "2026-09-03", end: "2026-09-07", location: "Obonjan island", country: "Croatia", month: "September", tags: ["Electronic"], tickets: true,
+    name: "The Island Festival", start: "2026-09-03", end: "2026-09-07", location: "Obonjan island", country: "Croatia", month: "September", tags: ["Electronic", "Beach", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2022/01/29/the-island-festival/", img: "/img/2022_01_The-Island-Festival-Croatia.jpg",
     website: "https://www.crystal-tours.de/reiseziel/Obonjan/The+Island/en", instagram: null,
     youtube: null,
@@ -2230,7 +2268,7 @@ export const FESTIVALS = [
     poster: "/img/The-Island-Festival-2026.jpg",
   },
   {
-    name: "at.tension", start: "2026-09-03", end: "2026-09-06", location: "Lärz airfield", country: "Germany", month: "September", tags: ["Arts"], tickets: true,
+    name: "at.tension", start: "2026-09-03", end: "2026-09-06", location: "Lärz airfield", country: "Germany", month: "September", tags: ["Arts", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2022/02/01/at-tension/", img: "/img/2022_02_at.tension-Germany.jpeg",
     website: "https://www.attension-festival.de/en/festival", instagram: null,
     youtube: null,
@@ -2249,7 +2287,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Space Safari", start: "2026-09-04", end: "2026-09-07", location: "Hastière", country: "Belgium", month: "September", tags: ["Psytrance", "Offgrid"], tickets: true,
+    name: "Space Safari", start: "2026-09-04", end: "2026-09-07", location: "Hastière", country: "Belgium", month: "September", tags: ["Psytrance", "Offgrid", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2020/01/08/space-safari/", img: "/img/space-safari-fest.jpg",
     website: "https://space-safari.com", instagram: "https://www.instagram.com/spacesafari.be/",
     youtube: "eYXAF_4pXM0?si=kJ9mpbz2AjKpbBAL",
@@ -2268,7 +2306,7 @@ export const FESTIVALS = [
     poster: "/img/spacesafari-lineup-26.jpg",
   },
   {
-    name: "Draaimolen Festival", start: "2026-09-04", end: "2026-09-05", location: "Tilburg", country: "Netherlands", month: "September", tags: ["Electronic", "Techno", "Offgrid"], tickets: false,
+    name: "Draaimolen Festival", start: "2026-09-04", end: "2026-09-05", location: "Tilburg", country: "Netherlands", month: "September", tags: ["Electronic", "Techno", "Offgrid", "Boutique"], tickets: false,
     curated: true,
     url: null, img: "/img/draaimolen.jpg",
     website: "https://www.draaimolen.nu/events/draaimolen-festival-2026?tab=about", instagram: "https://www.instagram.com/draaimolen_/",
@@ -2288,7 +2326,7 @@ export const FESTIVALS = [
     poster: "/img/Draaimolen-ads.jpg",
   },
   {
-    name: "Portugal Contact Festival", start: "2026-09-14", end: "2026-09-19", location: "Alentejo", country: "Portugal", month: "September", tags: ["Mindfulness", "Offgrid"], tickets: true,
+    name: "Portugal Contact Festival", start: "2026-09-14", end: "2026-09-19", location: "Alentejo", country: "Portugal", month: "September", tags: ["Mindfulness", "Offgrid", "Boutique"], tickets: true,
     url: "https://festivalsandretreats.com/2024/04/22/portugal-contact-festival/", img: "/img/2024_04_Quinta-Braz-Meeting-chill-scaled-1.jpg",
     website: "https://forgotten-land.com/events/portugal-contact-festival", instagram: null,
     youtube: null,
@@ -2307,7 +2345,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Plisskën Festival", start: "2026-09-12", end: "2026-09-13", location: "Athens", country: "Greece", month: "September", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Plisskën Festival", start: "2026-09-12", end: "2026-09-13", location: "Athens", country: "Greece", month: "September", tags: ["Electronic", "Boutique"], tickets: true,
     url: null, img: "https://viberate-upload.ams3.cdn.digitaloceanspaces.com/prod/entity/festival/plissken-festival-RbWEE",
     website: "https://www.plisskenfestival.gr/festival", instagram: "https://www.instagram.com/plisskenfest/",
     youtube: "_jsyZETRVw4?si=qN8UZDU8Z4Pae7m3",
@@ -2326,7 +2364,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Mystic Creatures", start: "2026-09-03", end: "2026-09-07", location: "Złocieniec", country: "Poland", month: "September", tags: ["Electronic", "Techno", "Arts"], tickets: true,
+    name: "Mystic Creatures", start: "2026-09-03", end: "2026-09-07", location: "Złocieniec", country: "Poland", month: "September", tags: ["Electronic", "Arts", "Lake", "Forest", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "https://res.cloudinary.com/dglrghiom/image/upload/v1779622073/Mystic_Creations_clsgop.jpg",
     website: "https://mysticcreaturesfestival.com/", instagram: "https://www.instagram.com/mystic.creatures_/",
@@ -2346,7 +2384,7 @@ export const FESTIVALS = [
     poster: "/img/mystic-creatures-2026.jpg",
   },
   {
-    name: "Komorebi Music Festival", start: "2026-09-04", end: "2026-09-06", location: "Forte di Vinadio (CN)", country: "Italy", month: "September", tags: ["Electronic", "Techno", "Arts"], tickets: true,
+    name: "Komorebi Music Festival", start: "2026-09-04", end: "2026-09-06", location: "Forte di Vinadio (CN)", country: "Italy", month: "September", tags: ["Electronic", "Arts", "Boutique"], tickets: true,
     url: null, img: "https://images.xceed.me/events/banners/komorebi-music-festival-2026-3-days-pass-cuneo-xceed-171b.jpg?w=1200&h=630&ar=16:9&fm=auto",
     website: "https://www.komorebimusicfestival.org/", instagram: "https://www.instagram.com/komorebimusicfestival/",
     youtube: null,
@@ -2365,7 +2403,7 @@ export const FESTIVALS = [
     poster: "/img/Komorebi Music Festival-2026.jpg",
   },
   {
-    name: "Eternal Sun Festival", start: "2026-09-04", end: "2026-09-06", location: "Sougia, Crete", country: "Greece", month: "September", tags: ["Electronic", "Techno", "Offgrid"], tickets: true,
+    name: "Eternal Sun Festival", start: "2026-09-04", end: "2026-09-06", location: "Sougia, Crete", country: "Greece", month: "September", tags: ["Electronic", "Offgrid", "Beach", "Boutique"], tickets: true,
     url: null, img: "/img/eternalsunfestival-main.jpg",
      website: "https://www.eternalsunfestival.com/", instagram: "https://www.instagram.com/eternalsunfestival/",
     youtube: null,
@@ -2384,7 +2422,7 @@ export const FESTIVALS = [
     poster: "/img/Eternal Sun Festival-2025.jpg",
   },
   {
-    name: "Transition Festival", start: "2026-09-22", end: "2026-09-28", location: "Doñana", country: "Spain", month: "September", tags: ["Psytrance", "Offgrid"], tickets: true,
+    name: "Transition Festival", start: "2026-09-22", end: "2026-09-28", location: "Doñana", country: "Spain", month: "September", tags: ["Psytrance", "Offgrid", "Forest", "Mindfulness"], tickets: true,
     url: null, img: "https://transitionfestival.org/images/galeria/00-04.jpg",
     website: "https://transitionfestival.org/es/", instagram: "https://www.instagram.com/transitionfestivalspain/",
     youtube: "7q5b2hXf2iY?si=EGYyMa8UwgUBDjNR",
@@ -2403,7 +2441,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Omana", start: "2026-09-30", end: "2026-10-06", location: "Chalkidiki", country: "Greece", month: "September", tags: ["Electronic", "Techno", "Mindfulness"], tickets: true,
+    name: "Omana", start: "2026-09-30", end: "2026-10-06", location: "Chalkidiki", country: "Greece", month: "September", tags: ["Electronic", "Mindfulness", "Beach", "Forest", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "/img/omana.jpg",
     website: "https://omana-festival.de/", instagram: "https://www.instagram.com/omanafestival/",
@@ -2423,7 +2461,7 @@ export const FESTIVALS = [
     poster: "/img/omana_2026.jpg",
   },
   {
-    name: "Eyes of The Algarve", start: "2026-09-10", end: "2026-09-12", location: "Lagos", country: "Portugal", month: "September", tags: ["World Music"], tickets: true,
+    name: "Eyes of The Algarve", start: "2026-09-10", end: "2026-09-12", location: "Lagos", country: "Portugal", month: "September", tags: ["World Music", "Boutique"], tickets: true,
     url: null, img: "https://i0.wp.com/eyesofthealgarve.com/wp-content/uploads/2026/01/eyes-of-the-algarve-website-photos.jpg?w=1280&ssl=1",
     website: "https://eyesofthealgarve.com/", instagram: "https://www.instagram.com/eyesofthealgarve/",
     youtube: null,
@@ -2442,7 +2480,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Voodoo Village", start: "2026-09-11", end: "2026-09-13", location: "Grimbergen", country: "Belgium", month: "September", tags: ["Techno", "Electronic"], tickets: true,
+    name: "Voodoo Village", start: "2026-09-11", end: "2026-09-13", location: "Grimbergen", country: "Belgium", month: "September", tags: ["Techno", "Electronic", "Boutique"], tickets: true,
     curated: true,
     url: "https://www.voodoovillage.be/", img: "/img/voodoo-village-main.jpg",
     website: "https://www.voodoovillage.be/", instagram: "https://www.instagram.com/voodoovillagefestival",
@@ -2461,9 +2499,29 @@ export const FESTIVALS = [
     },
     poster: "/img/voodoo-village-lineup-2026.jpg",
   },
+  {
+    name: "Basilar", start: "2026-09-10", end: "2026-09-13", location: "Fafe", country: "Portugal", month: "September", tags: ["Techno", "Boutique"], tickets: true,
+    curated: true,
+    url: null, img: "/img/Basilar.jpg",
+    website: "https://www.basilarfestival.com/", instagram: "https://www.instagram.com/basilarfestival/",
+    youtube: "zfC1O-Vx8jI?si=21D26kCrnkUCsiqC",
+    spotify: null,
+    soundcloud: null,
+    description: "Four-day techno festival in Fafe, Portugal.",
+    html_content: "<p>Basilar is a four-day techno festival held in Fafe, Portugal, bringing together underground techno artists in an outdoor setting in northern Portugal.</p>",
+    quote: null,
+    editorial: {
+      about: "",
+      vibe: "",
+      sounds: "",
+      doNotMiss: "",
+      tip: "",
+    },
+    poster: "/img/basilar-lineup-26.jpg",
+  },
   // OCTOBER
   {
-    name: "C2C Festival", start: "2026-10-29", end: "2026-11-01", location: "Turin", country: "Italy", month: "October", tags: ["Electronic", "Arts", "Techno"], tickets: true,
+    name: "C2C Festival", start: "2026-10-29", end: "2026-11-01", location: "Turin", country: "Italy", month: "October", tags: ["Electronic", "Arts"], tickets: true,
     curated: true,
     url: null, img: "https://cdn.sanity.io/images/rizm0do5/production/6987a68c700a10aa9a163e321cc46403eff44aba-2048x1365.jpg",
     website: "https://clubtoclub.it/event/c2c-festival-2026/", instagram: "https://www.instagram.com/clubtoclub",
@@ -2484,7 +2542,7 @@ export const FESTIVALS = [
   },
   // MAY 2027
   {
-    name: "Horst Arts & Music", start: "2027-05-06", end: "2027-05-08", location: "Brussels", country: "Belgium", month: "May", tags: ["Electronic", "Techno", "Arts"], tickets: true,
+    name: "Horst Arts & Music", start: "2027-05-06", end: "2027-05-08", location: "Brussels", country: "Belgium", month: "May", tags: ["Electronic", "Arts"], tickets: true,
     curated: true,
     url: null, img: "/img/horst-art-music.jpg",
     website: "https://www.horstartsandmusic.com/festival", instagram: "https://www.instagram.com/horstartsandmusic/",
@@ -2505,7 +2563,7 @@ export const FESTIVALS = [
   },
   // JUNE–JULY (added)
   {
-    name: "Daad Gathering", start: "2026-06-17", end: "2026-06-22", location: "Dádpuszta", country: "Hungary", month: "June", tags: ["Electronic", "Techno", "Arts"], tickets: true,
+    name: "Daad Gathering", start: "2026-06-17", end: "2026-06-22", location: "Dádpuszta", country: "Hungary", month: "June", tags: ["Electronic", "Arts"], tickets: true,
     curated: true,
     url: null, img: "/img/daad-gathering-main.jpg",
     website: "https://2026.daad.hu/", instagram: "https://www.instagram.com/daad_gathering/",
@@ -2525,7 +2583,7 @@ export const FESTIVALS = [
     poster: "/img/DAAD-Gathering-2026-Lineup-Poster.jpg",
   },
   {
-    name: "Wildeburg", start: "2026-07-09", end: "2026-07-12", location: "Kraggenburg", country: "Netherlands", month: "July", tags: ["Electronic", "Techno", "Offgrid", "Mindfulness"], tickets: true,
+    name: "Wildeburg", start: "2026-07-09", end: "2026-07-12", location: "Kraggenburg", country: "Netherlands", month: "July", tags: ["Electronic", "Offgrid", "Mindfulness", "Lake", "Forest", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "/img/Wildeburg-main.jpg",
     website: "https://wildeburg.nl/", instagram: "https://www.instagram.com/wildeburg/?hl=en",
@@ -2545,7 +2603,7 @@ export const FESTIVALS = [
     poster: "/img/Wildeburg-lineup-2026.jpg",
   },
   {
-    name: "Nextones", start: "2026-07-16", end: "2026-07-19", location: "Val d'Ossola", country: "Italy", month: "July", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Nextones", start: "2026-07-16", end: "2026-07-19", location: "Val d'Ossola", country: "Italy", month: "July", tags: ["Electronic", "Boutique", "Arts"], tickets: true,
     curated: true,
     url: null, img: "/img/nextones-main.jpg",
     website: "https://www.tonesteatronatura.com/en/nextones/", instagram: "https://www.instagram.com/nextones/",
@@ -2565,7 +2623,7 @@ export const FESTIVALS = [
     poster: "/img/nextones-lineup-26.jpg",
   },
   {
-    name: "Habitat Festival", start: "2026-07-18", end: "2026-07-19", location: "Hamburg", country: "Germany", month: "July", tags: ["Electronic", "Techno"], tickets: true,
+    name: "Habitat Festival", start: "2026-07-18", end: "2026-07-19", location: "Hamburg", country: "Germany", month: "July", tags: ["Electronic", "Boutique"], tickets: true,
     curated: true,
     url: null, img: "/img/habitat-festival-main.jpg",
     website: "https://habitat-festival.de/en/home", instagram: "https://www.instagram.com/habitatfestival/",
@@ -2585,7 +2643,7 @@ export const FESTIVALS = [
     poster: "/img/habitat-festival-lineup-26.jpg",
   },
   {
-    name: "Monument", start: "2026-07-30", end: "2026-08-02", location: "Veggli", country: "Norway", month: "July", tags: ["Mindfulness", "Arts", "Electronic", "Techno", "Offgrid"], tickets: false,
+    name: "Monument", start: "2026-07-30", end: "2026-08-02", location: "Veggli", country: "Norway", month: "July", tags: ["Mindfulness", "Arts", "Electronic", "Offgrid", "Forest", "Boutique"], tickets: false,
     curated: true,
     url: null, img: "/img/monument-main.jpg",
     website: "https://festival.mnmt.no", instagram: "https://www.instagram.com/mnmt.no/",
@@ -2605,7 +2663,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Flash Festival", start: "2027-05-19", end: "2027-05-22", location: "Castiglion Fiorentino", country: "Italy", month: "May", tags: ["Electronic", "Mindfulness"], tickets: true,
+    name: "Flash Festival", start: "2027-05-19", end: "2027-05-22", location: "Castiglion Fiorentino", country: "Italy", month: "May", tags: ["Electronic", "Mindfulness", "Boutique"], tickets: true,
     curated: false,
     url: null, img: "https://static.myeasol.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6IjQzNzJiM2QzLTkzZDUtNGMxMC1iZDAwLTJkNWUzOGFkNDFkOCIsInB1ciI6ImJsb2JfaWQifX0=--e7da4129e788904080cab5f773eeca01c8c68c90/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsxOTIwLG51bGxdLCJzYXZlciI6eyJzdHJpcCI6dHJ1ZSwicXVhbGl0eSI6ODV9fSwicHVyIjoidmFyaWF0aW9uIn19--e748e971f8cf7cad636cd59f6d8e5dff0b37c6cd/FF26WebsitePictures10.png",
     website: "https://www.flashfestivaltuscany.com/", instagram: "https://www.instagram.com/flashfestivaltuscany/",

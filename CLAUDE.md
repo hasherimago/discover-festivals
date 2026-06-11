@@ -76,6 +76,36 @@ Past festivals:
 
 Plain `<img>` tags with `loading="lazy"` and `decoding="async"` set manually in `app.js`. `next/image` is not used because card images are created via `document.createElement` in vanilla JS. `unoptimized: true` remains in `next.config.js` — do not remove.
 
+## Adding Festivals
+
+Before adding any new festival, check if it already exists in `public/data.js` by searching for the festival name. If it already exists, do not add it — tell the user it's already in the database and show them the existing slug.
+
+## Tags
+
+The site uses 11 fixed tags. Assign only tags that genuinely apply — tags stack freely (a festival can have 5–6).
+
+| Tag | Rule |
+|---|---|
+| **Electronic** | Broad electronic music is the primary sound: house, techno, ambient, bass, experimental mixed together. Use when no single genre dominates. Most electronic festivals get this, not Techno. |
+| **Techno** | Techno is the festival's primary *identity*, not just one stage among many. The whole lineup and atmosphere is built around it. Maybe 10–15 festivals in the database qualify. If in doubt, use Electronic instead. |
+| **Psytrance** | Psytrance is central to the festival identity. Ozora-lineage festivals, not just a psy stage. |
+| **World Music** | Non-electronic music is central: folk, global, roots, jazz, world. Use when the festival isn't primarily electronic. |
+| **Boutique** | Under ~5,000 capacity, intimate, accessible artists, small stages. Feels like a gathering rather than a festival. |
+| **Lake** | Situated on or directly beside an inland lake and the water is central to the experience, not just nearby. |
+| **Beach** | Coastal setting, salt water. Mediterranean or Atlantic. The sea is part of the experience. |
+| **Forest** | Stages are literally set among trees — the forest is the venue, not just the backdrop. The trees are the atmosphere. |
+| **Offgrid** | Genuinely remote, rural, off the beaten path. Limited phone signal, generators, not easy to get to. About remoteness, not environment type. |
+| **Arts** | Visual art, installations, and performance are as central as the music. Not just decoration — the art is a reason to attend. |
+| **Mindfulness** | Wellness, yoga, meditation, conscious living are core to the festival identity, not just add-ons. |
+
+**Key distinctions:**
+- Techno vs Electronic: would a dedicated techno person feel at home the *whole weekend*, or just at one stage?
+- Forest vs Offgrid: Forest = trees are the venue. Offgrid = remote location. A festival can be both or just one.
+- Lake vs Beach: mutually exclusive by geography.
+- Arts vs Mindfulness: Arts = creative/visual. Mindfulness = wellness/conscious. Some festivals get both.
+
+**When tagging a festival:** look it up if unsure. Verify from primary sources (official site, RA page). Don't guess on capacity, setting, or music focus.
+
 ## Key Files
 
 | File | Purpose |
