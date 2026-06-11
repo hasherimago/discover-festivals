@@ -1567,7 +1567,7 @@ export const FESTIVALS = [
     poster: "/img/prearie-2026.jpg",
   },
   {
-    name: "Garbicz Festival", start: "2026-07-30", end: "2026-08-03", location: "Garbicz", country: "Poland", month: "July", tags: ["Electronic", "Psytrance", "Lake", "Forest"], tickets: true,
+    name: "Garbicz Festival", start: "2026-07-30", end: "2026-08-03", location: "Garbicz", country: "Poland", month: "July", tags: ["Electronic", "Psytrance", "Lake", "Forest", "Offgrid"], tickets: true,
     curated: true,
     url: null, img: "https://www.beatheim.com/wp-content/uploads/2024/07/Garbicz-Festival-Photo-Policy-2024.jpg",
     website: "https://garbiczfestival.com/", instagram: "https://www.instagram.com/garbicz_festival/",
@@ -1899,7 +1899,7 @@ export const FESTIVALS = [
     poster: "/img/iceland-eclipse.jpg",
   },
   {
-    name: "Mumush", start: "2026-08-12", end: "2026-08-17", location: "Adrianu Mare", country: "Romania", month: "August", tags: ["Psytrance", "Electronic", "World Music", "Offgrid"], tickets: true,
+    name: "Mumush", start: "2026-08-12", end: "2026-08-17", location: "Adrianu Mare", country: "Romania", month: "August", tags: ["Psytrance", "Electronic", "World Music", "Offgrid", "Forest"], tickets: true,
     url: null, img: "https://gargantua-images-production.s3.amazonaws.com/articles/536bd428-c20d-4440-a66f-0c629795d605.jpeg",
     website: "https://mumush.world/", instagram: "https://www.instagram.com/mumush_world/",
     youtube: "x1XIu1x0tzk?si=p7VEZL-2M4gVKESV",
