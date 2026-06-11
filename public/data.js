@@ -270,6 +270,26 @@ export const FESTIVALS = [
     },
     poster: null,
   },
+  {
+    name: "Up To Date", start: "2026-05-28", end: "2026-05-30", location: "Białystok", country: "Poland", month: "May", tags: ["Electronic", "Boutique"], tickets: false,
+    curated: true,
+    url: null, img: "/img/uptodatefestival.jpg",
+    website: "https://uptodate.pl/", instagram: "https://www.instagram.com/uptodatefestival/",
+    youtube: null,
+    spotify: null,
+    soundcloud: null,
+    description: "Three-day curated electronic festival in Białystok, Poland, presenting forward-thinking club music, techno and experimental sounds.",
+    html_content: "",
+    quote: null,
+    editorial: {
+      about: "One of Poland's most important electronic music festivals, running in Białystok since 2010. Fifteen years of uncompromising curation that emphasizes authenticity over mainstream trends.  Three venues across the city — Park Lubomirskich outdoors, Chorten Arena for club nights, and Centralny Salon Ambientu for the ambient programme. The festival has built its own Pozdro Techno Sound System, which has travelled across Poland.", 
+      vibe: "Bridges underground techno with ambient and bass music in industrial settings.  City-embedded rather than countryside escapism — Białystok's urban fabric is part of the experience. Deep roots in local community and social initiatives alongside the international programming.",
+      sounds: "Techno, electro, ambient, experimental and bass. 2026 lineup: Skee Mask, Objekt, Felix K, Mike Parker, µ-Ziq live, Joachim Spieth live, Marco Shuttle, Steffi, Aerae b2b Presha, Mohammad Reza Mortazavi live, Paul Jebanasam live, Richard Skelton live, Martina Bertoni live and more. One of the most adventurous lineups in Eastern Europe.",
+      doNotMiss: "Centralny Salon Ambientu — a dedicated ambient programme running alongside the main techno stages. Up To Date is one of the few festivals that takes ambient seriously as an equal pillar rather than an afterthought.",
+      tip: "Białystok is in northeastern Poland — 3 hours from Warsaw by train or 2.5 hours by car. The city is small, affordable and genuinely worth exploring. Locals with Białystok residence get discounted arena tickets.",
+    },
+    poster: null,
+  },
   // JUNE
   {
     name: "Kala Festival", start: "2026-06-03", end: "2026-06-10", location: "Dhërmi", country: "Albania", month: "June", tags: ["Electronic", "Beach", "Boutique"], tickets: false,
@@ -408,7 +428,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Waking Life", start: "2026-06-17", end: "2026-06-22", location: "Crato", country: "Portugal", month: "June", tags: ["Electronic", "Lake", "Boutique"], tickets: false,
+    name: "Waking Life", start: "2026-06-17", end: "2026-06-22", location: "Crato", country: "Portugal", month: "June", tags: ["Electronic", "Lake", "Boutique", "Forest", "Offgrid"], tickets: false,
     curated: true,
     url: "https://festivalsandretreats.com/2022/01/29/waking-life/", img: "/img/2022_01_Waking-Life-Portugal.jpg",
     website: "https://wakinglife.pt/", instagram: "https://www.instagram.com/wakinglife.pt/",
@@ -621,7 +641,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Burning Mountain Festival", start: "2026-06-25", end: "2026-06-28", location: "Zernez", country: "Switzerland", month: "June", tags: ["Psytrance", "Arts", "Boutique"], tickets: true,
+    name: "Burning Mountain Festival", start: "2026-06-25", end: "2026-06-28", location: "Zernez", country: "Switzerland", month: "June", tags: ["Psytrance", "Arts", "Boutique", "Forest"], tickets: true,
     url: "https://festivalsandretreats.com/2024/04/22/burning-mountain-festival/", img: "/img/2024_04_burningmountain23_0022-L.jpg",
     website: "https://www.burning-mountain.ch", instagram: "https://www.instagram.com/burningmountain",
     youtube: "QEy5CcGXyO4?si=ruCeRiCyTYPm3cYN",
@@ -1607,7 +1627,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Ezera Skaņas", start: "2026-07-31", end: "2026-08-02", location: "Vestiena", country: "Latvia", month: "July", tags: ["Electronic", "Arts", "Offgrid", "Boutique"], tickets: true,
+    name: "Ezera Skaņas", start: "2026-07-31", end: "2026-08-02", location: "Vestiena", country: "Latvia", month: "July", tags: ["Electronic", "Arts", "Offgrid", "Boutique", "Lake"], tickets: true,
     curated: false,
     url: null, img: "https://musiclatvia.lv/wp-content/uploads/2025/11/Ezera-skanas.jpg",
     website: "https://www.ezeraskanas.lv/", instagram: "https://www.instagram.com/ezeraskanas/",
@@ -2171,7 +2191,7 @@ export const FESTIVALS = [
     poster: "https://res.cloudinary.com/dglrghiom/image/upload/v1779621897/Nemora_fest_axt87p.jpg",
   },
   {
-    name: "Schwing und Stampf Festival", start: "2026-08-27", end: "2026-08-30", location: "Wolfenschiessen", country: "Switzerland", month: "August", tags: ["Electronic", "Offgrid", "Arts", "Boutique"], tickets: true,
+    name: "Schwing und Stampf Festival", start: "2026-08-27", end: "2026-08-30", location: "Wolfenschiessen", country: "Switzerland", month: "August", tags: ["Electronic", "Offgrid", "Forest", "Arts", "Boutique"], tickets: true,
     url: null, img: "https://ubwg.ch/wp-content/uploads/2025/06/schwingstampf_impression_4-1024x682.jpeg",
     website: "https://www.schwingundstampf.ch/en", instagram: "https://www.instagram.com/schwingundstampf_festival/",
     youtube: "4mqxwaT7Gk4?si=wzWZImRs6NEdYHf-",
@@ -2230,7 +2250,7 @@ export const FESTIVALS = [
     poster: null,
   },
   {
-    name: "Own Spirit Festival", start: "2026-09-02", end: "2026-09-07", location: "Baldellou", country: "Spain", month: "September", tags: ["Psytrance", "Mindfulness", "Boutique"], tickets: true,
+    name: "Own Spirit Festival", start: "2026-09-02", end: "2026-09-07", location: "Baldellou", country: "Spain", month: "September", tags: ["Psytrance", "Mindfulness", "Boutique", "Lake"], tickets: true,
     url: null, img: "https://www.ownspiritfestival.org/wp-content/uploads/2023/10/dancefloorDay-1.jpg",
     website: "https://www.ownspiritfestival.org/", instagram: "https://www.instagram.com/ownspiritfestival/",
     youtube: "Hsp38wZoxdQ?si=EmwX-Wuh88qjpgiD",
