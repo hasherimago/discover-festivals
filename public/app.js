@@ -308,6 +308,79 @@ function imgEl(src, cls, alt) {
   return img;
 }
 
+// ── NEWSLETTER PROMPT ──
+function buildNewsletterPrompt() {
+  const wrap = document.createElement('div');
+  wrap.className = 'newsletter-prompt';
+  wrap.style.cssText = 'grid-column: 1 / -1; padding: 20px 24px; border-radius: 12px; border: 1px solid rgba(232,168,48,0.3); display: flex; flex-direction: column; gap: 12px; margin-top: 4px;';
+
+  const label = document.createElement('p');
+  label.textContent = 'Get notified when these lineups drop';
+  label.style.cssText = 'margin: 0; font-size: 14px; font-weight: 500; color: #fff;';
+
+  const row = document.createElement('div');
+  row.style.cssText = 'display: flex; gap: 8px; flex-wrap: wrap; max-width: 520px;';
+
+  const input = document.createElement('input');
+  input.type = 'email';
+  input.placeholder = 'your@email.com';
+  input.style.cssText = 'flex: 1; min-width: 180px; padding: 9px 12px; border-radius: 8px; border: 1px solid rgba(128,128,128,0.3); background: transparent; color: inherit; font-size: 14px; outline: none; font-family: inherit;';
+
+  const btn = document.createElement('button');
+  btn.textContent = 'Notify me';
+  btn.style.cssText = 'padding: 9px 18px; border-radius: 8px; border: none; background: #E8A830; color: #000; font-size: 14px; font-weight: 600; cursor: pointer; font-family: inherit; flex-shrink: 0;';
+
+  const msg = document.createElement('div');
+  msg.style.cssText = 'font-size: 13px; display: none;';
+
+  btn.onclick = async () => {
+    const email = input.value.trim();
+    if (!email) { input.focus(); return; }
+
+    const savedNames = getSaved();
+    const slugs = savedNames.map(function(n) {
+      return n.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    });
+
+    btn.disabled = true;
+    btn.textContent = '…';
+
+    try {
+      const res = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: email, tags: slugs }),
+      });
+      const data = await res.json().catch(function() { return {}; });
+      if (res.ok) {
+        row.style.display = 'none';
+        msg.style.display = 'block';
+        msg.style.color = '#4caf50';
+        msg.textContent = "You're in. We'll email you when lineups drop.";
+      } else {
+        msg.style.display = 'block';
+        msg.style.color = '#e05a5a';
+        msg.textContent = data.error || 'Something went wrong. Please try again.';
+        btn.disabled = false;
+        btn.textContent = 'Notify me';
+      }
+    } catch (_) {
+      msg.style.display = 'block';
+      msg.style.color = '#e05a5a';
+      msg.textContent = 'Something went wrong. Please try again.';
+      btn.disabled = false;
+      btn.textContent = 'Notify me';
+    }
+  };
+
+  row.appendChild(input);
+  row.appendChild(btn);
+  wrap.appendChild(label);
+  wrap.appendChild(row);
+  wrap.appendChild(msg);
+  return wrap;
+}
+
 // ── RENDER GRID ──
 function renderGrid(festivals) {
   const el = document.getElementById('grid-view');
@@ -316,6 +389,10 @@ function renderGrid(festivals) {
     el.innerHTML = '<div class="empty-state"><div class="icon">🔍</div><h3>No festivals found</h3><p>Try adjusting your filters</p></div>';
     return;
   }
+  if (showSavedOnly && festivals.length > 0) {
+    el.appendChild(buildNewsletterPrompt());
+  }
+
   const today = new Date();
   today.setHours(0, 0, 0, 0);
   let dividerInserted = false;
@@ -389,6 +466,7 @@ function renderGrid(festivals) {
     card.appendChild(body);
     el.appendChild(card);
   });
+
 }
 
 // ── RENDER LIST ──

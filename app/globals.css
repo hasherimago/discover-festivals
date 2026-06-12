@@ -1992,3 +1992,13 @@
       display: none;
     }
   }
+
+.newsletter-prompt {
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("/img/email-banner-bg.jpg") center/cover no-repeat;
+}
+
+@media (max-width: 768px) {
+  .newsletter-prompt {
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("/img/email-banner-bg-mobile.jpg") center/cover no-repeat;
+  }
+}
