@@ -324,7 +324,7 @@ function buildNewsletterPrompt() {
   const input = document.createElement('input');
   input.type = 'email';
   input.placeholder = 'your@email.com';
-  input.style.cssText = 'flex: 1; min-width: 180px; padding: 9px 12px; border-radius: 8px; border: 1px solid rgba(128,128,128,0.3); background: transparent; color: inherit; font-size: 14px; outline: none; font-family: inherit;';
+  input.style.cssText = 'flex: 1; min-width: 180px; padding: 9px 12px; border-radius: 8px; border: 1px solid rgba(128,128,128,0.3); background: transparent; color: inherit; font-size: 16px; outline: none; font-family: inherit;';
 
   const btn = document.createElement('button');
   btn.textContent = 'Notify me';
