@@ -24,11 +24,14 @@ export async function POST(request) {
         Authorization: `Token ${process.env.BUTTONDOWN_API_KEY}`,
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ email, tags: tags || [] }),
+      body: JSON.stringify({ email_address: email, tags: tags || [] }),
     });
   } catch {
     return NextResponse.json({ error: 'Failed to reach subscription service' }, { status: 502 });
   }
+
+  const bdJson = await res.json();
+  console.log('Buttondown response:', res.status, JSON.stringify(bdJson));
 
   if (res.ok) {
     return NextResponse.json({ success: true });
