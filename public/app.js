@@ -61,6 +61,7 @@ function refreshSaveButtons(name) {
 
 // ── STATE ──
 let savedScrollY = 0;
+let _isClosingDetail = false; // guards popstate from re-triggering closeDetail
 let activeMonths = [];
 let activeTags = [];
 let activeCountry = '';
@@ -1002,12 +1003,32 @@ function openDetail(f) {
 }
 
 function closeDetail() {
+  // Kill all iframes before removing — prevents memory leak / Safari tab crash
+  const existingMedia = document.getElementById('detail-media');
+  if (existingMedia) {
+    existingMedia.querySelectorAll('iframe').forEach(f => { f.src = ''; });
+  }
+
   document.body.classList.remove('detail-open');
+
   const y = savedScrollY || parseInt(sessionStorage.getItem('festScrollY') || '0', 10);
+
+  // Use double-rAF + setTimeout to beat Safari BFCache scroll restoration
   requestAnimationFrame(() => {
-    window.scrollTo(0, y);
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: y, behavior: 'instant' });
+      // Belt-and-suspenders: Safari sometimes restores scroll async
+      setTimeout(() => window.scrollTo({ top: y, behavior: 'instant' }), 80);
+    });
   });
-  history.replaceState({}, '', '/');
+
+  // Guard: only replaceState if we're actually on a festival route,
+  // so we don't push a redundant history entry that confuses popstate
+  if (window.location.pathname !== '/') {
+    _isClosingDetail = true;
+    history.replaceState({}, '', '/');
+  }
+
   document.title = _origTitle;
   if (_metaDesc) _metaDesc.content = _origMetaDesc;
   if (_ogTitle) _ogTitle.content = _origOgTitle;
@@ -1015,7 +1036,22 @@ function closeDetail() {
 }
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
+
+// Safari BFCache: when user swipes back, restore scroll position
+window.addEventListener('pageshow', e => {
+  if (e.persisted) {
+    const y = savedScrollY || parseInt(sessionStorage.getItem('festScrollY') || '0', 10);
+    if (!document.body.classList.contains('detail-open') && window.location.pathname === '/') {
+      requestAnimationFrame(() => {
+        window.scrollTo({ top: y, behavior: 'instant' });
+      });
+    }
+  }
+});
+
 window.addEventListener('popstate', () => {
+  // Ignore the replaceState('/') we fire ourselves inside closeDetail
+  if (_isClosingDetail) { _isClosingDetail = false; return; }
   const onFestivalRoute = window.location.pathname.match(/^\/festivals\/([^/]+)$/);
   if (!onFestivalRoute) closeDetail();
 });
