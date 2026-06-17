@@ -15,6 +15,9 @@ export const metadata = {
     description: 'Discover music festivals for 2026. Browse curated events by vibe, location, and date.',
     images: [{ url: 'https://curatedfestivals.com/api/og', width: 1200, height: 630 }],
   },
+  icons: {
+    apple: '/apple-touch-icon.png',
+  },
 }
 
 export default function RootLayout({ children }) {
