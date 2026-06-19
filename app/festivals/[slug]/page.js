@@ -15,8 +15,8 @@ export async function generateMetadata({ params }) {
   const ogImage = `https://discover-festivals.vercel.app/api/og?f=${slug}`
 
   return {
-    title: `${festival.name} — Curated Festivals '26`,
-    description: festival.description.slice(0, 160),
+    title: `${festival.name} — European Music Festival 2026`,
+    description: (festival.description || '').slice(0, 155),
     openGraph: {
       title: `${festival.name} — Curated Festivals '26`,
       description: festival.description.slice(0, 160),
