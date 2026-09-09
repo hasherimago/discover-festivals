@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useLayoutEffect } from 'react'
 import Script from 'next/script'
 import { useRouter } from 'next/navigation'
 
@@ -38,6 +38,12 @@ export default function AppShell({ initialSlug }) {
     }, 100)
     return () => clearTimeout(timer)
   }, [])
+
+  useLayoutEffect(() => {
+    if (initialSlug) {
+      document.body.classList.add('detail-open')
+    }
+  }, [initialSlug])
 
   useEffect(() => {
     if (initialSlug) {

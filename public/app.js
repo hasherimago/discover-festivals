@@ -1149,6 +1149,20 @@ window.__reinitFestivalApp = function () {
   }
   applyFilters();
   setupCountdown();
+
+  // Restore scroll position now that real content exists — fixes the
+  // race where closeDetail()'s own scrollTo ran before this rebuild,
+  // against an almost-empty remounted page, and got clamped near the top.
+  if (window.location.pathname === '/' && !document.body.classList.contains('detail-open')) {
+    const y = savedScrollY || parseInt(sessionStorage.getItem('festScrollY') || '0', 10);
+    if (y > 0) {
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          window.scrollTo({ top: y, behavior: 'instant' });
+        });
+      });
+    }
+  }
 };
 
 // Expose to window for inline HTML handlers (onclick, oninput, onchange)
