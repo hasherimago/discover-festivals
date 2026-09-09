@@ -1139,6 +1139,18 @@ applyFilters();
 setView('grid');
 setupCountdown();
 
+// Re-init hook: AppShell calls this on every mount (not just the very
+// first page load) so dynamic content survives a Next.js route-level
+// re-render. Guarded so filter pills aren't duplicated if this runs
+// again on DOM that's already populated.
+window.__reinitFestivalApp = function () {
+  if (!document.getElementById('saved-filter-pill')) {
+    buildFilters();
+  }
+  applyFilters();
+  setupCountdown();
+};
+
 // Expose to window for inline HTML handlers (onclick, oninput, onchange)
 window.setView = setView;
 window.applyFilters = applyFilters;

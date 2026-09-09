@@ -31,6 +31,15 @@ export default function AppShell({ initialSlug }) {
   }, [router])
 
   useEffect(() => {
+    const timer = setTimeout(() => {
+      if (typeof window.__reinitFestivalApp === 'function') {
+        window.__reinitFestivalApp()
+      }
+    }, 100)
+    return () => clearTimeout(timer)
+  }, [])
+
+  useEffect(() => {
     if (initialSlug) {
       // app.js exposes window.openDetail — call it after the script loads
       const timer = setTimeout(() => {
