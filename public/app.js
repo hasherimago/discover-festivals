@@ -995,11 +995,19 @@ function openDetail(f) {
   if (!_alreadyOnRoute) {
     const _cameFromHome = window.location.pathname === '/';
     if (_cameFromHome) {
-      history.pushState({ festival: f.name }, '', `/festivals/${_slug}`);
+      if (window.__appRouter) {
+        window.__appRouter.push(`/festivals/${_slug}`, { scroll: false });
+      } else {
+        history.pushState({ festival: f.name }, '', `/festivals/${_slug}`); // fallback
+      }
     } else {
       // switching detail-to-detail without going home first — replace,
       // don't grow the stack
-      history.replaceState({ festival: f.name }, '', `/festivals/${_slug}`);
+      if (window.__appRouter) {
+        window.__appRouter.replace(`/festivals/${_slug}`, { scroll: false });
+      } else {
+        history.replaceState({ festival: f.name }, '', `/festivals/${_slug}`); // fallback
+      }
     }
   }
   document.title = f.name + ' — Festival Season 2026';
@@ -1029,10 +1037,13 @@ function closeDetail() {
     });
   });
 
-  // Guard: only replaceState if we're actually on a festival route,
-  // so we don't push a redundant history entry that confuses popstate
+  // Guard: only touch the URL if we're actually on a festival route
   if (window.location.pathname !== '/') {
-    history.replaceState({}, '', '/');
+    if (window.__appRouter) {
+      window.__appRouter.replace('/', { scroll: false });
+    } else {
+      history.replaceState({}, '', '/'); // fallback
+    }
   }
 
   document.title = _origTitle;
