@@ -62,6 +62,7 @@ function refreshSaveButtons(name) {
 // ── STATE ──
 let savedScrollY = 0;
 let _isClosingDetail = false; // guards popstate from re-triggering closeDetail
+let _detailPushedByJS = false; // true when openDetail() called pushState
 let activeMonths = [];
 let activeTags = [];
 let activeCountry = '';
@@ -994,6 +995,9 @@ function openDetail(f) {
   const _alreadyOnRoute = window.location.pathname === `/festivals/${_slug}`;
   if (!_alreadyOnRoute) {
     history.pushState({ festival: f.name }, '', `/festivals/${_slug}`);
+    _detailPushedByJS = true;
+  } else {
+    _detailPushedByJS = false; // deep link / initial page load — no entry of ours to undo
   }
   document.title = f.name + ' — Festival Season 2026';
   const _shortDesc = (f.description || '').replace(/\n/g, ' ').slice(0, 200);
@@ -1025,8 +1029,12 @@ function closeDetail() {
   // Guard: only replaceState if we're actually on a festival route,
   // so we don't push a redundant history entry that confuses popstate
   if (window.location.pathname !== '/') {
-    _isClosingDetail = true;
-    history.replaceState({}, '', '/');
+    if (_detailPushedByJS) {
+      _isClosingDetail = true; // history.back() will fire popstate — ignore it, we already closed
+      history.back();
+    } else {
+      history.replaceState({}, '', '/'); // deep link case, no popstate fires, no guard needed
+    }
   }
 
   document.title = _origTitle;
@@ -1130,10 +1138,12 @@ window.closeDetail = closeDetail;
 // ── SWIPE-BACK ON DETAIL PANEL ──
 let touchStartX = 0;
 const _viewDetail = document.getElementById('view-detail');
+const EDGE_EXCLUDE_PX = 24; // iOS/Android reserve this zone for their own back gesture
 _viewDetail.addEventListener('touchstart', e => {
   touchStartX = e.touches[0].clientX;
 }, { passive: true });
 _viewDetail.addEventListener('touchend', e => {
+  if (touchStartX < EDGE_EXCLUDE_PX) return; // let the OS handle edge swipes
   if (e.changedTouches[0].clientX - touchStartX > 60) closeDetail();
 }, { passive: true });
 
