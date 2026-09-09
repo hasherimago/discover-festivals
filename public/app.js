@@ -62,7 +62,6 @@ function refreshSaveButtons(name) {
 // ── STATE ──
 let savedScrollY = 0;
 let _isClosingDetail = false; // guards popstate from re-triggering closeDetail
-let _detailPushedByJS = false; // true when openDetail() called pushState
 let activeMonths = [];
 let activeTags = [];
 let activeCountry = '';
@@ -994,10 +993,14 @@ function openDetail(f) {
   const _slug = toSlug(f.name);
   const _alreadyOnRoute = window.location.pathname === `/festivals/${_slug}`;
   if (!_alreadyOnRoute) {
-    history.pushState({ festival: f.name }, '', `/festivals/${_slug}`);
-    _detailPushedByJS = true;
-  } else {
-    _detailPushedByJS = false; // deep link / initial page load — no entry of ours to undo
+    const _cameFromHome = window.location.pathname === '/';
+    if (_cameFromHome) {
+      history.pushState({ festival: f.name }, '', `/festivals/${_slug}`);
+    } else {
+      // switching detail-to-detail without going home first — replace,
+      // don't grow the stack
+      history.replaceState({ festival: f.name }, '', `/festivals/${_slug}`);
+    }
   }
   document.title = f.name + ' — Festival Season 2026';
   const _shortDesc = (f.description || '').replace(/\n/g, ' ').slice(0, 200);
@@ -1029,12 +1032,7 @@ function closeDetail() {
   // Guard: only replaceState if we're actually on a festival route,
   // so we don't push a redundant history entry that confuses popstate
   if (window.location.pathname !== '/') {
-    if (_detailPushedByJS) {
-      _isClosingDetail = true; // history.back() will fire popstate — ignore it, we already closed
-      history.back();
-    } else {
-      history.replaceState({}, '', '/'); // deep link case, no popstate fires, no guard needed
-    }
+    history.replaceState({}, '', '/');
   }
 
   document.title = _origTitle;
