@@ -1,8 +1,7 @@
 'use client'
 
-import { useState, useRef, useEffect, useLayoutEffect } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import Script from 'next/script'
-import { useRouter } from 'next/navigation'
 
 export default function AppShell({ initialSlug }) {
   const [fabOpen, setFabOpen] = useState(false)
@@ -13,8 +12,6 @@ export default function AppShell({ initialSlug }) {
   const [photoZoomed, setPhotoZoomed] = useState(false)
 
   const fabRef = useRef(null)
-  const router = useRouter()
-  const prevSlugRef = useRef(null)
 
   useEffect(() => {
     function handleClick(e) {
@@ -27,25 +24,6 @@ export default function AppShell({ initialSlug }) {
   }, [])
 
   useEffect(() => {
-    window.__appRouter = router
-  }, [router])
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      if (typeof window.__reinitFestivalApp === 'function') {
-        window.__reinitFestivalApp()
-      }
-    }, 100)
-    return () => clearTimeout(timer)
-  }, [])
-
-  useLayoutEffect(() => {
-    if (initialSlug) {
-      document.body.classList.add('detail-open')
-    }
-  }, [initialSlug])
-
-  useEffect(() => {
     if (initialSlug) {
       // app.js exposes window.openDetail — call it after the script loads
       const timer = setTimeout(() => {
@@ -53,15 +31,7 @@ export default function AppShell({ initialSlug }) {
           window.openDetail(initialSlug)
         }
       }, 100)
-      prevSlugRef.current = initialSlug
       return () => clearTimeout(timer)
-    } else if (prevSlugRef.current) {
-      // Next just navigated us back to home (e.g. real back/forward) —
-      // close the panel to match.
-      prevSlugRef.current = null
-      if (typeof window.closeDetail === 'function') {
-        window.closeDetail()
-      }
     }
   }, [initialSlug])
 

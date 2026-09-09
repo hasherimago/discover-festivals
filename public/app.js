@@ -993,22 +993,7 @@ function openDetail(f) {
   const _slug = toSlug(f.name);
   const _alreadyOnRoute = window.location.pathname === `/festivals/${_slug}`;
   if (!_alreadyOnRoute) {
-    const _cameFromHome = window.location.pathname === '/';
-    if (_cameFromHome) {
-      if (window.__appRouter) {
-        window.__appRouter.push(`/festivals/${_slug}`, { scroll: false });
-      } else {
-        history.pushState({ festival: f.name }, '', `/festivals/${_slug}`); // fallback
-      }
-    } else {
-      // switching detail-to-detail without going home first — replace,
-      // don't grow the stack
-      if (window.__appRouter) {
-        window.__appRouter.replace(`/festivals/${_slug}`, { scroll: false });
-      } else {
-        history.replaceState({ festival: f.name }, '', `/festivals/${_slug}`); // fallback
-      }
-    }
+    history.pushState({ festival: f.name }, '', `/festivals/${_slug}`);
   }
   document.title = f.name + ' — Festival Season 2026';
   const _shortDesc = (f.description || '').replace(/\n/g, ' ').slice(0, 200);
@@ -1037,13 +1022,11 @@ function closeDetail() {
     });
   });
 
-  // Guard: only touch the URL if we're actually on a festival route
+  // Guard: only replaceState if we're actually on a festival route,
+  // so we don't push a redundant history entry that confuses popstate
   if (window.location.pathname !== '/') {
-    if (window.__appRouter) {
-      window.__appRouter.replace('/', { scroll: false });
-    } else {
-      history.replaceState({}, '', '/'); // fallback
-    }
+    _isClosingDetail = true;
+    history.replaceState({}, '', '/');
   }
 
   document.title = _origTitle;
@@ -1139,32 +1122,6 @@ applyFilters();
 setView('grid');
 setupCountdown();
 
-// Re-init hook: AppShell calls this on every mount (not just the very
-// first page load) so dynamic content survives a Next.js route-level
-// re-render. Guarded so filter pills aren't duplicated if this runs
-// again on DOM that's already populated.
-window.__reinitFestivalApp = function () {
-  if (!document.getElementById('saved-filter-pill')) {
-    buildFilters();
-  }
-  applyFilters();
-  setupCountdown();
-
-  // Restore scroll position now that real content exists — fixes the
-  // race where closeDetail()'s own scrollTo ran before this rebuild,
-  // against an almost-empty remounted page, and got clamped near the top.
-  if (window.location.pathname === '/' && !document.body.classList.contains('detail-open')) {
-    const y = savedScrollY || parseInt(sessionStorage.getItem('festScrollY') || '0', 10);
-    if (y > 0) {
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          window.scrollTo({ top: y, behavior: 'instant' });
-        });
-      });
-    }
-  }
-};
-
 // Expose to window for inline HTML handlers (onclick, oninput, onchange)
 window.setView = setView;
 window.applyFilters = applyFilters;
@@ -1173,12 +1130,10 @@ window.closeDetail = closeDetail;
 // ── SWIPE-BACK ON DETAIL PANEL ──
 let touchStartX = 0;
 const _viewDetail = document.getElementById('view-detail');
-const EDGE_EXCLUDE_PX = 24; // iOS/Android reserve this zone for their own back gesture
 _viewDetail.addEventListener('touchstart', e => {
   touchStartX = e.touches[0].clientX;
 }, { passive: true });
 _viewDetail.addEventListener('touchend', e => {
-  if (touchStartX < EDGE_EXCLUDE_PX) return; // let the OS handle edge swipes
   if (e.changedTouches[0].clientX - touchStartX > 60) closeDetail();
 }, { passive: true });
 
